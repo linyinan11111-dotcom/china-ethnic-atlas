@@ -1,0 +1,2765 @@
+[
+  {
+    "row": 0,
+    "group": 6,
+    "sex": 0,
+    "value": 11067929,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 8,
+    "sex": 0,
+    "value": 19568546,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 13,
+    "sex": 0,
+    "value": 3309341,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 29,
+    "sex": 0,
+    "value": 204402,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 34,
+    "sex": 0,
+    "value": 127345,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 46,
+    "sex": 0,
+    "value": 22354,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 0,
+    "group": 47,
+    "sex": 0,
+    "value": 24434,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 1,
+    "group": 16,
+    "sex": 0,
+    "value": 1226,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 1,
+    "group": 54,
+    "sex": 0,
+    "value": 41,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 1,
+    "group": 55,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 1,
+    "sex": 0,
+    "value": 13422528,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 5,
+    "sex": 0,
+    "value": 6495,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 6,
+    "sex": 0,
+    "value": 12975,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 8,
+    "sex": 0,
+    "value": 15350,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 42,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 48,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 50,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 51,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 54,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 2,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 5,
+    "sex": 0,
+    "value": 2871,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 28,
+    "sex": 0,
+    "value": 222,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 43,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 50,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 51,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 3,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 4,
+    "sex": 0,
+    "value": 1644,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 7,
+    "sex": 0,
+    "value": 5534,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 23,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 36,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 41,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 43,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 44,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 46,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 47,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 48,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 49,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 50,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 51,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 52,
+    "sex": 0,
+    "value": 15,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-0.png"
+  },
+  {
+    "row": 4,
+    "group": 53,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 4,
+    "group": 54,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 4,
+    "group": 55,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 4,
+    "group": 56,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 4,
+    "group": 58,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 39,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 41,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 43,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 48,
+    "sex": 0,
+    "value": 64,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 49,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 50,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 51,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 54,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 55,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 5,
+    "group": 56,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 13,
+    "sex": 0,
+    "value": 1557,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 42,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 43,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 46,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 54,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 55,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 6,
+    "group": 57,
+    "sex": 0,
+    "value": 3131,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 13,
+    "sex": 0,
+    "value": 649,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 34,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 40,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 41,
+    "sex": 0,
+    "value": 18,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 43,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 48,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 50,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 51,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 7,
+    "group": 55,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 2,
+    "sex": 0,
+    "value": 112210,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 3,
+    "sex": 0,
+    "value": 75464,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 34,
+    "sex": 0,
+    "value": 18,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 39,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 40,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 41,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 42,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 43,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 46,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-1.png"
+  },
+  {
+    "row": 8,
+    "group": 51,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 8,
+    "group": 52,
+    "sex": 0,
+    "value": 3236,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 8,
+    "group": 54,
+    "sex": 0,
+    "value": 13,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 8,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 8,
+    "group": 56,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 7,
+    "sex": 0,
+    "value": 21952,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 11,
+    "sex": 0,
+    "value": 43197,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 42,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 48,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 51,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 9,
+    "group": 55,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 10,
+    "group": 0,
+    "sex": 0,
+    "value": 84748016,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 10,
+    "group": 13,
+    "sex": 0,
+    "value": 6415,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 10,
+    "group": 33,
+    "sex": 0,
+    "value": 1646,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 10,
+    "group": 50,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 10,
+    "group": 54,
+    "sex": 0,
+    "value": 64,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 11,
+    "group": 0,
+    "sex": 0,
+    "value": 64567588,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 11,
+    "group": 2,
+    "sex": 0,
+    "value": 20069,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 11,
+    "group": 24,
+    "sex": 0,
+    "value": 3989,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 11,
+    "group": 48,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 11,
+    "group": 51,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 41,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 43,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 44,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 48,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 50,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 53,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 54,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 12,
+    "group": 57,
+    "sex": 0,
+    "value": 1498,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 10,
+    "sex": 0,
+    "value": 2963,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 43,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 50,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 51,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 53,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 13,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 14,
+    "group": 1,
+    "sex": 0,
+    "value": 44969369,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 14,
+    "group": 41,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 14,
+    "group": 42,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 14,
+    "group": 43,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-2.png"
+  },
+  {
+    "row": 14,
+    "group": 44,
+    "sex": 0,
+    "value": 15,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 45,
+    "sex": 0,
+    "value": 18,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 46,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 50,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 51,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 53,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 14,
+    "group": 55,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 1,
+    "sex": 0,
+    "value": 100622494,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 6,
+    "sex": 0,
+    "value": 29730,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 22,
+    "sex": 0,
+    "value": 964,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 43,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 50,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 54,
+    "sex": 0,
+    "value": 14,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 15,
+    "group": 55,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 2,
+    "sex": 0,
+    "value": 68220,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 15,
+    "sex": 0,
+    "value": 12996,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 35,
+    "sex": 0,
+    "value": 561,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 41,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 43,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 50,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 51,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 54,
+    "sex": 0,
+    "value": 13,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 16,
+    "group": 55,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 3,
+    "sex": 0,
+    "value": 76423,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 5,
+    "sex": 0,
+    "value": 12452,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 18,
+    "sex": 0,
+    "value": 1012,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 25,
+    "sex": 0,
+    "value": 1237,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 41,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 46,
+    "sex": 0,
+    "value": 19,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 17,
+    "group": 50,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 0,
+    "sex": 0,
+    "value": 66444864,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 1,
+    "sex": 0,
+    "value": 59759648,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 32,
+    "sex": 0,
+    "value": 1369,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 41,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 43,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 53,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 18,
+    "group": 55,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 19,
+    "group": 1,
+    "sex": 0,
+    "value": 121260372,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 19,
+    "group": 26,
+    "sex": 0,
+    "value": 4638,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 20,
+    "group": 6,
+    "sex": 0,
+    "value": 578122,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-3.png"
+  },
+  {
+    "row": 20,
+    "group": 16,
+    "sex": 0,
+    "value": 1445,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 19,
+    "sex": 0,
+    "value": 6491,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 29,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 35,
+    "sex": 0,
+    "value": 41,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 41,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 43,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 47,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 50,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 51,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 53,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 54,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 20,
+    "group": 55,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 15,
+    "sex": 0,
+    "value": 8273,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 19,
+    "sex": 0,
+    "value": 1355074,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 40,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 41,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 42,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 43,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 46,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 47,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 48,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 50,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 51,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 52,
+    "sex": 0,
+    "value": 15,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 54,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 21,
+    "group": 55,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 8,
+    "sex": 0,
+    "value": 10616,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 37,
+    "sex": 0,
+    "value": 7660,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 39,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 41,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 45,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 47,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 50,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 52,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 53,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 54,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 22,
+    "group": 55,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 23,
+    "group": 9,
+    "sex": 0,
+    "value": 16829,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 23,
+    "group": 33,
+    "sex": 0,
+    "value": 294664,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 23,
+    "group": 43,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-4.png"
+  },
+  {
+    "row": 23,
+    "group": 55,
+    "sex": 0,
+    "value": 22,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 15,
+    "sex": 0,
+    "value": 1696664,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 29,
+    "sex": 0,
+    "value": 18,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 31,
+    "sex": 0,
+    "value": 72,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 37,
+    "sex": 0,
+    "value": 550322,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 41,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 43,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 45,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 47,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 48,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 50,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 53,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 24,
+    "group": 54,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 1,
+    "sex": 0,
+    "value": 31573245,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 6,
+    "sex": 0,
+    "value": 1253291,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 43,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 48,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 50,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 54,
+    "sex": 0,
+    "value": 13,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 25,
+    "group": 55,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 0,
+    "sex": 0,
+    "value": 3648100,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 2,
+    "sex": 0,
+    "value": 818,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 29,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 32,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 36,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 39,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 43,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 45,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 46,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 49,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 26,
+    "group": 58,
+    "sex": 0,
+    "value": 21,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 0,
+    "sex": 0,
+    "value": 39528999,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 11,
+    "sex": 0,
+    "value": 16486,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 40,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 46,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 49,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 50,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 51,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 55,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 27,
+    "group": 56,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-5.png"
+  },
+  {
+    "row": 28,
+    "group": 8,
+    "sex": 0,
+    "value": 2720,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 14,
+    "sex": 0,
+    "value": 968,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 30,
+    "sex": 0,
+    "value": 33691,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 39,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 40,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 42,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 46,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 48,
+    "sex": 0,
+    "value": 13053,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 49,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 50,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 51,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 52,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 53,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 28,
+    "group": 55,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 1,
+    "sex": 0,
+    "value": 2993534,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 16,
+    "sex": 0,
+    "value": 64,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 20,
+    "sex": 0,
+    "value": 44,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 23,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 28,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 29,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 34,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 35,
+    "sex": 0,
+    "value": 128779,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 36,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 37,
+    "sex": 0,
+    "value": 64,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 39,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 40,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 41,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 43,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 45,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 46,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 49,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 51,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 52,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 53,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 55,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 29,
+    "group": 58,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 30,
+    "group": 1,
+    "sex": 0,
+    "value": 4612964,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 30,
+    "group": 10,
+    "sex": 0,
+    "value": 518,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 30,
+    "group": 18,
+    "sex": 0,
+    "value": 74,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 30,
+    "group": 23,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-6.png"
+  },
+  {
+    "row": 30,
+    "group": 31,
+    "sex": 0,
+    "value": 101,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 34,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 39,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 40,
+    "sex": 0,
+    "value": 24,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 41,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 42,
+    "sex": 0,
+    "value": 4,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 43,
+    "sex": 0,
+    "value": 3,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 45,
+    "sex": 0,
+    "value": 18,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 49,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 50,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 51,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 52,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 53,
+    "sex": 0,
+    "value": 7,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 54,
+    "sex": 0,
+    "value": 5,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 55,
+    "sex": 0,
+    "value": 1,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 30,
+    "group": 58,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 2,
+    "sex": 0,
+    "value": 169143,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 16,
+    "sex": 0,
+    "value": 564,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 29,
+    "sex": 0,
+    "value": 199264,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 42,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 46,
+    "sex": 0,
+    "value": 9,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 49,
+    "sex": 0,
+    "value": 6,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 51,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 52,
+    "sex": 0,
+    "value": 11,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 53,
+    "sex": 0,
+    "value": 10,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 54,
+    "sex": 0,
+    "value": 8,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  },
+  {
+    "row": 31,
+    "group": 55,
+    "sex": 0,
+    "value": 2,
+    "method": "逐格目视核对官方图片",
+    "snapshot": "data/raw/A0104.jpg",
+    "reviewImage": "data/raw/census2020-ocr/review-7.png"
+  }
+]

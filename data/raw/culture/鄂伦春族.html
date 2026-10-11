@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="风俗习惯" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 10:28:46" />
+<title>风俗习惯</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/elcz/gk.shtml'  target="_parent">鄂伦春族</a>&nbsp;>&nbsp;<span>风俗习惯</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							鄂伦春族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/elcz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/elcz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/elcz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/elcz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<div style="text-indent: 2em; font-size: 12pt;">
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族的先民一直在莽莽林海中过着游猎生活，其传统文化与游猎紧密地联系在了一起。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">十七世纪中叶以前，鄂伦春人狩猎的主要工具是弓箭、扎枪、驯鹿和猎犬，迁到黑龙江以南以后，猎马取代驯鹿。</span><span style="font-size: 12pt;">18</span><span style="font-size: 12pt;">世纪中叶，鄂伦春人已经开始使用火枪，但并未马上废弃弓箭，弓箭与火枪并用。鄂伦春人最早使用的是火绳枪、火镰枪和炮子枪等三种火枪。从</span><span style="font-size: 12pt;">19</span><span style="font-size: 12pt;">世纪末开始，陆续使用过各种步枪。由于地理环境的影响，鄂伦春人南迁后逐渐淘汰了驯鹿，改用猎马。在长期的野外饲养和狩猎训练的基础上，鄂伦春人培育了体型矮小、行动敏捷，速度、耐力俱佳而又善于在深山密林中穿行奔跑的鄂伦春马，成为狩猎的得力助手和运载工具。除此之外，鄂伦春猎人还使用地箭、猎刀、铁夹、桦皮船、滑雪板等作为狩猎工具。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春人有</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">个狩猎期：</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">－</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">月份是鹿胎期；</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">－</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">月份是鹿茸、犴茸期；</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">月至落雪前是鹿尾期；落雪后的冬季是打皮子期或打肉期。这些时段统称为“红围期”，即狩猎的黄金期。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">狍子、马鹿、驼鹿、梅花鹿、獐子、野猪等食草动物是猎人们经常猎取的对象，也是他们过去衣食所需的主要来源。食肉类的虎、熊、豹等猛兽，细毛类的貂、猞猁、水獭、灰鼠、貉、黄鼬、野兔、赤狐等，飞禽类的野鸡、树鸡、飞龙、天鹅、大雁、野鸭等，均是鄂伦春猎人的猎取对象。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">历史上的鄂伦春人是足智多谋的猎手，在长期的狩猎生活中，总结出许多猎取动物的方法，最常使用的狩猎方法有寻觅法、跟踪法、瞭望法、堵截法、蹲守碱场法、蹲伏泡泽法、掏洞法、诱叫法、遛河法、窖鹿法等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春人在狩猎的间歇捕鱼。春天，鱼群从黑龙江逆流而上，进入大小支流，鄂伦春人用网和叉捕捉哲罗、细鳞等大鱼；夏季是垂钓的最好季节；秋天，各种鱼类顺流游回大河大江过冬，是挡梁子的最好季节，既可以捕到下水的鱼，也可以捕到上水的大马哈鱼；冬季，在冰面上搭盖窝棚凿冰洞叉鱼，也可在冰洞下穿网捕鱼。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春妇女在春、夏、秋三季进行采集生产。春季采集野菜，秋季采、挖野果和块根植物等，而夏季主要采集蘑菇、木耳等菌类植物。夏季也是捡拾鸟蛋的季节。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">历史上，鄂伦春人的房屋主要有“斜仁柱”、产房、土窖子、木刻楞房、桦皮棚（林盘）、布棚（麦汗）、高脚仓库（奥伦）等。“斜仁柱”是鄂伦春族游猎时最主要的住房，呈圆锥形。骨架用长若干米的主杆、带杈的树干和</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">多根“斜仁”</span><span style="font-size: 12pt;">(</span><span style="font-size: 12pt;">树干</span><span style="font-size: 12pt;">)</span><span style="font-size: 12pt;">搭成，其覆盖物有冬季用的狍皮围子，需用</span><span style="font-size: 12pt;">60</span><span style="font-size: 12pt;">余张狍皮缝制，也用桦树皮、芦苇帘和布围子。“斜仁柱”正对门的铺位叫“玛路”，是供神的地方，只许男性客人和男主人坐卧。儿子、儿媳住左侧铺位，父母住右侧铺位。中间有火塘，上吊一铁锅，也有用三角架支锅的。“奥伦”是一种搭盖在森林中的高脚仓房，存放暂时不用的衣着、肉干、干菜、粮食等。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春人传统的交通工具主要有驯鹿、马、桦皮船、兽皮船、木筏、滑雪板和雪橇等。驯鹿是在南迁以前普遍使用的，南迁以后逐步被马所代替。鄂伦春人使用过以马皮、犴皮或鹿皮为底的船。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">过去，鄂伦春人的饮食以兽肉为主，鱼、野菜为辅，后来传入了米面。鄂伦春人喜欢食用狍子、鹿、犴、野猪、熊肉，同时也食用小动物和飞禽肉。做法主要有煮手把肉、烤肉、烧肉、炖肉汤、晒肉干、杂花菜、灌血清、骨髓油、生狍肝和腰子等。米面食主要有面片、油面片、烙面饼、烧面、面汤、油炒面、肉粥、稠李子粥、黏饭等。鄂伦春语称油面片为“图胡烈”，将擀好的面一片片揪进滚开的白水里，捞出后拌熟肉片、食盐、野韭菜花等佐料，倒入加热的野猪油或熊油，拌匀后食用。稠李子粥是鄂伦春族一种特殊的吃法，将稠李子放入粥中煮，爆开呈粉红色即可食用，色艳味美。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族喜喝五味子汤和桦树汁。每年春季的五六月份，在桦树根部砍一个小口，桦树汁便会涌出，清澈透明，甘甜可口。鄂伦春人还喝一种称作“弟尔古色”的桦树浆，将桦树的外皮剥掉，用猎刀在树干上轻轻刮下乳白色的粘稠状树液，其味甘甜清爽。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">过去，鄂伦春人穿的衣服主要是用狍皮缝制的，也用鹿皮和小犴皮。男皮袍有长袍和短袍两种。男皮袍的襟边、袖口均镶有黑色薄皮云字边，为了便于骑马，前后左右开衩。短皮袍在狩猎时穿用。女皮袍的样式与男皮袍大致相同，但前后不开衩，襟边、袖口等处镶有精美的薄皮云字边，前襟、袖口、双肩等处均绣有各种纹饰。老年人穿的皮袍，只镶边不绣花，着色较淡。皮袍的钮扣过去用兽骨或硬木做成，后来也用铜钮扣。过去腰带用鹿犴皮制作，后来年轻妇女多扎黄、紫、蓝色的布腰带，而老年妇女一般扎素色的腰带。传统的皮裤较短，只及膝，还需穿套裤，用狍皮或鹿皮制作，上边钉的皮绳系在裤腰带上，下面钉的皮绳系在鞋靿上。妇女穿的皮裤裤腰两侧开衩，裤腿及裤口处均镶有各种云字纹饰。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">到了近代，各种布匹、绸缎传入鄂伦春地区，夏季男女都穿一种叫“查姆查”的布长衫。男人还穿马褂、坎肩和布小褂。冬季，男人戴一种用完整的狍头皮缝制的帽子，保留狍耳、眼、鼻，有的甚至将两个角保留下来。妇女们戴猞猁皮帽子，或吊有皮毛、绣有纹饰的毡帽。夏季，男人戴一种用布做的尖顶的“巴里”帽。女人夏季戴一种叫“奇哈布屯”的头饰。冬季穿的鞋有用狍腿皮做靿、狍脖子皮做靿底的半高皮靴。手套有“考胡路”、“瓦日格”和“沙日巴黑”</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">种，都是用狍皮制作的。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春族用狍皮缝制一种叫“纳纳乌拉”的皮被。有两种，一种是普通的，另一种是用冬季猎到的狍皮缝制的睡袋，做双人睡袋需用</span><span style="font-size: 12pt;">8</span><span style="font-size: 12pt;">张袍皮，单人用</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">张狍皮。在野外狩猎时，猎人在冰天雪地里就宿于这种睡袋中。褥子有狍腿皮、狍皮、熊皮</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">种。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春人传统手工业有桦皮制品、制革、皮制品、毛织品、木制品、骨制品、铁制品、铅制品等。鄂伦春人在每年的</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">－</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">月剥取桦树皮，经加工后可以制作种类繁多的器物，从日常生活用的碗、盆、桶、箱、篓、帽盒、针线盒、烟盒，到生产用的“古约文”</span><span style="font-size: 12pt;">(</span><span style="font-size: 12pt;">拾果具</span><span style="font-size: 12pt;">)</span><span style="font-size: 12pt;">、桦皮船、狍哨以及覆盖“斜仁柱”的“铁克沙”。桦树皮制品适应了鄂伦春人游猎生活的特点。鄂伦春人的皮制品大多用狍皮，其次为鹿、犴皮，其他兽皮则较少。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族的刺绣有直绣和缝绣两种。直绣是在衣物上用线绣成相应的图案；而缝绣是把兽皮、布剪成各种图案，缝合在衣服和鞋帽上。刺绣的图案主要有团花、几何纹、波浪纹、独立花纹、角隅纹和萨满服上的树木、动物、人物等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">剪皮是鄂伦春族妇女创造的一种十分独特的艺术形式。它利用桦树皮和兽皮剪制成人物、动物等形象，作为儿童的玩具；为了使皮袍、帽子、口袋、手套的口沿、四角美观、耐用，还剪制一些图案，用狍筋、鹿筋线缝上，成为一种艺术装饰品。神话故事、人物形象、动物形象、装饰图案等是剪皮艺术的题材。剪皮艺术反映了鄂伦春族在游猎生活中形成的审美观和对美的追求。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春人还用马鬃、马尾、犴毛、熊毛等编织生活用品。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春人的装饰品有耳环、项饰、手镯、顶针、贝饰、香包、耳套、雪镜等。男人戴过用兽骨和铜铁制作的指环，开始时仅为拉弓射箭。雪镜有用马尾编织的和用桦树包子制作的两种。有一种顶针是用犴骨琢制的。香包通常用狍皮缝制，呈蝙蝠形、苹果形，两面绣花，是少女的饰物。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">雕刻是鄂伦春族手工加工的一部分，也用于宗教用品，分浮雕和圆雕两种。浮雕主要雕刻在桦树皮器皿上，也包括刀鞘、马鞍、鹿哨、木盒上的雕刻。圆雕是用猎刀对木料、松树皮、兽骨等进行的立体雕刻，十分精致。雕刻的纹样主要有云纹、回纹、几何纹、波浪纹、环带纹、十字纹、团花等，花样主要有“奎叶格音”花、“珠勒都很”花、“南绰罗”花等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春族的节庆主要有篝火节、春节和抹黑节。鄂伦春语称篝火节为“古伦木沓”，祭祀火神之意，在每年的</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">月初举行。春节是鄂伦春族重要的节日。过去，除夕夜各家各户在住房前燃起篝火。年夜饭前，老人把各种神龛打开，摆放在屋内的“玛路”上，或到房后挂有神龛的地方，摆上酒肉，燃香上供，全家人依次向神偶磕头，祈求神灵保佑。在房门前或村屯道口为亡灵烧纸磕头后，全家人在一起吃团圆饭。初一早晨，全家人还要向东或南给“白纳恰”神（山神）磕头，祈求多赐猎物，尔后要相互拜年。正月十六过抹黑节，相互往脸上抹锅底灰，以驱赶鬼邪。现在更多含有游戏、喜庆之寓意。受周围民族的影响，现在也过端午节、中秋节、新年等。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春是一个讲唱文学十分发达的民族，包括传说、故事、神话、谚语、谜语、歌谣、笑话、歇后语等。长篇讲唱文学“摩苏昆”是鄂伦春族民间文学的珍品。“摩苏昆”以说唱结合的形式，讲唱“莫日根”的英雄故事和苦难的身世，可以讲唱数天或数十天。“摩苏昆”的语言流畅、押韵、精练、朴实，曲调起伏变化不大，非常悦耳动听，带有浓郁的民族传统韵味。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族的音乐以“赞达温”山歌曲调为主，高亢清透，伴有延长音和颤音，优美动听。“赞达温”的歌词即兴添加，语言朴实，感情浓烈。仅有的一种乐器是叫“彭努哈”或“卡木斯堪”的口弦琴，音量虽微弱，但能吹奏出各种曲调。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族的舞蹈分仪式舞、娱乐舞、宗教舞三大类，共同特点是边歌边舞。动作由慢到快，动作激烈至高潮时结束。代表性舞蹈有“依和讷嫩”、“依哈嫩”、黑熊搏斗舞等。“依和讷嫩”是三年一次的氏族大会上进行的全族性舞蹈，十几人为一组，一人居中央，其余人手拉手围成圈儿跳。过去一个氏族集中起来传家谱和族谱时跳这种舞。流传于鄂伦春自治旗三人表演的黑熊搏斗舞，模仿黑熊搏斗嬉戏的内容，极富鄂伦春族传统文化的特色。表演时互相吼出“哈莫”、“哈莫”的声音，先由两人表演搏斗，最后第三者上来劝解。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春人传统的婚姻由父母包办，实行一夫一妻的氏族外婚制，还实行间接的交错从表婚，经过求婚、认亲、过彩礼和结婚等过程，彩礼以马匹为主。严禁氏族内婚或性行为。男女婚姻多由男方托媒人求婚，一般求三次才成，第三次尤为关键。求成后，商定认亲、过彩礼的日期。在认亲的日子，男方要留在女方家，时间</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">天至</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">个月不等。女方要给未来的新郎换上用黑皮子镶边的新衣服和红布坎肩（背面和肩头绣有云纹），未来的新娘要把头发梳成两个辫子缠在头上，这是订婚的标志。在结婚那天，新郎和伙伴们以赛马的形式进入女方住地，经过一系列的仪式后，新郎当晚住在新娘家。第二天新娘被接到新郎住地。新郎的帽子上带貂尾和</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">个绣花飘带，新娘头上戴着饰品，男女都佩带猎刀，新娘在拜天地时头上蒙着花布。现在的婚姻形式与汉族基本相同。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">鄂伦春人的葬式主要有风葬</span><span style="font-size: 12pt;">(</span><span style="font-size: 12pt;">也称树葬</span><span style="font-size: 12pt;">)</span><span style="font-size: 12pt;">、土葬和火葬，也实行过先树葬后土葬的二次葬。患急病的青年人和孕妇用火葬。人死后，穿好衣服头北脚南置于原来居住的“斜仁柱”内，用纸（过去还曾用桦树皮、兽皮等）蒙脸，其意是灵魂贴着纸尽快到阎罗王处。举行一系列的吊丧仪式后才能出殡。出殡前选一个有山有水的山坡下为墓地。出殡时由亲属和好友抬着棺材护送。如果死者的子女较多，出殡时请萨满送魂，以阻止死者灵魂危及子女。由死者家人扎一个草人，在草人上系很多线，子女各牵一条线，由萨满祈祷，最后萨满用神棒把线打断，将草人扔出，就认为死者的灵魂远去了。鄂伦春人有用死者坐骑殉葬的习俗，也可以将死者的衣物、马具驮于马上，绕葬地几圈以示殉马。鄂伦春人还要举行隆重的周年祭。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春人的礼仪是以敬老为中心的。主要礼节有屈膝请安和磕头两种。晚辈人见到长辈要用请安礼，平辈人见面也要互致请安礼问候。磕头礼在祈神祭祖、婚丧、节庆等庄重场合施行。鄂伦春人非常尊敬老人和长辈。晚辈人在长辈面前要毕恭毕敬，长幼有序，行为得体。出远门前和回来后都要向长辈请安。出门或狩猎中遇到长辈，在相距很远的地方下马，步行迎上去请安，待长辈人过去后才能骑马行路。鄂伦春人热情好客，以诚待人，招待必尽诚意。天晚则留客人住宿。鄂伦春族男女有别，男客人不能坐儿媳妇和姑娘的铺位，女客人也不能坐男人的铺位。鄂伦春人各个家庭间有互相拜访的礼节。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">“刻耶处”、“班吉”、“撒布卡”、“嘎拉哈”、赛马、射箭、射击、摔跤、拉杠、游泳、攀绳、爬杆、滑雪、滑冰、打秋千、扔石头、扳腕、拉钩等是鄂伦春人的传统游戏和体育项目。“刻耶处”是用木头制作的一种将牌，共</span><span style="font-size: 12pt;">120</span><span style="font-size: 12pt;">块，过去十分盛行。“班吉”是鄂伦春族的一种围棋，由棋盘和棋子组成，共</span><span style="font-size: 12pt;">37</span><span style="font-size: 12pt;">枚棋子。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">鄂伦春族的禁忌主要有生产禁忌、妇女禁忌、生活禁忌、自然禁忌、动物禁忌等等。比如，狩猎前不能说能打到多少猎物，否则什么都打不到；女人不许坐在“玛路”上；妇女不许铺熊皮；对熊不能称熊，而称“太贴”；不能用刀或铁器捣火，否则冲犯火神；年轻人不能叫长辈人的名字等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><strong style="font-family: 微软雅黑;">（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong><span style="font-family: 宋体; font-size: 12pt;"><o:p></o:p></span></p>
+</div>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

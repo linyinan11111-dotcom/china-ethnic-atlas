@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="发展现状" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 11:42:50" />
+<title>发展现状</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zhz/gk.shtml'  target="_parent">壮族</a>&nbsp;>&nbsp;<span>发展现状</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							壮族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/zhz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/zhz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/zhz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/zhz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立初期，在清匪反霸之后，壮族地区开展了土地改革运动。1953年，所有壮族地区都完成了土地改革。1957年上半年，99%的壮族农户都加入了高级农业生产合作社，基本上实现了对农业的社会主义改造。与此同时，城镇中也实现了对手工业和资本主义工商业的社会主义改造。壮族人民从此走上了社会主义的发展大道。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">1951年8月19日，成立了包括壮族、侗族、瑶族、苗族在内的龙胜各族自治区（1955年改称龙胜各族自治县）。1952年12月10日，在壮族聚居的广西的西半部建立了广西壮族自治区。1956年3月，改为自治州。由于壮族是我国少数民族人口最多的一个民族，在长期斗争中与汉、瑶、苗、侗等各族人民结成不可分割的血肉关系，把广西东部人口众多、经济发达的农业区和土地辽阔、矿藏丰富的西部地区合在一起，建立省一级的自治区，更有利于壮族人民的其他各族人民的发展。根据广西各族人民的意愿，1958年3月15日，撤销了桂西壮族自治州建制，以原广西省地区为范围建立了省一级的广西壮族自治区。同年4月1日，在云南省建立了文山壮族苗族自治州。1962年9月26日，又在广东省建立了连山壮族瑶族自治县。壮族散居的地区，也陆续建立起了民族乡。各级民族自治地方政府的成立，有力保障了壮族人民当家作主的权利，为壮族地区政治、经济和文化等各项事业的发展奠定了坚实的基础。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立以来，壮族干部成长很快。据1977年统计，仅广西壮族自治区就有壮族党政及各种专业干部82000多人，中、小学教职员46000多人。其中不少人担任了自治区、地、县的领导职务，如自治区党委书记、常委中有5人是壮族；此外，还有125名壮族干部当了县（市）党委书记、副书记。在云南省文山壮族苗族自治州，到1977年为止，公社以上国家机关中，壮、苗等少数民族干部占干部总数的37.1%。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">改革开放以后，壮族各自治地方政府继续把少数民族干部的培养作为民族工作的重要内容，加快了壮族干部的成长。广西壮族自治区不仅在广西民族大学开办少数民族干部大专班，还举办了多期工业化、城镇化、农业产业化培训班，培训少数民族干部3000多人。同时，自治区政府还大力选派少数民族干部赴外地进修学习。仅2001年以来，广西就选派3100多名少数民族干部赴外地学习培训。2005年，广西壮族自治区省部级领导干部中，就有10名是壮族。另外，有地厅级少数民族干部262人，占地厅级干部总数的28％；县处级少数民族干部4127人，占县处级干部总数的33％；自治区12个民族自治县、58个民族乡的政府一把手全部由少数民族干部担任。在这些少数民族干部中，绝大部分都是壮族。大批壮族及其他少数民族干部走上领导岗位，有效地保证了民族区域自治制度的实行，使少数民族能够真正地行使当家作主的权利。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">过去，壮族地区以农业为主，农业经济在地区经济中占有极大的比重。新中国成立前，由于落后社会制度的长期统治，广大农民终年劳动，却过着饥寒的生活，粮食不能自给。新中国成立后，尤其是改革开放以后，在党和国家的正确领导和大力支持下，壮族地区农业落后的面貌有了显著的改变。仅以广西壮族自治区为例，1984年，全区人均粮食不足200公斤，有911万人尚未解决温饱问题，占全区总人口的23．93％，全区49个山区贫困县绝大多数位于壮族地区。到1998年，广西全区农林牧渔业总产值达到865.9亿元，基本实现了农产品自给，农村贫困人口减少到256多万人，绝大部分农民解决了温饱问题，并且整体生活接近小康水平。2006年，农林牧渔业总产值又达到1031.93亿元，同时农业种养结构也更加优化，畜牧水产业产值占农业总产值的比重达到45.9%。农业经济的发展不仅极大地改善了乡村壮族人民的生活，也为整个壮族社会的进一步发展奠定了良好的物质基础。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立前，壮族地区的工业基础十分薄弱，许多城镇没有现代工业。新中国成立后，尤其是改革开放以来，壮族地区的工业有了长足的发展。1998年，广西工业总产值达1727.68亿元，比1950年增长476倍，比1978年增长近14倍，平均每年增长13.7%。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">2000年国家实施西部大开发战略以来，广西工业生产速度明显加快。龙滩水电站、乐滩水电站、北海电厂一期工程、田东电厂改扩建工程、贵州至广东500千伏输变电工程（广西段）、平果铝氧化铝三期工程、桂西氧化铝一期工程、钦州林浆纸一体化项目、柳钢高速线材等一大批国家重点建设工程项目相继开工、建设和投产，极大地推动了壮族地区工业的发展。2006年，广西工业总产值达到了1882.23亿元。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立前，壮族地区的交通运输十分落后。1950年，广西的公路通车里程仅有3622公里，标准低、质量差、长年失修，抗灾能力低，路况极差，公路实际通车里程仅555公里。随着经济的发展，壮族地区的公路建设和交通运输获得了较快的发展。到1977年，广西公路里程达到29333公里，全区98%的公社和70%的大队都通了汽车；铁路通车里程比新中国成立前增加了一倍。改革开放后，广西的交通建设进入了一个新的发展时期。2003年，广西高速公路通车里程突破了1000公里，达到1011公里，成为我国5个少数民族自治区中第一个实现高速公路里程突破1000公里的自治区。2005年，广西通公路的行政村已达13096个，村村通公路比率达91.2％。南（宁）昆（明）铁路、南（宁）防（城）铁路、钦（州）北（海）铁路等钢铁大动脉的相继建成通车，防城、钦州、北海等港口改扩建工程的陆续完成并投入使用，航空和现代邮电通信工程建设的飞速发展，使广西初步建成了立体交通体系和邮电通信网络，壮族人民的交通运输和通讯条件得到了根本的改善。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">交通的发展，使大量工业设备、工业日用品，不断地从城市运进山区，木材、农副产品、土特产和地下宝藏也不断地从山区运到城市，促进了城乡物资交流。过去山区要20公斤大米才能换0.5公斤盐，1只鸡只能换10根针，7.5公斤棉花才能换一包火柴，现在村村寨寨都有商业网或商业点，有力地保障了乡村壮族人民的生活需要。过去平均一个乡镇还摊不到一部老旧电报机，现在村村寨寨都有广播、电视，电话普及率达到42.88部/百人，现代信息业的发展，极大地密切了壮族城乡间的交流，缩短了城乡距离，推动了壮族社会、经济和文化的发展。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立后，特别是改革开放以来，壮族地区教育、文化、医疗卫生事业的落后面貌也得到了根本的改变。目前，广西壮族自治区各级各类教育已达到相当的规模和水平，基本形成了村有小学、学前班和成人文化技术学校，乡镇有中心幼儿园、初级中学和成人文化技术中心校，县城有完全中学、高级中学和中等职业技术学校，形成了包括基础教育、职业技术教育、高等教育、成人教育以及幼儿教育、特殊教育的比较完整的体系，而区属大中专学校开设的专业基本覆盖了壮族地区经济建设和社会发展所需的领域。2006年，自治区全年普通高等教育招生13.37万人，在校生38.74万人，毕业生8.23万人；普通高中招生26.46万人，在校生73.97万人，毕业生20.20万人；全区所有县（市、区）全部通过自治区“两基”（基本普及九年义务教育和基本扫除青壮年文盲的简称）评估验收，“两基”攻坚任务提前一年完成，631万农村义务教育阶段公办学校学生免费上学。一直以来，壮族地区各级政府十分重视发展少数民族教育，从经费、师资、招生等方面制定了一系列重要政策，并且要求各级各类学校积极主动地帮助解决少数民族学生的困难，有效地推动了少数民族教育的发展，使少数民族在校学生的比例有了较大的提高。目前，广西普通中学和中等专业学校中，壮族等少数民族学生数占学生总数的比重高于少数民族人口占总人口的比例，其余各类学校中少数民族学生人数占学生总数比例也都接近少数民族人口占总人口的比例。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">教育的发展，促进了文化事业的繁荣。2006年末，广西全区城镇单位共有各类专业技术人员97.10万人，专业艺术表演团体118个，县级以上公共图书馆100个，文化馆100个，博物馆50个，各级各类档案馆139个。全区报纸出版量6亿份，期刊出版量0.52亿册，图书出版量1.64亿册（张）。电视综合人口覆盖率93.5%，广播综合人口覆盖率88.7%。文化事业建设方面的巨大成就为丰富壮族人民的文化生活水平和提高人口综合素质，奠定了坚实的基础。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">随着文化事业建设的发展，壮族优秀传统文化也得到了较好的传承。壮族能歌喜舞，民间文化艺术历史悠久、多姿多彩。新中国建立后，特别是改革开放以来，壮族传统文化得到了良好的保护和发展，有力地推动了精神文明建设。风靡海内外的壮族歌舞剧《刘三姐》，自20世纪50年代末开演以来，几进中南海，在广西、在全国巡回演出数百场，誉满海内外，开创了广西戏剧、音乐、舞蹈界一个历史性的辉煌。各种专业艺术表演团体，以及大量的民间艺术表演团体、业余艺术演出队、文化个体户等，常年活跃于广大的壮族城乡之间，传播壮族优秀传统文化。在壮族地区，人们随处都可以欣赏到优美动听的壮歌和土风土韵的壮族戏剧。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">壮族的文学创作硕果累累。20世纪50－60年代就有开创广西长篇小说先河的壮族作家陆地的《美丽的南宁》和刘玉峰的长篇小说《山村复仇记》，壮族诗人韦其麟的叙事长诗《百鸟衣》、壮族诗人黄青的抒情长诗《红河之歌》等。《百鸟衣》于1959年被列为中华人民共和国建国十周年优秀作品之一。进入改革开放时期后，壮族的文学创作更是欣欣向荣，陆地的长篇小说《长夜》获全国少数民族文学创作一等奖，由壮族诗人莎红与蓝鸿恩等人合作翻译整理的壮族民间长诗《布伯》，被称为中国少数民族民间文艺的瑰宝。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">新中国成立前，壮族地区缺医少药，各种疾病特别是天花、霍乱、血吸虫、疟疾等恶性传染病猖獗流行。有些村寨，“谷子黄，病满床”，疟疾发病率达到90%以上。1950年，广西全省仅有100家医院，病床2113张，卫生技术人员2091人。按当时全省人口平均计算，每千人仅有医院病床0.11张，卫生技术人员0.11人。新中国成立后，经过50多年的努力，壮族地区缺医少药的状况得到了根本改变，医疗卫生事业也有了长足的发展，一个医疗卫生机构布局基本合理、技术力量基本配套、管理制度比较健全的城乡医疗卫生保健体系基本形成。2006年，广西共有卫生机构9514个，医疗机构床位数9.7万张，卫生技术人员13.5万人。开展新型农村合作医疗试点工作的县（市）40个，实际参加农村合作医疗农民1214.82万人，参加农村合作医疗的人口比率达到67.14%。同时，各级医疗机构加强了对传染病，尤其是烈性、急性传染病和寄生虫病的卫生防治工作，有效地控制了恶性疾病的发生和危害，保障了人民的身体健康。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">壮族的传统医术医药也得到了保护和发展。20世纪80年代，在原有的中医药机构之外，又成立了广西天然药物研究中心和广西民族医药研究所，对壮族等民族医术医药开展了针对性的普查，还发掘出版了《壮医药线点灸疗法》等医书。近年来，广西民族医药机构又积极开展少数民族医术医药的研究，取得了较大的成绩，“壮医基础理论的发掘及临床实验研究”、“壮医内科学的发掘整理和实验研究”、“壮药生药标准研究”等项目获广西科技进步二等奖。一批国家、部省级壮医药科研项目通过鉴定或验收。壮族传统医术医药的发展，不仅使壮族优秀传统文化得到了较好的传承，也为壮族人民的身体健康提供了有力的保障。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">随着经济和社会各项事业的发展，壮族人民的生活水平有了明显的改善和提高。2005年，广西国民经济生产总值达到4063.30亿元，人均生产总值达到8762元（人均越过1000美元）；全年城镇居民人均可支配收入8916.8元，农民人均纯收入2494.7元。城乡居民生活水平进一步提高，城镇居民人均消费性支出6426.2元，家庭恩格尔系数42.5%；农民人均现金支出2349.6元，家庭恩格尔系数51.0%。城乡居民居住条件不断改善，城镇居民人均居住面积25.23平方米；农村居民人均居住面积27平方米。桂西及桂西北地区是壮族聚居的连片贫困地区，经过改革开放20多年来扶贫开发工作的不懈努力，这些地区人民的生活得到了很大的改善，低收入贫困人口大幅减少，即使在十分偏远的山区，也常能看到飞驰的摩托车和穿着时尚的青年男女。</span></p>
+<p align="" style="text-indent: 2em; text-align: justify;"><span style="font-size: 12pt; font-family: 微软雅黑;">总之，在中国共产党的领导下，壮族人民经过50多年的努力，经济和社会文化各项事业已经有了一定的发展，贫穷落后的面貌有了较大的改善。随着党和政府民族平等团结、共同繁荣发展政策的实施，特别是西部大开发战略的实施，壮族人民的明天一定会更加美好。</span></p>
+<p style="text-indent: 2em; text-align: right;"><span><strong><span style="font-size: 12pt; font-family: 微软雅黑;">（摘自《民族问题五种丛书》之《中国少数民族》卷）</span></strong></span></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

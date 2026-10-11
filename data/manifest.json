@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.stats.gov.cn/sj/pcsj/rkpc/6rp/html/A0106a.htm",
+    "path": "data/raw/census2010.html",
+    "bytes": 293169,
+    "sha256": "dbebac31b97cb1dfa6369fb18cd5b9a2dbefab465291c6bd098b24bc245335de",
+    "retrievedAt": "2026-10-09T03:54:34.749Z"
+  },
+  {
+    "url": "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json",
+    "path": "public/china-provinces.geojson",
+    "bytes": 582522,
+    "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+    "retrievedAt": "2026-10-09T03:54:34.832Z"
+  }
+]

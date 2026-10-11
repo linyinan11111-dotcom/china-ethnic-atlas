@@ -1,0 +1,563 @@
+[
+  {
+    "row": 0,
+    "group": 6,
+    "name": "苗族",
+    "values": [
+      11067929,
+      57282,
+      5323647
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 1,
+    "group": 16,
+    "name": "哈尼族",
+    "values": [
+      1226,
+      2,
+      584
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 2,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      13422528,
+      6922626,
+      99902
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 2,
+    "group": 6,
+    "name": "苗族",
+    "values": [
+      12975,
+      6515,
+      60
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 2,
+    "group": 8,
+    "name": "壮族",
+    "values": [
+      15350,
+      41,
+      8909
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 3,
+    "group": 5,
+    "name": "维吾尔族",
+    "values": [
+      2871,
+      12,
+      1229
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 4,
+    "group": 7,
+    "name": "彝族",
+    "values": [
+      5534,
+      27,
+      2887
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 6,
+    "group": 13,
+    "name": "瑶族",
+    "values": [
+      1557,
+      7,
+      793
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 6,
+    "group": 57,
+    "name": "特殊项目",
+    "values": [
+      3131,
+      12,
+      1489
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 8,
+    "group": 2,
+    "name": "蒙古族",
+    "values": [
+      112210,
+      55563,
+      567
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 8,
+    "group": 52,
+    "name": "鄂伦春族",
+    "values": [
+      3236,
+      1591,
+      15
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 9,
+    "group": 7,
+    "name": "彝族",
+    "values": [
+      21952,
+      12388,
+      95
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 9,
+    "group": 11,
+    "name": "满族",
+    "values": [
+      43197,
+      20733,
+      224
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 10,
+    "group": 0,
+    "name": "合计",
+    "values": [
+      84748016,
+      43031586,
+      417130
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 11,
+    "group": 2,
+    "name": "蒙古族",
+    "values": [
+      20069,
+      105,
+      9424
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 11,
+    "group": 24,
+    "name": "拉祜族",
+    "values": [
+      3989,
+      12,
+      2347
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 12,
+    "group": 57,
+    "name": "特殊项目",
+    "values": [
+      1498,
+      0,
+      858
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 13,
+    "group": 10,
+    "name": "朝鲜族",
+    "values": [
+      2963,
+      1499,
+      14
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 14,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      44969369,
+      23202205,
+      217671
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 15,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      100622494,
+      50981231,
+      491263
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 15,
+    "group": 6,
+    "name": "苗族",
+    "values": [
+      29730,
+      152,
+      14466
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 16,
+    "group": 2,
+    "name": "蒙古族",
+    "values": [
+      68220,
+      402,
+      27956
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 16,
+    "group": 15,
+    "name": "土家族",
+    "values": [
+      12996,
+      71,
+      6525
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 16,
+    "group": 35,
+    "name": "撒拉族",
+    "values": [
+      561,
+      297,
+      2
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 17,
+    "group": 5,
+    "name": "维吾尔族",
+    "values": [
+      12452,
+      6046,
+      6
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 17,
+    "group": 18,
+    "name": "傣族",
+    "values": [
+      1012,
+      348,
+      6
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 17,
+    "group": 25,
+    "name": "水族",
+    "values": [
+      1237,
+      573,
+      6
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 18,
+    "group": 32,
+    "name": "仫佬族",
+    "values": [
+      1369,
+      8,
+      721
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 19,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      121260372,
+      136835,
+      57123537
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 19,
+    "group": 26,
+    "name": "东乡族",
+    "values": [
+      4638,
+      2994,
+      14
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 20,
+    "group": 6,
+    "name": "苗族",
+    "values": [
+      578122,
+      2944,
+      283478
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 20,
+    "group": 16,
+    "name": "哈尼族",
+    "values": [
+      1445,
+      3,
+      802
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 20,
+    "group": 19,
+    "name": "黎族",
+    "values": [
+      6491,
+      27,
+      3727
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 21,
+    "group": 15,
+    "name": "土家族",
+    "values": [
+      8273,
+      47,
+      3626
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 21,
+    "group": 19,
+    "name": "黎族",
+    "values": [
+      1355074,
+      707048,
+      8026
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 22,
+    "group": 8,
+    "name": "壮族",
+    "values": [
+      10616,
+      3976,
+      60
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 22,
+    "group": 37,
+    "name": "仡佬族",
+    "values": [
+      7660,
+      4016,
+      34
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 23,
+    "group": 9,
+    "name": "布依族",
+    "values": [
+      16829,
+      74,
+      9365
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 24,
+    "group": 37,
+    "name": "仡佬族",
+    "values": [
+      550322,
+      285682,
+      20
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 25,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      31573245,
+      176357,
+      15096888
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 25,
+    "group": 6,
+    "name": "苗族",
+    "values": [
+      1253291,
+      8704,
+      604587
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 26,
+    "group": 2,
+    "name": "蒙古族",
+    "values": [
+      818,
+      5,
+      254
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 27,
+    "group": 0,
+    "name": "合计",
+    "values": [
+      39528999,
+      202290,
+      19302509
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 28,
+    "group": 8,
+    "name": "壮族",
+    "values": [
+      2720,
+      1156,
+      15
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 28,
+    "group": 14,
+    "name": "白族",
+    "values": [
+      968,
+      504,
+      4
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 28,
+    "group": 30,
+    "name": "土族",
+    "values": [
+      33691,
+      163,
+      17048
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 28,
+    "group": 48,
+    "name": "裕固族",
+    "values": [
+      13053,
+      96,
+      6557
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 29,
+    "group": 1,
+    "name": "汉族",
+    "values": [
+      2993534,
+      15730,
+      1428804
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 29,
+    "group": 35,
+    "name": "撒拉族",
+    "values": [
+      128779,
+      63833,
+      946
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 30,
+    "group": 10,
+    "name": "朝鲜族",
+    "values": [
+      518,
+      254,
+      2
+    ],
+    "issue": "subtotal"
+  },
+  {
+    "row": 31,
+    "group": 2,
+    "name": "蒙古族",
+    "values": [
+      169143,
+      84501,
+      842
+    ],
+    "issue": "subtotal"
+  }
+]

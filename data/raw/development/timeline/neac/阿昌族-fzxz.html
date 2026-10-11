@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="发展现状" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 10:53:38" />
+<title>发展现状</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/acz/gk.shtml'  target="_parent">阿昌族</a>&nbsp;>&nbsp;<span>发展现状</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							阿昌族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/acz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/acz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/acz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/acz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">&ensp;&ensp;&ensp;&ensp;1950</span><span style="font-size: 12pt;">年初，中国人民解放军进驻阿昌族聚居地德宏地区，阿昌族人民获得了解放，阿昌族的历史从此掀开了新的一页。新中国成立后，特别是改革开放以来，在党和各级人民政府的大力扶持帮助下，在广大阿昌族干部群众的努力下，阿昌族人民的生产生活、文化、教育、医疗卫生等各项事业都得到了很大的发展，人民生活水平得到极大提高。</span>
+</span>
+<p style="text-indent: 2em; font-size: 12pt;"></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">阿昌族人民当家作主的权利得到充分保障。<span style="font-size: 12pt;">1951</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">月，党和政府派出中央民族访问团到达德宏，对阿昌等各族人民进行慰问，宣传党的民族政策。</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年，在阿昌族聚居的陇川县户撒地区成立了阿昌族自治区（区级）。</span><span style="font-size: 12pt;">1953</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">月，云南省民族工作队到梁河县的阿昌族村寨开展群众工作，在他们的努力下，使旧社会倍受歧视、奴役、压迫的阿昌族人民对党和人民政府的政策有了进一步的了解。</span><span style="font-size: 12pt;">1953</span><span style="font-size: 12pt;">年、</span><span style="font-size: 12pt;">1954</span><span style="font-size: 12pt;">年又先后在潞西县江东区高埂田乡、梁河县遮岛区丙盖乡和关璋乡建立了</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个阿昌族民族乡。德宏傣族景颇族自治区（州级）成立时，阿昌族在代表名额中也得到了充分的照顾。</span><span style="font-size: 12pt;">1988</span><span style="font-size: 12pt;">年，云南德宏傣族景颇族自治州行政建制调整，陇川县户撒阿昌族乡、梁河县囊宋阿昌族乡、九保阿昌族乡被国家确认为</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个县辖区级建制的阿昌族民族乡。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">土改工作及合作化运动进展顺利。党根据阿昌族的社会特点和边疆的具体情况，自</span><span style="font-size: 12pt;">1955</span><span style="font-size: 12pt;">年秋开始，在阿昌族地区开展和平协商土地改革运动，彻底废除了封建土地所有制。领主、地主的特权、杂派、高利贷等也一并废除。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">新中国成立</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">余年来，党和国家历来十分重视对阿昌族干部的培养工作，成绩十分显著。早在</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代，在和平协商土地改革运动中，就培养发展了一批干部。在合作化运动中，党、团员积极带头，出色地完成了一系列工作。至</span><span style="font-size: 12pt;">1981</span><span style="font-size: 12pt;">年时，阿昌族有公社以上干部</span><span style="font-size: 12pt;">329</span><span style="font-size: 12pt;">人，其中妇女</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">人，党员</span><span style="font-size: 12pt;">131</span><span style="font-size: 12pt;">人，团员</span><span style="font-size: 12pt;">63</span><span style="font-size: 12pt;">人。近几年，阿昌族在干部和专业技术人才培养上取得了较大成效，至</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年，有省厅和地州级干部</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">人，县处级干部</span><span style="font-size: 12pt;">10</span><span style="font-size: 12pt;">余人，全国人大代表</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">人，地方各级人大代表、政协委员数十人，各类专业技术人才数百人。从</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代至今，党和国家通过在政治思想方面给予阿昌族干部教育，生活上给予关心，并通过将他们派往党校、干部培训班、进民族院校学习，使其不断提高文化水平，逐步在工作实践中锻炼成长，为阿昌族地区的建设发展发挥骨干作用。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">阿昌族的农业生产不断取得新进展。勤劳的阿昌人早就以善种水稻著名。水稻的品种多，质量优，梁河地区的“毫安公”，曾号称“水稻之王”。但在新中国成立前，广大的阿昌族人民却吃不上大米，过着饥寒交迫的生活。新中国成立后，阿昌族人民才真正成为“水稻之王”的主人。梁河县遮岛人民公社丙介大队，新中国成立前全大队</span><span style="font-size: 12pt;">85%</span><span style="font-size: 12pt;">以上人家靠砍柴、割马草、卖工度日，生活苦不堪言。合作化后，他们依靠集体力量，生产全面发展，一跃成为县、州和省的农业先进单位。公社化以后，他们大搞水利建设，把“三晴两雨收一点，一遇干旱就荒田”的望天田改造为旱涝保收的保水田。还修建了小型水力发电站，配备了许多拖拉机、碾米机、柴油机、打谷机、扬场机等，初步改变了过去农业生产全靠体力劳动的局面。</span><span style="font-size: 12pt;">1956</span><span style="font-size: 12pt;">年，梁河县关璋、丙盖等阿昌族村寨合作社建社当年，农业生产就获得丰收。同年，梁河全县缺粮的历史被画上了句号，阿昌族农民第一次告别了“半年糠菜半年粮”的贫困状态。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">新中国成立以来，特别是改革开放以来，阿昌族已由过去单一的粮食作物种植，逐步改变为粮食作物的种植与甘蔗、茶叶、油菜、烤烟、果蔬等经济作物种植多样化发展的新局面。从</span><span style="font-size: 12pt;">1980</span><span style="font-size: 12pt;">年起，阿昌族地区开始实施家庭联产承包责任制，并从实际出发积极调整产业结构，促进农业生产发展。</span><span style="font-size: 12pt;">1992</span><span style="font-size: 12pt;">年，户撒乡以发展烤烟作为经济发展的起点；</span><span style="font-size: 12pt;">1997</span><span style="font-size: 12pt;">年起，又推广高产新品种“大油菜”，平均每户可增加纯收入</span><span style="font-size: 12pt;">1000</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">1500</span><span style="font-size: 12pt;">元以上。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，户撒全乡种植油菜面积达</span><span style="font-size: 12pt;">34000</span><span style="font-size: 12pt;">亩。目前，户撒乡已成为陇川县的优质稻米、优质油料作物基地，也是德宏州的草果、板栗之乡。梁河阿昌族历史上长期缺粮。</span><span style="font-size: 12pt;">1980</span><span style="font-size: 12pt;">年以后，梁河县阿昌族在人多地少居住分散的情况下，因地制宜，逐步完善实行以粮为纲，坝区以甘蔗为主，山区以茶为主，根据各个村寨自然地理条件，实行多种经营全面发展的方针。在山区、半山区走科学种田之路，推广“杂交水稻”、“杂交苞谷”，并实行多种经营，村民们逐步脱贫致富。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">户撒地区制铁加工业焕发出新的活力。户撒的阿昌族人民打铁、制刀的技术很高，打制的铁器经久耐用。特别是长刀、尖刀、砍刀、菜刀、剪刀、拒斥镰刀等锋利美观，以“户撒刀”著称于世，颇为附近傣、汉、景颇、德昂等各族人民所喜好。生产的长刀还远销到怒江的傈僳族、临沧的佤族、中甸的藏族地区和邻邦缅甸。过去由于原料缺乏、重税盘剥、个体经营、自产自销，所以不仅产量低，而且走向串寨，误了农事节令，影响农业生产。不少阿昌族的能工巧匠在失业和饥饿的威胁下，流离失所。新中国成立后，这种传统的打铁手工业更有了发展。由于国家扶持、集体经营，铁器生产日益兴盛，“户撒刀”恢复了它的青春。</span><span style="font-size: 12pt;">1954</span><span style="font-size: 12pt;">年，成立第一个打铁生产合作社，他们为附近傣、景颇、傈僳、德昂、汉等民族人民提供了各种农具、刀具，产品品种已增加到</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">余种、</span><span style="font-size: 12pt;">120</span><span style="font-size: 12pt;">多个花色。户撒公社每个大队几乎都有十余或二十多盘打铁炉，有的队打铁收入占总收入的将近一半。他们利用手工业的收入，兴修水利，购买机械化农具，进一步促进了农业生产，也提高了社员生活。改革开放以来，国家下拨了民族用品补助经费，购置了机械设备。</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年，除县、乡两个刀具厂外，户撒乡从事制铁加工的农户约有</span><span style="font-size: 12pt;">500</span><span style="font-size: 12pt;">余户，近</span><span style="font-size: 12pt;">1000</span><span style="font-size: 12pt;">余人从业，年产量达到</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">万多件。</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年，国家又投入</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">万元扶持部分制作户购买机械设备，改变了过去全部用手工操作的方式。户撒刀曾多次在国内获奖，产品远销西藏、甘肃、青海、内蒙古、四川等少数民族省区及东南亚国家。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">地方工业也从无到有迅速发展。新中国成立后，梁河地区开办了铁厂、农具、榨油、肥皂、松香、染布等小型工厂。户腊撒地区也建立了铁工厂，当地的阿昌族工人和汉族工人一起制造了水力鼓风机，以代替手拉风箱，提高了功效，节约了劳力。改革开放以来，梁河县阿昌族的乡镇企业从无到有得到发展。当地先后办起</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">个茶场。</span><span style="font-size: 12pt;">1995</span><span style="font-size: 12pt;">年，在国家的扶持下又办起了茶叶加工厂，产品畅销省内外。</span><span style="font-size: 12pt;">1977</span><span style="font-size: 12pt;">年、</span><span style="font-size: 12pt;">1999</span><span style="font-size: 12pt;">年先后建立起</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">个日处理甘蔗分别为</span><span style="font-size: 12pt;">1500</span><span style="font-size: 12pt;">吨、</span><span style="font-size: 12pt;">1000</span><span style="font-size: 12pt;">吨的制糖厂。国家实施农村家庭联产承包责任制后，解放了大量农业劳动力，阿昌族农民纷纷从事第二、第三产业。他们有的人自办畜牧场养奶牛，鲜奶在当地畅销；有的开办了酒厂；有的开办石灰石矿厂；有的承包林场采松脂；有的进行粮食加工，还有一批阿昌族木、泥、石工匠走出大山去搞建筑承建工程。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年梁河县</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">个阿昌族民族乡的乡镇企业达到</span><span style="font-size: 12pt;">640</span><span style="font-size: 12pt;">个，总产值达</span><span style="font-size: 12pt;">2242</span><span style="font-size: 12pt;">万元。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">商品经济得到长足的发展。改革开放以来，随着社会主义市场经济体制的逐步建立，许多阿昌族农民已开始丢掉羞于经商的观念，纷纷投身商海。有的阿昌族农民到国家二级口岸章凤经营布匹或从事木材、玉器、中药材、土特产品、钢材、日用品等的边境贸易。户撒阿昌族的“过手米线”是特色饮食，当地一些阿昌族看准了市场，将米线店开到了州府芒市，深受顾客欢迎。</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">90</span><span style="font-size: 12pt;">年代中期以来，户撒、九保、囊宋三个乡政府先后建起了农村贸易市场，形成了以民族乡政府驻地为中心，以附近村寨为支点的农村市场网络。在热闹的农贸市场内，阿昌族卖户撒刀、农具及进行农业机械加工、钢材销售、开杂货店，开饮食店、理发店、服装店、家具店、旅社的随处可见。还有一些阿昌族从事客、货运输，仅户撒乡就有</span><span style="font-size: 12pt;">200</span><span style="font-size: 12pt;">余辆汽车。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">生态环境得到有效保护和改善。从</span><span style="font-size: 12pt;">1956</span><span style="font-size: 12pt;">年起至今，各级人民政府采取措施，在梁河阿昌族地区进行搬迁农户、开挖排水沟、筑砌石坝、植树种草等，采取工程治理与生物治理相结合的办法，保护了数千亩耕地，使荒山变成“花果山”。户撒地区通过宣传并执行《森林法》，培养设立护林员，划区管理，大面积种植人工草场、植树造林，将水土流失治理与发展农村经济相结合，取得较好的效果，使全乡的森林覆盖率达到</span><span style="font-size: 12pt;">54%</span><span style="font-size: 12pt;">以上。</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">多年以来，通过国家投资、专家指导、群众投工的办法，使生态环境恶化的状态得到很大的改善。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">交通、通讯、人畜饮水及灌溉的条件日益改善。</span><span style="font-size: 12pt;">1949</span><span style="font-size: 12pt;">年以前，阿昌族运输是靠人背马驮，走的是崎岖的山路，点灯用的是松明及灯油，磨面用的是脚碓、水碓、石磨等。新中国成立后，交通条件日益改善。在</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">70</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">80</span><span style="font-size: 12pt;">年代，梁河阿昌族地区的大部分村寨都开挖了简易公路。自</span><span style="font-size: 12pt;">1982</span><span style="font-size: 12pt;">年以来，在国家扶持下，大部分村寨修筑了公路。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，阿昌族所居住的陇川、梁河两县三个民族乡的</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">个村民委员会都通了公路，其中有</span><span style="font-size: 12pt;">17</span><span style="font-size: 12pt;">个村为乡村公路，</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">个村为高等级公路。阿昌族地区水电建设成就显著。在</span><span style="font-size: 12pt;">1958</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">1985</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">27</span><span style="font-size: 12pt;">年间，梁河县阿昌族地区建成</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">座小型水电站，陇川县户撒地区建有</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">座小型水电站，初步解决了一部分村寨的用电需要。</span><span style="font-size: 12pt;">2001</span><span style="font-size: 12pt;">年以来，一些阿昌族村寨先后实施了农村电网改造工程。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，三个阿昌族乡的</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">个村民委员会全部通电，基本上达到村村有电动碾米机、磨面机、饲料粉碎机等，人们加工竹、木、铁制品等均使用电动机械，大大提高了效益。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">,</span><span style="font-size: 12pt;">三个民族乡的农业机械总动力达到</span><span style="font-size: 12pt;">10141622</span><span style="font-size: 12pt;">千瓦</span><span style="font-size: 12pt;">,</span><span style="font-size: 12pt;">农村用电量达</span><span style="font-size: 12pt;">3609697</span><span style="font-size: 12pt;">千瓦时。大批水利设施的兴建，极大的改善了阿昌族地区人畜饮水及灌溉的条件。梁河阿昌族大都居住在山区或半山区，</span><span style="font-size: 12pt;">1949</span><span style="font-size: 12pt;">年以前，人们种的是“雷响田”，靠天吃饭。由于生态环境恶化使水源成了一个影响人们生产、生活的大问题。自</span><span style="font-size: 12pt;">1965</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">,</span><span style="font-size: 12pt;">在国家的大力扶持下，在阿昌族居住地的耕作区先后挖了</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">条引水大沟，长约</span><span style="font-size: 12pt;">56</span><span style="font-size: 12pt;">公里</span><span style="font-size: 12pt;">,</span><span style="font-size: 12pt;">灌溉面积</span><span style="font-size: 12pt;">4300</span><span style="font-size: 12pt;">亩。通过治理河道、建蓄水池、水库、架设“倒虹吸”钢管等工程，解决了</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个乡大部分村寨的人畜饮水及农田灌溉的问题。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个乡</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">个村民委员实现引自来水入户的有</span><span style="font-size: 12pt;">22</span><span style="font-size: 12pt;">个，已经通电话的</span><span style="font-size: 12pt;">25</span><span style="font-size: 12pt;">个，通邮的</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">个。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">教育事业的发展成绩斐然。</span><span style="font-size: 12pt;">1949</span><span style="font-size: 12pt;">年时，户撒只有一所学校，主要是培养土司子弟。而梁河县阿昌族中也仅有中学毕业生</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">人、小学毕业生</span><span style="font-size: 12pt;">15</span><span style="font-size: 12pt;">人，在校学生</span><span style="font-size: 12pt;">30</span><span style="font-size: 12pt;">人，教师</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">人。阿昌族人民中有文化能看书识字的人很少，文盲达到</span><span style="font-size: 12pt;">80%</span><span style="font-size: 12pt;">以上。新中国成立后，阿昌族的教育事业得到发展，至</span><span style="font-size: 12pt;">1955</span><span style="font-size: 12pt;">年，梁河县阿昌族小学生增加至</span><span style="font-size: 12pt;">303</span><span style="font-size: 12pt;">人。改革开放以后，随着经济的恢复和发展，推动了教育发展的步伐。据</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年第五次人口普查资料显示：阿昌族每万人口中，拥有大专以上、高中、初中、小学文化程度的人数分别为</span><span style="font-size: 12pt;">92</span><span style="font-size: 12pt;">人、</span><span style="font-size: 12pt;">468</span><span style="font-size: 12pt;">人、</span><span style="font-size: 12pt;">1811</span><span style="font-size: 12pt;">人和</span><span style="font-size: 12pt;">4940</span><span style="font-size: 12pt;">人，文盲率由解放初的</span><span style="font-size: 12pt;">80%</span><span style="font-size: 12pt;">以上下降到</span><span style="font-size: 12pt;">13%</span><span style="font-size: 12pt;">。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年末，户撒、囊宋、九保三个阿昌族乡有中学</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">所、小学</span><span style="font-size: 12pt;">66</span><span style="font-size: 12pt;">所，有学生</span><span style="font-size: 12pt;">8520</span><span style="font-size: 12pt;">人、教师</span><span style="font-size: 12pt;">673</span><span style="font-size: 12pt;">人。小学入学率</span><span style="font-size: 12pt;">100%</span><span style="font-size: 12pt;">、中学入学率</span><span style="font-size: 12pt;">98%</span><span style="font-size: 12pt;">。人均受教育年限</span><span style="font-size: 12pt;">6.14</span><span style="font-size: 12pt;">年，比</span><span style="font-size: 12pt;">1990</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">3.35</span><span style="font-size: 12pt;">年增长了</span><span style="font-size: 12pt;">83.28%</span><span style="font-size: 12pt;">。从</span><span style="font-size: 12pt;">1977</span><span style="font-size: 12pt;">年恢复高考制度到</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">23</span><span style="font-size: 12pt;">年间，梁河阿昌族学生升入大学的只有</span><span style="font-size: 12pt;">30</span><span style="font-size: 12pt;">人。近几年，考入大学的人数增长较快。从</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年开始，云南阿昌族学会为鼓励本民族学生考上大学，规定每年都要用本民族的传统礼遇，为考上二本以上的学子举行“披红”奖励，并发给每人</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">元的奖金，</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年就有</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">人获此殊荣。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">医疗卫生事业发展成绩显著。新中国成立前，德宏一带是“瘴疠之乡”。阿昌族居住的村寨由于自然环境恶劣，加之缺乏基本的医疗卫生保健条件，传染病流行，户撒有三寨人因患鼠疫而死绝。阿昌族人民生病时，大多数人只有靠打卦、求神拜佛、驱鬼，以求祛病免灾。新中国建立后，党中央和各级地方人民政府多次派出防疫治病工作队深入到阿昌族村寨，开展爱国卫生运动，消灭了阿昌族地区严重危害人民生命的鼠疫、霍乱、伤寒等传染病，有效地保证了人民的健康，促进了生产的发展。从</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代起，阿昌族地区各县卫生防疫机构成立并开展工作，各乡及行政村，相继建立了卫生院、所（室），培养了一批阿昌族的医务人员，形成县、乡、村卫生防疫医疗网。新中国成立前，梁河阿昌族产妇生育的条件很差，经常导致新生儿患破伤风，致使婴儿死亡率高达</span><span style="font-size: 12pt;">45%</span><span style="font-size: 12pt;">。新中国成立后，普遍采用新法接生，从而大大降低了孕产妇和婴儿的死亡率，妇女儿童保健工作得到较好的开展。改革开放以来，阿昌族地区的医疗卫生事业得到较快的发展，至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，户撒、九保、囊宋</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个阿昌族乡共有</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">所乡卫生院，有村卫生室</span><span style="font-size: 12pt;">24</span><span style="font-size: 12pt;">个、医务人员</span><span style="font-size: 12pt;">54</span><span style="font-size: 12pt;">人、病床</span><span style="font-size: 12pt;">40</span><span style="font-size: 12pt;">张，农村初级卫生保健工作得到普及和加强，医疗卫生状况不断改善，基本解决了缺医少药的现象，消除了疟疾、伤寒等疾病对人们的危害。同时，各阿昌族村寨积极推进改水、改厕、改浴室工作，部分村寨建起了沼气池、卫生厕所，部分家庭建起太阳能沐浴室，农村的卫生环境有了很大的改善，陇川、梁河两县已基本达到国家规定的初级卫生保健标准。医疗条件和卫生条件的改善提高了阿昌族的人均寿命。据</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年人口普查显示，</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年阿昌族人均预期寿命</span><span style="font-size: 12pt;">66.92</span><span style="font-size: 12pt;">岁，比</span><span style="font-size: 12pt;">1990</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">61.11</span><span style="font-size: 12pt;">岁增长了将近</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">岁。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">民族民间文化得到保护、弘扬、发展和创新。阿昌族户撒刀锻制技艺和阿昌族史诗《遮帕麻和遮咪麻》被列入国家第一批非物质文化遗产保护名录，它们和阿昌族民歌、阿昌族舞蹈“蹬窝罗”也同时被列入云南省第一批非物质文化遗产保护名录；陇川县户撒乡新寨贺姐村野也被确立为阿昌族传统文化保护区。同时，国家大力挖掘和保护阿昌族传统文化，培育民族文艺接班人，并努力将文化与产业扶持相结合，推动民族传统手工艺发展。文艺创作欣欣向荣。阿昌族没有自己的文字，过去，其民间文学的宝库虽然十分丰富，仅能通过口耳相传的形式传承，在文字的文学创作方面是一片空白。新中国成立后的很长一段时间内，阿昌族文学也只是停留在民族民间文学的搜集整理上，当代文学创作寥若晨星。改革开放以后，阿昌族中一批中、青年人步入了文学的殿堂，活跃在云南省内外的文坛上。他们先后发表了数百万字的作品，孙宇飞以其诗歌《我的筒裙花哟》曾荣获第二届全国少数民族文学奖，罗汉的短篇小说集《红泪》获第六届全国少数民族文学“骏马奖”，他创作的阿昌族第一部长篇小说《紫雾》，又荣获第八届全国少数民族文学“骏马奖”。曹先强的散文《故乡那高高的粘枣树》获第五届全国少数民族文学“骏马奖”，其作品还两度荣获云南省“边疆文学奖”。他们为成长中的阿昌族当代文学的发展做出了很大的努力，也在对本民族口传文化进行搜集、整理等方面的工作中做出了积极的贡献。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">广播电视进万家，群众文化生活丰富多彩。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，政府开始实施“广播电视村村通”工程和“电视进万家”活动，此举对加强阿昌族地区农村精神文明建设、提高农村居民生活水平和质量，解决农村群众收听、收看广播电视节目难的问题具有重要的意义。目前，阿昌族地区广播电视覆盖率达</span><span style="font-size: 12pt;">45%</span><span style="font-size: 12pt;">，预计到</span><span style="font-size: 12pt;">2010</span><span style="font-size: 12pt;">年可实现广播电视覆盖率达</span><span style="font-size: 12pt;">100%</span><span style="font-size: 12pt;">。阿昌族地区乡有文化站，村有文化活动室，这些是过去阿昌族人民无法想象的事，但今天已经成为现实。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">国家扶贫工作力度逐步加大，阿昌族人民生活水平得到极大提高。改革开放以来，党和国家加大了对少数民族贫困地区的扶贫力度，阿昌族地区得到发展。如梁河县，在</span><span style="font-size: 12pt;">1986</span><span style="font-size: 12pt;">年就得到国家支持不发达地区的第一笔发展资金</span><span style="font-size: 12pt;">60</span><span style="font-size: 12pt;">万元。</span><span style="font-size: 12pt;">1993</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">1996</span><span style="font-size: 12pt;">年间，得到“以工代赈”资金，用于</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">个山区乡的扶贫工作。</span><span style="font-size: 12pt;">1996</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年，国家实施“九五扶贫攻坚”计划，杞木寨乡阿昌族聚居的湾中村被列为省级帮扶村；关璋等</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个阿昌族村被列为“县级扶贫攻坚村”，每村每年得到</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">万元扶贫资金。有关部门还实施“小额信贷”、“交通扶贫”、“畜牧扶贫”、“教育扶贫”等项目，改善阿昌族人民的生产生活条件。省、州、县各级党政部门派出扶贫工作队深入阿昌族村寨，采取挂钩扶贫的方式帮助农户。在</span><span style="font-size: 12pt;">2001</span><span style="font-size: 12pt;">年，陇川县户撒阿昌族乡与梁河县囊宋阿昌族乡分别得到云南省“特困民族乡综合扶贫开发项目”专项扶贫资金各</span><span style="font-size: 12pt;">400</span><span style="font-size: 12pt;">万元。项目涉及基础设施、农田改造、乡村能源、安居工程、种植与养殖开发、人畜饮水、科技培训、教育扶贫、卫生事业扶贫等。综合扶贫项目的实施，促进了阿昌族民族乡农业经济、文化教育、科技、卫生事业等方面的发展。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，阿昌族所居住的陇川、梁河两县三个民族乡经济总收入</span><span style="font-size: 12pt;">10291.74</span><span style="font-size: 12pt;">万元，比</span><span style="font-size: 12pt;">1995</span><span style="font-size: 12pt;">年增长</span><span style="font-size: 12pt;">49.9%</span><span style="font-size: 12pt;">。粮食总产量</span><span style="font-size: 12pt;">24306</span><span style="font-size: 12pt;">吨，比</span><span style="font-size: 12pt;">1995</span><span style="font-size: 12pt;">年增长</span><span style="font-size: 12pt;">28.26%</span><span style="font-size: 12pt;">。三个民族乡农林牧渔总产值达</span><span style="font-size: 12pt;">9219.24</span><span style="font-size: 12pt;">万元，肉类总产量达</span><span style="font-size: 12pt;">8707.1</span><span style="font-size: 12pt;">吨，极大地丰富了人民的生活物资。人均纯收入</span><span style="font-size: 12pt;">951</span><span style="font-size: 12pt;">元，比</span><span style="font-size: 12pt;">1995</span><span style="font-size: 12pt;">年增长</span><span style="font-size: 12pt;">265</span><span style="font-size: 12pt;">元。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">近些年来，阿昌族的进入一段黄金发展时期。随着西部大开发和国家扶贫政策力度的加大，阿昌族人民的经济发展状况和人民生活水平有了进一步的提高。目前，云南省包括阿昌族在内的</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">个人口较少的少数民族已被纳入国家《扶持人口较少民族发展规划》（</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">2010</span><span style="font-size: 12pt;">年），今后将得到国家给予更多的支持和照顾。一系列综合扶贫开发项目的实施，已经产生显著的社会效益与经济效益，有效地推动了阿昌族社会的进步，振奋了民族精神，强化了主体意识。阿昌族人民的明天将会更美好。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><strong style="font-family: 微软雅黑;">（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong><span style="font-family: 宋体; font-size: 12pt;"><o:p></o:p></span></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

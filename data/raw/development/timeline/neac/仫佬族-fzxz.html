@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="发展现状" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 11:03:35" />
+<title>发展现状</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/mlz/gk.shtml'  target="_parent">仫佬族</a>&nbsp;>&nbsp;<span>发展现状</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							仫佬族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/mlz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/mlz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/mlz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/mlz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<div style="text-indent: 2em; font-size: 12pt;">
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">1950</span><span style="font-size: 12pt;">年，仫佬族地区获得解放，进行了清匪、反霸斗争。</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年初，进行了土地改革，到</span><span style="font-size: 12pt;">1956</span><span style="font-size: 12pt;">年基本上完成农业合作化。</span><span style="font-size: 12pt;">1958</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">月，仫佬族地区实现了人民公社化。</span><span style="font-size: 12pt;">1984</span><span style="font-size: 12pt;">年，经国务院批准，成立罗城仫佬族自治县，这是仫佬族人民政治生活中的一件大喜事。罗城仫佬族自治县的建立，是中国共产党民族区域自治政策的具体体现。半个多世纪特别是改革开放以来，在党和人民政府的领导下，仫佬族人民和其他各族人民一道，艰苦奋斗，使仫佬族山乡发生了巨大的变化。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">作为一个长期以农业为社会经济发展支柱的民族，仫佬族地区半个世纪的发展首先表现在农业方面，而仫佬族地区农业的快速发展则主要是在改革开放以后。</span><span style="font-size: 12pt;">1980</span><span style="font-size: 12pt;">年中央再次下发《关于进一步加强和完善农业生产责任制的几个问题》的文件，在中国农村全面铺开以家庭联产承包责任制为主要内容的农村经济体制改革。仫佬族地区开始实行家庭联产承包责任制。到</span><span style="font-size: 12pt;">1982</span><span style="font-size: 12pt;">年春，罗城仫佬族自治县全面完成了“双包”责任制工作。仫佬族人民真正拥有了生产经营的自主权，告别了过去平均主义的“大锅饭”，勇于向承包耕地投资、投劳、开展集约经营，农业生产得到迅速发展。</span><span style="font-size: 12pt;">1983</span><span style="font-size: 12pt;">年罗城仫佬族自治县粮食总产量达</span><span style="font-size: 12pt;">10277.29</span><span style="font-size: 12pt;">万公斤，创历史最高记录，为</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">2.14</span><span style="font-size: 12pt;">倍，比</span><span style="font-size: 12pt;">1978</span><span style="font-size: 12pt;">年增长</span><span style="font-size: 12pt;">34.38%</span><span style="font-size: 12pt;">；农业总产值达</span><span style="font-size: 12pt;">535334</span><span style="font-size: 12pt;">万元，为</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">2.08</span><span style="font-size: 12pt;">倍，比</span><span style="font-size: 12pt;">1978</span><span style="font-size: 12pt;">年增长了</span><span style="font-size: 12pt;">50.20%</span><span style="font-size: 12pt;">。进入新世纪后，由于当地政府大力推行“农业稳县”的政策和措施，以市场为导向，以农业产业化建设为重点，以发展“高产、优质、高效农业”为主要任务，采用“公司＋基地＋农户”新型经营模式，大力发展糖蔗、野生毛葡萄、种草养牛“三大”产业和烤烟、桑蚕、木薯“三小”产业，有效地推进了农业产业化发展，使农业生产获得突破性的进展，</span><span style="font-size: 12pt;">2006</span><span style="font-size: 12pt;">年全县实现农林牧渔业总产值</span><span style="font-size: 12pt;">10.24</span><span style="font-size: 12pt;">亿元，增长</span><span style="font-size: 12pt;">13.8%</span><span style="font-size: 12pt;">。农业增效、农民增收、财政增长的“三赢”目标得到实现。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">新中国建立前，仫佬族人民聚居区域的工业建设几乎为一片空白。这些地区虽然蕴含丰富的煤炭和金属矿物资源，但由于缺乏电力、交通运输等工业基础设施的支撑，仫佬族地区的工业发展长期以来停留在手工业阶段，仅仅只能进行一些农机具的手工修理、制造和矿产资源的简单挖掘。新中国建立前，罗城仫佬族自治县手工行业计有烧陶、土布编织、熬、制酒、农具等</span><span style="font-size: 12pt;">30</span><span style="font-size: 12pt;">多种，各地的手工业多为个体经营，靠手工操作，沿袭原始工艺，完全不能满足当地人民生产和生活的基本需要。新中国建立后，为发展广西罗城仫佬族聚居地的经济，政府开始逐年增加工业投资，并同时进行工业所有制和经营体制的改革。到</span><span style="font-size: 12pt;">1957</span><span style="font-size: 12pt;">年第一个五年计划完成时，基本建立起了门类比较齐全的县级工业体系。中共十一届三中全会后，罗城县贯彻“调整、改革、充实、提高”的方针，将全县的工业企业的经营管理转移到以提高经济效益、扭亏增盈为中心的道路上来，全面推行以经济承包制、劳动合同制、按劳取酬为核心的企业管理体制，健全以岗位责任制为中心的各种规章制度，培养企业经营管理人才，提高管理水平，使该县的工业建设重新步入规范、高速发展的轨道，生产经营出现良好形势。到</span><span style="font-size: 12pt;">1985</span><span style="font-size: 12pt;">年，第六个五年计划完成时，罗城仫佬族自治县全县工业总产值</span><span style="font-size: 12pt;">1189</span><span style="font-size: 12pt;">万元，占社会总产值的</span><span style="font-size: 12pt;">11.85</span><span style="font-size: 12pt;">％。</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">90</span><span style="font-size: 12pt;">年代，我国国民经济建设全面进入改革开放新时期。为了抓这一历史性的机遇，真正改变仫佬族人民聚居区单一的传统的山区农业发展的格局，各级政府和企业紧紧抓住国家西部大开发和新阶段扶贫攻坚的大好机遇，建立起以农产品为原料的加工业为主，以矿资源产品采掘和加工工业为辅，重点发展蔗糖和野生毛葡萄酒两大优势特色产业的新型工业发展构架。到</span><span style="font-size: 12pt;">2006</span><span style="font-size: 12pt;">年，罗城仫佬族自治县工业经济总量大幅度增长，全年工业总产值达到</span><span style="font-size: 12pt;">10.02</span><span style="font-size: 12pt;">亿元。仫佬族地区的一大批开发型的企业，如农产品深加工、矿产品开发、水力发电等脱颖而出，使工业结构逐步由过去的粗放型转变为集约型，一些龙头企业经济实力明显增强，形成一些极富特色的工业品牌。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">仫佬族人民聚居区多为大山、峡谷和平坝。长期以来旱涝灾害频繁。严重地制约了社会经济发展，人民群众生活一直处于贫困状态。新中国成立后，在国家的重视和引导下，当地群众自力更生，艰苦奋斗，开始大兴水利建设，修建防洪、排涝和蓄水、引水便民工程。到上世纪六、七十年代，罗城县已先后建立八个小水电站，年发电量</span><span style="font-size: 12pt;">800</span><span style="font-size: 12pt;">万千瓦。建起</span><span style="font-size: 12pt;">34</span><span style="font-size: 12pt;">座水库，总有效库容</span><span style="font-size: 12pt;">5553</span><span style="font-size: 12pt;">万</span><span style="font-size: 12pt;">m3</span><span style="font-size: 12pt;">，水库总设计灌溉面积为</span><span style="font-size: 12pt;">7.13</span><span style="font-size: 12pt;">万亩。中共十一届三中全会以后，仫佬族人民聚居区域的水利建设得到更大的发展。</span><span style="font-size: 12pt;">1986</span><span style="font-size: 12pt;">年以来，罗城建成两个较大的防洪排涝工程，改建临时引水坝为永久引水坝</span><span style="font-size: 12pt;">24</span><span style="font-size: 12pt;">座。大力兴建人畜饮水工程，建成人饮工程</span><span style="font-size: 12pt;">83</span><span style="font-size: 12pt;">处，地头水柜</span><span style="font-size: 12pt;">4029</span><span style="font-size: 12pt;">个，基本上解决了当地人民饮水难的问题。积极招商引资，大力开发自治县水能资源，成功引进</span><span style="font-size: 12pt;">2.5</span><span style="font-size: 12pt;">亿元资金兴建宝坛电站。并还有若干意向引进水利项目正在实施之中。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">罗城仫佬族自治县地处桂北九万大山中心南麓，过去这个特殊的地理位置带来的交通闭塞一直是制约当地经济发展的瓶颈。当时仫佬族地区没有公路、铁路，运输全靠肩挑、背扛和马驮。经过几十年的大力建设，仫佬山乡的交通运输业得到长足发展。铁路铺进了当地山区。从柳州——贵阳铁路干线上的宜山县三岔车站，修建了一条全长</span><span style="font-size: 12pt;">65</span><span style="font-size: 12pt;">公里的支线，经过仫佬族人民聚居的东门和四把，直达罗城自治县，使仫佬族地区盛产的煤炭等物资及时地大批外运，也可以将当地人们急需的生产、生活所必需的各种物资迅速地运进去。当地人们高兴地将这条“岔罗支线”称为“仫佬山乡幸福路”。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，仫佬族地区实现了村村通公路。罗城仫佬族自治县在推进新农村建设中，大力推进路网建设，并以乡村道路建设为突破口，先后完成</span><span style="font-size: 12pt;">11</span><span style="font-size: 12pt;">个乡镇的</span><span style="font-size: 12pt;">60</span><span style="font-size: 12pt;">多个行政村的村级道路建设，建立起了县、乡、村三级交通网络。另外，还对原有公路进行改造和扩建，建成了第一条连接中心城市柳州的高等级公路——罗城至宜州二级公路，并建成四把至下里、东门至黄金、东门至龙岸的二级公路。动工兴建了罗城至柳城、罗城至环江、罗城至融水等</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">条通往县外的高标准等级公路，全县道路交通覆盖率达到</span><span style="font-size: 12pt;">90</span><span style="font-size: 12pt;">％以上。总之，交通“瓶颈”难题得到了解决，“仫佬山乡”丰富的资源逐渐得以开发利用。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">据典籍记载，罗城县在百年前一直处于“僻处偏隔，向无驿站”的状态。到清光绪三十四（</span><span style="font-size: 12pt;">1908</span><span style="font-size: 12pt;">年），天河县府在武阳（今罗城县东门镇）才开始设立当地的第一个邮政代办所。但此后，当地的邮政、电信建设一直处于低水平状态。据民国</span><span style="font-size: 12pt;">24</span><span style="font-size: 12pt;">年《罗城县志》载：“遇有紧要事件须拍电报时，需专人持往宜山电报局拍发，贻误很多。”仫佬族人民邮政、电信建设事业的真正发展是在新中国建立以后。</span><span style="font-size: 12pt;">1953</span><span style="font-size: 12pt;">年，罗城县设邮政营业处一个，七个代办所，</span><span style="font-size: 12pt;">1954</span><span style="font-size: 12pt;">年成立罗城县邮电局。</span><span style="font-size: 12pt;">1996</span><span style="font-size: 12pt;">年邮电局下设一个分局、八个邮电所和四个交接点。</span><span style="font-size: 12pt;">1999</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">月，电信、邮政分营，邮政局外另成立电信局，</span><span style="font-size: 12pt;">1999</span><span style="font-size: 12pt;">年有</span><span style="font-size: 12pt;">13</span><span style="font-size: 12pt;">个交接点。</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年设立广西壮族自治区电信有限公司罗城县分公司，次年累计建立</span><span style="font-size: 12pt;">45</span><span style="font-size: 12pt;">个交接点。几十年来，仫佬族人民的邮政、电信事业的面貌发生了巨大的变化，邮政、电信机构从简陋到齐全，设备从无到有，手段从人工到全自动化，服务范围从近距离到全方位，无论是质和量都有了新的飞跃。</span><span style="font-size: 12pt;">1956</span><span style="font-size: 12pt;">年罗城县城内电话用户只有</span><span style="font-size: 12pt;">42</span><span style="font-size: 12pt;">户，农话用户只有</span><span style="font-size: 12pt;">186</span><span style="font-size: 12pt;">户；</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年城内电话用户用户发展到</span><span style="font-size: 12pt;">21481</span><span style="font-size: 12pt;">户，其中小灵通用户</span><span style="font-size: 12pt;">7388</span><span style="font-size: 12pt;">户。到</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年农话用户达</span><span style="font-size: 12pt;">20404</span><span style="font-size: 12pt;">户，全县</span><span style="font-size: 12pt;">125</span><span style="font-size: 12pt;">个行政村实现了村村通电话。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">在旅游方面，罗城县以仫佬族特有的历史、文化、民俗风情为品牌，以美丽如画的自然风光和“中国野生毛葡萄之乡”生态农业观光为支点，充分利用本县与桂林、柳州、融水、贵州等省市县旅游带交汇的特点，形成特色鲜明而有得天独厚的旅游格局，吸引众多游客观光、旅游、考察。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">新中国成立前，仫佬族地区群众文化事业极其落后，相关的机构极少。</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代，罗城、天河两县在县图书馆原址上各建</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">个文化馆。</span><span style="font-size: 12pt;">1953</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">4</span><span style="font-size: 12pt;">月，天河县撤消，并入罗城县，两县文化馆合并，成立罗城县文化馆。</span><span style="font-size: 12pt;">1979</span><span style="font-size: 12pt;">年至</span><span style="font-size: 12pt;">1990</span><span style="font-size: 12pt;">年，全县</span><span style="font-size: 12pt;">14</span><span style="font-size: 12pt;">个乡（镇）都先后恢复、建立了文化站。文化馆、站在开展群众文化活动中发挥了重要作用。围绕节日举办仫佬剧、彩调剧等文艺演出以及山歌会、斗鸡会、征联比赛、书画比赛等活动，还多次举办戏曲、表演、导演等文艺创作等学习班和各种展览。文化馆、站的各种群众文化工作，宣传了党的方针政策，丰富了群众的文化生活。仫佬族地区的文物挖掘和管理工作在新中国建立后是从无到有并逐渐发展。罗城县于</span><span style="font-size: 12pt;">1985</span><span style="font-size: 12pt;">年建立文物管理所，设立专职的文物工作者。文物工作者与乡镇文化站工作人员相配合，对全县的文物及文物景点进行普查，至</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年元月，共普查出文物点</span><span style="font-size: 12pt;">115</span><span style="font-size: 12pt;">处。在此基础上，对查出的文物逐步实施保护。罗城县还于</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年建成了仫佬族博物馆，博物馆分设历史文物展厅、民族民俗文物展厅、革命文物展厅及仫佬族农家场景等。展出民俗民族文物</span><span style="font-size: 12pt;">502</span><span style="font-size: 12pt;">件、历史文物</span><span style="font-size: 12pt;">470</span><span style="font-size: 12pt;">件、革命文物</span><span style="font-size: 12pt;">70</span><span style="font-size: 12pt;">件。博物馆的建立，让仫佬族的光彩夺目的传统历史文化得以很好保存并展示给世人。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">新中国建立前，整个仫佬族地区教育事业停滞不前，罗城县仅有</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">所中学和</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">所小学（完小），只有很少的儿童能够上学，文盲很多。例如新中国建立前的四把（后来的四把公社）村民中几乎没有一个人识字。新中国建立后，党和人民政府十分注重发展仫佬族地区的教育事业。从</span><span style="font-size: 12pt;">1950</span><span style="font-size: 12pt;">年开始，先后将罗城县</span><span style="font-size: 12pt;">102</span><span style="font-size: 12pt;">所农村民办小学改为公办小学，并增设一批学校，到</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年底，全县小学达到</span><span style="font-size: 12pt;">231</span><span style="font-size: 12pt;">所，</span><span style="font-size: 12pt;">300</span><span style="font-size: 12pt;">多个小学教学点，</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">所中学，在校中小学生超过两万多人。</span><span style="font-size: 12pt;">1976</span><span style="font-size: 12pt;">年“文革”结束后，仫佬族地区的教育事业经过一系列的调整、整顿，迅速得到了恢复。在改革开放的新形势下，仫佬族地区的教育事业步入了改革与蓬勃发展的新时期。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，罗城仫佬族自治县境内有完全小学</span><span style="font-size: 12pt;">144</span><span style="font-size: 12pt;">所，教学点</span><span style="font-size: 12pt;">108</span><span style="font-size: 12pt;">个，初中</span><span style="font-size: 12pt;">16</span><span style="font-size: 12pt;">所，高级中学</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">所，教师进修学校和职业中学各</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">所，在校学生小学</span><span style="font-size: 12pt;">26126</span><span style="font-size: 12pt;">人，初中</span><span style="font-size: 12pt;">14462</span><span style="font-size: 12pt;">人，高中</span><span style="font-size: 12pt;">4209</span><span style="font-size: 12pt;">人，</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年顺利通过了自治区“普九”验收。小学升初中比率达到</span><span style="font-size: 12pt;">100%</span><span style="font-size: 12pt;">。该县现代技术教育已形成一定规模，</span><span style="font-size: 12pt;">131</span><span style="font-size: 12pt;">所学校建立了卫星电视教学收视点，</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">所中小学建立了微机网络教室，乡镇中心小学以上的学校开通了宽带网。过去仫佬族几乎没有大学生，如今，不仅每年都有数十名中学毕业生和在职干部踏进高等学府的大门，而且还培养了本民族的研究生、留学生、工程师、大学教师。有全家十个兄弟姐妹全上大学的“状元之家”。罗城的成人文化科技教育比较普及，全县</span><span style="font-size: 12pt;">13</span><span style="font-size: 12pt;">个乡镇</span><span style="font-size: 12pt;">141</span><span style="font-size: 12pt;">个行政村（社区）均建立了农民文化科技培训中心，在仫佬族山乡新农村建设中发挥了重要作用。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">罗城的医疗卫生事业也获得了很大发展。新中国建立以前，仫佬族居住的边远山区医疗卫生状况极差，根本没有正规的医疗设施，在仫佬族居住的广西罗城县的前身天河县和罗城县，民国初期只各设一个医务所。民国后期，两县始办卫生院，但医务人员极少，技术低下，设备简陋，药物奇缺。民间有少数中草药医生用比较原始的方法为人治病，更有一些巫医行骗江湖，视人民的生命为儿戏，时有贻误治疗和误医的惨剧发生。广大城乡缺医少药，各种传染病时有发生，有时甚至常年流行，不得遏制，遭瘟疫死亡者不计其数。新中国建立初期，于</span><span style="font-size: 12pt;">1953</span><span style="font-size: 12pt;">年成立卫生科，</span><span style="font-size: 12pt;">1960</span><span style="font-size: 12pt;">年改设卫生局。罗城县人民医院是</span><span style="font-size: 12pt;">1959</span><span style="font-size: 12pt;">年在罗城卫生院的基础上建立起来的。经过几十年的发展，已经成为一所规模较大、设备基本齐全的医院。该院于</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年获得二级甲等医院称号，</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年，该医院置有德国西门子（欢悦）全身螺旋</span><span style="font-size: 12pt;">CT</span><span style="font-size: 12pt;">机、德国（雅培）全自动生化分析仪、国产（东软）</span><span style="font-size: 12pt;">500</span><span style="font-size: 12pt;">毫安数字遥控</span><span style="font-size: 12pt;">X</span><span style="font-size: 12pt;">光机、美国（</span><span style="font-size: 12pt;">GE</span><span style="font-size: 12pt;">）</span><span style="font-size: 12pt;">B</span><span style="font-size: 12pt;">超机、日本电子胃镜、国产血液透析机和体外振波碎石机等一大批现代化大中型高、精、尖医疗设备，极大地提高了全县疾病诊治水平。罗城具有悠久历史的传统中医药，在党和政府的关怀下，也得到逐步发展。医疗机构由小到大，</span><span style="font-size: 12pt;">1984</span><span style="font-size: 12pt;">年建立县中医院。</span><span style="font-size: 12pt;">2001</span><span style="font-size: 12pt;">年中医院通过“二甲”的评审认定。党和政府历来十分关注农村医疗卫生条件的改善。</span><span style="font-size: 12pt;">1952</span><span style="font-size: 12pt;">年，罗城县</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">个区均建立卫生所，至</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年，全县共设乡镇卫生院</span><span style="font-size: 12pt;">12</span><span style="font-size: 12pt;">所，其中</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">所卫生院达到一级甲等卫生院，其余</span><span style="font-size: 12pt;">10</span><span style="font-size: 12pt;">所均为合格卫生院。村级卫生所也从无到有，并逐渐普及和提高。</span><span style="font-size: 12pt;">1997</span><span style="font-size: 12pt;">年至</span><span style="font-size: 12pt;">1998</span><span style="font-size: 12pt;">年，全县</span><span style="font-size: 12pt;">13</span><span style="font-size: 12pt;">个乡镇先后建立</span><span style="font-size: 12pt;">138</span><span style="font-size: 12pt;">个村卫生所。</span><span style="font-size: 12pt;">1999</span><span style="font-size: 12pt;">年，自治区投资</span><span style="font-size: 12pt;">2.5</span><span style="font-size: 12pt;">万元新建了</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">个独立的村级卫生所，均按“三室分开”（即就诊室、治疗室、药房三室分开）的甲级卫生所标准建设。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，全县有各类医疗机构</span><span style="font-size: 12pt;">80</span><span style="font-size: 12pt;">个，比</span><span style="font-size: 12pt;">1984</span><span style="font-size: 12pt;">年自治县成立时增长了</span><span style="font-size: 12pt;">57.5%</span><span style="font-size: 12pt;">；医疗条件的改善，有效地提高了罗城县人民的健康水平。过去严重危害人民健康的烈性传染性鼠疫、天花早已绝迹，血吸虫病、丝虫病也基本消灭，地方性甲状腺肿瘤和地方性氟中毒已经被控制，曾经令人异常恐慌的麻风病也被控制。</span><span style="font-size: 12pt;">2003</span><span style="font-size: 12pt;">年全国突如其来的“非典”疫情，</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年发生的甲型副伤寒疫情在罗城都得到有效控制。此外罗城县的合作医疗建设、农村卫生、妇幼保健、爱国卫生、医药执法监督、红十字会、医教科研等方面的工作也取得了突出成绩，为确保了人民身体健和生命安全奠定了坚实的基础。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><strong style="font-family: 微软雅黑;">（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong><span style="font-family: 宋体; font-size: 12pt;"><o:p></o:p></span></p>
+</div>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

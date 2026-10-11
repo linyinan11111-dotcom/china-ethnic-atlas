@@ -1,0 +1,15 @@
+{
+  "sourceUrl": "https://www.stats.gov.cn/sj/pcsj/rkpc/7rp/zk/html/A0104.jpg",
+  "snapshot": "data/raw/A0104.jpg",
+  "sha256": "98f1ec321ce6356f7da53b2506fadec3b9492bcea8de704dc5455b531e69eb7b",
+  "checkedAt": "2026-10-10",
+  "method": "Windows OCR预读；307格目视核对；仅发布小计列；男女人口识别列不发布",
+  "checks": [
+    "31省级地区合计等于全国总计",
+    "56民族逐列省级合计等于全国小计",
+    "每省含未识别民族与入籍外国人的横向合计一致",
+    "56民族全国值与A0201独立转录一致",
+    "所有有印刷数字的小计单元格非缺失"
+  ],
+  "gendersPublished": false
+}

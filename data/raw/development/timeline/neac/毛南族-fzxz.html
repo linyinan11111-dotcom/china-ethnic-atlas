@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="发展现状" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 10:56:59" />
+<title>发展现状</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/mnz/gk.shtml'  target="_parent">毛南族</a>&nbsp;>&nbsp;<span>发展现状</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							毛南族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/mnz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/mnz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/mnz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/mnz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<div style="text-indent: 2em; font-size: 12pt;">
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">1949</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">11</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">24</span><span style="font-size: 12pt;">日，思恩县城解放，</span><span style="font-size: 12pt;">1950</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">日正式成立思恩县党政机关。毛南族地区的解放，掀开了毛南族历史崭新的一页。五十多年来，在中国共产党的民族政策光辉照耀下，当家做了主人的毛南族人民团结奋斗，艰苦创业，取得了社会主义革命、改造、建设和改革的一个又一个胜利，各项事业都取得了令人瞩目的成就。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">政治权利得到充分落实和保障。新中国成立后，毛南族地区人民积极配合新政权，开展清匪反霸斗争和土地改革，建立了人民政权，废除了封建土地所有制，实现了耕者有其田，翻身做了国家的主人。</span><span style="font-size: 12pt;">1984</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">日，广西壮族自治区人民政府批准成立上南和下南两个毛南族乡。</span><span style="font-size: 12pt;">1986</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">11</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">日，国务院又批准撤销环江县，设立环江毛南族自治县。</span><span style="font-size: 12pt;">1990</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">14</span><span style="font-size: 12pt;">日，环江毛南族自治县第九届人民代表大会第四次会议通过了《环江毛南族自治县自治条例》。该条例的制定和执行是环江毛南族人民政治生活中的一件大事。</span><span style="font-size: 12pt;">1992</span><span style="font-size: 12pt;">年贵州省人民政府批准建立平塘县卡蒲毛南族乡。毛南族聚居的地区实行了民族区域自治，毛南族当家作主的权利得到充分保障。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">农田基本建设“改天换地”。毛南族世居大石山区，水资源丰富但难以储水。“石多土少水如油，雨降三日水淹地，雨停半日溪断流。”这是新中国成立前毛南山乡流传的歌谣。水贵如油，说明“水”在毛南族生产、生活中十分珍贵。新中国成立以后，中国共产党和人民政府积极带领毛南族人民兴修水库、山塘、人畜饮水池，大搞农田水利建设。环江毛南族山区先后修建了蓄水</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">万立方米以上的水库</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">座，特别是修建了容水量达</span><span style="font-size: 12pt;">130</span><span style="font-size: 12pt;">万立方米的南川水库，使毛南山乡农田的灌溉得到了保证。还建造山塘水柜</span><span style="font-size: 12pt;">100</span><span style="font-size: 12pt;">多处，做到屋头村尾有水池，有的地方还用上了自来水。贵州平塘卡蒲毛南族乡共建水池、水窑</span><span style="font-size: 12pt;">453</span><span style="font-size: 12pt;">口，可以蓄水</span><span style="font-size: 12pt;">16282</span><span style="font-size: 12pt;">立方米，还铺设</span><span style="font-size: 12pt;">12.95</span><span style="font-size: 12pt;">公里的人饮管道，有的村还用上了自来水。人蓄饮水问题的有效解决从根本上改善了毛南族地区的生产生活条件。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">特色农业蓬勃发展。随着农田水利建设的进行，毛南族地区的农业产量有了较大的提高。环江县对农民开展科技培训，亩产水稻由过去的</span><span style="font-size: 12pt;">250</span><span style="font-size: 12pt;">公斤提高到亩产</span><span style="font-size: 12pt;">500</span><span style="font-size: 12pt;">公斤，粮食基本上实现了自给。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，环江县农林牧鱼业总产值达</span><span style="font-size: 12pt;">10.17</span><span style="font-size: 12pt;">亿元，比上年增长</span><span style="font-size: 12pt;">8.39%</span><span style="font-size: 12pt;">。毛南族人已有</span><span style="font-size: 12pt;">500</span><span style="font-size: 12pt;">多年饲养菜牛的历史，养殖业是毛南族的主要经济支柱之一。“毛南菜牛”由于采用科学饲养方法，产量大增，出栏率上升，经济效益大大提高。</span><span style="font-size: 12pt;">2002</span><span style="font-size: 12pt;">年环江县取得“国家级秸秆养牛示范县”项目，共投入农业开发项目资金</span><span style="font-size: 12pt;">448.1</span><span style="font-size: 12pt;">万元，分别在下南乡、思恩镇、水源镇、洛阳镇、川山镇、大安乡、东兴镇等</span><span style="font-size: 12pt;">22</span><span style="font-size: 12pt;">个行政村作为秸秆养牛示范场所。充分利用“国家级秸秆养牛示范县”项目资金，引进技术人员培训技术，在下南、川山、洛阳等</span><span style="font-size: 12pt;">8</span><span style="font-size: 12pt;">个乡镇建立秸秆养牛示范基地取得了成效。实施三年，全县菜牛新增出栏</span><span style="font-size: 12pt;">4.82</span><span style="font-size: 12pt;">万头，新增产值</span><span style="font-size: 12pt;">6784</span><span style="font-size: 12pt;">万元，得到国家的认可，并于</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">月中旬顺利通过国家级验收组验收。毛南族地区成为名符其实的“牛粮之乡”而饮誉四海。环江县</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年获得广西壮族自治区党委、政府授予的全区县域经济进步奖的光荣称号。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">工业经济发展迅速。在党和政府的支持和帮助下，毛南族地区社会经济得到了很大发展。广西环江毛南族自治县改变了过去依赖矿业的经济模式，形成了以河池•环江工业园为龙头，制糖工业、煤炭工业、建材工业、林产品加工工业、冶炼工业等齐头并进的局面。同时大抓招商引资和项目建设。世行项目、国债项目、扶贫开发项目、农业综合开发项目、桂西项目等进展顺利。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年共与外商签订投资合同</span><span style="font-size: 12pt;">95</span><span style="font-size: 12pt;">个，累计项目到位资金</span><span style="font-size: 12pt;">4.15</span><span style="font-size: 12pt;">亿元，全社会固定资产投资完成</span><span style="font-size: 12pt;">6.82</span><span style="font-size: 12pt;">亿元，比上年增长</span><span style="font-size: 12pt;">49.56</span><span style="font-size: 12pt;">％。森源夹心板厂、盛隆茧丝绸有限公司、毛苗瑶食品有限公司等一批农林加工企业和</span><span style="font-size: 12pt;">11</span><span style="font-size: 12pt;">万千伏变电站、城区给水系统扩建工程等一批基础建设项目相继建成投产。全县工业总产值完成</span><span style="font-size: 12pt;">9.79</span><span style="font-size: 12pt;">亿元，比自治县成立初期的</span><span style="font-size: 12pt;">1987</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">1.05</span><span style="font-size: 12pt;">亿元增长</span><span style="font-size: 12pt;">9.32</span><span style="font-size: 12pt;">倍。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">交通建设成效显著。毛南族人民长期生活在大山之中，过去出门主要靠步行，运输靠人力和畜力，信息闭塞，交通极不方便。从上个世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代开始毛南山区人民群众在政府的支持和帮助下，大力兴修公路，使上、中、下南都有公路贯通，结束了过去靠两条腿与外接联系的历史。目前，毛南族聚居的各个乡村的通乡公路、通村简易公路都已经基本修通。广西环江县</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年全县等级公路达到</span><span style="font-size: 12pt;">402</span><span style="font-size: 12pt;">公里，其中二级公路</span><span style="font-size: 12pt;">79</span><span style="font-size: 12pt;">公里，三、四级路</span><span style="font-size: 12pt;">323</span><span style="font-size: 12pt;">公里。贵州卡蒲毛南族民族乡</span><span style="font-size: 12pt;">1992</span><span style="font-size: 12pt;">年成立后，国家民委、贵州省、黔南州、平塘县加大了对这个地方的投入，“十五”期间共投入少数民族发展基金</span><span style="font-size: 12pt;">1100</span><span style="font-size: 12pt;">万元，安排项目</span><span style="font-size: 12pt;">157</span><span style="font-size: 12pt;">个，卡蒲毛南族乡的经济得到飞速发展。其中公路道桥建设项目</span><span style="font-size: 12pt;">88</span><span style="font-size: 12pt;">个，新修和维修公路</span><span style="font-size: 12pt;">153</span><span style="font-size: 12pt;">公里，基本实现了村村通简易公路，为农副产品市场流通和农民增收创造了条件。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">生活水平日益提高。各级党和政府始终把提高人民生活水平放在首位，让广大人民群众充分享受改革开放带来的成果，特别对少数民族地区的民生建设给予了更多的关注。始终坚持“以民为本，为民致富”的宗旨，切实加大各项经费投入，重点解决民生问题。环江毛南族自治县采取项目建设、技术培训“两只手”同时抓的办法，以项目建设为突破口，发展壮大民族地区产业基础。举办各种技术培训班</span><span style="font-size: 12pt;">69</span><span style="font-size: 12pt;">期，培训农民达</span><span style="font-size: 12pt;">5000</span><span style="font-size: 12pt;">多人次，帮助广大农民脱贫致富，有效改善了农村生产生活条件，人民生活水平不断提高。截止</span><span style="font-size: 12pt;">2006</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">11</span><span style="font-size: 12pt;">月，广西环江毛南族自治县成立</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">周年之际，全县先后投入扶贫资金</span><span style="font-size: 12pt;">1.24</span><span style="font-size: 12pt;">亿余元，扶持</span><span style="font-size: 12pt;">4.86</span><span style="font-size: 12pt;">万农户种果</span><span style="font-size: 12pt;">5.35</span><span style="font-size: 12pt;">万亩，饲养母香猪</span><span style="font-size: 12pt;">7025</span><span style="font-size: 12pt;">头，母菜牛</span><span style="font-size: 12pt;">5812</span><span style="font-size: 12pt;">头，种桑</span><span style="font-size: 12pt;">8098</span><span style="font-size: 12pt;">亩，甘蔗</span><span style="font-size: 12pt;">2.63</span><span style="font-size: 12pt;">万亩。累计解决贫困人口温饱</span><span style="font-size: 12pt;">8.7</span><span style="font-size: 12pt;">万户</span><span style="font-size: 12pt;">41.7</span><span style="font-size: 12pt;">万人，解决</span><span style="font-size: 12pt;">3.73</span><span style="font-size: 12pt;">万户</span><span style="font-size: 12pt;">15.7</span><span style="font-size: 12pt;">万人的行路难问题，解决</span><span style="font-size: 12pt;">11.15</span><span style="font-size: 12pt;">万人、</span><span style="font-size: 12pt;">12.6</span><span style="font-size: 12pt;">万头牲畜的饮水问题，</span><span style="font-size: 12pt;">3.61</span><span style="font-size: 12pt;">万人的用电难问题。贫困农民人均纯收入由</span><span style="font-size: 12pt;">1986</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">203</span><span style="font-size: 12pt;">元增加到</span><span style="font-size: 12pt;">2006</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">1879</span><span style="font-size: 12pt;">元。先后投资</span><span style="font-size: 12pt;">500</span><span style="font-size: 12pt;">多万元兴建环江敬老院、环江社会福利院以及环江城区、东兴镇、驯乐乡等</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">个敬老院和配套建设</span><span style="font-size: 12pt;">12</span><span style="font-size: 12pt;">个门球场，丰富了老年人的文化生活。卡浦毛南族乡也建有可接纳</span><span style="font-size: 12pt;">100</span><span style="font-size: 12pt;">位“五保”人员的敬老院，为城乡无所依靠的“五保”老人建起可以依赖的家，使其有所依、有所养、有所乐、有所为，安度晚年时光。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">毛南族地区过去医疗条件极差，缺医少药，生病后只能靠一些草药和“刮痧”、“拔火罐”等民间医方处理，身体健康没有任何保障，天灾人祸时有发生。据史料记载，清光绪二十九年（</span><span style="font-size: 12pt;">1903</span><span style="font-size: 12pt;">年），广西下南、波川等村流行霍乱，病死人数占全村总人口的</span><span style="font-size: 12pt;">30</span><span style="font-size: 12pt;">～</span><span style="font-size: 12pt;">40</span><span style="font-size: 12pt;">％。新中国成立以来，党和政府不断拨给资金建立卫生院、卫生所，购买先进医疗设备，改善医疗条件。</span><span style="font-size: 12pt;">1964</span><span style="font-size: 12pt;">年，下南建立了民族医院，医疗设备和医务人员不断得到充实。</span><span style="font-size: 12pt;">2004</span><span style="font-size: 12pt;">年已经有</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">多名医务人员，配置有Ｘ光机、Ｂ超机及一些简单医疗机械。到</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，环江县共有医疗卫生机构</span><span style="font-size: 12pt;">26</span><span style="font-size: 12pt;">个，其中乡镇卫生院</span><span style="font-size: 12pt;">12</span><span style="font-size: 12pt;">个，社区卫生服务中心（站）</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">个。村级卫生所</span><span style="font-size: 12pt;">143</span><span style="font-size: 12pt;">所，拥有病床</span><span style="font-size: 12pt;">491</span><span style="font-size: 12pt;">张。全县卫生系统有职工</span><span style="font-size: 12pt;">613</span><span style="font-size: 12pt;">人，其中卫技人员</span><span style="font-size: 12pt;">539</span><span style="font-size: 12pt;">人，拥有中级以上职称</span><span style="font-size: 12pt;">188</span><span style="font-size: 12pt;">人，初级职称</span><span style="font-size: 12pt;">351</span><span style="font-size: 12pt;">人。并注意培养毛南族医生，及时处理常见病和流行病，初步建立了群防群治的医疗卫生网，为毛南族群众就医取药提供了方便。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">毛南族向来重视文化教育。改革开放以来，毛南族的文化教育得到了新的发展。至</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年底，广西环江县有小学</span><span style="font-size: 12pt;">341</span><span style="font-size: 12pt;">所，其中村完全小学</span><span style="font-size: 12pt;">159</span><span style="font-size: 12pt;">所，教学点</span><span style="font-size: 12pt;">182</span><span style="font-size: 12pt;">个，在校学生</span><span style="font-size: 12pt;">29616</span><span style="font-size: 12pt;">人，小学教职工</span><span style="font-size: 12pt;">2558</span><span style="font-size: 12pt;">人（含代课教师</span><span style="font-size: 12pt;">45</span><span style="font-size: 12pt;">人）；初级中学</span><span style="font-size: 12pt;">21</span><span style="font-size: 12pt;">所，在校生</span><span style="font-size: 12pt;">17368</span><span style="font-size: 12pt;">人，初中教职工</span><span style="font-size: 12pt;">1177</span><span style="font-size: 12pt;">人（含代课教师</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">人）；普通高中</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">所，在校高中生</span><span style="font-size: 12pt;">2837</span><span style="font-size: 12pt;">人；中等职业技术学校</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">所，在校生</span><span style="font-size: 12pt;">220</span><span style="font-size: 12pt;">人；教师进修学校</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">所，特殊教育学校</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">所，乡镇成人文化技术学校</span><span style="font-size: 12pt;">15</span><span style="font-size: 12pt;">所，行政村成人技术分校</span><span style="font-size: 12pt;">146</span><span style="font-size: 12pt;">所。全县</span><span style="font-size: 12pt;">15</span><span style="font-size: 12pt;">个乡镇全部通过自治区级普及九年义务教育评估验收，小学适龄儿童入学率达</span><span style="font-size: 12pt;">98.5</span><span style="font-size: 12pt;">％，在校生巩固率为</span><span style="font-size: 12pt;">99.7</span><span style="font-size: 12pt;">％。贵州卡蒲毛南族乡的适龄儿童入学率也在</span><span style="font-size: 12pt;">98</span><span style="font-size: 12pt;">％以上，在校生巩固率</span><span style="font-size: 12pt;">99</span><span style="font-size: 12pt;">％以上。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">进入</span><span style="font-size: 12pt;">21</span><span style="font-size: 12pt;">世纪，在国家西部大开发的政策实施之后，毛南族地区的发展迎来了难得的历史机遇。</span><span style="font-size: 12pt;">2001</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">9</span><span style="font-size: 12pt;">月</span><span style="font-size: 12pt;">29</span><span style="font-size: 12pt;">日，国务院办公厅发布《关于西部大开发若干政策措施的实施意见》。把毛南族等</span><span style="font-size: 12pt;">22</span><span style="font-size: 12pt;">个人口在</span><span style="font-size: 12pt;">10</span><span style="font-size: 12pt;">万人以下的少数民族确定为人口较少民族，在农田、水利、交通、教育、卫生、农村广播电视、集镇建设等方面进行重点扶持，并着重解决这些民族的农业发展、人畜饮水、基础教育、看病就医、收看电视等突出问题，毛南族和周边各民族一起走上了共同发展、共同繁荣的康庄大道。例如，经过党和国家的大力帮助和扶持，贵州平塘县卡蒲毛南族民族乡</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年，工业总产值达</span><span style="font-size: 12pt;">920</span><span style="font-size: 12pt;">万元，财政收入完成</span><span style="font-size: 12pt;">45.7</span><span style="font-size: 12pt;">万元。农民人均收入已由</span><span style="font-size: 12pt;">2000</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">986</span><span style="font-size: 12pt;">元增加到</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年的</span><span style="font-size: 12pt;">1511</span><span style="font-size: 12pt;">元，超过全县平均水平。</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">年</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">月，国务院通过《扶持人口较少民族发展规划（</span><span style="font-size: 12pt;">2005</span><span style="font-size: 12pt;">－</span><span style="font-size: 12pt;">2010</span><span style="font-size: 12pt;">）》。第二年环江县完成了《广西环江毛南族自治县扶持人口较少民族（毛南族）发展专项建设规划（</span><span style="font-size: 12pt;">2006</span><span style="font-size: 12pt;">—</span><span style="font-size: 12pt;">2010</span><span style="font-size: 12pt;">年）》。规划覆盖全县</span><span style="font-size: 12pt;">10</span><span style="font-size: 12pt;">个乡镇</span><span style="font-size: 12pt;">72</span><span style="font-size: 12pt;">个毛南族聚居的行政村，规划建设总投资</span><span style="font-size: 12pt;">1196</span><span style="font-size: 12pt;">亿元，建设内容涉及农村经济发展项目、以工代赈项目、交通项目、能源项目、社会事业和其他项目等六大类共</span><span style="font-size: 12pt;">529</span><span style="font-size: 12pt;">个项目。目前，毛南族人民正满怀信心地走在全面构建小康社会、加快社会主义新农村建设的伟大征程上。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><strong style="font-family: 微软雅黑;">（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong><span style="font-family: 宋体; font-size: 12pt;"><o:p></o:p></span></p>
+</div>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

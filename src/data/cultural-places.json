@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "汉族-530114",
+    "ethnic": "汉族",
+    "name": "呈贡区",
+    "code": "530114",
+    "provinceCode": "530000",
+    "coordinates": [
+      102.801382,
+      24.889275
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "协商机制，壮大 “ 石榴红 ” 志愿服务队伍，推进社会互嵌；培育守望相助邻里风尚，厚植心理互嵌。社区先后斩获 8 项国家、省级荣誉。 昆明市呈贡区洛龙社区，传统彝族村落蝶变为现代化多民族城市社区，汉、彝、回、壮等 12 个民族在这里和睦共处，城市社区里开出民族团结之花。红河哈尼族彝族自治州个旧市冲坡哨社区创新 “ 邻里管家 ” 调解机制，邻里",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195696.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/recent-yunnan.html",
+      "sha256": "b6bc433ad2d886cb084088fd092d381b8583d11b122e9bc7903b9bb9c026f0ac"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "蒙古族-152500",
+    "ethnic": "蒙古族",
+    "name": "锡林郭勒盟",
+    "code": "152500",
+    "provinceCode": "150000",
+    "coordinates": [
+      116.090996,
+      43.944018
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "陵。其中，兴安岭以西、阴山以北的内蒙古高原和黄河大湾以南的鄂尔多斯高原地势平坦，海拔一般都在1000米以上，大部有植物覆盖，分布着呼伦贝尔﹑锡林郭勒﹑科尔沁﹑乌兰察布﹑鄂尔多斯和乌拉特等全国著名的草原，是我国著名的天然牧场。全区草原面积达8700公顷，可利用的草场面积6800公顷，占全国可利用草场面积的1/5。畜群以羊、牛为主，其次为马、骆驼等。",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/mgz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/蒙古族.html",
+      "sha256": "c7c106bdcec709af42386d04e67a217fd27ae57ee6b3ff65e345dc64245d0ffc"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "回族-622900",
+    "ethnic": "回族",
+    "name": "临夏回族自治州",
+    "code": "622900",
+    "provinceCode": "620000",
+    "coordinates": [
+      103.212006,
+      35.599446
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": " 十一届三中全会以来，全国各地回族怀着极大的热情投入到改革开放的浪潮中，不仅提高自身的收入，也为国家经济的发展做出了自己的贡献。在西北，甘肃临夏和宁夏同心等地很快形成为当地回族和各地客商进行商贸活动的集散中心。在沿海和内地，出现了一批乡镇企业，使一些回族村庄成为了遐迩闻名的富裕村。在大中城市中，随着经济的发展，涌现出许多回族的个体户、私营户，",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/huiz/fzxz.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/回族-fzxz.html",
+      "sha256": "b1540ffbc3b0796dab07a32059dc1ce2202d96873876cbab3e35fd3c1877ac6b"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "藏族-540100",
+    "ethnic": "藏族",
+    "name": "拉萨市",
+    "code": "540100",
+    "provinceCode": "540000",
+    "coordinates": [
+      91.132212,
+      29.660361
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "员会于南京，并建青海省；1939年，建西康省。西藏地方以外的西北、西南藏族地区，分属青、甘、川、康、滇等5省管辖。1934年，国民政府决定在拉萨设立蒙藏委员会驻藏办事处，作为中央派驻西藏地方的专门机构。 1921年，中国共产党成立后，在土地革命纲领中曾明确提出要废除藏族王公、喇嘛等封建特权。中国工农红军长征北上抗日，于1935至1936年先后",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/zz/lsyg.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/藏族-lsyg.html",
+      "sha256": "42308c16a48bc661e10f7323876b23ebb2cb745afa6ece0162565857eb584167"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "维吾尔族-653100",
+    "ethnic": "维吾尔族",
+    "name": "喀什地区",
+    "code": "653100",
+    "provinceCode": "650000",
+    "coordinates": [
+      75.989138,
+      39.467664
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "p; 山区融雪和降水是新疆河流的源泉。新疆有数百条河流，除额尔齐斯河注入北冰洋外，其余皆为内流河。世界上最长的内流河塔里木河和叶尔羌河、玉龙喀什河、车尔臣河灌溉着塔里木盆地四周肥沃的土地，伊犁河、额尔齐斯河、乌伦古河及玛纳斯河哺育着北疆广阔的田野和牧场。许多内流河的下游，潴为湖泊，有罗布泊、博斯腾湖、布伦托海、艾比湖等，盛产鱼类和芦苇。 &e",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/wwez/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/维吾尔族.html",
+      "sha256": "c3704a73e1fc309fb4638a3ee2149fb9eee37698fee876366b403231655507f9"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "苗族-522600",
+    "ethnic": "苗族",
+    "name": "黔东南苗族侗族自治州",
+    "code": "522600",
+    "provinceCode": "520000",
+    "coordinates": [
+      107.977488,
+      26.583352
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "家族苗族自治州，黔东北的松桃苗族自治县，湖北的恩施、宣恩、来凤、鹤峰和重庆的秀山、酉阳、彭水等县，分5种土语；黔东方言（中部方言）主要通行于黔东南苗族侗族自治州，广西融水苗族自治县、三江侗族自治县，湖南的靖州、会同等县，贵州安顺地区和黔西南、黔南布依族苗族自治州的部分苗族中，分5种土语；川黔滇方言（西部方言）主要通行于贵州中部、西部、南部、北部",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/mz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/苗族.html",
+      "sha256": "1611d651ccb4a8d77359f8c691788f3a55332f89ce5393e0eb451996d1c5d5e2"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "彝族-513400",
+    "ethnic": "彝族",
+    "name": "凉山彝族自治州",
+    "code": "513400",
+    "provinceCode": "510000",
+    "coordinates": [
+      102.258746,
+      27.886762
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "字，由于彝语有六个方言，各地方言差异较大，代音的文字也因地各异，老彝文的字形、读音均不统一。为使彝文能更好地为广大群众服务，1975年，四川凉山彝族自治州以喜德语音为标准音，以“圣乍”话为基础方言，制订了四川《彝文规范试行方案》，确定了819个规范文字，并设计出“彝语拼音符号”，便于注音学习。1980年国务院批准该方案。目前，已在四川彝族地区",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/yz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/彝族.html",
+      "sha256": "48030cac5a7526544f558d56c1e9f9ac900d2383770bc1f7ad013b3fd51a148b"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "壮族-451000",
+    "ethnic": "壮族",
+    "name": "百色市",
+    "code": "451000",
+    "provinceCode": "450000",
+    "coordinates": [
+      106.616285,
+      23.897742
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "族自治州从江县，南抵北部湾。广西壮族自治区是壮族的主要分布区，共有1420.71万人，占壮族总人口的87.81％，主要聚居于南宁市、崇左市、百色市、河池市、柳州市、来宾市、贵港市等地。另外，分布在云南省文山壮族苗族自治州的有98.1万人，散居在云南省其他地区的有12.9万人；广东省连山壮族瑶族自治县有4.2万人，另有4000余人居住在与连山毗",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/zhz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/壮族.html",
+      "sha256": "5f86d59fd15136cc392c5725547acc77b3eb261823ca6e0ce9cb2948160c48c5"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "布依族-522700",
+    "ethnic": "布依族",
+    "name": "黔南布依族苗族自治州",
+    "code": "522700",
+    "provinceCode": "520000",
+    "coordinates": [
+      107.517156,
+      26.258219
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "分布在黔南州的独山、三都、惠水及黔西南州的晴隆、册亨、兴仁等县，仅晴隆县的大厂、兴仁县的放马坪两个矿点探明的储量约4.926万吨。磷矿分布在黔南州的瓮安、福泉两县市，“瓮福磷矿区”的磷矿蕴藏量约8亿吨，品位在24～38%之间，居全国第一。 布依族地区风光秀丽、景色宜人。这里有被誉为“高原明珠”的花溪、驰名中外的黄果树大瀑布、安顺“龙宫”、兴义",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/byz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/布依族.html",
+      "sha256": "f4e908bcfafce1d842d46f252cd34123baf4865cee5e3b4e5b4c21fb53e30d29"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "朝鲜族-222400",
+    "ethnic": "朝鲜族",
+    "name": "延边朝鲜族自治州",
+    "code": "222400",
+    "provinceCode": "220000",
+    "coordinates": [
+      129.513228,
+      42.904823
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "，清香扑鼻，清代延边龙井县明岩乡所产稻米就曾被钦定为贡米。这里还是我国重要的烟叶产区，自治州烟叶种植面积已达7000多公顷，年产量1万多吨。延边著名的“苹果梨”，果大、肉多、果心小，汁液丰富，酸甜适度，目前栽种面积已达1万公顷，年产量7万吨左右。此外，人参、党参、贝母、山葡萄、松茸、木耳、元蘑等，也是朝鲜族地区的特产。 朝鲜族有本民族的语言和",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/cxz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/朝鲜族.html",
+      "sha256": "ed2d119df6c2b3d58ab6a64973327989124f4b5f3705c653d7aab6f4d0cd8ce8"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "满族-210422",
+    "ethnic": "满族",
+    "name": "新宾满族自治县",
+    "code": "210422",
+    "provinceCode": "210000",
+    "coordinates": [
+      125.037547,
+      41.732456
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "建立了著名的八旗制度，对后金及清王朝的历史，以及满族社会历史的发展，产生了重大影响。明万历四十四年（1616年），努尔哈赤在赫图阿拉（今辽宁新宾满族自治县）建立大金国，自称“英明汗”，史称后金。后在统一女真各部和对明朝的战争中，先后将都城迁至辽阳东京城和沈阳。天命十一年（1626年），清太宗皇太极继位后，改元“天聪”。八旗蒙古和八旗汉军在这一",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/manz/lsyg.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/满族-lsyg.html",
+      "sha256": "890ae8893d84c5a8e754f005ddc4b90060303dc50657b5b9cd8000f81c905a03"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "侗族-450226",
+    "ethnic": "侗族",
+    "name": "三江侗族自治县",
+    "code": "450226",
+    "provinceCode": "450000",
+    "coordinates": [
+      109.614846,
+      25.78553
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "治局黎平会议旧址和榕江县红七军军部旧址；还有抗日战争胜利芷江受降纪念坊；有艺术精湛和雄伟壮观的从江增冲鼓楼和黎平肇兴鼓楼群；有闻名中外的广西三江程阳永济桥、黎平地坪风雨桥。有迷人的榕江三宝风情、乐里风情和晚寨风情，有从江“六洞”风情、“九洞”风情与高增小黄风情，有黎平肇兴风情、三龙风情、四寨黄岗风情和岩洞竹坪风情，有锦屏九寨风情、天柱四十八寨",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/dz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/侗族.html",
+      "sha256": "8021a0dad75d22e0c6c050980de6d1b98b2f50da2a7aa44233f9e633b9988636"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "瑶族-451324",
+    "ethnic": "瑶族",
+    "name": "金秀瑶族自治县",
+    "code": "451324",
+    "provinceCode": "450000",
+    "coordinates": [
+      110.188556,
+      24.134941
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "的野生动物。瑶族地区动植物资源十分丰富，为林副业经营和特种养殖经济的发展提供了良好的条件。 瑶族地区水能资源丰富，山区溪流纵横，密如蛛网。仅金秀大瑶山就有25条河流呈辐射状流向周边七县（市），哺育着200多万人民，灌溉着700多万亩农田。山区滩险流急，落差大，水力资源丰富。流经巴马、都安、大化三个瑶族自治县的红水河，已建成大化和岩滩两座大型水",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/yaoz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/瑶族.html",
+      "sha256": "269cefb5eebe2e91668d104be83e9606e47321f5666214f07334cf020e1bb447"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "白族-532900",
+    "ethnic": "白族",
+    "name": "大理白族自治州",
+    "code": "532900",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.225668,
+      25.589449
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "的《白族文字方案》(草案)。1982年对原方案进行了修订，简称“新白文”。新白文声母27个，韵母37个。修订后的白族文字能够科学、准确地书写大理州境内白语两大方言区内百万白族成员的口语。 （摘自《民族问题五种丛书》之《中国少数民族》卷） ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/bz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/白族.html",
+      "sha256": "47b7f57a8dc1f996502dc0a7ff790a0d0df63c540fcfb4e8b9296c883e87dcf1"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "土家族-433100",
+    "ethnic": "土家族",
+    "name": "湘西土家族苗族自治州",
+    "code": "433100",
+    "provinceCode": "430000",
+    "coordinates": [
+      109.739735,
+      28.314296
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "地汉族移民称为“客家”。土家族大姓主要有向、彭、田、覃、谭、冉等。 土家族的语言属于汉藏语系藏缅语族，接近彝语支，分为南部方言和北部方言。除湘西土家族苗族自治州泸溪县潭溪乡的土家族操南部方言外，其余土家族均操北部方言。土家族没有本民族文字，长期以来使用汉文。绝大多数土家人都通用汉语，部分人兼通苗语，目前只有酉水流域永顺、龙山、来凤等县的部分土",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/tjz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/土家族.html",
+      "sha256": "822f4bd2838d270b4d296c7a7a49ca01a11c3a9c3b150edb63736cdb61b4b7ef"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "哈尼族-532500",
+    "ethnic": "哈尼族",
+    "name": "红河哈尼族彝族自治州",
+    "code": "532500",
+    "provinceCode": "530000",
+    "coordinates": [
+      103.384182,
+      23.366775
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "言之间差别较大。1949年以前哈尼族没有自己的文字，有些地方曾刻木结绳记事。1957年党和政府帮助哈尼族创造了一种以拉丁字母为基础的文字，在红河哈尼族彝族自治州试验推行，至今仍在使用。 （摘自《民族问题五种丛书》之《中国少数民族》卷） ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/hnz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/哈尼族.html",
+      "sha256": "6eb7d8bcf6f61623954aaa7fe51e8c561012ed40066d847f27a6bea4967eebb4"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "哈萨克族-654000",
+    "ethnic": "哈萨克族",
+    "name": "伊犁哈萨克自治州",
+    "code": "654000",
+    "provinceCode": "650000",
+    "coordinates": [
+      81.317946,
+      43.92186
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "左右，年平均气温较低。河流两岸、山麓地带、湖泊山泉周围成为哈萨克草原畜牧业和种植业活动的广阔场所。 哈萨克族聚居区的物产资源丰富，天山北麓的伊犁河谷土肥水美，气候适中，有“塞外江南”之称，是新疆的粮仓和水果之乡，其名贵药材和山林资源都很丰富。地下资源有蕴藏丰富的金、铜、铁、铝、锌等，还有锂、铍、钽、铌、铷、钨、铯等稀有有色金属。 （摘自《民族",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/hskz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/哈萨克族.html",
+      "sha256": "31d420e69ff71eaf27e31491a9dc76081d63f59817207e6a22211e4ce80e3c76"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "傣族-532800",
+    "ethnic": "傣族",
+    "name": "西双版纳傣族自治州",
+    "code": "532800",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.797941,
+      22.001724
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "文和德宏傣文。20世纪50年代，对西双版纳傣文和德宏傣文在原有文字基础上做了一些改进，改进后的傣文称为新傣文，原有的文字称为老傣文。改进后的西双版纳傣文，在保留原来字母形式和表音特点的基础上，根据实际语音增删了若干字母，改变了声调符号，并对字母读音、附加符号的使用和书写规则作了规范。改进后的德宏傣文，克服了老傣文一字多音多义以及没有配套声调符号等",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/daiz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/傣族.html",
+      "sha256": "cf57356c67cfbaba8a4edc2cd331015cfff036f1904fb33a1e5cea6a386d29f5"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "黎族-469001",
+    "ethnic": "黎族",
+    "name": "五指山市",
+    "code": "469001",
+    "provinceCode": "460000",
+    "coordinates": [
+      109.516662,
+      18.776921
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "沿革 风俗习惯 发展现状 黎族现有人口1602104人（ 2020年 ）。主要聚居在海南省的陵水、保亭、三亚、乐东、东方、昌江、白沙、琼中、五指山等县市，其余散居在海南省境内的万宁、儋州、屯昌、琼海等县市以及贵州等省。 黎族是海南岛最早的居民。在我国古籍上很早就有关于黎族先民的记载。西汉以前曾经以“骆越”，东汉以“里”、“蛮”，隋唐以“俚”、“",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/lz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/黎族.html",
+      "sha256": "c1a4d4b912f8ec6e2b70b99578999f34ed3ace6ac9c13c1cb08da367e3ee55b6"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "傈僳族-533300",
+    "ethnic": "傈僳族",
+    "name": "怒江傈僳族自治州",
+    "code": "533300",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.854304,
+      25.850949
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "拼音文字；第四种文字是20世纪50年代由中央民族学院和中国社会科学院语言研究所以汉语拼音字母为基础创制、并经国务院批准使用的新傈僳文。目前，怒江傈僳族自治州境内各民族通用傈僳语和老傈僳文。 （摘自《民族问题五种丛书》之《中国少数民族》卷） ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/ssz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/傈僳族.html",
+      "sha256": "c45585972b30f430974a3d39a4f129b9e64399bbe344aae9cea0fc7b3360baf2"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "佤族-530927",
+    "ethnic": "佤族",
+    "name": "沧源佤族自治县",
+    "code": "530927",
+    "provinceCode": "530000",
+    "coordinates": [
+      99.2474,
+      23.146887
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "其他地区的佤族，汉族、傣族、拉祜族统称为“阿佤”或“佧佤”。“佧佤”又有“大佧佤”和“小佧佤”之分，“大佧佤”指西盟等地的佤族；“小佧佤”指沧源、双江、耿马、澜沧、孟连等地的佤族。“佧”为傣语，是奴隶的意思，称“佧佤”含有贬意和侮辱性。新中国成立以后，党和政府为了体现民族平等和团结，根据大多数人民的意愿，确定称为佤族。 佤语属南亚语系孟高棉语",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/wz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/佤族.html",
+      "sha256": "95174abef03c563fb8b134a89b84b9cc34a82e6a524215b8c4f970057ad62960"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "畲族-331127",
+    "ethnic": "畲族",
+    "name": "景宁畲族自治县",
+    "code": "331127",
+    "provinceCode": "330000",
+    "coordinates": [
+      119.634669,
+      27.977247
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "特产非常丰富，有茶叶、油茶、纸、笋干、花生、芝麻、苎麻、香菇、黑木耳、樟脑、松油和名贵的药材等。畲乡的茶叶，早在国内外市场上享有盛誉，如浙江景宁畲族自治县的“惠明茶”，广东的“乌龙茶”和福建福安的红茶、武夷岩茶都很有名。畲族所居山区的矿藏也很丰富，有煤、铁、金、铜、石墨、石膏、硫磺、滑石、云母石、瓷土以及其他各种有色金属。 畲族有自己的语言，",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/sz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/畲族.html",
+      "sha256": "7a42034083836d9701345bbcbcb34b95fe71e178034d9ddcc7a76eee1abef297"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "高山族-350629",
+    "ethnic": "高山族",
+    "name": "华安县",
+    "code": "350629",
+    "provinceCode": "350000",
+    "coordinates": [
+      117.53631,
+      25.001416
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "省汶川县 660 Ⅲ-63 毛南族打猴鼓舞 贵州省平塘县 661 Ⅲ-64 瑶族猴鼓舞 贵州省荔波县 662 Ⅲ-65 高山族拉手舞 福建省华安县 663 Ⅲ-66 得荣学羌 四川省得荣县 664 Ⅲ-67 甲搓 四川省盐源县 665 Ⅲ-68 博巴森根 四川省理县 666 Ⅲ-69 彝族铃铛舞 贵州省赫章县 667 Ⅲ-70 彝族打歌 云南",
+    "source": {
+      "url": "https://www.gov.cn/zwgk/2008-06/14/content_1016331.htm",
+      "publisher": "国务院 · 中国政府网",
+      "snapshot": "data/raw/development/national-heritage-2008.html",
+      "sha256": "cffe78e0b0cd8319b300f410b54ac0e1b953122db9fae2bb1f959ded81906369"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "拉祜族-530828",
+    "ethnic": "拉祜族",
+    "name": "澜沧拉祜族自治县",
+    "code": "530828",
+    "provinceCode": "530000",
+    "coordinates": [
+      99.931201,
+      22.553083
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "聪、黄古宗、倮黑、黄倮黑、缅、目舍等。新中国成立后，根据本民族的意愿，统称“拉祜”。“拉祜”一词的含义，1953年4月澜沧拉祜族自治区(辖今澜沧、孟连、西盟三县)各族各界代表会议作出的《关于拉祜族自治区若干问题的报告》曾明文指出：“‘拉’即大家拉起手来，代表团结，‘祜’即代表幸福的意思。” 拉祜语属汉藏语系藏缅语族彝语支，它是与彝语、傈僳语、",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/lhz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/拉祜族.html",
+      "sha256": "484e5a06060e8b250f710025bd8c6f1599a96c57534356463c12ce528043f92b"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "水族-522732",
+    "ethnic": "水族",
+    "name": "三都水族自治县",
+    "code": "522732",
+    "provinceCode": "520000",
+    "coordinates": [
+      107.87747,
+      25.985183
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "些私人的著述及史籍中出现，明末邝露《赤雅》有“亦僚类”之说。在清代及民国的史籍中，出现水家苗、水家夷、水家等称谓。1957年，国务院批准成立三都水族自治县，族称定为水族。 水族有本民族的语言和传统文字。水语属汉藏语系壮侗语族侗水（侗台）语支。水族古文字，以及用这种古文字著编的信仰文化、民间知识杂糅的典籍，水语通称为“勒睢/泐睢(le1sui3",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/shuiz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/水族.html",
+      "sha256": "93813f553428b9d3a30c3da032db2c4205d0fe466f0946613d69a22e3e99946b"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "东乡族-622926",
+    "ethnic": "东乡族",
+    "name": "东乡族自治县",
+    "code": "622926",
+    "provinceCode": "620000",
+    "coordinates": [
+      103.389568,
+      35.66383
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "7人（2020年），主要聚居在甘肃省临夏回族自治州境内洮河以西、大夏河以东和黄河以南的山麓地带。临夏回族自治州居住着43.8万东乡族，其中以东乡族自治县最为集中，有21.5万人，其余分别聚居在和政县、临夏县和积石山保安族东乡族撒拉族自治县。在甘肃的兰州市、定西地区和甘南藏族自治州等地，还散居着一小部分东乡族。新中国成立后，部分东乡族从甘肃迁徙到新疆居",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/dxz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/东乡族.html",
+      "sha256": "35706010f310a6557a71087e7bca3e799441d6d86582d45f64c4fbcf10a1a043"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "纳西族-530700",
+    "ethnic": "纳西族",
+    "name": "丽江市",
+    "code": "530700",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.233026,
+      26.872108
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "处于羌语支和彝语支分界点上，与这两种语言具有双向相似性。纳西语分化为以丽江坝区为代表的西部方言和宁蒗永宁为代表的东部方言。西部方言主要通行于丽江、香格里拉、维西、永胜等市县。此外，鹤庆、剑川、兰坪、德钦、宁蒗永宁坝皮匠村和四川省木里县的俄亚、盐源县的大咀、冷九主和西藏芒康县的盐井等地也使用西部方言。东部方言主要通行于宁蒗、盐源、木里、盐边等县",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/nxz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/纳西族.html",
+      "sha256": "e9b82c8237babd3495996eff35d19032c57591ee4dfd52f053f8e01409cdbf20"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "景颇族-533100",
+    "ethnic": "景颇族",
+    "name": "德宏傣族景颇族自治州",
+    "code": "533100",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.578363,
+      24.436694
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "潞西、瑞丽、梁河等5个县、市，与德昂、傈僳、阿昌、汉等民族交错杂居于山区；部分散居于耿马、腾冲、泸水、孟连、昌宁、勐海、隆阳等县（区）。其中德宏州境内的景颇族人口有124822人（2000年），占景颇族总人口的95.86%。 景颇族聚居的山区，一般海拔1500米左右，大部分纬度偏南，气候温和，雨量充沛，冬无严寒，夏无酷暑，山青水秀、树木葱茏。",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/jpz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/景颇族.html",
+      "sha256": "ed921793660a080b6395b7f81ddab76c3c2fd3a2439f3d865b9762fb537d1fba"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "柯尔克孜族-653000",
+    "ethnic": "柯尔克孜族",
+    "name": "克孜勒苏柯尔克孜自治州",
+    "code": "653000",
+    "provinceCode": "650000",
+    "coordinates": [
+      76.172825,
+      39.713431
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "冰洲石等。其中铅锌储量全国第一，铁矿石储量1.5亿吨，居南疆首位。农区盛产瓜果，尤以阿图什无花果最为闻名。柯尔克孜聚居的地区有许多天然牧场，克孜勒苏阿尔克孜自治州有草场面积5000万亩，可利用草场面积4590万亩，优质草场1330亩，牧草丰茂，水源充足，气候凉爽，宜于放牧。 “柯尔克孜”是民族的自称，也是其他民族对该民族的称呼，国外同源民族被汉译",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/kekzz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/柯尔克孜族.html",
+      "sha256": "4fe68582d88c05720349a512e8cbed727e4bc90a4e2f1a0f04360a6c3de5c1fd"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "土族-630223",
+    "ethnic": "土族",
+    "name": "互助土族自治县",
+    "code": "630223",
+    "provinceCode": "630000",
+    "coordinates": [
+      101.956734,
+      36.83994
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "。新中国成立后，依据本民族意愿，统一称为土族。 土族语言属阿尔泰语系蒙古语族，基本词汇和蒙古语相同或相近，和保安语则更为接近一些。土族语分为互助、民和、同仁三大方言区，其间有一定差别。同时，土族长期同汉、藏人民友好相处，其语言也受到了汉语、藏语的很大影响，在宗教用语上采用藏语借词较多，在生活用语和新的名词术语中，汉语借词较多。土族没有文字，使",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/tz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/土族.html",
+      "sha256": "8cee9b944b609cd34f7f616a7f274b6f158713f5607968b8f81c7dfac1c2e5c9"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "达斡尔族-150722",
+    "ethnic": "达斡尔族",
+    "name": "莫力达瓦达斡尔族自治旗",
+    "code": "150722",
+    "provinceCode": "150000",
+    "coordinates": [
+      124.507401,
+      48.478385
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "社会事业的全面发展和人民生活水平的日益提高，达斡尔族出现了人丁兴旺的新气象。 尼尔基镇的发展变化是达斡尔族地区五十年历史巨变的一个缩影。作为莫力达瓦旗政府所在地，这座美丽的城镇在达斡尔族民歌中享有“明珠”的美誉。在新中国成立前，尼尔基只有一些简陋的茅草房和为数不多的砖房，市政建设极其落后。如今，一座座耸立的楼房拔地而起，巴特罕大街、一兰广场、通福",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/dwz/fzxz.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/达斡尔族-fzxz.html",
+      "sha256": "75ab6bb8b91e725b5ecc849d3d06d9a48cfaf4d8f3b9a3b0c57007991aafc916"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "仫佬族-451225",
+    "ethnic": "仫佬族",
+    "name": "罗城仫佬族自治县",
+    "code": "451225",
+    "provinceCode": "450000",
+    "coordinates": [
+      108.902453,
+      24.779327
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "喀斯特地貌，山峦叠嶂，奇峰耸立。在群山交错之间，形成水草肥美的峡谷平坝，是仫佬族人民理想的居住之地。在广西北部仫佬族聚居地，从宜山的小龙，到罗城的龙岸，有众多小块平坝相连，形成一条百里长廊，素称“仫佬山乡”，是广西仫佬族政治、经济、文化的中心。仫佬族多住在山区或半山区，依山傍水建立村落。这里气候温和，雨量充足，年平均温度为摄氏20度左右，年降",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/mlz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/仫佬族.html",
+      "sha256": "1e0663aa463867e544ebc1bcb2654e15e97fbadce406f374b21cdd7e67005d1c"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "羌族-513200",
+    "ethnic": "羌族",
+    "name": "阿坝藏族羌族自治州",
+    "code": "513200",
+    "provinceCode": "510000",
+    "coordinates": [
+      102.221374,
+      31.899792
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "、北川县和平武县的锁江、徐塘、平南、豆叩、大印、平通六个羌族聚居乡镇属于中低山和深丘低山区。 岷江、湔江及其支流是羌族人民的母亲河。岷江源于阿坝州松潘县与九寨沟县交界的弓杠岭南，在都江堰市以上为岷江上游，从北向南纵贯羌区。岷江支流有黑水河、杂谷脑河、鱼子溪河和寿溪河等。湔江，又称石泉河、北川水，发源于岷山山脉，因“水势如湔沸之状”而得名，经北",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/qz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/羌族.html",
+      "sha256": "c02f14a2711b9b601852b5f62966bbdae7d9d7d5502556795bf4beedf7064b07"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "布朗族-532822",
+    "ethnic": "布朗族",
+    "name": "勐海县",
+    "code": "532822",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.448288,
+      21.955866
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": " 我国布朗族总人口为127345人（2020年），主要分布在云南省西部及西南部沿边地区，其中，约有3万多人较为集中的聚居于西双版纳傣族自治州勐海县的布朗山、西定、巴达、打洛、勐满、勐岗等乡镇，约有5万多人散居于双江、保山、施甸、昌宁、云县、镇康、永德、耿马、澜沧、墨江等市县，布朗山布朗族乡是我国布朗族最大的聚居区，约占布朗族总人口的65%。此",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/blz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/布朗族.html",
+      "sha256": "c8e1566ee814e6d1ed05232e318c08516889ab1dd34d5cd7f20be43cf8427c86"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "撒拉族-630225",
+    "ethnic": "撒拉族",
+    "name": "循化撒拉族自治县",
+    "code": "630225",
+    "provinceCode": "630000",
+    "coordinates": [
+      102.486534,
+      35.847247
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "瓜果，有梨、杏、核桃、葡萄、桃、西瓜、甜瓜、苹果等，素有“瓜果之乡”的美称。撒拉人善于经营花椒、辣椒和各种各样的蔬菜，是从事经济作物的能手。循化花椒粒大味浓，素称“循椒”，曾陈列于广州交易会。“金帅”、“元帅”、“红富士”苹果、露仁核桃、红辣椒等农产品，驰名中外。山区产大黄、党参、麻黄、麝香等药材。 （摘自《民族问题五种丛书》之《中国少数民族",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/slz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/撒拉族.html",
+      "sha256": "4483b24e23e87faab52e02dadb8b2c9fb8e6004ff1699da71f9880305a1efe7d"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "毛南族-451226",
+    "ethnic": "毛南族",
+    "name": "环江毛南族自治县",
+    "code": "451226",
+    "provinceCode": "450000",
+    "coordinates": [
+      108.258669,
+      24.827628
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "人口的30％。其余散居在环江县内的水源、木论、川山、洛阳、思恩等乡镇，以及周围的河池、南丹、宜山、都安和贵州的惠水等县(市)。 毛南族聚居的环江县位于广西西北部，地处云贵高原南麓的余脉之间。地势西南高，东北低。境内喀斯特山地、丘陵、峰林谷地交错发育，重峦叠嶂，千峰林立。毛南人居住的地方，又分成两个不同的地段。东北段是半石山区，也叫半平原区，群",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/mnz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/毛南族.html",
+      "sha256": "2e1935a2009c13d19ecca11ed46ce12edc88860e95f26a3bf6fbbbb397403896"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "仡佬族-520326",
+    "ethnic": "仡佬族",
+    "name": "务川仡佬族苗族自治县",
+    "code": "520326",
+    "provinceCode": "520000",
+    "coordinates": [
+      107.887857,
+      28.521567
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": " > 仡佬族 > 概况 仡佬族 概况 历史沿革 风俗习惯 发展现状 仡佬族总人口为677521人（2020年），大部分集中聚居在贵州省北部的务川和道真两个仡佬族苗族自治县和石阡县，其余分别散居在安顺、平坝、普定、关岭、清镇、正安、凤岗、松桃、黔西、六枝、织金、大方等二十多个县市。 仡佬族原来分为许多不同的支系，每个支系的名称各不相同。新中国成",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/glz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/仡佬族.html",
+      "sha256": "d4777650ca4efa1ba446de5de78213ea8bf20a95938c4eb674ed0bb909a91c30"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "锡伯族-654022",
+    "ethnic": "锡伯族",
+    "name": "察布查尔锡伯自治县",
+    "code": "654022",
+    "provinceCode": "650000",
+    "coordinates": [
+      81.150874,
+      43.838883
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "年代后，全国（主要是东北三省）锡伯族人口出现了猛增的趋势，其主要原因是过去报为满族和汉族的原锡伯族家庭都陆续更正为锡伯族。 新疆维吾尔自治区察布查尔锡伯自治县位于自治区西部，伊犁河谷盆地伊犁河南岸和中天山西端。东至塔尔德沟，西与哈萨克斯坦国相接，南达乌孙山分水岭，北临伊犁河。属温带亚干旱气候区，年均气温7.9摄氏度，年均降水206毫米。 自治县资",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/xbz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/锡伯族.html",
+      "sha256": "5ef53ef61d6f91bb8cab00af85c39d0391ed0839e3e22d382702e33f9dbc33d1"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "阿昌族-533122",
+    "ethnic": "阿昌族",
+    "name": "梁河县",
+    "code": "533122",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.298196,
+      24.80742
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "”、“峨昌”。1953年，人民政府根据阿昌族人民的意愿，决定统一称为“阿昌”。 阿昌族有语言无文字。阿昌语属于汉藏语系藏缅语族，语支待定，有梁河方言和户撒方言2种方言。由于长期与汉、傣等民族交错杂居，阿昌族一般兼通汉语、傣语等其他民族的语言或方言，使用汉字。 （摘自《民族问题五种丛书》之《中国少数民族》卷） ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/acz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/阿昌族.html",
+      "sha256": "be90e7805781423d7c9024c553542d1adff0be01c1748f4d39492288a52cf255"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "普米族-530724",
+    "ethnic": "普米族",
+    "name": "宁蒗彝族自治县",
+    "code": "530724",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.852427,
+      27.281109
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "地区已普遍使用汉文。 普米一词是普米语音译，本意为“白人”，是民族自称。各地普米族还有不同的自称，如兰坪、丽江、永胜的普米族自称“普英米”；宁蒗的普米族自称“普日米”或“培米”，“米”在普米语中的意思是人，“培”、“普英”、“普日”等是一音之转，都是“白”的意思，所以，普米的意思就是“白人”。普米族自称“白人”，与其自古崇尚白色、以白色象征吉",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/pmz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/普米族.html",
+      "sha256": "9afe4502320f84e7a319e500ae4bccd0c0ac3852b8925995b61e79e7c91f6178"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "塔吉克族-653131",
+    "ethnic": "塔吉克族",
+    "name": "塔什库尔干塔吉克自治县",
+    "code": "653131",
+    "provinceCode": "650000",
+    "coordinates": [
+      75.228068,
+      37.775437
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "地西南部，地势平坦，气候温暖干燥，适宜于发展农业生产。 塔吉克语属印欧语系伊朗语族帕米尔语支，它包括色勒库尔语和瓦罕语两大方言。色勒库尔语是塔什库尔干塔吉克居民日常生活中进行交际的主要口语，使用色勒库尔语的塔吉克人数约3万，使用瓦罕语的人数约1万。由于民间交往频繁，许多塔吉克人兼通维吾尔语和柯尔克孜语，普遍使用维吾尔语言文字。 塔吉克族属欧罗巴人种",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/tjkz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/塔吉克族.html",
+      "sha256": "ccb3a39939e0e12b39dfcd7732dc99e798e6dac4d57fbb4dcd678dd4d861d962"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "怒族-533324",
+    "ethnic": "怒族",
+    "name": "贡山独龙族怒族自治县",
+    "code": "533324",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.666141,
+      27.738054
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "，是工农业生产现代化的巨大能源。 怒族使用怒语。怒语属汉藏语系藏缅语族。方言间差别很大，贡山怒语与福贡怒语、泸水怒语三者之间不能互相通话；但贡山怒语与独龙语却比较接近，基本可以通话。由于和傈僳族长期共处，怒族人民普遍会说傈僳语。怒族没有本民族文字。过去土司、设治局传递公事，派伕派款，村寨械斗，缔结盟约，买卖土地、奴隶等，均以木刻为凭。现在大都",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/nz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/怒族.html",
+      "sha256": "90c67c7f486508e33a32bda58daabb79e3e95d4c661d9d2eaef1af865508d6df"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "乌孜别克族-650100",
+    "ethnic": "乌孜别克族",
+    "name": "乌鲁木齐市",
+    "code": "650100",
+    "provinceCode": "650000",
+    "coordinates": [
+      87.617733,
+      43.792818
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "状 乌孜别克族总人口为12742人（2020年），散居在新疆维吾尔自治区许多县、市，其中大部分居住在城镇，少数在农村。主要分布在伊犁、喀什、乌鲁木齐、塔城等地。城市人口主要分布在南疆莎车县与北疆的伊宁市。 木垒哈萨克自治县大南沟乌兹别克民族乡是全国唯一的乌兹别克民族乡。该乡位于东段天山北支——博格达山脚下，这里水源充足，牧草茂盛，发展畜牧业的条件",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/wzbkz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/乌孜别克族.html",
+      "sha256": "3010c99a904c5a3ebf47688524545073c0f1fabfe81745fc36f93b9ccfb069a4"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "俄罗斯族-654200",
+    "ethnic": "俄罗斯族",
+    "name": "塔城地区",
+    "code": "654200",
+    "provinceCode": "650000",
+    "coordinates": [
+      82.985732,
+      46.746301
+    ],
+    "kind": "州 / 市代表点",
+    "evidence": "塔城地区位于新疆西北部，地貌大体分为天山山区、准噶尔界山区、准噶尔盆地区。其中山区面积40%以上，平原46.8%，沙丘、戈壁13.2%左右。塔城地区属温带干旱型气候，年均气温在5℃左右，年均降水量为200—400毫米，无霜期150—200天。平原地区夏季炎热，冬季寒冷。呼伦贝尔市恩和俄罗斯族民族乡地处多山丘陵区，盆地较狭窄，地理形态为南北狭长",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/elsz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/俄罗斯族.html",
+      "sha256": "6de109a3b92eac93dfe5b045fb3facc313d7f2347135e02142755514f4a73aa6"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "鄂温克族-150724",
+    "ethnic": "鄂温克族",
+    "name": "鄂温克族自治旗",
+    "code": "150724",
+    "provinceCode": "150000",
+    "coordinates": [
+      119.754041,
+      49.143293
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "错杂居，因此，鄂温克族的双语或多语现象比较突出。牧区的鄂温克族通用蒙古语文，农业区和靠山区的鄂温克族通用汉语文。 作为鄂温克族的主要聚居区，鄂温克族自治旗位于内蒙古自治区的东北部，总面积19111平方公里。拥有可利用草场11803.3平方公里，占全旗土地面积的62%；有林地6462平方公里，占全旗土地面积的33%。 自治旗境内河流纵横，湖泊密布。有伊敏",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/ewkz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/鄂温克族.html",
+      "sha256": "f909ab67d92581eb6bb85d7536ee758eca9d3a511e88f640902eafd0497792d4"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "德昂族-533103",
+    "ethnic": "德昂族",
+    "name": "芒市",
+    "code": "533103",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.577608,
+      24.436699
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "封阿利（传说是德昂族的头人）为土官。元代中期，“白夷”（傣族先民）迅速强盛起来，德昂族被迫逐渐向山区迁移。明代，中央政府封傣族刀姓为茫施（今芒市）长官司长官，傣族土司又封德昂族头人为“老”，以代表土司管辖德昂族人民，于是德昂族先民成了傣族土司的属民。 从14世纪中期开始，新兴的茫施傣族土司逐渐控制了今德宏州潞西、盈江一带的德昂族地区。到了清嘉",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/daz/lsyg.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/德昂族-lsyg.html",
+      "sha256": "1aea48bd1c1eb472bac7c11f51acf00cabdfaa5997eeb5d748918fe0e7bfb2a2"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "保安族-622927",
+    "ethnic": "保安族",
+    "name": "积石山保安族东乡族撒拉族自治县",
+    "code": "622927",
+    "provinceCode": "620000",
+    "coordinates": [
+      102.877473,
+      35.712906
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "自明朝初年起，居住在保安城、下庄、尕撒尔（当时俗称“保安三庄”）一带，自称“保安人”，周围的土族、藏族称其为“回回”。清同治元年迁徙到甘肃省积石山地区。历史上，历代统治者不承认保安族是一个单一民族，一直称其为“保安回”、“番回”。新中国成立后，根据本民族意愿，中华人民共和国政务院于 1952 年 3 月 25 日正式批准“保安族”为单一民族。 ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/baz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/保安族.html",
+      "sha256": "36e7991cc33953e67a155b283749f77fb4710675564a300094452f09ed04936c"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "裕固族-620721",
+    "ethnic": "裕固族",
+    "name": "肃南裕固族自治县",
+    "code": "620721",
+    "provinceCode": "620000",
+    "coordinates": [
+      99.617086,
+      38.837269
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "恩格尔语。 裕固族是以畜牧业为主的民族。畜种以羊（绵羊、山羊）、牛（牦牛、犏牛、黄牛）和马为主，还有少量的驴、骡，明花乡过去养有大量的骆驼。肃南民间流传着“水关的驴，杨哥的马，皇城的羊毛赛棉花；白银的山羊，大岔的牛，明花的骆驼力量大”的俗语。黄泥堡的裕固族主要从事农业，农作物有小麦、糜、谷、洋芋、青稞、豆类和胡麻等。 （摘自《民族问题五种丛书",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/ygz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/裕固族.html",
+      "sha256": "fd9406049849a5628eda587d70caeba67f287b659bd7acd626af9712fef2077c"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "京族-450681",
+    "ethnic": "京族",
+    "name": "东兴市",
+    "code": "450681",
+    "provinceCode": "450000",
+    "coordinates": [
+      107.97017,
+      21.541172
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "城港市。其中东兴市约有1.2万人，主要聚居在东兴市江平镇的澫尾、山心、巫头三个海岛上，素有“京族三岛”之称。其他京族人口则与汉族、壮族杂居在东兴市江平、谭吉、红坎、恒望、竹山等地及防城港市的其它市县。钦州市也有少量京族人口分布。 京族所在地区属亚热带气候，雨量充沛，终年不见冰雪，树木四季常青，物产极为丰富。南面的北部湾是著名的渔场，盛产鱼、虾",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/jz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/京族.html",
+      "sha256": "eace57a24ff9f63ef2daf67c1dde6e3065d5ce740722b35cc98edec499fc12da"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "塔塔尔族-654002",
+    "ethnic": "塔塔尔族",
+    "name": "伊宁市",
+    "code": "654002",
+    "provinceCode": "650000",
+    "coordinates": [
+      81.316343,
+      43.922209
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "联系密切，因而这两个民族的语言文字已成为塔塔尔族人的通用的语言文字。居住在阿勒泰、塔城、奇台等地的塔塔尔族多使用哈萨克语语言文字，乌鲁木齐、伊宁等城市的塔塔尔族则多使用维吾尔语言文字。 （摘自《民族问题五种丛书》之《中国少数民族》卷） ",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/ttez/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/塔塔尔族.html",
+      "sha256": "2a1f6d32eff81c13d1567070c33c6f55f2e5e8ebab38a8bbf8bf71802e2458b6"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "独龙族-533324",
+    "ethnic": "独龙族",
+    "name": "贡山独龙族怒族自治县",
+    "code": "533324",
+    "provinceCode": "530000",
+    "coordinates": [
+      98.666141,
+      27.738054
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "其枯创制了一种以日旺话为标准语音点的拉丁文拼音文字——“日旺文”，主要用来翻译圣经，在当地群众中使用。 1979 年，根据独龙族人民的意愿，贡山县文化馆的独龙族干部木里门•约翰在云南省少数民族语文指导工作委员会的龙乘云同志协助下，在日旺文的基础上以独龙江乡孔当村公所一带的话为标准音点创制了独龙语拼音方案。 1983 年 12 月在云南省少数民",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/dlz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/独龙族.html",
+      "sha256": "d3dbaf785510c0c20ec48a5b6ccfb2d72abdbc6be1768ce3b07bf02645fff4cd"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "鄂伦春族-150723",
+    "ethnic": "鄂伦春族",
+    "name": "鄂伦春自治旗",
+    "code": "150723",
+    "provinceCode": "150000",
+    "coordinates": [
+      123.725684,
+      50.590177
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "族人口为9168人。鄂伦春语属阿尔泰语系满—通古斯语族通古斯语支，没有文字，现在主要使用汉语汉文。 鄂伦春族主要分布在内蒙古自治区呼伦贝尔盟鄂伦春自治旗、布特哈旗、莫力达瓦达斡尔族自治旗和黑龙江省北部的呼玛、逊克、爱辉、嘉荫等县。黑龙江省有鄂伦春族3871人，占鄂伦春族总人口的47%；内蒙古自治区有3573人，占44%。 鄂伦春族世代生活的大小兴安岭",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/elcz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/鄂伦春族.html",
+      "sha256": "216ccda1d186c910677d30e93918173e02da551d0bc51933cd4b4d1737e830c0"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "赫哲族-230881",
+    "ethnic": "赫哲族",
+    "name": "同江市",
+    "code": "230881",
+    "provinceCode": "230000",
+    "coordinates": [
+      132.510119,
+      47.651131
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "傲”都是人之意。此外，原居住在下八岔以下地区和乌苏里江沿岸的人被称为“赫真”或“赫吉斯勒”，意为“下游人”或“东方人”；原居住于勤得利以上混同江和松花江沿岸的人还自称“奇楞”。“赫哲”是从“赫真”变音而来，是“黑斤”、“黑津”、“黑金”、“黑哲”、“赫斤”、“赫金”等名称的同音异写。“赫哲”作为族称最早出现于康熙二年(1663)三月。1934",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/hzz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/赫哲族.html",
+      "sha256": "ae56aa01951aceb298bef08a209a4494fb1d7338d9fba8535c229133c9814545"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "门巴族-540423",
+    "ethnic": "门巴族",
+    "name": "墨脱县",
+    "code": "540423",
+    "provinceCode": "540000",
+    "coordinates": [
+      95.332245,
+      29.32573
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "种。珍稀动植物众多，如墨脱境内的高等植物就有3000余种，野生动物数百种，其中属国家重点保护的就有40多种，堪称西藏天然的植物园和动物王国，墨脱已成为国家级自然保护区。 门巴族有自己的语言门巴语，属汉藏语系藏缅语族藏语支。方言差别较大，无本民族文字。门巴族人民和藏族人民长期友好往来，互通婚姻，在政治、经济、文化、宗教信仰、生活习俗等方面都有十",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/mbz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/门巴族.html",
+      "sha256": "23913a0f858c8645faf408cf51a361d0af6b7f472aa88f6d1047af2be640aedc"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "珞巴族-540426",
+    "ethnic": "珞巴族",
+    "name": "朗县",
+    "code": "540426",
+    "provinceCode": "540000",
+    "coordinates": [
+      93.073429,
+      29.0446
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "现状 珞巴族总人口约4237人（2020年），主要分布在西藏自治区东起察隅、西至门隅、南达中印边界的广大珞渝地区，以米林、墨脱、察隅、隆子、朗县等地最为集中。另有少数散居在拉萨、林芝、山南等地、市。 珞巴族聚居的珞渝地区，位于喜马拉雅山南麓、北纬27度至30度之间的低纬度地区，山高林密，河流众多，雅鲁藏布江、丹巴河等穿越其间。珞渝北部高山区雪",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/lbz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/珞巴族.html",
+      "sha256": "f047117eae3b3c78c403e9cf37baeed22a4df0ba795a60947298cde507d28f67"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  },
+  {
+    "id": "基诺族-532801",
+    "ethnic": "基诺族",
+    "name": "景洪市",
+    "code": "532801",
+    "provinceCode": "530000",
+    "coordinates": [
+      100.797947,
+      22.002087
+    ],
+    "kind": "县 / 区 / 旗代表点",
+    "evidence": "诺族散居。 “基诺”是本民族的自称，可释意为“舅舅的后人”或“尊重舅舅的民族”。过去汉语译为“攸乐”,故又习称其居住的基诺山为“攸乐山”。 景洪市东北部的基诺山基诺族民族乡（以下简称基诺乡），是全国唯一的基诺族民族乡。该乡风景秀丽，俗称基诺山或基诺洛克山，东连勐腊县勐仑镇，南邻勐罕镇（橄榄坝），西接勐养镇，北毗大渡岗乡。基诺山属横断山系无量山",
+    "source": {
+      "url": "https://www.neac.gov.cn/seac/ztzl/jnz/gk.shtml",
+      "publisher": "国家民族事务委员会",
+      "snapshot": "data/raw/development/timeline/neac/基诺族.html",
+      "sha256": "4cc0384500f3b8693c916fad5d4634f12fac5bf40673a01d0ba5d635b09ca182"
+    },
+    "coordinateSource": "https://geo.datav.aliyun.com/areas_v3/bound/all.json",
+    "updatedAt": "2026-10-10"
+  }
+]

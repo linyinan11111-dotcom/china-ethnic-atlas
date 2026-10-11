@@ -1,0 +1,42 @@
+{
+  "period": "2026-09",
+  "publishedAt": "2026-10-08",
+  "title": "民國115年9月戶口統計資料分析",
+  "publisher": "台湾内政部门 · 户政司",
+  "category": "原住民户籍登记人口",
+  "population": 641332,
+  "totalPopulation": 23213251,
+  "share": 2.76,
+  "topRegions": [
+    {
+      "name": "花蓮縣",
+      "population": 95096
+    },
+    {
+      "name": "桃園市",
+      "population": 92202
+    },
+    {
+      "name": "臺東縣",
+      "population": 79758
+    }
+  ],
+  "smallestRegions": [
+    {
+      "name": "連江縣",
+      "population": 365
+    },
+    {
+      "name": "澎湖縣",
+      "population": 892
+    },
+    {
+      "name": "金門縣",
+      "population": 1440
+    }
+  ],
+  "sourceUrl": "https://www.moi.gov.tw/News_Content.aspx?n=9&sms=9009&s=342353",
+  "retrievedAt": "2026-10-09T07:55:36.689Z",
+  "snapshot": "data/raw/taiwan/household-2026-09.html",
+  "sha256": "9ef8714cbeec55eaf6b7dc60a3e13fa1fd87dbc5133d4bd6673f4c032adb56e2"
+}

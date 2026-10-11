@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="发展现状" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2026-08-27 16:43:40" />
+<title>发展现状</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/wwez/gk.shtml'  target="_parent">维吾尔族</a>&nbsp;>&nbsp;<span>发展现状</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							维吾尔族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/wwez/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/wwez/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/wwez/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/wwez/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<p align="" style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">解放初期，民主改革和社会主义改造的胜利进行为新疆的发展打下了坚实的基础；</span><span style="font-family: 宋体; font-size: 12pt;">70</span><span style="font-family: 宋体; font-size: 12pt;">年代末，改革开放的春风为新疆的发展带来了蓬勃的生机；</span><span style="font-family: 宋体; font-size: 12pt;">2000</span><span style="font-family: 宋体; font-size: 12pt;">年，国家实施西部大开发战略，为新疆加速发展提供了难得的历史机遇。新疆和平解放后的</span><span style="font-family: 宋体; font-size: 12pt;">50</span><span style="font-family: 宋体; font-size: 12pt;">多年里，在党和政府的领导下，在全国各族人民的帮助和支持下，新疆各族人民团结一心、共同奋斗，为建设美丽、富饶的新疆进行了不懈努力，经济社会各项事业取得了翻天覆地的历史巨变。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">进行大规模农业基本建设，农业生产不断发展。</span><span style="font-family: 宋体; font-size: 12pt;">1950</span><span style="font-family: 宋体; font-size: 12pt;">年，在各级政权建立后，党领导新疆各族人民开展了减租反霸运动。以此为基础，</span><span style="font-family: 宋体; font-size: 12pt;">1951</span><span style="font-family: 宋体; font-size: 12pt;">年</span><span style="font-family: 宋体; font-size: 12pt;">9</span><span style="font-family: 宋体; font-size: 12pt;">月，新疆拥有四百万人口的农业区开始进行土地改革，</span><span style="font-family: 宋体; font-size: 12pt;">1963</span><span style="font-family: 宋体; font-size: 12pt;">年底胜利结束。土改后的第一年，粮食大幅增产，原来处于半饥饿状态的贫困农民生活普遍得到了改善。在民主改革取得胜利的基础上，新疆各族人民开展了互助合作运动，胜利完成了社会主义改造，大搞农田水利建设，使新疆农业生产实现了跨越式的大发展，到</span><span style="font-family: 宋体; font-size: 12pt;">1978</span><span style="font-family: 宋体; font-size: 12pt;">年，全区粮食产量达</span><span style="font-family: 宋体; font-size: 12pt;">370.0</span><span style="font-family: 宋体; font-size: 12pt;">万吨，比</span><span style="font-family: 宋体; font-size: 12pt;">1949</span><span style="font-family: 宋体; font-size: 12pt;">年的</span><span style="font-family: 宋体; font-size: 12pt;">84.8</span><span style="font-family: 宋体; font-size: 12pt;">万吨增加了</span><span style="font-family: 宋体; font-size: 12pt;">3.4</span><span style="font-family: 宋体; font-size: 12pt;">倍。改革开放以来，随着家庭联产承包责任制的推广和农村产业结构的调整，充分调动了维吾尔族农民的生产积极性，给广大的维吾尔族农民带来了前所未有的实惠，维吾尔族农民走上了脱贫致富的快车道。到</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆全区农林牧渔业总产值达</span><span style="font-family: 宋体; font-size: 12pt;">831.1</span><span style="font-family: 宋体; font-size: 12pt;">亿元，粮食总产量</span><span style="font-family: 宋体; font-size: 12pt;">876.6</span><span style="font-family: 宋体; font-size: 12pt;">万吨，棉花产量</span><span style="font-family: 宋体; font-size: 12pt;">187.4</span><span style="font-family: 宋体; font-size: 12pt;">万吨，油料产量</span><span style="font-family: 宋体; font-size: 12pt;">38.9</span><span style="font-family: 宋体; font-size: 12pt;">万吨，甜菜产量</span><span style="font-family: 宋体; font-size: 12pt;">419.1</span><span style="font-family: 宋体; font-size: 12pt;">万吨</span><span style="font-family: 宋体; font-size: 12pt;">,</span><span style="font-family: 宋体; font-size: 12pt;">牲畜年末存栏</span><span style="font-family: 宋体; font-size: 12pt;">5350</span><span style="font-family: 宋体; font-size: 12pt;">万头。目前，新疆已成为全国最大商品棉、啤酒花和番茄酱生产基地，全国重要的畜牧业和甜菜糖生产基地。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">现代工业从无到有，迅速发展壮大。刚刚和平解放的新疆，现代工业几乎一片空白。为迅速改变这一状况，驻疆人民解放军和新疆生产建设兵团的广大战士，节衣缩食，自力更生，艰苦创业，无私地将积累和节约的资金全部投入新疆的现代工业建设，创建了新疆第一批钢铁、纺织、发电、汽车修配、农机、露天煤矿等现代化工矿企业，为新疆现代工业的发展奠定了基础。到</span><span style="font-family: 宋体; font-size: 12pt;">1978</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆工业企业单位达</span><span style="font-family: 宋体; font-size: 12pt;">3731</span><span style="font-family: 宋体; font-size: 12pt;">个，是</span><span style="font-family: 宋体; font-size: 12pt;">1949</span><span style="font-family: 宋体; font-size: 12pt;">年的十多倍，工业总产值达</span><span style="font-family: 宋体; font-size: 12pt;">33.9</span><span style="font-family: 宋体; font-size: 12pt;">亿元（当年价），比</span><span style="font-family: 宋体; font-size: 12pt;">1952</span><span style="font-family: 宋体; font-size: 12pt;">年增加了</span><span style="font-family: 宋体; font-size: 12pt;">16.7</span><span style="font-family: 宋体; font-size: 12pt;">倍（按可比价计算）。改革开放以来，从扩大企业自主权到建立现代企业制度试点，按照中央部署，新疆以国有企业为重点的企业改革取得显著成效。</span><span style="font-family: 宋体; font-size: 12pt;">2006</span><span style="font-family: 宋体; font-size: 12pt;">年底，新疆已有</span><span style="font-family: 宋体; font-size: 12pt;">29</span><span style="font-family: 宋体; font-size: 12pt;">家上市公司，总股本达</span><span style="font-family: 宋体; font-size: 12pt;">100.19</span><span style="font-family: 宋体; font-size: 12pt;">亿元，总市值达</span><span style="font-family: 宋体; font-size: 12pt;">735.58</span><span style="font-family: 宋体; font-size: 12pt;">亿元。经过新中国成立后</span><span style="font-family: 宋体; font-size: 12pt;">50</span><span style="font-family: 宋体; font-size: 12pt;">多年的发展，新疆已形成了一个包括钢铁、煤炭、石油、机械、建材、纺织、皮革、制糖等门类基本齐全，具有一定规模的现代工业体系。</span><span style="font-family: 宋体; font-size: 12pt;">2004</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆工业企业个数达</span><span style="font-family: 宋体; font-size: 12pt;">5807</span><span style="font-family: 宋体; font-size: 12pt;">个，工业总产值达</span><span style="font-family: 宋体; font-size: 12pt;">1656.0</span><span style="font-family: 宋体; font-size: 12pt;">亿元（当年价）。目前，新疆已成为我国重要的能源基地和煤电、煤化工基地，克拉玛依油田、塔里木油田和吐哈油田“三大油田”油气产量屡创新高，准东、准北、准南、三塘湖、吐哈、伊犁、尤鲁吐司、焉耆和塔北“九大煤田”预测储量约占全国煤炭预测总储量的</span><span style="font-family: 宋体; font-size: 12pt;">30%</span><span style="font-family: 宋体; font-size: 12pt;">，总面积</span><span style="font-family: 宋体; font-size: 12pt;">15</span><span style="font-family: 宋体; font-size: 12pt;">万平方公里的达坂城、阿拉山口、吐鲁番等“九大风区”开放潜力巨大。新疆能源工业的迅速发展，将为缓解我国能源供应紧张、保障我国能源安全发挥日益重要的作用。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">对外开放逐步展开并不断深化。新疆独特的地理位置和占全国</span><span style="font-family: 宋体; font-size: 12pt;">1/4</span><span style="font-family: 宋体; font-size: 12pt;">的陆地边境线，为新疆对外开放提供了得天独厚的条件。</span><span style="font-family: 宋体; font-size: 12pt;">1986</span><span style="font-family: 宋体; font-size: 12pt;">年，自治区人民政府根据新疆的实际情况，在国家人力物力的支持下，实行了“全方位开放，向西倾斜”、“外联内引、东联西出”的方针，</span><span style="font-family: 宋体; font-size: 12pt;">1987</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆已与</span><span style="font-family: 宋体; font-size: 12pt;">50</span><span style="font-family: 宋体; font-size: 12pt;">多个国家和地区建立了贸易关系。</span><span style="font-family: 宋体; font-size: 12pt;">90</span><span style="font-family: 宋体; font-size: 12pt;">年代，我国发展战略重点西移，北疆铁路的建成使新亚欧大陆桥全线贯通，这里对外贸易的触角延伸至太平洋和大西洋沿岸；南疆铁路的建成打破了塔里木盆地的封闭，石油、棉花的外运再也不受外在条件的限制。边境贸易一直是新疆对外开放的重头戏。</span><span style="font-family: 宋体; font-size: 12pt;">1986</span><span style="font-family: 宋体; font-size: 12pt;">年，国家正式批准新疆开展地方边境贸易。目前，新疆已与</span><span style="font-family: 宋体; font-size: 12pt;">119</span><span style="font-family: 宋体; font-size: 12pt;">个国家和地区建成了贸易往来关系，拥有国家批准的一类开放口岸</span><span style="font-family: 宋体; font-size: 12pt;">16</span><span style="font-family: 宋体; font-size: 12pt;">个，其中陆路口岸</span><span style="font-family: 宋体; font-size: 12pt;">14</span><span style="font-family: 宋体; font-size: 12pt;">个，航空口岸</span><span style="font-family: 宋体; font-size: 12pt;">2</span><span style="font-family: 宋体; font-size: 12pt;">个；二类开放口岸</span><span style="font-family: 宋体; font-size: 12pt;">11</span><span style="font-family: 宋体; font-size: 12pt;">个。“十五”期间，新疆边境贸易额累计达</span><span style="font-family: 宋体; font-size: 12pt;">148.1</span><span style="font-family: 宋体; font-size: 12pt;">亿美元。作为国家实施沿边开放战略的重点省区，新疆已经逐步形成了沿边、沿桥</span><span style="font-family: 宋体; font-size: 12pt;">(</span><span style="font-family: 宋体; font-size: 12pt;">亚欧大陆桥</span><span style="font-family: 宋体; font-size: 12pt;">)</span><span style="font-family: 宋体; font-size: 12pt;">和沿交通干线向国际、国内拓展的全方位、多层次、宽领域的对外开放格局，成为中国向西开放的前沿。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">交通、通讯、邮电事业突飞猛进。新中国成立前的新疆，人们远行、运物主要借助畜力，现代交通基本空白。新中国成立后五十多年来，新疆的交通运输业发生了翻天覆地的变化。</span><span style="font-family: 宋体; font-size: 12pt;">1962</span><span style="font-family: 宋体; font-size: 12pt;">年底兰新铁路铺轨到乌鲁木齐，结束了新疆没有铁路的历史；</span><span style="font-family: 宋体; font-size: 12pt;">1984</span><span style="font-family: 宋体; font-size: 12pt;">年全长</span><span style="font-family: 宋体; font-size: 12pt;">476</span><span style="font-family: 宋体; font-size: 12pt;">公里的南疆铁路吐鲁番至库尔勒西段建成通车，</span><span style="font-family: 宋体; font-size: 12pt;">1990</span><span style="font-family: 宋体; font-size: 12pt;">年全长</span><span style="font-family: 宋体; font-size: 12pt;">460</span><span style="font-family: 宋体; font-size: 12pt;">公里从乌鲁木齐至阿拉山口的兰新铁路西线顺利建成通车，贯通第二亚欧大陆桥；</span><span style="font-family: 宋体; font-size: 12pt;">1994</span><span style="font-family: 宋体; font-size: 12pt;">年兰新铁路复线建成通车，</span><span style="font-family: 宋体; font-size: 12pt;">1999</span><span style="font-family: 宋体; font-size: 12pt;">年全长</span><span style="font-family: 宋体; font-size: 12pt;">975</span><span style="font-family: 宋体; font-size: 12pt;">公里的南疆铁路库尔勒西至喀什段建成通车。到</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年，正线营运里程已超过</span><span style="font-family: 宋体; font-size: 12pt;">3000</span><span style="font-family: 宋体; font-size: 12pt;">公里。</span><span style="font-family: 宋体; font-size: 12pt;">1949</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆只有几条简易公路，通车里程仅</span><span style="font-family: 宋体; font-size: 12pt;">3361</span><span style="font-family: 宋体; font-size: 12pt;">公里，到</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年，全区公路通车里程已达</span><span style="font-family: 宋体; font-size: 12pt;">89531</span><span style="font-family: 宋体; font-size: 12pt;">万公里，其中高速公路</span><span style="font-family: 宋体; font-size: 12pt;">541</span><span style="font-family: 宋体; font-size: 12pt;">公里，一级公路</span><span style="font-family: 宋体; font-size: 12pt;">883</span><span style="font-family: 宋体; font-size: 12pt;">公里，二级公路</span><span style="font-family: 宋体; font-size: 12pt;">6993</span><span style="font-family: 宋体; font-size: 12pt;">公里。目前，已形成了以乌鲁木齐为中心，以</span><span style="font-family: 宋体; font-size: 12pt;">7</span><span style="font-family: 宋体; font-size: 12pt;">条国道为主骨架，东联甘肃、青海，西出中亚、西亚各国，南通西藏，并与境内</span><span style="font-family: 宋体; font-size: 12pt;">68</span><span style="font-family: 宋体; font-size: 12pt;">条省道相连接，境内地市相通、县乡相连的公路交通运输网。新疆民航现已新建扩建了乌鲁木齐等</span><span style="font-family: 宋体; font-size: 12pt;">11</span><span style="font-family: 宋体; font-size: 12pt;">座机场，形成了以乌鲁木齐为中心，连接国内外</span><span style="font-family: 宋体; font-size: 12pt;">65</span><span style="font-family: 宋体; font-size: 12pt;">个大中城市和区内</span><span style="font-family: 宋体; font-size: 12pt;">12</span><span style="font-family: 宋体; font-size: 12pt;">个地、州、市的空运网，通航里程已达</span><span style="font-family: 宋体; font-size: 12pt;">16.18</span><span style="font-family: 宋体; font-size: 12pt;">万公里。邮电通讯已建立起了以乌鲁木齐为中心，辐射各地州市县乡的日趋完善的邮电通讯网络。全疆所有县市均已实现全国电话长途直拨，全疆电话数达</span><span style="font-family: 宋体; font-size: 12pt;">262</span><span style="font-family: 宋体; font-size: 12pt;">．</span><span style="font-family: 宋体; font-size: 12pt;">6</span><span style="font-family: 宋体; font-size: 12pt;">万户。数据通信网、多媒体通信网发展迅速，相继建成了覆盖各地州市的</span><span style="font-family: 宋体; font-size: 12pt;">ATM</span><span style="font-family: 宋体; font-size: 12pt;">宽带网，并开展了</span><span style="font-family: 宋体; font-size: 12pt;">IP</span><span style="font-family: 宋体; font-size: 12pt;">宽带网城域网的建设。移动通信网络能力大幅提高，建成了覆盖全疆的移动网，全区移动通信交换机容量已达</span><span style="font-family: 宋体; font-size: 12pt;">292</span><span style="font-family: 宋体; font-size: 12pt;">．</span><span style="font-family: 宋体; font-size: 12pt;">4</span><span style="font-family: 宋体; font-size: 12pt;">万户。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">教育事业兴旺发达。新中国成立初期，新疆学院是新疆唯一的高等学校，学生仅</span><span style="font-family: 宋体; font-size: 12pt;">300</span><span style="font-family: 宋体; font-size: 12pt;">人；中学只有</span><span style="font-family: 宋体; font-size: 12pt;">9</span><span style="font-family: 宋体; font-size: 12pt;">所，不足</span><span style="font-family: 宋体; font-size: 12pt;">3000</span><span style="font-family: 宋体; font-size: 12pt;">人；小学生不到</span><span style="font-family: 宋体; font-size: 12pt;">20</span><span style="font-family: 宋体; font-size: 12pt;">万，而且多半集中在城市，牧区儿童几乎无书可读，文盲率高达</span><span style="font-family: 宋体; font-size: 12pt;">90%</span><span style="font-family: 宋体; font-size: 12pt;">以上。经过五十多年的建设，新疆的教育事业实现了巨大的飞跃，</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年与</span><span style="font-family: 宋体; font-size: 12pt;">1949</span><span style="font-family: 宋体; font-size: 12pt;">年相比，全区小学由</span><span style="font-family: 宋体; font-size: 12pt;">1335</span><span style="font-family: 宋体; font-size: 12pt;">所增加到</span><span style="font-family: 宋体; font-size: 12pt;">5209</span><span style="font-family: 宋体; font-size: 12pt;">所，在校学生数由</span><span style="font-family: 宋体; font-size: 12pt;">19.79</span><span style="font-family: 宋体; font-size: 12pt;">万人增加到</span><span style="font-family: 宋体; font-size: 12pt;">214.38</span><span style="font-family: 宋体; font-size: 12pt;">万人；普通中学由</span><span style="font-family: 宋体; font-size: 12pt;">9</span><span style="font-family: 宋体; font-size: 12pt;">所增加到</span><span style="font-family: 宋体; font-size: 12pt;">1952</span><span style="font-family: 宋体; font-size: 12pt;">所，在校学生数由</span><span style="font-family: 宋体; font-size: 12pt;">0.29</span><span style="font-family: 宋体; font-size: 12pt;">万人增加到</span><span style="font-family: 宋体; font-size: 12pt;">154.13</span><span style="font-family: 宋体; font-size: 12pt;">万人；普通高校由</span><span style="font-family: 宋体; font-size: 12pt;">1</span><span style="font-family: 宋体; font-size: 12pt;">所增加到</span><span style="font-family: 宋体; font-size: 12pt;">31</span><span style="font-family: 宋体; font-size: 12pt;">所，在校学生数由</span><span style="font-family: 宋体; font-size: 12pt;">0.04</span><span style="font-family: 宋体; font-size: 12pt;">万人增加到</span><span style="font-family: 宋体; font-size: 12pt;">18</span><span style="font-family: 宋体; font-size: 12pt;">万人。全区受教育人口比例显著提高，</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年小学学龄儿童入学率达到</span><span style="font-family: 宋体; font-size: 12pt;">98.7%</span><span style="font-family: 宋体; font-size: 12pt;">，小学毕业生升学率</span><span style="font-family: 宋体; font-size: 12pt;">99.3%</span><span style="font-family: 宋体; font-size: 12pt;">；初中学龄儿童入学率</span><span style="font-family: 宋体; font-size: 12pt;">87.7%</span><span style="font-family: 宋体; font-size: 12pt;">，初中毕业升入普通高中升学率</span><span style="font-family: 宋体; font-size: 12pt;">40.7%</span><span style="font-family: 宋体; font-size: 12pt;">；青壮年文盲率已降至</span><span style="font-family: 宋体; font-size: 12pt;">2%</span><span style="font-family: 宋体; font-size: 12pt;">以下。同时，据第五次全国人口普查，</span><span style="font-family: 宋体; font-size: 12pt;">2000</span><span style="font-family: 宋体; font-size: 12pt;">年维吾尔族</span><span style="font-family: 宋体; font-size: 12pt;">15</span><span style="font-family: 宋体; font-size: 12pt;">岁以上人口文盲率已下降到</span><span style="font-family: 宋体; font-size: 12pt;">9.22%</span><span style="font-family: 宋体; font-size: 12pt;">，</span><span style="font-family: 宋体; font-size: 12pt;">6</span><span style="font-family: 宋体; font-size: 12pt;">岁以上人口平均受教育年限也达到了</span><span style="font-family: 宋体; font-size: 12pt;">6.83</span><span style="font-family: 宋体; font-size: 12pt;">年。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">卫生事业快速发展。</span><span style="font-family: 宋体; font-size: 12pt;">1949</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆只有</span><span style="font-family: 宋体; font-size: 12pt;">54</span><span style="font-family: 宋体; font-size: 12pt;">医疗机构、</span><span style="font-family: 宋体; font-size: 12pt;">696</span><span style="font-family: 宋体; font-size: 12pt;">张病床，每万人只有</span><span style="font-family: 宋体; font-size: 12pt;">1.6</span><span style="font-family: 宋体; font-size: 12pt;">张病床、</span><span style="font-family: 宋体; font-size: 12pt;">0.19</span><span style="font-family: 宋体; font-size: 12pt;">名医生，而且卫生机构都集中在少数城市（镇），那时的人均预期寿命只有</span><span style="font-family: 宋体; font-size: 12pt;">30</span><span style="font-family: 宋体; font-size: 12pt;">岁。</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年末</span><span style="font-family: 宋体; font-size: 12pt;">,</span><span style="font-family: 宋体; font-size: 12pt;">全区已有卫生机构</span><span style="font-family: 宋体; font-size: 12pt;">8087</span><span style="font-family: 宋体; font-size: 12pt;">个，其中，医院、卫生院</span><span style="font-family: 宋体; font-size: 12pt;">1516</span><span style="font-family: 宋体; font-size: 12pt;">个，疾病预防控制中心（防疫站）</span><span style="font-family: 宋体; font-size: 12pt;">197</span><span style="font-family: 宋体; font-size: 12pt;">个，卫生监督检验机构</span><span style="font-family: 宋体; font-size: 12pt;">30</span><span style="font-family: 宋体; font-size: 12pt;">个；卫生技术人员</span><span style="font-family: 宋体; font-size: 12pt;">9.63</span><span style="font-family: 宋体; font-size: 12pt;">万人，其中，执业医师和助理医师</span><span style="font-family: 宋体; font-size: 12pt;">4.14</span><span style="font-family: 宋体; font-size: 12pt;">万人，注册护士</span><span style="font-family: 宋体; font-size: 12pt;">3.07</span><span style="font-family: 宋体; font-size: 12pt;">万人；拥有病床</span><span style="font-family: 宋体; font-size: 12pt;">7.98</span><span style="font-family: 宋体; font-size: 12pt;">万张，其中医院、卫生院拥有床位</span><span style="font-family: 宋体; font-size: 12pt;">7.60</span><span style="font-family: 宋体; font-size: 12pt;">万张。乡镇卫生院有</span><span style="font-family: 宋体; font-size: 12pt;">825</span><span style="font-family: 宋体; font-size: 12pt;">个，卫生技术人员</span><span style="font-family: 宋体; font-size: 12pt;">1.34</span><span style="font-family: 宋体; font-size: 12pt;">万人，拥有床位</span><span style="font-family: 宋体; font-size: 12pt;">1.29</span><span style="font-family: 宋体; font-size: 12pt;">万张。广大农牧区已初步形成了县、乡、村三级医疗预防保健网，历史上遗留下来的危害各族群众健康的地方病、传染病已基本被消灭，农牧民缺医少药、备受疾病折磨的历史早已结束。目前，新疆人口平均期望寿命已延长到</span><span style="font-family: 宋体; font-size: 12pt;">71</span><span style="font-family: 宋体; font-size: 12pt;">岁。</span><span style="font-size: 12pt; text-indent: 2em;">&ensp;</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;">人民生活水平得到显著提高。解放初期，新疆大部分群众衣不裹体</span><span style="font-family: 宋体; font-size: 12pt;">,</span><span style="font-family: 宋体; font-size: 12pt;">食不裹腹，生活十分贫苦。到</span><span style="font-family: 宋体; font-size: 12pt;">1978</span><span style="font-family: 宋体; font-size: 12pt;">年，新疆城镇居民家庭人均年可支配收入</span><span style="font-family: 宋体; font-size: 12pt;">319</span><span style="font-family: 宋体; font-size: 12pt;">元，农牧民人均纯收入</span><span style="font-family: 宋体; font-size: 12pt;">119</span><span style="font-family: 宋体; font-size: 12pt;">元，新疆各族群众的温饱问题基本得到解决。到</span><span style="font-family: 宋体; font-size: 12pt;">2005</span><span style="font-family: 宋体; font-size: 12pt;">年，城镇居民人均可支配收入达到</span><span style="font-family: 宋体; font-size: 12pt;">8100</span><span style="font-family: 宋体; font-size: 12pt;">元，人均消费支出</span><span style="font-family: 宋体; font-size: 12pt;">6208</span><span style="font-family: 宋体; font-size: 12pt;">元，人均住房使用面积</span><span style="font-family: 宋体; font-size: 12pt;">20.15</span><span style="font-family: 宋体; font-size: 12pt;">平方米；农村居民人均纯收入达到</span><span style="font-family: 宋体; font-size: 12pt;">2482</span><span style="font-family: 宋体; font-size: 12pt;">元，人均消费支出</span><span style="font-family: 宋体; font-size: 12pt;">1924</span><span style="font-family: 宋体; font-size: 12pt;">元，人均住房面积</span><span style="font-family: 宋体; font-size: 12pt;">21.13</span><span style="font-family: 宋体; font-size: 12pt;">平方米。新疆各族人民的生活总体上正在实现从温饱型向小康型的转变。</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-size: 12pt;">进入</span><span style="font-size: 12pt;">21</span><span style="font-size: 12pt;">世纪的新疆，民族团结，社会稳定，工农业生产和社会各项事业迅速发展，各族人民的生活水平得到了显著提高。新疆的经济和社会发展的前景是美好的，在中国共产党的领导下，新疆各族人民通过共同努力，一定能把新疆建设得更加美丽富饶。</span></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"></p>
+<p style="text-indent: 2em; font-family: 宋体; font-size: 12pt;"><span style="font-family: 宋体; font-size: 12pt;"><strong>（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong></span></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

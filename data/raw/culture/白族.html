@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="风俗习惯" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 11:33:53" />
+<title>风俗习惯</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/bz/gk.shtml'  target="_parent">白族</a>&nbsp;>&nbsp;<span>风俗习惯</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							白族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/bz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/bz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/bz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/bz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族人民经历长期的历史发展，创造了自己灿烂的科学文化，为中华民族的文化宝库增添了光辉色彩。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族服饰清爽大方。男子多穿白色对襟衣，外套黑领褂。妇女服饰各有千秋，从服饰可看出年龄大小、成婚与否以及地区差异。其素雅的扎染，古朴的绣花围腰、鞋子，花团锦簇的绣花背被、挂包很有特色。白族崇尚白色，以白色衣服为尊贵。大理一带的男子多穿白色对襟衣，外套黑领褂。洱海东部白族男子则外套麂皮领褂，或皮质、绸缎领褂，腰系绣花兜肚，下穿蓝色或黑色长裤。女子服饰各地有所不同。大理一带多穿白上衣，红坎肩，或是浅蓝色上衣、外套黑丝绒领褂，右衬结纽处挂“三须”、“五须”银饰，腰系绣花短围腰，下穿蓝色宽裤，足蹬绣花鞋。妇女头饰更是异彩纷呈：大理一带未婚女子梳独辫且盘在花头帕外面，再缠上花丝带等，左侧垂着一束白绦穗；婚后发辫改为挽髻，盘在头顶，外包扎染或蜡染的蓝布帕，缠素色布条。凤羽、邓川、洱源的姑娘喜戴“凤凰帕”；有的地方则头包花毛巾或只将辫子盘头上，再缠一束红头绳；有的地方头饰为“一块瓦”；有的地方头上用多块头布相叠覆盖，最外面的一块布上绣白族人民喜欢的图案。头帕外缠多种颜色的头绳，格外美观。妇女们都喜戴玉或银手镯、坠耳环。城镇居民多穿汉族服装，青年人爱着时装。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族以稻米和小麦作主食，山区则以玉米、荞子为主食。喜食酸辣，洱海的鲤鱼、弓鱼、鲫鱼是人们喜食的菜肴，“砂锅鱼”是大理著名佳肴。善于腌制火腿、腊肉、香肠、油鸡、螺蛳酱等。爱饮糯米酿造的甜酒、大米制作的饵丝。喜饮烤茶，著名的“三道茶”是待客上品。第一道是用沱茶冲泡的苦茶；第二道是加红糖和牛奶的甜茶；第三道是放入核桃、蜂蜜、米花的回味茶。“一苦、二甜、三回昧”的“三道茶”不仅是白族同胞待客的佳茗，它还寓含了丰富的人生哲理。乳扇是白族独创的乳制品，色泽淡黄，状如扇，薄如纸，味道鲜美。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族的建筑艺术独具一格。高寒山区多居住单间或两间相连的“垛木房”或“竹篱笆房”；坝区则多住土木结构的瓦房。位于苍山脚下、洱海之滨的大理喜洲，是白族民居的精萃所在。一座端庄的白族民居主要由院墙、大门、照壁、正房、左右耳房组成。一般的建筑形式是“两房一耳”，“三坊一照壁”，少数富户住“四合五天井”，还有两院相连的“六合同春”，楼上楼下由走廊全部贯通的“走马转角楼”等，现在多是一家一户自成院落的二层楼房。充分利用当地盛产的鹅卵石来砌墙，也是白族民居建筑的一大特色。白族民居往往注重门楼、照壁建筑和门窗雕刻以及正墙的彩绘装饰，门楼是整个建筑的精华部分。门楼建筑艺术水平的高低，可以反映其主人的经济地位，也是一种光宗耀祖的标志。白族门楼的挑梁斗拱不仅凸现了白族建筑艺术的精华，而且深具文化内涵。门楼正中嵌挂匾额，匾额上往往书有用来表示姓氏、发扬祖风的堂号，通常选用与自家姓氏相关的成语或典故，镌刻在匾上。如张姓“百忍堂”、“百忍遗风”；杨姓“四知堂”、“清白传家”；董姓“三策堂”等，各姓匾额不容相混。门窗木雕，无处不闪现着剑川木匠高超的手艺。照壁是白族民居不可缺少的部分，正面书写“紫气东来”、“福星高照”、“虎卧雄岗”、“福”、“寿”等吉祥文字。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">“胜地标三塔，浮图秘鬼工”，此诗赞誉的就是大理崇圣寺三塔，它和河北的赵州桥、西安的大雁塔一样，是我国古代建筑的珍品。主塔千寻塔始建于公元836年，高69.13米，是一座方形密檐式的16级大砖塔，属典型唐代密檐式塔。和主塔鼎立的南北两塔建造于大理国时期，均为10层密檐式八角形砖塔，各高42.19米。三塔虽各具风格，但浑然一体，气势雄伟，建筑风格和著名的西安大雁塔有异曲同工之妙，是我国古代民族团结的实物见证。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族的雕刻艺术主要体现于石雕和木雕，石雕以剑川石钟山石窟和大理国经幢为代表，木雕以剑川木雕最为有名。开凿于南诏大理国年间的剑川石钟山石窟是中国南方最具代表性的石窟之一，享有“西南敦煌”的美誉。石钟山石窟共16窟，造像139躯，分布在以石钟寺为中心的石钟寺、狮子关和沙登箐三处。石钟山石窟从各方面形象生动地再现了南诏大理国时期的社会文化生活的真实图景、佛教人物造像、南诏的政治生活图景、南诏大理国的宗教信仰，还是南诏政权与东南亚、南亚和西亚各地的文化交流的真实写照。大理国经幢，又名“地藏寺经幢”。此幢记叙大理割据政权的史料，反映了鄯阐（今云南昆明）与宋朝的关系，具有较高的历史和艺术价值。经幢造型优美，雕刻技术精湛，具有密宗佛教造像的特点。手法有浮雕、高浮雕、半立体雕多种，其精美震惊中外，被誉为“滇中艺术极品”。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族木雕主要运用于宫廷庙宇、民居建筑的装饰上，尤以剑川木雕最为出名。北京人民大会堂云南厅的堂门和木雕屏风就是出自剑川木雕之手。1996年，白族匠师历时一年半时间，完成了《张胜温画卷》木雕精品，木雕总长97．6米，雕刻人物造型栩栩如生，于1997年7月香港回归祖国之时展出，众誉为“新时代的天南瑰宝”。木雕产品主要分为两大类：房屋建筑（主要表现于格子堂门、格子窗等，有“喜鹊登梅”、“荷花牡丹”、“牧牛图”、“二十四孝图”、“鸳鸯戏水”、“狮子滚绣球”等丰富多彩的图案）和家具（主要表现于屏风及桌、椅、凳、柜、台等，图案繁富，以“双凤朝阳”、“凤穿牡丹”为贵，而“飞龙揽云”、“百鸟朝凤”、“孔雀开屏”等更是艺术精品）。白族的漆器艺术造诣很高，元明两代王朝政府所取的御用漆工，大都从云南挑选，大理国的漆器传到明代，还一直被人视为珍贵的“宋剔”。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">与石雕、木雕密切联系的是白族碑刻。白族碑刻历史悠久，数量众多，重要的碑刻有《南诏德化碑》、《段氏与三十七部会盟碑》、《元世祖平云南碑》、《词记山花•咏苍洱境》等，是研究白族历史、文化、艺术的重要资料。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族绘画艺术丰富多彩。《南诏中兴图传》是白族画家张顺、王奉宗的杰作，包括画卷和文字卷两部分，因绘制于南诏中兴二年（899年）而得名。内容主要为梵僧点化奇王细奴罗为南诏王、梵僧教化愚民、兴宗王罗盛等祭铁柱、中兴王舜化贞奉祭观音等故事，依据《巍山起因》、《铁柱记》、《西洱河记》等南诏早期史籍绘制而成。它是南诏时期的民族艺术珍品，对于研究南诏历史与文化具有很高的历史和艺术价值。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">《张胜温画卷》，大理国画工张胜温创作于大理国盛德五年（南宋孝宗淳熙七年，1180年），是世界佛教图像画中的珍品，画卷有明翰林学士宋濂、清乾隆皇帝及近人方国瑜、罗庸等诸多名家题跋，是云南历史上绘画艺术步至颠峰期的巨型精粹杰作，在中国美术史中占有重要的地位。该画卷与同时代的另一画卷《清明上河图》被誉为“南北双绝”。画卷为纸本设色、贴金，总长1636.5厘米，高30.4厘米，134开，以《护国仁王经》为主题，画着628个面貌不同的人像，将大理国时期从王者至平民笃诚信奉佛教的盛况，以及崇佛祀佛的内容备细描录、展现无遗。整部画卷大气磅礴、酣畅有序，人物众多而疏密得当，并从艺术的角度体现了南诏、大理国的相互因袭与联系。此外，元代大理凤仪遍知寺的壁画、明代剑川沙溪《兴教寺壁画》均为一时之绘画艺术珍品。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族地区具有本民族特色的商品种类很多，其中以大理石制品、木雕制品、扎染、草编制品、沱茶最为有名。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">大理石制品是白族手工艺品的一绝。大理石又名苍石、文石、础石，是石灰岩，一般呈白色，主要产于大理点苍山，在我国和世界一些地区也有分布，但大理石中最为名贵的水墨石和彩花石两类则唯有大理出产，享誉海内外。大理石的用途主要体现在建筑、装饰、生活用品、家具等方面。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">扎染是白族又一著名的民间手工艺品，主产地在大理的周城镇。它以白棉布为原料，用手工扎缝出各种花形图案，再用不易褪色的植物染料多彩浸染，就会在布上呈现出蓝底白花、清新素雅、变化多端的各式图案。扎染布是白族妇女传统的装饰品，她们使用的头巾、手帕和挂包大都是用扎染布做成。扎染服装、装饰品、生活用品是白族地区的重要出口商品。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族草编是白族妇女在劳动之余，用麦杆精心编织而成的各种生活用品，如草帽、草篮、草席等富有民族特色和地方特色的手工艺品。草编制品是将麦杆经过水漂、硫磺薰白后编制而成，是白族妇女世代相传的一项手工艺，其优点是软、细、白、美。大理草帽历史悠久，既是白族人民的生活用品，又是白族姑娘们钟爱的装饰品，在大理古城一带，有专门的草帽一条街，产品远销海内外。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">沱茶既是闻名中外的饮料，又是民族特需商品，是下关茶厂独家生产的地方传统名茶。沱茶由喜洲永昌祥号创制，形如秤砣，选料认真，制作精细，具有造型美观、色泽细润、醇爽回甘的特点，且耐冲泡，既可消食止渴，又有疗效，兼具红茶和绿茶的特点、功效。沱茶尤其畅销于藏区，藏族用沱茶伴酥油和食盐做成酥油茶，苦涩的味道被食盐所掩盖，帮助消化反而更有力量，并且能保暖，适合高原气候寒冷的生活环境，尤其受到藏族同胞的欢迎。2006年5月，十一世班禅亲临下关沱茶集团公司参观，并欣然写下了“世代茶缘，藏汉合欢”的题词。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族家庭是一夫一妻制。同姓同宗不通婚，但例行姑舅表婚，本民族内部或与其他民族之间都可通婚。新中国成立前，各地婚姻多为父母包办，媒人说合。家庭中儿子成婚后即分开独立生活，男子有财产继承权，有的地方幼子还有优先继承权。新中国成立后，废除了宗法封建制度，实现婚姻自由，青年男女可通过众多的定期集会如石宝山歌会等自由恋爱。定亲是白族婚俗的重要礼仪之一，届时男方要通过媒人向女方家庭送“三色水礼”，即红糖、茶叶、酒。婚礼热闹而繁琐，一般持续三至五天。婚后，新郎新娘要回女方家拜父母，会亲戚，称为“回门”。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族在元代以前盛行火葬，云龙县顺荡村至今仍保留有最完整的元明时期白族火葬墓群。元代以后，因受汉族的影响而逐渐改为土葬，仪式简朴庄重。葬仪分为送终、守灵、出殡、安葬四个程序，各地大同小异。老人临终前，子女要尽心尽力在身边伺候，当老人临终时口中要含几粒米或少许碎银，俗称“接气”。守灵期间要念经。出殡要卜吉日，亲友邻里自觉前来送葬。安葬后七日内，子女每天早上要到坟上祭奠，查看新坟是否被损坏。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">三月街是白族人民盛大的节日和街期，号称“千年赶一街，一街赶千年。”它的起源与观音伏罗刹的传说有密切联系，所以又叫观音市。每年夏历三月十五日开始在大理古城西门外举行，会期七至十天。结棚为市，万商云集，大宗交易各地土特产品、中草药材、骡马牲畜和日用百货。节日期间，举办传统的赛马、赛龙舟、射弩、打秋千等民间体育比赛以及大本曲演唱、洞经古乐、民族歌舞表演，年年如是，热闹非凡。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">火把节是白族另一盛大节日，每年夏历六月二十五日举行，古称“星回节”，它是白族人民在秋收前预祝五谷丰登、人畜兴旺的活动。节日期间最为壮观的是每个白族村寨都要在村子中央的场地上竖起一柱或数柱三四丈高的大火把，树杆作心，外面捆扎竹片、树枝和松明，用彩线系上火把梨、乳扇、鞭炮，插上书有“五谷丰登”、“国泰民安”、“风调雨顺”字样的“升斗”，当夜幕降临，大小火把齐明，红光满天，响声震耳。晚上睡觉时，妇女和小孩要用一种捣烂的“凤仙花根”包捂手指头，第二天即把指甲染红，传说是以此纪念邓赕诏主皮罗造的妻子柏洁慈善夫人，象征忠贞的爱情。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">绕三灵，又称绕山灵、绕三林，是一种农闲时的赛歌盛会。白语叫“观上览”，意即“游逛园林”。三灵指“神都”圣源寺，“仙都”金奎寺，“佛都”崇圣寺，绕三灵主要是串游这三个寺庙。每年农历四月二十三至二十五日，洱海周围上百个村寨的男女老少，着盛装，各村为一队，从大理古城出发，至洱海边的河矣村，历时三天。每队领头的是两位年长男子，他们共挟一支杨柳，高八尺许，横一彩绸，一葫芦。一手挟枝，一手执蚊帚，或一把扇，或一块毛巾，一人主唱，一人拍打，后面跟着众男女，载歌载舞，充满狂欢情绪，被称为“白族狂欢节”，已经申报联合国教科文组织“人类口头和非物质遗产代表作”。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">此外，白族还有许多节日，如过正月、朝鸡山、葛根会、青姑娘节、天子庙会、接佛母、打歌会、花朝节、庄稼会、观音会、小鸡足山歌会、蝴蝶会、栽秧会、卖花会、杨梅会、绕海会、赛花船、海西海歌会、松桂骡马会、海灯会、石宝山歌会、剑川骡马会、将军庙会、渔潭会、菊花会、尝新米节、本主节等。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族舞蹈较多，按活动性质可分为娱乐性和祭祀性两大类。娱乐性舞蹈有霸王鞭、八角鼓舞、龙狮舞、模拟动物舞、兵器舞等；祭祀性舞蹈有羊皮鼓舞、手巾舞、碗箩舞、耍花舞、灯盏舞、巫舞等。其中霸王鞭、八角鼓舞、龙狮舞最流行。霸王鞭、八角鼓舞多在喜庆节日和传统节日三月街、绕三灵时举行，男女各为双数，男的以八角鼓（八方八角鼓，单面蒙皮，边缘嵌着铜钱和铜铃）或双飞燕（竹板两副，上系彩带，左右手各执一副）为道具，女的以霸王鞭（长1米左右的竹棍，两头嵌入用铁丝穿着的铜钱数枚，棍上扎纸花，舞时发出响声）为道具，同台演出。舞形变化多姿，有“一条街”、“打四门”、“五梅花”、“金鸡打架”、“二龙抢宝”、“背合背”、“心合心”、“脚钩脚”等。演员随着霸王鞭、八角鼓在身体各部位敲击的节奏，双膝轻轻颤动，肩、胸、腰随之晃动，并用白语唱各种小调，同时还有笛子或三弦伴奏，节奏鲜明，步伐整齐有力，气氛热烈。龙狮舞，即耍龙和舞狮，多在春节和重大节日时举行。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">弥渡花灯。“月亮出来亮汪汪，想起我的阿哥在深山；哥像月亮天上走，山下小河淌水清悠悠……”，这是20世纪50年代广泛流传于全国的弥渡山歌《小河淌水》，被誉为“东方小夜曲”，它使弥渡闻名于世，也使弥渡花灯《十大姐》、《绣荷包》等享誉全国。在弥渡流传着一句俗语：“十个弥渡人，九个会唱灯。”每年正月十五是传统的密祉灯会。届时密祉万人空巷，盛况空前，至今不衰，反映了弥渡花灯的娱乐性和群众性。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族器乐非常丰富，而其中乐器结构和演奏风格最为独特的是唢呐和三弦。白族唢呐与汉族唢呐构造不同，背面无音孔，正面只有七孔，采用“借音”吹奏法。唢呐不仅用于婚丧嫁娶、喜庆节日、庙会等活动，还是传统白剧“吹吹腔”的主要伴奏乐器，流传至今的曲牌有“栽秧调”、“大摆队伍”、“龙上天”、“仙家乐”、“蜜蜂过江”、“哑子哭娘”、“跌落泉”等上百首之多。三弦是最牵动白族人心的又一种乐器。白族三弦有大、中、小三种，大三弦音质浑厚，主要用于白族民间曲艺“大本曲”的伴奏；中音三弦，又称龙头三弦，是白族民歌的主要伴奏乐器；小三弦，长度不足二尺，演奏多用揉弦指法，善于发挥每个音符的余音和波音，音色有类于古筝而更显得轻妙柔和。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">大理洞经古乐始于南诏大理国时期的宫廷音乐和祭祀音乐，兴盛于明清两代，在发展过程中溶入了儒、释、道三教的祭祀音乐，而完善于道家的道场，以演奏《文昌大洞仙经》为主调，故称为洞经音乐，它堪称为一块音乐的活化石。下关洞经乐社“三元会”至今尚保留有“奉圣乐”等乐章，仅下关民间音乐家李莼先生保存的“工尺谱”就达200多首。其演奏风格兼具道家音乐的飘逸、宫廷音乐的典雅、江南丝竹的柔美和儒家音乐的浑厚。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族民间文学包括神话、传说、故事、民歌、叙事诗以及民间曲艺大本曲和吹吹腔等各类体裁的作品，它们构成白族文学的主体。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族古老的神话有开辟神话、图腾神话、龙神话、本主神话和密教神话五类。代表作品有《开天辟地的传说》、《氏族的来源》、《九隆神话》、《大黑天神》等。这些神话是白族先民关于天地形成、人类起源、氏族来源和各种事物的解释。在白族古老的神话史诗《创世纪》和《人类和万物的传说》中，反映了白族先民混沌的宇宙观，具有朴素唯物主义思想因素。白族人民以美丽的自然风光、名胜古迹和重大历史事件为素材，创造了许许多多地方风物传说和故事，如大理有名的风、花、雪、月四景传说等。这些传说故事，虽描写的是自然风光、地方名胜、历史人物，但也反映了白族人民独特的风俗习惯、民族心理，具有很高的思想性和艺术性。代表作品有《望夫云》、《美人石》、《蝴蝶泉》、《神奇的鸟会》、《鸡足山》、《绕山林》、《玉白菜》和《火烧松明楼》等。此外，白族人民还创作了大量的本主故事和机智人物故事。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">白族民间诗歌，可分为打歌、歌谣、长诗和对口山歌。“打歌”是音译，本义为游戏、玩耍，它是同生产、生活和风俗习惯相联系的一种比较原始的艺术形式。白族民间文学中，有一种区别于白族调的长篇诗歌体——本子曲，主要流传于剑川、洱源一带，著名作品有《鸿雁带书》、《鸿雁回书》、《李四维告御状》、《青姑娘》、《放鹞曲》、《黄氏女对经刚》等。大本曲是一种说唱文学，在民间广为流传，它由唱词和说白构成，以唱词为主，说白为辅。唱本有些是根据汉族的古典小说、历史故事和民间故事改编的，有些是根据白族民间故事改编的。白族地区还流行一种民间戏剧——吹吹腔，剧目有200多种，多数是根据汉族古典小说、历史故事、民间故事和白族民间故事改编的。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;">与白族民间文学交相辉映的是白族文人文学。南诏时期是白族诗歌创作的一个高峰期，杰出者如寻阁劝、赵叔达、杨奇鲲、段义宗等，他们的作品虽传世很少，但得到了中原汉族的普遍认可，被收入《全唐诗》。《南诏德化碑》不仅代表了该期文学创作的最高成就，更以其独特的历史价值而长存于苍洱之间。明代兴起了一个白族知识分子士绅群体，著名的有李元阳、高桂枝、杨南金、杨黼、杨士云等。他们写作了许多山水诗，但也有反映现实生活的佳作。清代至新民主主义革命时期，白族中涌现出不少作家和诗人，如王崧、师范、赵藩、周钟岳、赵式铭、张子斋、马曜、杨明、马子华等。赵藩书法苍劲有骨力，颇得颜鲁公笔意，脍炙人口的昆明大观楼长联及成都武侯祠楹联都是他的手笔，楹联曰：“能攻心则反侧自消，从古知兵非好战；不审势即宽严皆误，后来治蜀要深思。”他晚年编辑的《云南丛书》205种1402卷，集云南文献之大成，是一部颇有价值的文学遗产。马曜是新民主主义时期的诗人和历史学家，著有《茈湖精舍诗初集》，并写了许多反映民生疾苦、抨击时政和歌颂民主运动的诗。中华人民共和国成立后，白族新文学有了长足的发展，戏剧家杨明、散文作家马子华、小说家杨苏及诗人晓雪等，写了不少反映云南各民族生活的作品，张文勋长期致力于中国古代文论研究和白族文学史研究。</span></p>
+<p align="" style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; text-indent: 2em; font-family: 微软雅黑;">约汉唐之际，白族先民开始使用一种民族历法，它是一种阴历，但有太阳历的特征。习惯上通称每年13个月，每月30天，但是并非每年都过足13个月，也不是每月都有30天，其中包含了虚月和虚日。这种古老的白族历法在今天居住于怒江流域的白族支系――“勒墨”人中还有遗存，他们对月份的称呼，直接以当月的物候和人们的生产活动来命名，分别称之为太阳不动月、太阳起来月、树枝发芽月、开始种地月、农忙月、再种也不收月、饥饿月、无力气月、粮食始熟月、完全成熟月、狩猎月、酒醉月。二月置闰；每个月里，初二日是虚日，只有大月才有，每逢小月，过完初一之后就是初三了。以上充分反映了古老历法对白族先民农事生产的直接指导作用。此外，白族学者杨士云的《天文历志》、周思濂的《太和更漏中星表》、何中立的《星象表》、李滮的《筹算法》等著作中，分别探讨了行星的轨迹、恒星的运动、太阳黑子的观测、彗星的记录等天文现象，丰富了我国古代天文学的内容。</span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;"><strong style="">（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong></span></p>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

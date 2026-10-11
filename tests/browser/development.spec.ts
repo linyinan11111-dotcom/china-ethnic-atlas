@@ -1,0 +1,52 @@
+import {test,expect} from '@playwright/test';
+
+test('one ethnic page contains culture and development, updates together and links matching region economy',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/#culture?ethnic='+encodeURIComponent('白族'));
+ await expect(page.locator('#section-culture')).toContainText('白族');
+ await page.getByRole('button',{name:'民族发展',exact:true}).click();
+ await expect(page).toHaveURL(/#ethnic/);
+ await expect(page.locator('.development-achievements')).toContainText('2006');
+ await expect(page.locator('.development-achievements')).toContainText('白族扎染技艺列入国家级非遗名录');
+ await page.getByRole('button',{name:'2014 年',exact:true}).click();
+ await expect(page.locator('.development-achievement')).toHaveCount(2);
+ await expect(page.locator('.development-achievements')).toContainText('白族三道茶');
+ await expect(page.locator('.development-achievement-grid')).not.toContainText('白族扎染');
+ await expect(page.locator('.development-achievement-grid')).toContainText('并非该项目首次');
+ await expect(page.locator('.development-regions')).toContainText('云南');
+ await expect(page.locator('.development-regions')).not.toContainText('宁夏');
+ await page.getByLabel('搜索民族名称').fill('独龙');await page.locator('.ethnic-option').click();
+ await expect(page).toHaveURL(/#ethnic/);
+ await expect(page.locator('[data-development-ethnic]')).toHaveAttribute('data-development-ethnic','独龙族');
+ await expect(page.locator('.development-achievements')).toContainText('独龙族卡雀哇节');
+ await expect(page.locator('.development-achievements')).toContainText('2021');
+ await expect(page.locator('.development-achievement')).toHaveCount(2);
+ await expect(page.locator('.development-achievements')).not.toContainText('白族扎染');
+ await page.getByRole('button',{name:'打开民族搜索'}).click();
+ await page.getByLabel('全局民族搜索').fill('dai');await page.getByLabel('全局民族搜索').press('Enter');
+ await expect(page).toHaveURL(/#ethnic/);
+ await expect(page.locator('[data-development-ethnic]')).toHaveAttribute('data-development-ethnic','傣族');
+ await expect(page.locator('.development-achievements')).toContainText('傣族孔雀舞');
+ await page.locator('.development-region').first().click();
+ await expect(page).toHaveURL(/#ethnic/);
+ await expect(page.locator('.economy-grid')).toContainText('云南');
+ expect(errors).toEqual([]);
+});
+
+test('mobile development switches ethnic profiles, preserves Taiwan scope and fits long titles',async({page})=>{
+ await page.setViewportSize({width:390,height:844});
+ await page.goto('/#reform?ethnic='+encodeURIComponent('乌孜别克族'));
+ await expect(page.locator('.development-achievements')).toContainText('乌孜别克族埃希来、叶来');
+ await expect(page.locator('.development-year').first()).toHaveText('2008');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+ await page.locator('.mobile-picker button').click();
+ await page.getByLabel('搜索民族名称').fill('高山');await page.locator('.ethnic-option').click();
+ await expect(page).toHaveURL(/#ethnic/);
+ await expect(page.locator('.development-achievements')).toContainText('福建省华安县');
+ await expect(page.locator('.development-region')).toHaveCount(1);
+ await expect(page.locator('.development-region')).toContainText('福建');
+ await expect(page.locator('.map-main-column .taiwan-population')).toContainText('641,332');
+ await expect(page.locator('.ethnic-timeline-scope')).toContainText('大陆');
+ await expect(page.locator('.development-shared')).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+});

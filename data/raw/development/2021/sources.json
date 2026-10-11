@@ -1,0 +1,116 @@
+[
+  {
+    "page": 1,
+    "file": "page-01.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967536241.jpg",
+    "sha256": "8c66196daa9c5175e5696a11292a9111c26492634cfa9d1c2dea6458b4a6197b"
+  },
+  {
+    "page": 2,
+    "file": "page-02.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967646953.jpg",
+    "sha256": "a3ded96af1a7620d107f2979dd3181145fe5088bff6407388b990282f7ab7f62"
+  },
+  {
+    "page": 3,
+    "file": "page-03.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967734419.jpg",
+    "sha256": "44089540db6efe43c4defcbeef0bd27381d07dd6640c8086f3df94f365010115"
+  },
+  {
+    "page": 4,
+    "file": "page-04.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967805030.jpg",
+    "sha256": "7da8b649bd403e207e52363f4c305c30686ce073f2ea81a24046b479180d0177"
+  },
+  {
+    "page": 5,
+    "file": "page-05.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967873335.jpg",
+    "sha256": "d83c655cb55768eb42a865c0da7001f8d7ce2c49064c5251859159e3f2f46a3f"
+  },
+  {
+    "page": 6,
+    "file": "page-06.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291967958062.jpg",
+    "sha256": "1c8b7823ba5d0f9fa5c856870f9e44abc49302706b78cc1397bd44e54b617f68"
+  },
+  {
+    "page": 7,
+    "file": "page-07.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968060245.jpg",
+    "sha256": "ec2be026531eef086162fdaccc81dd0d08f377f5afaf12143e77609034b3dd18"
+  },
+  {
+    "page": 8,
+    "file": "page-08.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968153987.jpg",
+    "sha256": "44c5bb0a293583355048938620aa219eb77b20538987c7920ac37ce47b19228a"
+  },
+  {
+    "page": 9,
+    "file": "page-09.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968377890.jpg",
+    "sha256": "50964fe9db814d31dc842547bb4e19c577d8959fabcefe153db6d247a007729d"
+  },
+  {
+    "page": 10,
+    "file": "page-10.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968478639.jpg",
+    "sha256": "710013102f230978cb02752428064a79d6c021652151c0a9d3c4b5e60c3b5c3f"
+  },
+  {
+    "page": 11,
+    "file": "page-11.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968556279.jpg",
+    "sha256": "22b7caf6ed833f27c0412c98f81432110695dabc7625a78472f5997133e63de8"
+  },
+  {
+    "page": 12,
+    "file": "page-12.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968635625.jpg",
+    "sha256": "8ad3d460ceb4e472391932a8cfb2bd70cda29b7bc7d5f7107364932f9c78ae0f"
+  },
+  {
+    "page": 13,
+    "file": "page-13.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968712910.jpg",
+    "sha256": "378af7934c269af0d7de9cef6e8847362d0c65ef2a7cc889c891da891b535dbf"
+  },
+  {
+    "page": 14,
+    "file": "page-14.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968797431.jpg",
+    "sha256": "1da3603b986717fc57ce451a65080334c3a2f9744a69b95a52ddbe3608401146"
+  },
+  {
+    "page": 15,
+    "file": "page-15.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968847537.jpg",
+    "sha256": "73c5e2b2733edea987523babb4a73efbeacbf1a5f18dffe8886649d801bcc195"
+  },
+  {
+    "page": 16,
+    "file": "page-16.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291968922176.jpg",
+    "sha256": "a07a5eddfce21d49bbce189caa0171cb0be4e53f8d16f627677d311ca73b35cd"
+  },
+  {
+    "page": 17,
+    "file": "page-17.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291969048977.jpg",
+    "sha256": "a092ed49b86aaa494bb2c32e3221c0fdf1b8fa3e5e8900778b158e99e0fd4823"
+  },
+  {
+    "page": 18,
+    "file": "page-18.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291969303546.jpg",
+    "sha256": "8bd83d540a110c25e3507f9a7ce9bed51df6e0b5e394b92e6ec7a27633db966a"
+  },
+  {
+    "page": 19,
+    "file": "page-19.jpg",
+    "url": "https://www.gov.cn/zhengce/content/2021-06/10/W020230201291969463535.jpg",
+    "sha256": "f301d1b420af0129bae9e07b407b504b334970836a851612987cfecaebdcc405"
+  }
+]

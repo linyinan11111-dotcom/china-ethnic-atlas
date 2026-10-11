@@ -1,0 +1,8 @@
+[
+ {"name":"蒙古族","id":"festivals","title":"那达慕","needle":"Nadam,","text":"那达慕是蒙古族的传统集会。原文介绍了赛马、射箭、摔跤及相关集会活动，举办方式随地区与时代变化。"},
+ {"name":"蒙古族","id":"food","title":"牧区与农区的饮食差异","needle":"In pastoral areas, beef, mutton and dairy products","text":"原文分别介绍牧区的肉食、乳制品和农区的谷物饮食。不同生计地区的饮食传统不宜合并成一种固定菜单。"},
+ {"name":"蒙古族","id":"clothing","title":"长袍与季节性衣料","needle":"loose, long-sleeved cotton robes in summer","text":"原文记录了牧区夏季宽袖棉袍与冬季保暖衣料的区别。这里介绍传统服饰，不能据此判断当代居民的日常穿着。"},
+ {"name":"回族","id":"food","title":"清真饮食传统","needle":"The Huis never eat pork","text":"原文介绍了与宗教传统相关的饮食禁忌。各地菜式和生活方式仍有差异，不能以某一道地方菜代表全国回族饮食。"},
+ {"name":"苗族","id":"festivals","title":"苗年与地方节庆","needle":"Different Miao communities celebrate different festivals","text":"不同苗族社区的节日及日期有所区别。原文举出黔东南、广西融水的苗年活动，并介绍节庆中的鼓乐、芦笙和舞蹈。"},
+ {"name":"苗族","id":"architecture","title":"木构住宅与地区差异","needle":"Houses vary greatly in style","text":"原文介绍了不同地区的木构、瓦顶、石板顶等传统住宅形式。建筑材料与当地环境有关，不能用一种吊脚楼样式概括所有苗族聚居地区。"}
+]

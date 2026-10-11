@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/seac/xhtml/css/mz_list.css"/>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js"></script>
+		<script src="/seac/xhtml/js/public.js"></script>
+		<script src="/seac/xhtml/js/slider.js"></script>
+		
+<meta name="SiteName" content="国家民委门户网站"/>
+<meta name="SiteDomain" content="https://www.neac.gov.cn"/>
+<meta name="SiteIDCode" content="bm08000014"/>
+<meta name="ColumnName" content="风俗习惯" />
+<meta name="ColumnDescription" content=""/>
+<meta name="ColumnKeywords" content=""/>
+<meta name="ColumnType" content=""/>
+
+<meta name="others" content="页面生成时间 2024-10-14 10:32:31" />
+<title>风俗习惯</title>
+	</head>
+	<body>
+      <STYLE type="text/css">
+			body {
+				background-size: 100%;
+				background: #ffffff;
+			}
+			
+				.header .logosos .sos .btn {
+					background: url(/seac/xhtml/images/public/sosearch.png) left top !important;
+			    	color: #015293 !important;
+			    	font-size: 15px;
+			    	font-weight: bold;
+				}
+		
+			
+			@media screen and (min-width:960px) {
+				body {
+					width: 100%;
+					z-index: 0;
+				}
+
+				.header {
+					width: 100%;
+					overflow: hidden;
+					background: #ffffff;
+					margin: 0px auto 0px auto;
+				}
+				.header .logosos {
+				    margin: 35px auto 10px auto;
+				}				
+				.w1140 {
+					width: 1130px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+				
+				.w1150 {
+					width: 1110px;
+					margin: 0 auto;
+					overflow: hidden;
+				}
+
+				.header_nav {
+				    width: 100%;
+				    height: 50px;
+				    background: #ffffff !important;
+				}
+				.header_nav .nav {
+				    margin-left: 2px;
+				}				
+				.header_nav .nav li {
+				    font-size: 20px;
+				    font-weight: 600;
+				    width: 161px !important;
+				}
+				.header_nav .nav li:hover {
+					background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat;
+				}
+				.header_nav .nav li a:hover {
+				    color: #ffffff !important;
+				}
+				.header_nav .nav li a {
+				    display: inline-block;
+				    width: 161px;
+				    text-align: center;
+				    color: #015293 !important;
+				    height: 40px;
+				    margin-top: 5px;
+				    line-height: 40px;
+				    border-right:none !important;
+				}
+				.header_nav .nav li.index a {
+				    border-left: none !important;
+				}
+				.header_nav .nav li.active {
+				    background: url(https://www.neac.gov.cn/seac/xhtml/images/public/nav-bg.png) top center no-repeat !important;
+				    font-weight: bold;
+				    margin-left: -1px;
+				}
+				.header_nav .nav li.active a{
+				    color: #ffffff !important;
+				}
+				
+			}
+		
+		</STYLE>
+
+
+
+<div class="header">
+		<div class="top">
+			<div class="w1150">
+				<span class="data fl" id="show"></span>
+				<div class="fr">
+					<a href="javascript:void(0);" onclick="zh_tran('s');" class="zh_click" id="zh_click_s">简体</a><span>|</span>
+					<a href="javascript:void(0);" onclick="zh_tran('t');" class="zh_click" id="zh_click_t">繁體</a><span>|</span>
+					<a href="javascript:void(0);" onclick="SetHome(this,'https://www.neac.gov.cn/');">设为首页</a><span>|</span>
+					<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a><span>|</span>
+                    <a href="https://mail.neac.gov.cn" target="_blank">邮件系统</a><span>|</span>
+		            <a target="_blank" href="http://zs.kaipuyun.cn/s?siteCode=bm08000014" target="_blank">站内搜索</a><span>|</span>
+                    <a href="javascript:void(0)" onclick="aria.start()">无障碍浏览</a>
+				</div>
+			</div>
+		</div>
+		<div class="logosos w1200">
+			<div class="logo fl">
+				<a href="/seac/index.shtml" title="中华人民共和国国家民族事务委员会">
+					<img src="/seac/xhtml/images/public/logo.png" />
+				</a>
+			</div>
+			<div class="sos">
+				<input class="text" type="text" id="qt1" name="qt" placeholder="请输入关键字" style="color:#000;"  onkeypress="if (event.keyCode == 13){zz_search()}" />
+				<input style="cursor: pointer;margin: 0;" class="btn btn1" id="btn1" type="button" value="搜索" />
+			</div>
+		</div>
+		<script>
+				function zz_search(){
+				var qt1 = $('#qt1').val();
+				if(qt1!=''){
+					 var searchword = encodeURI(qt1);
+					 var searchurl ='http://zs.kaipuyun.cn/s?siteCode=bm08000014'+'&searchWord='+searchword;
+
+					window.open(searchurl);
+					//alert('试运行阶段');
+					
+				}else{
+					 alert('请填写正确的关键字');
+					//alert('试运行阶段');
+				} 
+			}
+			$(function(){
+				$('#btn1').click(function(){
+					zz_search();
+				})
+			})
+
+		</script>
+		
+	<div class="w1140">
+		
+		<div class="header_nav">
+			<div class="nav">
+				<ul class="ul_nav">
+						<li class="index"><a href="/seac/index.shtml" >首页</a></li>
+						<li class="mwjs"><a target="_blank" href="/seac/mwjs/index.shtml" >机构</a></li>
+						<li class="xwzx"><a target="_blank" href="/seac/xwzx/index.shtml" >新闻</a></li>
+						<li class="xxgk"><a target="_blank" href="/seac/xxgk/index.shtml" >公开</a></li>
+						<li class="zcfg"><a href="" >互动</a></li>
+						<li class="ztzl"><a target="_blank" href="/seac/ztzl/index.shtml" >专题</a></li>
+						<li class="ziliao"><a target="_blank" href="/seac/ziliao/index.shtml">资料</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+  		
+  </div>
+  <script type="text/javascript">
+  	$(function(){
+    var url = window.location.href;
+      var codeNameLen=url.split("/").length;
+      var codeName=url.split("/")[codeNameLen-2];
+    $(".ul_nav li."+codeName).addClass("active").siblings().removeClass("active");
+  })
+
+  </script>
+		<div class="w1150 bgfff pd25">
+				<div class="BreadcrumbNav">
+					<p>当前位置：
+<a href='/seac/index.shtml'  target="_parent">首页</a>&nbsp;>&nbsp;<a href='/seac/ztzl/zgmzjs/index.shtml'  target="_parent">中华各民族</a>&nbsp;>&nbsp;<a href='/seac/ztzl/dlz/gk.shtml'  target="_parent">独龙族</a>&nbsp;>&nbsp;<span>风俗习惯</span>
+</p>
+				</div>
+				<div class="mz_list">
+					
+					<div class="fl w350">
+<h2>
+							独龙族
+						</h2>
+						<ul class="mz_nva">
+								<li><a href="/seac/ztzl/dlz/gk.shtml">概况</a><i></i></li>
+								<li><a href="/seac/ztzl/dlz/lsyg.shtml">历史沿革</a><i></i></li>
+								<li><a href="/seac/ztzl/dlz/fsxg.shtml">风俗习惯</a><i></i></li>
+								<li><a href="/seac/ztzl/dlz/fzxz.shtml">发展现状</a><i></i></li>
+						</ul>
+						
+						<script>
+		                  var location_channel = $(".BreadcrumbNav span").html().trim();
+		                 	var lia_val;
+		                  $(".mz_nva li").each(function(){
+		                  	 lia_val = $(this).find("a").html().trim();
+		                    if(lia_val==location_channel){
+		                      $(this).attr("class","on");
+		                    }
+		                  })
+		                 console.log(location_channel);
+		                 console.log(lia_val)
+		              </script>
+					</div>
+					<div class="fr w750">
+						<div class="content">
+							<div class="img">
+								<img src=""/>
+							</div>
+							<div class="pd15">
+							<div style="text-indent: 2em; font-size: 12pt;">
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">1950</span><span style="font-size: 12pt;">年以前，独龙族社会生产力水平低下，生产过程原始和简单，主要表现在以下几个方面：<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">生产工具十分简陋，尚处于木、竹、铁器并用的时代。在山地上戳洞点种玉米的尖竹器或尖木器，独龙族称为“斯木”，随用随丢。用于松土、锄草的木勾（“高拉”），是用天然树丫削尖制成，效率很低，也极易损坏，劳作时常常要同时带上三四把以作备用。后来才在木锄的尖端上镶一道外地输入的铁皮，改造成为小铁锄（“恰卡”），效率提高了</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">倍，使用非常普遍。铁砍刀（“夏木”）的传入大约有一二百年的历史，是独龙族用来砍柴、开路、狩猎、盖屋的“万能”工具，但价格十分昂贵，当时要两头肥猪才能换到一把。而铁斧（“温尔”或“兰贝”）约在</span><span style="font-size: 12pt;">80</span><span style="font-size: 12pt;">年前从缅甸传入，一条黄牛也只能换来两把，只有少数人家才有。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族的锄耕农业极为简单粗放。仍以刀耕火种为主，砍倒烧光、轮歇耕作，广种薄收，还没有发展到犁耕。耕地大部分是不固定的“火山地”和半固定的“水冬瓜地”，以及村寨房舍周围的“园地”。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">独龙语称火山地为“响木朗”，意为“刀子地”，是用刀斧砍烧树木后利用灰烬作肥料进行耕种的天然林地。主要有森林的刀耕火种地、竹林的刀耕火种地和竹木混合林的刀耕火种地</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">种。火山地数量多、分布广，大多集中在独龙江两岸陡峭的山坡上，一般要在种植一两年后抛荒轮歇。按过去的习惯，火山地一般占有权并不固定，属于生荒或轮歇期间，谁砍烧谁就可以种，这种情况也沿续至今。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">作为半固定的耕地，“水冬瓜地”面积仅次于火山地，占第</span><span style="font-size: 12pt;">2</span><span style="font-size: 12pt;">位，独龙语称为“斯蒙阿麻”。其经营管理、生产操作与前者一样。只不过这是一种人工培植树林以蓄积肥料再砍烧的轮种耕地。独龙族人民在长期的生产实践中，认识到水冬瓜树生长快、枝叶茂盛，砍烧后比一般树木肥力大，可连续轮种玉米、苦荞、稗子或小米</span><span style="font-size: 12pt;">3</span><span style="font-size: 12pt;">年，便逐步在砍烧后的火山地上重种水冬瓜树苗，等到</span><span style="font-size: 12pt;">5</span><span style="font-size: 12pt;">至</span><span style="font-size: 12pt;">6</span><span style="font-size: 12pt;">年长大后又再砍烧耕种。这比原来的做法前进了一大步，已经由简单的砍倒烧光改变为通过人工栽培种植再造肥力的水冬瓜地。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">至于村寨四周、房前屋后的园地，称为“结白”。地势较平，最为肥沃，但面积最少。采用锄耕，不必抛荒轮歇。耕作较其它土地精细，主要种玉米、土豆、芋头等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">不可或缺的经济补充——采集和渔猎。由于农作物产量很低，一般一年粮食收入不够全年所需，缺粮时期平均有三四个月，甚至多达半年以上。因此，必须靠采集和渔猎来补充。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">采集在独龙族的经济生活中仍然占有极其重要的地位，仅次于农业。当地得天独厚的自然条件，为人们提供了各种食用的动植物。独龙族人一般根据季节的变化来采集应时野食。其中有被称为“阿开”、“不里”、“打格勒”、“阿薄拨”、“木库务”、“克龙”、“阿龙”、“阿波”等包括野苕、董棕、登木线根、小竹笋、竹叶菜、野蒜、大百合、鱼腥草等</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">多种野生植物，多为块根，茎、叶、花次之。有青头菌、鸡油菌、香菌、牛肝菌、松菌、干巴菌、蘑菇、木耳、银耳、白参等</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">余种可食菌类。此外，捕捉各种野蜂、割蜂蜜、取蜂蛹、掏鸟蛋等也是独龙族采集生产中的重要内容。由于畜牧业不发达，家畜饲养也仅限于数量极少的鸡和猪，且多用于祭祀。肉食基本上只能依赖狩猎和捕鱼所得。虽然这已不是主要的生产活动，但作为一种副业远还没有到完全被淘汰的程度，仍具有现实的经济意义。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">渔猎也是独龙族生产活动的重要内容。独龙江峡谷的深山密林里成群结队的各种野生动物，为独龙族人提供了丰富的肉食和皮毛。每个家族公社都有比较固定的猎场，多在高寒山区。主要的狩猎工具有：弩弓、竹箭、砍刀、猎狗等。狩猎活动一般多在冬、夏两季进行，分为集体围猎和个人狩猎两种形式。所有猎物都按传统习惯由大家共享，进行平均分配。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">捕鱼一般不分季节，但每年四五月河水暴涨到秋末则是捕鱼的最佳时刻。过去还有专属于各个家族的“鱼口子”（鱼场），大家只能在自己的“鱼口子”里捕鱼，捕获的要平均地分给各个家族成员。现在已基本没有了。人们可以任意沿江上下置网挂篓，所获亦归自己支配。独龙族捕鱼的方法很多，常用的可依据工具的不同分为：鱼篓捉鱼、夹网捕鱼、鱼叉叉鱼、鱼爪钩鱼、鱼钩钓鱼、溜筒吸鱼、鱼坝捕鱼、药物毒鱼等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">简单实用的家庭副业。农闲时，独龙族村民还常常会坐在屋外空地或火塘边搞一些家庭手工业。如用藤、竹编织的箩筐、盒子、簸箕等各种器具；用简陋的工具纺麻织布，方法简单原始，麻织品种类很少，主要是常用的“独龙毯”和绑腿。还有进行兽皮和树皮的加工。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">商品交换很不发达。由于生产力发展水平低下，剩余产品极少，极大地限制了独龙族交换的发展。没有商品性生产，没有出现脱离劳动的专业商人，也没有形成集镇，一般以物易物，互通有无。主要有两种形式：一种是在本民族内部进行的近似等价的交换；另一种则是与外族商人进行的，还常常受到一些奸商的欺骗剥削，是一种不等价的交换。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">多种形式并存的土地所有制形态和耕作方式。与落后的生产力相适应，独龙族在</span><span style="font-size: 12pt;">1950</span><span style="font-size: 12pt;">年以前对土地的占有和耕作形式，正处在由家族公有共耕向个体家庭私有自耕的过渡时期。主要有公有共耕、伙有共耕和个体私有自耕等形式。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">公有共耕。独龙语称“夺木枯”，是全家族在共同占有的土地上共同耕种的形式。一般共耕地多为火山地。由家族长带领全体成员共同商定生产计划和劳动组织，各户平均出籽种并使用自己的工具进行共同劳动，收获物也平均分配给各个家庭自由支配。这是独龙族历史上普遍存在的一种集体耕地的形态。但后来随着铁制工具的逐渐增多，使个体劳动成为了可能，当初的这种家族公有共耕形式在劳动力使用和粮食分配等方面种种难以解决的矛盾也越来越突出，日益影响着人们的生产积极性。于是逐步的被伙有伙耕和私有自耕所代替。到</span><span style="font-size: 12pt;">20</span><span style="font-size: 12pt;">世纪</span><span style="font-size: 12pt;">50</span><span style="font-size: 12pt;">年代，这种家族公有共耕的方式仅占全部耕地的</span><span style="font-size: 12pt;">4.8%</span><span style="font-size: 12pt;">，只是以往原始集体生产的一种残余罢了。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">伙有伙耕。称为“夺木奢”，是同一家族成员几户伙同占有耕地，共出籽种、同出劳力，收获物按户平均分配的方式。共耕地有火山地、水冬瓜树地。但所有权仍属公有，共耕户只有暂时的占有权和使用权。其规模一般是三五户，最多七八户。绝大多数居民家庭都分别参加了这种小集体，使当时的伙耕地面积占到总耕地面积的</span><span style="font-size: 12pt;">50%</span><span style="font-size: 12pt;">～</span><span style="font-size: 12pt;">80%</span><span style="font-size: 12pt;">，成为独龙族社会主要的生产方式。这是原始公有演变为个体私有的一种过渡形态。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">私有共耕及私有自耕。独龙族的私有土地，一般是指屋前屋后的园地和村寨附近人工种植的水冬瓜树地。园地虽属个体家庭私有，但极少买卖，一旦迁居便随之丢荒。而私人占有的水冬瓜地则较为稳定，可以传给后人或转借转赠他人，甚至可以出售。只是这种买卖还未最终将土地商品化，仅处在一种原始的交换阶段。价格十分低廉，也不需履行任何手续，两三亩上好的刀耕火种地，也只需</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">斗粮食、</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">把砍刀或</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">头小猪即可换得。虽然这样，随着私人占有土地的形成以及土地买卖的出现，还是进一步加速了家族公社的解体。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">由于生产力水平极其低下，这些属于个体家庭私有的土地，除园地多为自耕外，大多数仍还采取“共耕”的形式进行耕种。在分配收获物时，一种是按照共耕者所出劳动力和籽种的多少来确定其分配数量。另一种则是属于较为稳定的共耕户，故不论其投入多少，仍按平均分配的传统原则共同分享。当然也还出现了一种共耕组合的分配形式，即由一方主要出土地及籽种，另一方则承担主要劳动，而收获物或对半分或让前者得到三分之二。显然这种方式已孕育着地租剥削的萌芽，只不过是在所谓“协作”或“互助”的名义下进行罢了。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族社会阶级的初期分化。随着土地私有制的不断发展，也就不可避免地导致了贫富分化。当时的独龙族社会已陆续出现了一些具有剥削性质的现象，主要反映在一定形式的雇佣劳动以及借贷关系的出现等等。一些家族长或富裕户利用原始协作形式进行雇工剥削。如过去普遍盛行的“迪里哇”（意为大家来帮忙）原是无任何剥削的原始协作，可后来随着贫富分化而在进行农业生产时已变味具有了剥削的因素。因为按照习惯在作“迪里哇”时，主人必须备有酒食以款待大家。可在现实生活中由于一般的贫苦农民无力举行这样的对等活动，而让少数人家常常利用这一形式“招待”大家为他无偿劳动，所创造出的财富远远超过那些酒食的价值。另外，还出现了一种类似雇佣短工的“戛木”现象，即主人将酬劳由原来的酒食改为给一定的粮食或生活用品。雇佣剥削的性质比“迪里哇”更加明显。有的家族长或富裕户甚至还雇请儿童来从事家务劳动，名义上以“养子”称呼，可其生活待遇极低，常遭打骂，每年所得除去伙食也只能得到一件麻布衣服或少量的粮食。这种童工现象虽不太普遍，但可能就是家长奴隶制的萌芽。而在借贷关系上，借方已开始付给贷者一定的酬劳。一般所借贷的主要是粮食、工具以及牲畜，其中以借牲畜的居多。因为牲畜常常被独龙族看作是最有价值的财富。凡借后偿还时必须支付一定的利息，而计息的的方法通常是偿还时的牲畜至少要比借出时大一拳（独龙族还没有一定的计量标准，习惯用拳头来量大小），否则就要另付一定数量的粮食来弥补。所以，有不少富裕户便通过借贷牲畜或工具来获取更多的酬劳。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">独龙族青年男女社交自由，但在过去婚姻不能自主，必需听从父母之命、媒妁之言，而且幼年订婚的现象较为普遍。聘礼较多，一般是</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">头黄牛（称为“活牛”）或</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">头猪、</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">口铁锅、</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">个铁三角以及几件首饰和毯子等（称为“干牛”）。独龙族的婚姻，通常经过订婚、迎娶两个阶段。一夫一妻制的个体家庭虽然已逐步确立，但在婚姻制度上还保留着一些原始群婚和对偶婚的残余，非等辈婚、妻姊妹婚、转房制和家长多妻等多种婚姻形式并存，其中又以妻姊妹婚为主要的婚姻缔结形式。而在婚姻结构上则形成了相对固定的氏族环状外婚集团，独龙语称为“伯惹”，意为“弟兄和姊妹的婚配”。即在固定的通婚集团中，甲氏族的一群兄弟可以与乙氏族的几个姊妹同时或先后结成配偶关系，但乙氏族的男子却不能娶甲氏族的女子为妻，从而有效地防止了血统倒流。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族人死后，绝大多数实行土葬，主要有棺葬和席裹葬两种形式。棺材多用粗大独木刳空而成。出殡时，尸体只能从特意撬开的地板下抬出，而严禁直接从大门送走，否则会犯禁而继续死人。下葬必须选择在早上太阳升起的时刻进行。墓地多在自家园地的附近，墓穴为长方形，男女的葬式均为头朝北、脚朝南、侧身面向东方。埋后不垒坟，葬完不再祭扫，家里也没有祖先灵牌之类的象征物。少数患恶病死亡的则行火葬或水葬。独龙江上游地区，还有专门对巫师进行的“房葬”或“棚葬”。一家有丧事，尤其是死者埋葬之日，全村都要停止劳动，而且本村寨人和远近亲友都还要来送粮食、鸡、酒等物，以示对死者的哀悼。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族的传统衣着十分简单。男女一律袒露臂膀，小腿都缠裹麻布绑腿。男的斜披一条称为“约德格仁瓜”的条纹麻毯，左右包抄到胸前拴结。胯部通常用麻绳系着一小块叫“能布特连”的麻布围兜着下体。左佩刀，右系篾箩。妇女用两块叫“其拉衣约瓜”的长麻毯围身至膝，并包抄向前。自左抄右的，用绳紧紧系在腰间。从右抄左的，则披脱自如。通常是白天为衣，夜间做被。有的男子过去甚至只能在腰下围一串树叶。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">独龙族男女均散发，前垂齐眉，后披在肩上，左右盖耳。过去都喜欢坠系耳饰和佩挂项链，现男子已极少系戴。过去女子有文面的习惯，独龙语称为“巴克图”。一般在十二三岁时进行。文面时，先用竹签或树枝蘸锅烟灰水在脸部描好纹型，干后，拿一根长有硬刺的老荆棘自上而下地对准脸上图案，再用木棍轻轻敲击沿纹路打刺。拭去血水，敷以锅烟灰或一种深色的草汁并反复擦揉刺纹，使之渗入皮下。</span><span style="font-size: 12pt;">7</span><span style="font-size: 12pt;">天左右被刺纹处红肿结痂，等创口愈合脱痂后所纹图案呈青蓝色，再也洗抹不掉，永远留在脸上。文面的样式因地区不同而各有差异，通常在独龙江上游一带是满面文，即前额、双颊、鼻梁及上下唇都刺有花纹；下游一带则只在鼻尖刺一圈和唇下刺两三路。对于独龙族文面习俗的由来，人们有许多不同的说法：有人认为是独龙族女子的成年礼；有的认为是美的追求以及避邪消灾的需要，有人则认为是历史上为躲蔽外族人掳掠妇女而来；有的还认为与独龙族早已消失的图腾崇拜物有着某种联系。新中国成立以后，这种文面习俗已逐渐被独龙族妇女所摒弃。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族的传统饮食自然独特。由于受社会经济发育程度及周边自然生态环境的影响，历史上他们的食物来源较为匮乏，属于粮食和野生植物各占一半的杂食型结构。主食品种不多，主要是玉米、土豆、青稞、稗子、荞子、燕麦等，其中淀粉质食物常常占有绝大部分的比例。炊具简陋，多为竹、木制成，再加上副食和调料的缺乏，故制作食物的方法也很简单，大多沿用以往烧、烤、煮的烹饪方法。近年来随着各种豆类蔬菜的陆续传入，独龙族的佐食习惯也有所改变。日常饮食一天只吃早、晚两顿，早餐以炒面、烧烤土豆为主，晚饭多是吃玉米及其它杂粮。因条件所限独龙族一般口味清淡，油盐不多。好饮酒，喝的是自酿的低度水酒。凡亲友来往、生产协作、婚丧嫁娶、宗教仪式和节庆活动等都少不了酒，酒在独龙族社会生活中占有特殊的重要位置。每当有客人远道而来或逢年过节，宾主都要相互搂着脖子，脸贴脸、嘴挨嘴地同时喝上一杯“同心酒”，以表达彼此间的友谊和忠心。另外，受附近藏族的影响还喜欢将茶叶、盐和熬熟的动植物油混合在特制的竹筒里“打”茶饮用。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族的住所曾经历过巢居、穴居等阶段，后来才逐渐地告别了居无定所的情形。一般房屋大多适应山地环境和气候特点，建造在独龙江两岸山腰的小型台地和朝江面倾斜的小块平坝上。一端搭接山地，一端临空架设，全部基架柱脚都埋插在地下，稳定牢靠。房屋属于竹、木结构的“干栏式”建筑，布局紧凑，防雨水和通风性能良好。一般在独龙江中上游地区，因地势高、气温低、平地和松林多，再加上受到藏族房屋建筑的影响，多是呈正方形的“木垛房”，结实耐住。下游一带，江水西向，地势渐低，气温稍高，多竹林且地形陡峻，故多为长方形的“竹篾房”，较为轻巧。在这里还可以见到独龙族昔日聚家族而居的长形竹楼草房的残存样式。这是由原来的一间长宽大体相等的房屋，因男孩们不断长大成婚而相继在其两侧逐间加盖延伸而成。彼此并列的各个隔间共用一个大屋顶，且相互衔接在同一个平面上。室内中间有通道直达长屋两端供进出的两个门，并延伸到晾台。两侧便是两排没有门的小隔间。每间设一个火塘，也就是一对夫妇和子女日常生活的所在。老人则与未婚的子女共一个火塘起居。长房里的人都是直系亲属及其后代，他们共同劳动，共同消费，由从前的统一公共灶，过渡到了各个火塘轮流做饭的共食制。食物按人平均分配，并由主妇主管分食。而现在独龙族沿江上下居住的主要样式，则是一个家庭单独建造的一所一间或两间的房屋。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">独龙族唯一的传统节日就是过年，独龙语叫“卡尔江哇”。一般在农历的冬腊月，即每年的</span><span style="font-size: 12pt;">12</span><span style="font-size: 12pt;">月到翌年</span><span style="font-size: 12pt;">1</span><span style="font-size: 12pt;">月间举行，没有固定的日期，具体由各村寨自己选定。节日的长短视食物的多少而定，约二三天或四五天。年前友好家族便以“口传”、“结绳”或“刻木”等形式相互邀请，客人也会在过节的前一天如约而至。节日里，人们祭祀天鬼山神、“抛碗卜卦”、共吃年饭、唱歌跳舞以至通宵达旦……而最热闹、最隆重的就是剽牛祭天。献祭的牛有时是较富有的人家捐献的，也有由全村共同献出的，只要有条件就非举行不可。仪式开始时，家族长或巫师把牛牵来拴在场子中央的木桩上，给它背披上“独龙毯”，角上挂上串珠。接着由主祭人点燃松明和青松毛，面向东方叩头念祭词。然后取下牛身上的毯子和串珠，两个选好的猎手，手持长长的竹矛从两头边舞边跳进入场中，在场的人们一一给他俩敬酒，二人猛喝狂跳，四周群众则围成一个大圈边唱边舞，大小铓锣一起敲响，整个气氛越发热烈。当牛被勇敢的猎手用锋利的竹矛剽倒而死，众人便在欢声笑语之中，迅速地用大锅把肉煮熟并平均的分给在场的每一个人，未到场的也按旧俗托人捎去一份带皮毛的肉。牛头则归猎手，大家跟着他边吃边喝、载歌载舞，共祝人畜兴旺，祈望来年人顺粮丰。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">此外，在长期的社会实践中，独龙族根据自己对生产过程和自然现象变化的观察和总结，创造了一种适合于自身生产生活需要的历算法，即根据月圆月亏、花开鸟鸣、草木生长、雨雪飘落、江河起伏等来计算年历。从当年的大雪封山到次年的大雪封山算为一年，称为“极友”。从月亮最圆的那天起至第二次月亮最圆时为一月，称为“数朗”。独龙江上游的独龙族则以“龙”（意为“圆”，即月圆的意思）为基数来划分每年的十二个节令，并据此安排各种活动。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“得则卡龙”（一月），意思是山上有雪，男子打猎，女子织布。无事可做的农闲季节。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“阿蒙龙”（二月），山顶还有雪，但江边可以种土豆、小麦和青稞。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“阿暴龙”（三月），地上普遍发青，可以砍火山地和种土豆。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“奢九龙”（四月），鸟开始鸣叫，继续砍火山，种南瓜等农作物。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“昌木蒋龙”（五月），各种鸟都叫了、花开了，开始种玉米、栽秧和稗子等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“阿累龙”（六月），竹笋长出，薅草、挖贝母、捕鱼等活动。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“布安龙”（七月），青黄不接，是饥饿月，上山采集。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“阿送龙”（八月），山上松叶发黄，种荞子，吃青玉米，收小米和各种瓜类。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“阿长母龙”（九月），叶黄霜降，收玉米、割牧草。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“曹罗龙”（十月），是收获月，山上始积雪，继续收粮食，并搭架、修仓库准备储粮。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“总木加龙”（十一月），山上积雪变厚，是降雪月，收回最后的粮食作物，准备过冬的柴火。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">“力哥龙”（十二月），江边也开始有雪，女的忙着找柴，男的进山狩猎，并准备过年。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><span style="font-size: 12pt;">下游的独龙族则采用“花鸟历”，把一年划分为花开月、鸟叫月、烧火山月、播种月、收获月等</span><span style="font-size: 12pt;">10</span><span style="font-size: 12pt;">个季节。其节令不十分严格，天多天少不太固定，月大月小也只是相对而言，但对花开鸟叫等物候却极为重视。每当桃花盛开，“戛高马巩”鸟鸣时，要及时播种。再到“崩得鲁那”鸟叫时，则停止一切播种。<o:p></o:p></span></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族地区民风古朴纯挚，“路不拾遗，夜不闭户”的社会风尚世代相传。由于高山积雪，经常和外界隔绝，人们远行时携带的食品用具，往往为了避免往返负重之苦而暂挂在树枝上或放在岩洞和哨棚里，回来时才逐袋取用，从无别人擅自拿走而丢失。大家尊老爱幼，生活虽然穷苦，却没有乞讨之人，鳏寡孤独、老弱病残都能得到全村的无私帮助。他们认为“有了东西不给别人吃是最为可耻的”。此外，独龙族人历来团结互助，特别讲究有难同当、有福同享，不管哪家起房盖屋，全村都会主动登门无偿相帮，不吃饭仅喝一点水酒。而婚丧嫁娶则不请自到，还带来酒、肉、粮食等礼物。传统美德蔚然成风。他们热情好客，重信用、遵诺言。感情真挚、粗犷刚健，充分体现了独龙族人民热爱生活、勤劳善良的道德风尚。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">历史上独龙族还没有形成严密的社会组织和明文法规，但在其社会内部仍有一种世代相传的原始习惯法，来作为待人处事的规矩、判别是非的标准以及调解内部矛盾的法度，并以此来维护传统社会和人际关系的正常运行。一般处理纠纷由发生地的家族头人来主持完成，解决的办法主要有两种：一是调解，常常用“点数说理”的方式进行；二是天断神判，采用“捞油锅”、“捞水锅”等极端办法，一般针对盗窃、债务、杀人、奸情以及婚姻纠纷等难以决断的是非。而对于偷盗行为的处理最为严厉，只要证据确凿一般可将偷盗者打死并抄光其全部财产；对婚姻纠纷，主要是追赔财礼，付出一定的物质代价；对打伤人的，则必须按程度轻重予以不同的物质赔偿。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">在长期与大自然搏斗和反抗历代封建统治及外国侵略者的斗争中，独龙族人民还创作了具有本民族鲜明特色的丰富多彩的民间文学作品。有代表性的神话传说有《创世纪》、《大蚂蚁把天地分开》、《嘎美嘎莎造人》、《猎人射太阳》、《洪水泛滥》等，不仅反映了独龙族社会最初阶段的生活及抗争情况，还记述了独龙族先民们对宇宙万物和人类社会的种种看法与解释，从不同侧面生动形象地再现了古代独龙族社会的真实面貌。有流传较广的民间故事《星星姑娘》、《鱼姑娘的故事》、《姑娘与青蛙》等，想象丰富、构思奇特，具有鲜明的民族特色。到了近代又增加了反帝反封建的内容及题材，如《反抗察瓦龙土司的斗争》、《独龙族人民狠揍侵略者》、《痛打土司管家》等。此外，独龙族人民还结合社会生活和狩猎活动的实践，创作了许多短小精悍富于哲理的寓言故事，如《兔子与老虎》、《猫和狮子》、《小兔和老熊》、《老虎同火赛跑》、《说谎话的狗》、《乌鸦和老虎》等。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-size: 12pt; font-family: 微软雅黑;">独龙族喜歌乐舞，特别善于通过“唱”和“跳”的方式来表达自身的思想感情，倾诉内心的喜怒哀乐。逢年过节、婚丧嫁娶、起房盖屋、欢庆丰收等重要场合都要载歌载舞、唱歌对调。歌谣大多有感而发、简洁明快。一般分为两大类：一类被称为“普”，语言含蓄难懂，讲究字数齐整，上下两句相同而对仗。演唱时融诗歌舞为一体，边跳边唱，踏歌而行。又因具体内容不同而细分为迎新年时唱的“老社普”、过年节时唱的“卡尔江普”、盖新房时唱的“球木普”、办丧事送亡魂“阿细”时唱的“阿细普”等。另一类称为“门竹”，通俗易懂，极具生产生活色彩。两类歌谣都有对唱、合唱和独唱等形式，是独龙族人民生活中最喜闻乐见的一种艺术活动。<o:p></o:p></span></p>
+<p style="text-indent: 2em; font-size: 12pt;"><span style="font-family: 微软雅黑;"><strong>（摘自《民族问题五种丛书》之《中国少数民族》卷）</strong><span style="font-size: 12pt;"><o:p></o:p></span></span></p>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+</table>
+							</div>
+
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+           <div class="footer">
+	<div class="footer_top">
+		<ul>
+			<li class="zfw">
+				<a href="http://www.zytzb.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/danghui.png" alt="" />中央统战部</a>
+			</li>			
+			<li class="zfw">
+				<a href="http://www.gov.cn/" target="_blank" ><img src="/seac/xhtml/images/public/guohui.png" alt="" />中国政府网</a>
+			</li>
+			<li>
+				 <div id="dropdown" class="dropdown">
+				      <p>国务院部门</p>
+				      <ol>
+				         	
+			                  <li><a href="http://www.fmprc.gov.cn/web/"  target="_blank">外交部</a></li>
+	
+			                  <li><a href="http://www.mod.gov.cn/  "  target="_blank">国防部</a></li>
+	
+			                  <li><a href="http://www.ndrc.gov.cn/ "  target="_blank">国家发展和改革委员会</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/  "  target="_blank">教育部</a></li>
+	
+			                  <li><a href="http://www.most.gov.cn/"  target="_blank">科学技术部</a></li>
+	
+			                  <li><a href="http://www.miit.gov.cn/"  target="_blank">工业和信息化部</a></li>
+	
+			                  <li><a href="https://www.neac.gov.cn/ "  target="_blank">国家民族事务委员会</a></li>
+	
+			                  <li><a href="http://www.mps.gov.cn/ "  target="_blank">公安部</a></li>
+	
+			                  <li><a href="https://www.12339.gov.cn/"  target="_blank">国家安全部</a></li>
+	
+			                  <li><a href="http://www.mca.gov.cn/"  target="_blank">民政部</a></li>
+	
+			                  <li><a href="http://www.moj.gov.cn/"  target="_blank">司法部</a></li>
+	
+			                  <li><a href="http://www.mof.gov.cn/index.htm "  target="_blank">财政部</a></li>
+	
+			                  <li><a href="http://www.mohrss.gov.cn/   "  target="_blank">人力资源和社会保障部</a></li>
+	
+			                  <li><a href="http://www.mnr.gov.cn/"  target="_blank">自然资源部</a></li>
+	
+			                  <li><a href="http://www.mee.gov.cn/"  target="_blank">生态环境部</a></li>
+	
+			                  <li><a href="http://www.mohurd.gov.cn/"  target="_blank">住房和城乡建设部</a></li>
+	
+			                  <li><a href="http://www.mot.gov.cn/ "  target="_blank">交通运输部</a></li>
+	
+			                  <li><a href="http://www.mwr.gov.cn/  "  target="_blank">水利部</a></li>
+	
+			                  <li><a href="http://www.moa.gov.cn/  "  target="_blank">农业农村部</a></li>
+	
+			                  <li><a href="http://www.mofcom.gov.cn/"  target="_blank">商务部</a></li>
+	
+			                  <li><a href="http://www.mct.gov.cn/"  target="_blank">文化和旅游部</a></li>
+	
+			                  <li><a href="http://www.nhc.gov.cn/"  target="_blank">国家卫生健康委员会</a></li>
+	
+			                  <li><a href="http://www.mva.gov.cn/"  target="_blank">退役军人事务部</a></li>
+	
+			                  <li><a href="http://www.mem.gov.cn/"  target="_blank">应急管理部</a></li>
+	
+			                  <li><a href="http://www.pbc.gov.cn/ "  target="_blank">中国人民银行</a></li>
+	
+			                  <li><a href="http://www.audit.gov.cn/ "  target="_blank">审计署</a></li>
+	
+			                  <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/"  target="_blank">国家语言文字工作委员会</a></li>
+	
+			                  <li><a href="http://www.cnsa.gov.cn/ "  target="_blank">国家航天局</a></li>
+	
+			                  <li><a href="http://www.caea.gov.cn/ "  target="_blank">国家原子能机构</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家外国专家局</a></li>
+	
+			                  <li><a href="#"  target="_blank">国家海洋局</a></li>
+	
+			                  <li><a href="http://nnsa.mee.gov.cn/"  target="_blank">国家核安全局</a></li>
+	
+			                  <li><a href="https://www.nrra.gov.cn/"  target="_blank">国家乡村振兴局</a></li>
+	
+			                  <li><a href="http://www.sasac.gov.cn/ "  target="_blank">国务院国有资产监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.customs.gov.cn/  "  target="_blank">海关总署</a></li>
+	
+			                  <li><a href="http://www.chinatax.gov.cn/"  target="_blank">国家税务总局</a></li>
+	
+			                  <li><a href="https://www.samr.gov.cn/"  target="_blank">国家市场监督管理总局</a></li>
+	
+			                  <li><a href="http://www.cbirc.gov.cn/"  target="_blank">国家金融监督管理总局</a></li>
+	
+			                  <li><a href="http://www.csrc.gov.cn/pub/newsite/ "  target="_blank">中国证券监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.nrta.gov.cn/"  target="_blank">国家广播电视总局</a></li>
+	
+			                  <li><a href="http://www.sport.gov.cn/"  target="_blank">国家体育总局</a></li>
+	
+			                  <li><a href="http://www.gjxfj.gov.cn/"  target="_blank">国家信访局</a></li>
+	
+			                  <li><a href="http://www.stats.gov.cn/"  target="_blank">国家统计局</a></li>
+	
+			                  <li><a href="http://www.cnipa.gov.cn/"  target="_blank">国家知识产权局</a></li>
+	
+			                  <li><a href="http://www.cidca.gov.cn/"  target="_blank">国家国际发展合作署</a></li>
+	
+			                  <li><a href="http://www.nhsa.gov.cn/"  target="_blank">国家医疗保障局</a></li>
+	
+			                  <li><a href="http://www.counsellor.gov.cn/"  target="_blank">国务院参事室</a></li>
+	
+			                  <li><a href="http://www.ggj.gov.cn/ "  target="_blank">国家机关事务管理局</a></li>
+	
+			                  <li><a href="http://www.cnca.gov.cn/ "  target="_blank">国家认证认可监督管理委员会</a></li>
+	
+			                  <li><a href="http://www.sac.gov.cn/  "  target="_blank">国家标准化管理委员会</a></li>
+	
+			                  <li><a href="http://www.ncac.gov.cn/  "  target="_blank">国家新闻出版署（国家版权局）</a></li>
+	
+			                  <li><a href="http://www.sara.gov.cn/ "  target="_blank">国家宗教事务局</a></li>
+	
+			                  <li><a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm "  target="_blank">国务院研究室</a></li>
+	
+			                  <li><a href="http://www.gqb.gov.cn/"  target="_blank">国务院侨务办公室</a></li>
+	
+			                  <li><a href="http://www.hmo.gov.cn/ "  target="_blank">国务院港澳事务办公室</a></li>
+	
+			                  <li><a href="http://www.gwytb.gov.cn/"  target="_blank">国务院台湾事务办公室</a></li>
+	
+			                  <li><a href="http://www.cac.gov.cn/"  target="_blank">国家互联网信息办公室</a></li>
+	
+			                  <li><a href="http://www.scio.gov.cn/index.htm "  target="_blank">国务院新闻办公室</a></li>
+	
+			                  <li><a href="http://203.192.6.89/xhs/ "  target="_blank">新华通讯社</a></li>
+	
+			                  <li><a href="https://www.cas.cn/"  target="_blank">中国科学院</a></li>
+	
+			                  <li><a href="http://www.cass.net.cn/"  target="_blank">中国社会科学院</a></li>
+	
+			                  <li><a href="http://www.cae.cn/"  target="_blank">中国工程院</a></li>
+	
+			                  <li><a href="http://www.drc.gov.cn/ "  target="_blank">国务院发展研究中心</a></li>
+	
+			                  <li><a href="http://www.cma.gov.cn/"  target="_blank">中国气象局</a></li>
+	
+			                  <li><a href="http://www.ccps.gov.cn/"  target="_blank">国家行政学院</a></li>
+	
+			                  <li><a href="http://www.lswz.gov.cn/"  target="_blank">国家粮食和物资储备局</a></li>
+	
+			                  <li><a href="http://www.nea.gov.cn/"  target="_blank">国家能源局</a></li>
+	
+			                  <li><a href="http://www.sastind.gov.cn/ "  target="_blank">国家国防科技工业局</a></li>
+	
+			                  <li><a href="http://www.tobacco.gov.cn/html/ "  target="_blank">国家烟草专卖局</a></li>
+	
+			                  <li><a href="https://www.nia.gov.cn/"  target="_blank">国家移民管理局</a></li>
+	
+			                  <li><a href="http://www.forestry.gov.cn/ "  target="_blank">国家林业和草原局</a></li>
+	
+			                  <li><a href="http://www.nra.gov.cn/ "  target="_blank">国家铁路局</a></li>
+	
+			                  <li><a href="http://www.caac.gov.cn/index.html"  target="_blank">中国民用航空局</a></li>
+	
+			                  <li><a href="http://www.spb.gov.cn/"  target="_blank">国家邮政局</a></li>
+	
+			                  <li><a href="http://www.ncha.gov.cn/"  target="_blank">国家文物局</a></li>
+	
+			                  <li><a href="http://www.natcm.gov.cn/"  target="_blank">国家中医药管理局</a></li>
+	
+			                  <li><a href="https://www.chinamine-safety.gov.cn/"  target="_blank">国家矿山安全监察局</a></li>
+	
+			                  <li><a href="https://www.119.gov.cn/"  target="_blank">国家消防救援局</a></li>
+	
+			                  <li><a href="http://www.safe.gov.cn/  "  target="_blank">国家外汇管理局</a></li>
+	
+			                  <li><a href="http://www.nmpa.gov.cn/"  target="_blank">国家药品监督管理局</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown2">
+				      <p>地方政府</p>
+				      <ol>
+	
+			                  <li><a href="http://www.beijing.gov.cn/ "  target="_blank">北京市人民政府</a></li>
+	
+			                  <li><a href="http://www.tj.gov.cn/ "  target="_blank">天津市人民政府</a></li>
+	
+			                  <li><a href="http://www.hebei.gov.cn/ "  target="_blank">河北省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanxi.gov.cn/"  target="_blank">山西省人民政府</a></li>
+	
+			                  <li><a href="http://www.nmg.gov.cn/ "  target="_blank">内蒙古自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.ln.gov.cn "  target="_blank">辽宁省人民政府</a></li>
+	
+			                  <li><a href="http://www.jl.gov.cn  "  target="_blank">吉林省人民政府</a></li>
+	
+			                  <li><a href="http://www.hlj.gov.cn "  target="_blank">黑龙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.shanghai.gov.cn/ "  target="_blank">上海市人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangsu.gov.cn/"  target="_blank">江苏省人民政府</a></li>
+	
+			                  <li><a href="http://www.zj.gov.cn/"  target="_blank">浙江省人民政府</a></li>
+	
+			                  <li><a href="http://www.ah.gov.cn/ "  target="_blank">安徽省人民政府</a></li>
+	
+			                  <li><a href="http://www.fujian.gov.cn  "  target="_blank">福建省人民政府</a></li>
+	
+			                  <li><a href="http://www.jiangxi.gov.cn "  target="_blank">江西省人民政府</a></li>
+	
+			                  <li><a href="http://www.shandong.gov.cn/"  target="_blank">山东省人民政府</a></li>
+	
+			                  <li><a href="http://www.henan.gov.cn/  "  target="_blank">河南省人民政府</a></li>
+	
+			                  <li><a href="http://www.hubei.gov.cn/ "  target="_blank">湖北省人民政府</a></li>
+	
+			                  <li><a href="http://www.hunan.gov.cn/"  target="_blank">湖南省人民政府</a></li>
+	
+			                  <li><a href="http://www.gd.gov.cn/"  target="_blank">广东省人民政府</a></li>
+	
+			                  <li><a href="http://www.gxzf.gov.cn/ "  target="_blank">广西壮族自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.hainan.gov.cn/"  target="_blank">海南省人民政府</a></li>
+	
+			                  <li><a href="http://www.cq.gov.cn/  "  target="_blank">重庆市人民政府</a></li>
+	
+			                  <li><a href="http://www.sc.gov.cn "  target="_blank">四川省人民政府</a></li>
+	
+			                  <li><a href="http://www.guizhou.gov.cn/"  target="_blank">贵州省人民政府</a></li>
+	
+			                  <li><a href="http://www.yn.gov.cn/ "  target="_blank">云南省人民政府</a></li>
+	
+			                  <li><a href="http://www.xizang.gov.cn/"  target="_blank">西藏自治区人民政府</a></li>
+	
+			                  <li><a href="http://www.shaanxi.gov.cn/ "  target="_blank">陕西省人民政府</a></li>
+	
+			                  <li><a href="http://www.gansu.gov.cn/ "  target="_blank">甘肃省人民政府</a></li>
+	
+			                  <li><a href="http://www.qinghai.gov.cn/"  target="_blank">青海省人民政府</a></li>
+	
+			                  <li><a href="http://www.nx.gov.cn/ "  target="_blank">宁夏回族自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.xinjiang.gov.cn/  "  target="_blank">新疆维吾尔自治区人民政府</a></li>
+	
+			                  <li><a href="https://www.gov.hk/sc/residents/"  target="_blank">香港特别行政区政府</a></li>
+	
+			                  <li><a href="https://www.gov.mo/zh-hans/"  target="_blank">澳门特别行政区政府</a></li>
+	
+			                  <li><a href="#"  target="_blank">台湾</a></li>
+	
+			                  <li><a href="http://www.xjbt.gov.cn/ "  target="_blank">新疆生产建设兵团</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown3">
+				      <p>直属单位</p>
+				      <ol>
+	
+			                  <li><a href="http://www.muc.edu.cn/ "  target="_blank">中央民族大学</a></li>
+	
+			                  <li><a href="http://www.scuec.edu.cn/"  target="_blank">中南民族大学</a></li>
+	
+			                  <li><a href="http://www.swun.edu.cn/ "  target="_blank">西南民族大学</a></li>
+	
+			                  <li><a href="http://www.xbmu.edu.cn/ "  target="_blank">西北民族大学</a></li>
+	
+			                  <li><a href="https://www.nmu.edu.cn/"  target="_blank">北方民族大学</a></li>
+	
+			                  <li><a href="http://www.dlnu.edu.cn/"  target="_blank">大连民族大学</a></li>
+	
+			                  <li><a href="https://www.mzywfyj.org.cn/"  target="_blank">中国民族语文翻译中心（局）</a></li>
+	
+			                  <li><a href="http://www.zymzgwt.com.cn/ 	"  target="_blank">中央民族歌舞团</a></li>
+	
+			                  <li><a href="http://www.mzpub.com/"  target="_blank">民族出版社</a></li>
+	
+			                  <li><a href="http://www.mzhb.com/ "  target="_blank">民族画报社</a></li>
+	
+			                  <li><a href="http://www.56-china.com.cn/"  target="_blank">民族团结杂志社</a></li>
+	
+			                  <li><a href="http://www.cpon.cn/	"  target="_blank">民族文化宫</a></li>
+	
+			                  <li><a href="http://www.cnmuseum.com	"  target="_blank">中国民族博物馆</a></li>
+	
+			                  <li><a href="http://www.mzb.com.cn"  target="_blank">中国民族报社</a></li>
+	
+			                  <li><a href="https://www.mzgbxy.org.cn/"  target="_blank">中央民族干部学院</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<li>
+				<div id="dropdown" class="dropdown4">
+				      <p>地方民委</p>
+				      <ol>
+	
+			                  <li><a href="http://mzzjw.beijing.gov.cn/"  target="_blank">北京市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.tj.gov.cn/"  target="_blank">天津市民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.hebei.gov.cn/"  target="_blank">河北省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.nmg.gov.cn/"  target="_blank">内蒙古自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.ln.gov.cn/"  target="_blank">辽宁省民族和宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mw.jl.gov.cn "  target="_blank">吉林省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hlj.gov.cn/"  target="_blank">黑龙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.sh.gov.cn/"  target="_blank">上海市民族和宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.jiangsu.gov.cn/"  target="_blank">江苏省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.zj.gov.cn/"  target="_blank">浙江省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mwzjj.ah.gov.cn/"  target="_blank">安徽省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjt.fujian.gov.cn/"  target="_blank">福建省民族与宗教事务厅</a></li>
+	
+			                  <li><a href="http://mzj.jiangxi.gov.cn/"  target="_blank">江西省民族宗教事务局</a></li>
+	
+			                  <li><a href="http://mzw.shandong.gov.cn/"  target="_blank">山东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://hnsmzzjw.henan.gov.cn/"  target="_blank">河南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hubei.gov.cn/"  target="_blank">湖北省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.hunan.gov.cn/"  target="_blank">湖南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.gd.gov.cn/"  target="_blank">广东省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.gxzf.gov.cn/"  target="_blank">广西壮族自治区民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://smzw.hainan.gov.cn/"  target="_blank">海南省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzjw.cq.gov.cn/"  target="_blank">重庆市民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.sc.gov.cn/"  target="_blank">四川省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.guizhou.gov.cn/"  target="_blank">贵州省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="https://mz.yn.gov.cn/"  target="_blank">云南省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mw.xizang.gov.cn/"  target="_blank">西藏自治区民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.shaanxi.gov.cn/"  target="_blank">陕西省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzsw.gansu.gov.cn/"  target="_blank">甘肃省民族事务委员会</a></li>
+	
+			                  <li><a href="http://mzw.qinghai.gov.cn/"  target="_blank">青海省民族宗教事务委员会</a></li>
+	
+			                  <li><a href="http://mzzj.nx.gov.cn/"  target="_blank">宁夏回族自治区民族事务委员会</a></li>
+	
+			                  <li><a href="https://mwzjswj.xinjiang.gov.cn/"  target="_blank">新疆维吾尔自治区民族事务委员会</a></li>
+
+				      </ol>
+				 </div>
+			</li>
+			<!-- <li class="zyg img">
+				<a href="http://zygjjg.12388.gov.cn/" target="_blank"><img src="/seac/xhtml/images/public/zygjjgjb.png" alt="" /></a>
+			</li> -->
+			<li class="fgw img">
+				<a href="http://www.gov.cn/zhuanti/2017fgfzt/index.htm" target="_blank"><img src="/seac/xhtml/images/public/fgwggzxdc.png" alt="" /></a>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+	<div class="footer_fl fl">
+		<div class="top">
+	
+				<a href="/seac/c102001/201806/1065906.shtml" target="_blank" title='联系我们'  >联系我们</a>
+
+			<span>|</span><a href="/seac/wzdt/index.shtml">网站地图</a>
+		</div>
+		<p>版权所有：中华人民共和国国家民族事务委员会 <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05048973号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700045" target="_blank"><img src="/seac/xhtml/images/public/bah.png" alt="" />京公网安备 11040102700045号</a> <br /> 
+地址：北京市西城区复兴门内大街甲49号 <span style="display:inline-block">邮政编码 100800</span>  网站维护：国家民委舆情中心  </p>
+	<p class="llqjy">建议使用IE9.0以上版本浏览器</p>
+	</div>
+	<div class="footer_fr fr">
+		<ul>
+			<li class="dzjg"><a href="http://bszs.conac.cn/sitename?method=show&id=0627BF3ADA7F78F3E053012819ACE9A9" ><img src="/seac/xhtml/images/public/dzjg.png" alt="" /></a></li>
+			<li class="zc"><a href="http://121.43.68.40/exposure/jiucuo.html?site_code=bm08000014&url=https%3A%2F%2Fwww.neac.gov.cn%2F" ><img src="/seac/xhtml/images/public/zc.png" alt="" /></a></li>
+			<!-- <li class="blwz"><a href="https://www.neac.gov.cn/blxxjb/blxxjb/xxgk/blxxjb.shtml" target="_blank"><img src="/seac/xhtml/images/public/blwlxxjb.png" alt="" /></a></li> -->
+			<li class="gfwx"><a><img src="/seac/xhtml/images/public/gfwx.png" alt="" />
+			<span>官方微信</span></a></li>
+		</ul>
+	</div>
+	<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10005996" src="//fxsjcj.kaipuyun.cn/count/10005996/10005996.js"></script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=40b6e226d8f0b5f517069c6d2f1a469d" charset="utf-8"></script>
+		</div>
+		<script src="/seac/xhtml/js/jquery1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('a').find('br').remove();
+		</script>
+	</body>
+</html>

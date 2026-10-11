@@ -1,0 +1,277 @@
+[
+  {
+    "name": "壮族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-zhuang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-8.html"
+  },
+  {
+    "name": "蒙古族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-mongolian.htm",
+    "snapshot": "data/raw/development/culture/ethnic-2.html"
+  },
+  {
+    "name": "苗族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-miao.htm",
+    "snapshot": "data/raw/development/culture/ethnic-6.html"
+  },
+  {
+    "name": "彝族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-yi.htm",
+    "snapshot": "data/raw/development/culture/ethnic-7.html"
+  },
+  {
+    "name": "维吾尔族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-uygur.htm",
+    "snapshot": "data/raw/development/culture/ethnic-5.html"
+  },
+  {
+    "name": "回族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-hui.htm",
+    "snapshot": "data/raw/development/culture/ethnic-3.html"
+  },
+  {
+    "name": "朝鲜族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-korean.htm",
+    "snapshot": "data/raw/development/culture/ethnic-10.html"
+  },
+  {
+    "name": "布依族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-bouyei.htm",
+    "snapshot": "data/raw/development/culture/ethnic-9.html"
+  },
+  {
+    "name": "侗族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-dong.htm",
+    "snapshot": "data/raw/development/culture/ethnic-12.html"
+  },
+  {
+    "name": "土家族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-tujia.htm",
+    "snapshot": "data/raw/development/culture/ethnic-15.html"
+  },
+  {
+    "name": "瑶族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-yao.htm",
+    "snapshot": "data/raw/development/culture/ethnic-13.html"
+  },
+  {
+    "name": "满族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-manchu.htm",
+    "snapshot": "data/raw/development/culture/ethnic-11.html"
+  },
+  {
+    "name": "藏族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-tibetan.htm",
+    "snapshot": "data/raw/development/culture/ethnic-4.html"
+  },
+  {
+    "name": "哈尼族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-hani.htm",
+    "snapshot": "data/raw/development/culture/ethnic-16.html"
+  },
+  {
+    "name": "白族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-bai.htm",
+    "snapshot": "data/raw/development/culture/ethnic-14.html"
+  },
+  {
+    "name": "哈萨克族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-kazak.htm",
+    "snapshot": "data/raw/development/culture/ethnic-17.html"
+  },
+  {
+    "name": "傣族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-dai.htm",
+    "snapshot": "data/raw/development/culture/ethnic-18.html"
+  },
+  {
+    "name": "黎族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-li.htm",
+    "snapshot": "data/raw/development/culture/ethnic-19.html"
+  },
+  {
+    "name": "傈僳族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-lisu.htm",
+    "snapshot": "data/raw/development/culture/ethnic-20.html"
+  },
+  {
+    "name": "高山族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-gaoshan.htm",
+    "snapshot": "data/raw/development/culture/ethnic-23.html"
+  },
+  {
+    "name": "佤族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-va.htm",
+    "snapshot": "data/raw/development/culture/ethnic-21.html"
+  },
+  {
+    "name": "畲族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-she.htm",
+    "snapshot": "data/raw/development/culture/ethnic-22.html"
+  },
+  {
+    "name": "水族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-shui.htm",
+    "snapshot": "data/raw/development/culture/ethnic-25.html"
+  },
+  {
+    "name": "纳西族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-naxi.htm",
+    "snapshot": "data/raw/development/culture/ethnic-27.html"
+  },
+  {
+    "name": "东乡族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-dongxiang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-26.html"
+  },
+  {
+    "name": "仫佬族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-mulam.htm",
+    "snapshot": "data/raw/development/culture/ethnic-32.html"
+  },
+  {
+    "name": "景颇族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-jingp.htm",
+    "snapshot": "data/raw/development/culture/ethnic-28.html"
+  },
+  {
+    "name": "拉祜族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-lahu.htm",
+    "snapshot": "data/raw/development/culture/ethnic-24.html"
+  },
+  {
+    "name": "柯尔克孜族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-kirgiz.htm",
+    "snapshot": "data/raw/development/culture/ethnic-29.html"
+  },
+  {
+    "name": "土族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-tu.htm",
+    "snapshot": "data/raw/development/culture/ethnic-30.html"
+  },
+  {
+    "name": "达斡尔族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-daur.htm",
+    "snapshot": "data/raw/development/culture/ethnic-31.html"
+  },
+  {
+    "name": "羌族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-qiang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-33.html"
+  },
+  {
+    "name": "布朗族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-blang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-34.html"
+  },
+  {
+    "name": "毛南族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-maonan.htm",
+    "snapshot": "data/raw/development/culture/ethnic-36.html"
+  },
+  {
+    "name": "锡伯族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-xibe.htm",
+    "snapshot": "data/raw/development/culture/ethnic-38.html"
+  },
+  {
+    "name": "撒拉族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-salar.htm",
+    "snapshot": "data/raw/development/culture/ethnic-35.html"
+  },
+  {
+    "name": "普米族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-pumi.htm",
+    "snapshot": "data/raw/development/culture/ethnic-40.html"
+  },
+  {
+    "name": "阿昌族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-achang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-39.html"
+  },
+  {
+    "name": "仡佬族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-gelo.htm",
+    "snapshot": "data/raw/development/culture/ethnic-37.html"
+  },
+  {
+    "name": "乌孜别克族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-ozbek.htm",
+    "snapshot": "data/raw/development/culture/ethnic-43.html"
+  },
+  {
+    "name": "俄罗斯族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-russian.htm",
+    "snapshot": "data/raw/development/culture/ethnic-44.html"
+  },
+  {
+    "name": "怒族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-nu.htm",
+    "snapshot": "data/raw/development/culture/ethnic-42.html"
+  },
+  {
+    "name": "鄂温克族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-ewenki.htm",
+    "snapshot": "data/raw/development/culture/ethnic-45.html"
+  },
+  {
+    "name": "塔吉克族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-tajik.htm",
+    "snapshot": "data/raw/development/culture/ethnic-41.html"
+  },
+  {
+    "name": "保安族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-bonan.htm",
+    "snapshot": "data/raw/development/culture/ethnic-47.html"
+  },
+  {
+    "name": "裕固族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-yugur.htm",
+    "snapshot": "data/raw/development/culture/ethnic-48.html"
+  },
+  {
+    "name": "德昂族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-de%27ang.htm",
+    "snapshot": "data/raw/development/culture/ethnic-46.html"
+  },
+  {
+    "name": "独龙族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-drung.htm",
+    "snapshot": "data/raw/development/culture/ethnic-51.html"
+  },
+  {
+    "name": "塔塔尔族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-tartar.htm",
+    "snapshot": "data/raw/development/culture/ethnic-50.html"
+  },
+  {
+    "name": "京族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-jing.htm",
+    "snapshot": "data/raw/development/culture/ethnic-49.html"
+  },
+  {
+    "name": "鄂伦春族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-oroqen.htm",
+    "snapshot": "data/raw/development/culture/ethnic-52.html"
+  },
+  {
+    "name": "珞巴族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-lhoba.htm",
+    "snapshot": "data/raw/development/culture/ethnic-55.html"
+  },
+  {
+    "name": "基诺族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-jino.htm",
+    "snapshot": "data/raw/development/culture/ethnic-56.html"
+  },
+  {
+    "name": "赫哲族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-hezhe.htm",
+    "snapshot": "data/raw/development/culture/ethnic-53.html"
+  },
+  {
+    "name": "门巴族",
+    "url": "http://www.china.org.cn/e-groups/shaoshu/shao-2-moinba.htm",
+    "snapshot": "data/raw/development/culture/ethnic-54.html"
+  }
+]

@@ -1,0 +1,11 @@
+import type {PopulationRegion} from '../types';
+export const palette:string[];
+export function percentage(value:number|null|undefined,total:number):number|null;
+export function mapValue(region:PopulationRegion|undefined,ethnic:string,metric:string):number|null;
+export function classIndex(value:number|null,metric:string):number;
+export function rankRegions(regions:PopulationRegion[],ethnic:string,metric?:string):(PopulationRegion & {value:number})[];
+export function concentration(regions:PopulationRegion[],ethnic:string,count?:number):number|null;
+export function formatPeople(value:number|null|undefined):string;
+export function formatMetric(value:number|null,metric:string):string;
+export function formatPercent(value:number|null|undefined):string;
+export function escapeCsv(value:unknown):string;

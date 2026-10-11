@@ -1,0 +1,786 @@
+{
+  "藏族": {
+    "name": "藏族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-tibetan.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-4.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/zang.jpg"
+      }
+    ]
+  },
+  "回族": {
+    "name": "回族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-hui.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-3.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/hui.jpg"
+      }
+    ]
+  },
+  "蒙古族": {
+    "name": "蒙古族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-mongolian.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-2.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/menggol.jpg"
+      }
+    ]
+  },
+  "壮族": {
+    "name": "壮族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-zhuang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-8.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/zhuang.jpg"
+      }
+    ]
+  },
+  "彝族": {
+    "name": "彝族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-yi.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-7.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/yi.jpg"
+      }
+    ]
+  },
+  "苗族": {
+    "name": "苗族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-miao.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-6.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/miao1.jpg"
+      }
+    ]
+  },
+  "维吾尔族": {
+    "name": "维吾尔族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-uygur.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-5.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/uygur.jpg"
+      }
+    ]
+  },
+  "布依族": {
+    "name": "布依族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-bouyei.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-9.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/bouyei1.jpg"
+      }
+    ]
+  },
+  "朝鲜族": {
+    "name": "朝鲜族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-korean.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-10.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/chaoxian1.jpg"
+      }
+    ]
+  },
+  "侗族": {
+    "name": "侗族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-dong.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-12.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/dong.jpg"
+      }
+    ]
+  },
+  "满族": {
+    "name": "满族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-manchu.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-11.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/man1.jpg"
+      }
+    ]
+  },
+  "土家族": {
+    "name": "土家族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-tujia.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-15.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/tujia.jpg"
+      }
+    ]
+  },
+  "瑶族": {
+    "name": "瑶族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-yao.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-13.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/yao.jpg"
+      }
+    ]
+  },
+  "哈尼族": {
+    "name": "哈尼族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-hani.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-16.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/hani.jpg"
+      }
+    ]
+  },
+  "白族": {
+    "name": "白族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-bai.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-14.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/bai.jpg"
+      }
+    ]
+  },
+  "哈萨克族": {
+    "name": "哈萨克族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-kazak.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-17.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/kazakhs.jpg"
+      }
+    ]
+  },
+  "傣族": {
+    "name": "傣族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-dai.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-18.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/dai.jpg"
+      }
+    ]
+  },
+  "黎族": {
+    "name": "黎族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-li.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-19.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/li.jpg"
+      }
+    ]
+  },
+  "傈僳族": {
+    "name": "傈僳族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-lisu.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-20.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/lisu1.jpg"
+      }
+    ]
+  },
+  "佤族": {
+    "name": "佤族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-va.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-21.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/va2.jpg"
+      }
+    ]
+  },
+  "高山族": {
+    "name": "高山族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-gaoshan.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-23.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/gaoshan.jpg"
+      }
+    ]
+  },
+  "畲族": {
+    "name": "畲族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-she.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-22.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/she.jpg"
+      }
+    ]
+  },
+  "拉祜族": {
+    "name": "拉祜族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-lahu.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-24.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/lahu.jpg"
+      }
+    ]
+  },
+  "水族": {
+    "name": "水族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-shui.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-25.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/shui1.jpg"
+      }
+    ]
+  },
+  "纳西族": {
+    "name": "纳西族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-naxi.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-27.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/naxi1.jpg"
+      }
+    ]
+  },
+  "东乡族": {
+    "name": "东乡族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-dongxiang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-26.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/dongxiang1.jpg"
+      }
+    ]
+  },
+  "景颇族": {
+    "name": "景颇族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-jingp.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-28.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/jingp.jpg"
+      }
+    ]
+  },
+  "仫佬族": {
+    "name": "仫佬族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-mulam.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-32.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/mulam.jpg"
+      }
+    ]
+  },
+  "柯尔克孜族": {
+    "name": "柯尔克孜族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-kirgiz.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-29.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/kirgiz1.jpg"
+      }
+    ]
+  },
+  "达斡尔族": {
+    "name": "达斡尔族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-daur.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-31.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/daur.jpg"
+      }
+    ]
+  },
+  "土族": {
+    "name": "土族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-tu.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-30.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/tu.jpg"
+      }
+    ]
+  },
+  "羌族": {
+    "name": "羌族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-qiang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-33.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/qiang.jpg"
+      }
+    ]
+  },
+  "布朗族": {
+    "name": "布朗族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-blang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-34.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/blang.jpg"
+      }
+    ]
+  },
+  "毛南族": {
+    "name": "毛南族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-maonan.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-36.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/maonan1.jpg"
+      }
+    ]
+  },
+  "撒拉族": {
+    "name": "撒拉族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-salar.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-35.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/salar.jpg"
+      }
+    ]
+  },
+  "锡伯族": {
+    "name": "锡伯族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-xibe.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-38.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/xibe1.jpg"
+      }
+    ]
+  },
+  "普米族": {
+    "name": "普米族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-pumi.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-40.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/primi.jpg"
+      }
+    ]
+  },
+  "阿昌族": {
+    "name": "阿昌族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-achang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-39.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/achang1.jpg"
+      }
+    ]
+  },
+  "仡佬族": {
+    "name": "仡佬族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-gelo.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-37.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/gelo.jpg"
+      }
+    ]
+  },
+  "乌孜别克族": {
+    "name": "乌孜别克族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-ozbek.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-43.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/uzbek.jpg"
+      }
+    ]
+  },
+  "俄罗斯族": {
+    "name": "俄罗斯族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-russian.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-44.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/russ.jpg"
+      }
+    ]
+  },
+  "怒族": {
+    "name": "怒族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-nu.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-42.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/nu.jpg"
+      }
+    ]
+  },
+  "塔吉克族": {
+    "name": "塔吉克族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-tajik.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-41.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/tajik.jpg"
+      }
+    ]
+  },
+  "鄂温克族": {
+    "name": "鄂温克族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-ewenki.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-45.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/ewenke1.jpg"
+      }
+    ]
+  },
+  "保安族": {
+    "name": "保安族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-bonan.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-47.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/bonan.jpg"
+      }
+    ]
+  },
+  "裕固族": {
+    "name": "裕固族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-yugur.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-48.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/yugur.jpg"
+      }
+    ]
+  },
+  "德昂族": {
+    "name": "德昂族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-de%27ang.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-46.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/de%27ang.jpg"
+      }
+    ]
+  },
+  "鄂伦春族": {
+    "name": "鄂伦春族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-oroqen.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-52.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/oroqen1.jpg"
+      }
+    ]
+  },
+  "独龙族": {
+    "name": "独龙族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-drung.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-51.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/derung.jpg"
+      }
+    ]
+  },
+  "塔塔尔族": {
+    "name": "塔塔尔族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-tartar.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-50.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/tatar1.jpg"
+      }
+    ]
+  },
+  "京族": {
+    "name": "京族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-jing.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-49.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/jin.jpg"
+      }
+    ]
+  },
+  "珞巴族": {
+    "name": "珞巴族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-lhoba.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-55.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/lhoba1.jpg"
+      }
+    ]
+  },
+  "赫哲族": {
+    "name": "赫哲族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-hezhe.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-53.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/hezhe1.jpg"
+      }
+    ]
+  },
+  "基诺族": {
+    "name": "基诺族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-jino.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-56.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/jino1.jpg"
+      }
+    ]
+  },
+  "门巴族": {
+    "name": "门巴族",
+    "source": "http://www.china.org.cn/e-groups/shaoshu/shao-moinba.htm",
+    "publisher": "中国网 · Ethnic Groups",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-54.jpg",
+        "original": "http://www.china.org.cn/e-groups/shaoshu/images/monba.jpg"
+      }
+    ]
+  },
+  "汉族": {
+    "name": "汉族",
+    "source": "https://www.chinahighlights.com/travelguide/traditional-chinese-clothes-hanfu.htm",
+    "publisher": "China Highlights · Hanfu",
+    "author": "原页面未标注摄影者",
+    "license": "原页面未提供开放许可；版权归原权利人",
+    "retrieved": "2026-10-09",
+    "photos": [
+      {
+        "file": "photos/ethnic-1.jpg",
+        "original": "https://images.chinahighlights.com/allpicture/2017/11/ecd0288cabf440bebb590f90_300x200.jpg"
+      }
+    ]
+  }
+}

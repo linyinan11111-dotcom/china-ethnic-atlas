@@ -1,0 +1,66 @@
+[
+  {
+    "id": "recent-needle",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195653.shtml",
+    "snapshot": "data/raw/development/timeline/recent-needle.html",
+    "sha256": "d764bc7860992c79a1177e0085d87d279354499324b6fc91581b81e336eacac4",
+    "retrievedAt": "2026-10-10T12:54:57.130Z",
+    "title": "“新疆小羊”的新衣服，出自英吉沙的老手艺"
+  },
+  {
+    "id": "recent-yb",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195600.shtml",
+    "snapshot": "data/raw/development/timeline/recent-yb.html",
+    "sha256": "d2aba4585581437e170364112222470f257b173c36d84421f553594ba2843fa0",
+    "retrievedAt": "2026-10-10T12:54:57.557Z",
+    "title": "边疆地区的同心答卷 2026年延边州民族团结进步宣传月综述"
+  },
+  {
+    "id": "recent-embroidery",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195593.shtml",
+    "snapshot": "data/raw/development/timeline/recent-embroidery.html",
+    "sha256": "44d6178c2da54587c670141a2e78989b0115e8618f8e5d23aa26f9558d705252",
+    "retrievedAt": "2026-10-10T12:54:57.346Z",
+    "title": "一针一线绣同心 乌江两岸绘和美"
+  },
+  {
+    "id": "recent-train",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195597.shtml",
+    "snapshot": "data/raw/development/timeline/recent-train.html",
+    "sha256": "b40a51d7983f0687eb7cfd30c4df8d524d10d358f714644d1158c0ab58ad7981",
+    "retrievedAt": "2026-10-10T12:54:57.606Z",
+    "title": "高原慢火车 温情暖山乡"
+  },
+  {
+    "id": "recent-yunnan",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195696.shtml",
+    "snapshot": "data/raw/development/timeline/recent-yunnan.html",
+    "sha256": "b6bc433ad2d886cb084088fd092d381b8583d11b122e9bc7903b9bb9c026f0ac",
+    "retrievedAt": "2026-10-10T12:55:47.695Z",
+    "title": "云南以示范区建设书写民族团结进步时代答卷"
+  },
+  {
+    "id": "recent-liangshan",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195692.shtml",
+    "snapshot": "data/raw/development/timeline/recent-liangshan.html",
+    "sha256": "e08af971ca22956c3d6b5d68cb488f7e4bca35c0df1c7bb376d9a00aef08971c",
+    "retrievedAt": "2026-10-10T12:55:48.497Z",
+    "title": "四川最南，石榴花开"
+  },
+  {
+    "id": "recent-grassland",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195598.shtml",
+    "snapshot": "data/raw/development/timeline/recent-grassland.html",
+    "sha256": "62e3f240e4ef411fdadc71ea5fead7b2fba975f8a7b4f424807453f7939b0b4f",
+    "retrievedAt": "2026-10-10T12:55:47.801Z",
+    "title": "“草原村排”打开健康门、扣响致富路"
+  },
+  {
+    "id": "recent-pottery",
+    "url": "https://www.neac.gov.cn/seac/xwzx/202610/1195645.shtml",
+    "snapshot": "data/raw/development/timeline/recent-pottery.html",
+    "sha256": "80ec86f23538d94b9c4e45f0589a73aef713f0cca023309d20612b6eeaa9f6d3",
+    "retrievedAt": "2026-10-10T12:55:47.721Z",
+    "title": "纹里丝路，窑中新火，他为阿克陶土陶设计110种“新活法”"
+  }
+]

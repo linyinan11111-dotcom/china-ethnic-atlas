@@ -1,0 +1,1129 @@
+{
+  "sourceUrl": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+  "sourceFile": "avatars/ethnic-sheet.jpg",
+  "sourceSha256": "be65a405df1140959e541fcad3dcf41f6b773124bacf354d559a6b2ed12a7513",
+  "sourceWidth": 956,
+  "sourceHeight": 1024,
+  "records": {
+    "藏族": {
+      "name": "藏族",
+      "file": "avatars/ethnic-4.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 1,
+      "crop": [
+        30,
+        22,
+        130,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "哈萨克族": {
+      "name": "哈萨克族",
+      "file": "avatars/ethnic-17.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 2,
+      "crop": [
+        144,
+        22,
+        244,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "佤族": {
+      "name": "佤族",
+      "file": "avatars/ethnic-21.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 3,
+      "crop": [
+        258,
+        22,
+        358,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "阿昌族": {
+      "name": "阿昌族",
+      "file": "avatars/ethnic-39.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 4,
+      "crop": [
+        371,
+        22,
+        471,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "布依族": {
+      "name": "布依族",
+      "file": "avatars/ethnic-9.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 5,
+      "crop": [
+        485,
+        22,
+        585,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "pending",
+      "note": "原图标注不清，对应关系待核查",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "回族": {
+      "name": "回族",
+      "file": "avatars/ethnic-3.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 6,
+      "crop": [
+        598,
+        22,
+        698,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "哈尼族": {
+      "name": "哈尼族",
+      "file": "avatars/ethnic-16.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 7,
+      "crop": [
+        712,
+        22,
+        812,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "景颇族": {
+      "name": "景颇族",
+      "file": "avatars/ethnic-28.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 1,
+      "column": 8,
+      "crop": [
+        825,
+        22,
+        925,
+        155
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "pending",
+      "note": "原图标注不清，对应关系待核查",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "京族": {
+      "name": "京族",
+      "file": "avatars/ethnic-49.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 1,
+      "crop": [
+        30,
+        164,
+        130,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "裕固族": {
+      "name": "裕固族",
+      "file": "avatars/ethnic-48.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 2,
+      "crop": [
+        144,
+        164,
+        244,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "柯尔克孜族": {
+      "name": "柯尔克孜族",
+      "file": "avatars/ethnic-29.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 3,
+      "crop": [
+        258,
+        164,
+        358,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "达斡尔族": {
+      "name": "达斡尔族",
+      "file": "avatars/ethnic-31.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 4,
+      "crop": [
+        371,
+        164,
+        471,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "仫佬族": {
+      "name": "仫佬族",
+      "file": "avatars/ethnic-32.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 5,
+      "crop": [
+        485,
+        164,
+        585,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "黎族": {
+      "name": "黎族",
+      "file": "avatars/ethnic-19.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 6,
+      "crop": [
+        598,
+        164,
+        698,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "珞巴族": {
+      "name": "珞巴族",
+      "file": "avatars/ethnic-55.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 7,
+      "crop": [
+        712,
+        164,
+        812,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "基诺族": {
+      "name": "基诺族",
+      "file": "avatars/ethnic-56.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 2,
+      "column": 8,
+      "crop": [
+        825,
+        164,
+        925,
+        296
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "满族": {
+      "name": "满族",
+      "file": "avatars/ethnic-11.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 1,
+      "crop": [
+        30,
+        305,
+        130,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "毛南族": {
+      "name": "毛南族",
+      "file": "avatars/ethnic-36.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 2,
+      "crop": [
+        144,
+        305,
+        244,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "门巴族": {
+      "name": "门巴族",
+      "file": "avatars/ethnic-54.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 3,
+      "crop": [
+        258,
+        305,
+        358,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "蒙古族": {
+      "name": "蒙古族",
+      "file": "avatars/ethnic-2.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 4,
+      "crop": [
+        371,
+        305,
+        471,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "苗族": {
+      "name": "苗族",
+      "file": "avatars/ethnic-6.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 5,
+      "crop": [
+        485,
+        305,
+        585,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "仡佬族": {
+      "name": "仡佬族",
+      "file": "avatars/ethnic-37.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 6,
+      "crop": [
+        598,
+        305,
+        698,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "傣族": {
+      "name": "傣族",
+      "file": "avatars/ethnic-18.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 7,
+      "crop": [
+        712,
+        305,
+        812,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "畲族": {
+      "name": "畲族",
+      "file": "avatars/ethnic-22.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 3,
+      "column": 8,
+      "crop": [
+        825,
+        305,
+        925,
+        438
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "纳西族": {
+      "name": "纳西族",
+      "file": "avatars/ethnic-27.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 1,
+      "crop": [
+        30,
+        447,
+        130,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "怒族": {
+      "name": "怒族",
+      "file": "avatars/ethnic-42.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 2,
+      "crop": [
+        144,
+        447,
+        244,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "普米族": {
+      "name": "普米族",
+      "file": "avatars/ethnic-40.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 3,
+      "crop": [
+        258,
+        447,
+        358,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "布朗族": {
+      "name": "布朗族",
+      "file": "avatars/ethnic-34.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 4,
+      "crop": [
+        371,
+        447,
+        471,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "羌族": {
+      "name": "羌族",
+      "file": "avatars/ethnic-33.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 5,
+      "crop": [
+        485,
+        447,
+        585,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "撒拉族": {
+      "name": "撒拉族",
+      "file": "avatars/ethnic-35.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 6,
+      "crop": [
+        598,
+        447,
+        698,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "水族": {
+      "name": "水族",
+      "file": "avatars/ethnic-25.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 7,
+      "crop": [
+        712,
+        447,
+        812,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "傈僳族": {
+      "name": "傈僳族",
+      "file": "avatars/ethnic-20.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 4,
+      "column": 8,
+      "crop": [
+        825,
+        447,
+        925,
+        579
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "塔吉克族": {
+      "name": "塔吉克族",
+      "file": "avatars/ethnic-41.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 1,
+      "crop": [
+        30,
+        587,
+        130,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "赫哲族": {
+      "name": "赫哲族",
+      "file": "avatars/ethnic-53.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 2,
+      "crop": [
+        144,
+        587,
+        244,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "俄罗斯族": {
+      "name": "俄罗斯族",
+      "file": "avatars/ethnic-44.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 3,
+      "crop": [
+        258,
+        587,
+        358,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "土家族": {
+      "name": "土家族",
+      "file": "avatars/ethnic-15.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 4,
+      "crop": [
+        371,
+        587,
+        471,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "土族": {
+      "name": "土族",
+      "file": "avatars/ethnic-30.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 5,
+      "crop": [
+        485,
+        587,
+        585,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "汉族": {
+      "name": "汉族",
+      "file": "avatars/ethnic-1.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 6,
+      "crop": [
+        598,
+        587,
+        698,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "维吾尔族": {
+      "name": "维吾尔族",
+      "file": "avatars/ethnic-5.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 7,
+      "crop": [
+        712,
+        587,
+        812,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "保安族": {
+      "name": "保安族",
+      "file": "avatars/ethnic-47.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 5,
+      "column": 8,
+      "crop": [
+        825,
+        587,
+        925,
+        720
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "乌孜别克族": {
+      "name": "乌孜别克族",
+      "file": "avatars/ethnic-43.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 1,
+      "crop": [
+        30,
+        728,
+        130,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "锡伯族": {
+      "name": "锡伯族",
+      "file": "avatars/ethnic-38.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 2,
+      "crop": [
+        144,
+        728,
+        244,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "瑶族": {
+      "name": "瑶族",
+      "file": "avatars/ethnic-13.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 3,
+      "crop": [
+        258,
+        728,
+        358,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "彝族": {
+      "name": "彝族",
+      "file": "avatars/ethnic-7.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 4,
+      "crop": [
+        371,
+        728,
+        471,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "侗族": {
+      "name": "侗族",
+      "file": "avatars/ethnic-12.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 5,
+      "crop": [
+        485,
+        728,
+        585,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "独龙族": {
+      "name": "独龙族",
+      "file": "avatars/ethnic-51.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 6,
+      "crop": [
+        598,
+        728,
+        698,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "拉祜族": {
+      "name": "拉祜族",
+      "file": "avatars/ethnic-24.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 7,
+      "crop": [
+        712,
+        728,
+        812,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "壮族": {
+      "name": "壮族",
+      "file": "avatars/ethnic-8.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 6,
+      "column": 8,
+      "crop": [
+        825,
+        728,
+        925,
+        861
+      ],
+      "width": 100,
+      "height": 133,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "白族": {
+      "name": "白族",
+      "file": "avatars/ethnic-14.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 1,
+      "crop": [
+        30,
+        870,
+        130,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "东乡族": {
+      "name": "东乡族",
+      "file": "avatars/ethnic-26.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 2,
+      "crop": [
+        144,
+        870,
+        244,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "德昂族": {
+      "name": "德昂族",
+      "file": "avatars/ethnic-46.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 3,
+      "crop": [
+        258,
+        870,
+        358,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "朝鲜族": {
+      "name": "朝鲜族",
+      "file": "avatars/ethnic-10.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 4,
+      "crop": [
+        371,
+        870,
+        471,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "塔塔尔族": {
+      "name": "塔塔尔族",
+      "file": "avatars/ethnic-50.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 5,
+      "crop": [
+        485,
+        870,
+        585,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "鄂伦春族": {
+      "name": "鄂伦春族",
+      "file": "avatars/ethnic-52.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 6,
+      "crop": [
+        598,
+        870,
+        698,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "鄂温克族": {
+      "name": "鄂温克族",
+      "file": "avatars/ethnic-45.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 7,
+      "crop": [
+        712,
+        870,
+        812,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    },
+    "高山族": {
+      "name": "高山族",
+      "file": "avatars/ethnic-23.png",
+      "source": "https://pic.nximg.cn/file/20240409/35284279_092240047105_2.jpg",
+      "publisher": "昵图网 · 用户提供的民族服饰插画",
+      "row": 7,
+      "column": 8,
+      "crop": [
+        825,
+        870,
+        925,
+        1002
+      ],
+      "width": 100,
+      "height": 132,
+      "mappingStatus": "reviewed",
+      "note": "按原图民族名称整理",
+      "license": "未提供开放许可",
+      "retrieved": "2026-10-11"
+    }
+  }
+}
