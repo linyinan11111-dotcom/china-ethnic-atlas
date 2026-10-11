@@ -1,5 +1,7 @@
 # 山河同心 · 中国民族分布图谱
 
+[访问网站](https://linyinan11111-dotcom.github.io/china-ethnic-atlas/)
+
 Vue 3 + TypeScript + OpenLayers + ECharts 实现的静态民族分布与地区发展网站，适合 GitHub Pages。无需数据库、API Key、登录或在线地图服务。人口表、行政边界与经济数据随项目部署。
 
 ![一页式民族专题](docs/screenshots/民族专题一页式桌面.png)

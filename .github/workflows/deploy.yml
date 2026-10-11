@@ -37,3 +37,14 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Verify public files
+        run: node scripts/check-deployed-site.mjs "${{ steps.deployment.outputs.page_url }}"
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Verify public map and mobile navigation
+        run: node scripts/check-deployed-browser.mjs "${{ steps.deployment.outputs.page_url }}"
