@@ -1,0 +1,11 @@
+node_modules/
+dist/
+data/raw/
+public/
+test-results/
+playwright-report/
+.tools/
+package-lock.json
+*.tsbuildinfo
+src/data/*.json
+scripts/*.json

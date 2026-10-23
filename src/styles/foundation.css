@@ -1,0 +1,84 @@
+:root {
+  font-family: 'Inter', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  color: #283c31;
+  background: #f6f7f2;
+  font-synthesis: none;
+  font-weight: 400;
+  font-size: 13px;
+  --green: #21634e;
+  --muted: #879186;
+  --border: #e5e9df;
+  --serif: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 360px;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button {
+  color: inherit;
+  border: 0;
+  background: none;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #bb9a57;
+  outline-offset: 3px;
+}
+p,
+h1,
+h2,
+h3,
+dl {
+  margin: 0;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+svg {
+  flex-shrink: 0;
+}
+input[type='checkbox'] {
+  accent-color: var(--green);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+select {
+  background: #fafbf7;
+  border: 1px solid var(--border);
+  padding: 7px 10px;
+  border-radius: 6px;
+  color: #506458;
+}

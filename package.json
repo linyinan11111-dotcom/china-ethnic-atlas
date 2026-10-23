@@ -15,9 +15,12 @@
     "data:check": "node scripts/check-data.mjs",
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test",
-    "verify": "npm run data:check && npm test && npm run build && npm run test:e2e",
+    "verify": "npm run format:check && npm run data:check && npm test && npm run build && npm run test:e2e",
     "photos:fetch": "node scripts/fetch-photos.mjs",
-    "capture:photos": "node scripts/capture-photos.mjs"
+    "capture:photos": "node scripts/capture-photos.mjs",
+    "format": "prettier --write src scripts tests *.ts *.json .github .prettierrc.json",
+    "format:check": "prettier --check src scripts tests *.ts *.json .github .prettierrc.json",
+    "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.4",
@@ -27,6 +30,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.51.0",
+    "prettier": "3.6.2",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
     "vue-tsc": "^2.2.0"

@@ -55,7 +55,7 @@
 
 - `src/data/development.ts`：56个专题、发展线索、项目名、年份和原文链接。
 - `src/components/EthnicDevelopment.vue`：介绍摘要、完整专题及地区卡片。
-- `src/development.css`：专题桌面和手机布局，颜色跟随民族主题。
+- `src/styles/development.css`：专题桌面和手机布局，颜色跟随民族主题。
 - `data/raw/development/`：两批名录、7个UNESCO页面及55个文化背景页面的快照。
 - `data/raw/development/sources.json`：官方成果页面的采集时间、标题、URL与SHA-256。
 - `scripts/research-development.mjs`、`scripts/fetch-development-culture.mjs`：重复采集选定来源；运行前应确认仍需要更新快照。

@@ -7,10 +7,15 @@ export default defineConfig({
   base: './',
   build: {
     chunkSizeWarningLimit: 1000,
-    rollupOptions: { output: { manualChunks(id) {
-      if (id.includes('/node_modules/echarts/') || id.includes('/node_modules/zrender/')) return 'charts';
-      if (id.includes('/node_modules/ol/')) return 'maps';
-      if (id.includes('/node_modules/vue/') || id.includes('/node_modules/@vue/')) return 'vue';
-    } } },
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('/node_modules/echarts/') || id.includes('/node_modules/zrender/'))
+            return 'charts';
+          if (id.includes('/node_modules/ol/')) return 'maps';
+          if (id.includes('/node_modules/vue/') || id.includes('/node_modules/@vue/')) return 'vue';
+        },
+      },
+    },
   },
 });

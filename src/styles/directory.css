@@ -1,0 +1,177 @@
+.ethnic-sidebar {
+  position: sticky;
+  top: 20px;
+  overflow: hidden;
+}
+.sidebar-top {
+  padding: 20px 17px 13px;
+}
+.section-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #53674f;
+}
+.section-label h2 {
+  color: #354b39;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+.count-badge {
+  margin-left: auto;
+  font-size: 10px;
+  background: #eff3e9;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #85937e;
+}
+.sidebar-top > p {
+  font-size: 10px;
+  color: #9aa295;
+  margin-top: 10px;
+}
+.search-field {
+  margin: 0 14px 14px;
+  border: 1px solid #e7ebdf;
+  border-radius: 6px;
+  padding: 8px 9px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #9aa48f;
+  background: #fbfcf7;
+}
+.search-field input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  background: none;
+  outline: none !important;
+  font-size: 10px;
+  color: #4f654f;
+}
+.search-field input::placeholder {
+  color: #a2aa9c;
+}
+.clear-search {
+  padding: 0;
+  display: flex;
+}
+.sidebar-tabs {
+  display: flex;
+  margin: 0 14px 9px;
+  border-bottom: 1px solid #eef0e7;
+}
+.sidebar-tabs button {
+  width: 50%;
+  padding: 8px 0 10px;
+  font-size: 11px;
+  color: #a2a994;
+  position: relative;
+}
+.sidebar-tabs button.selected {
+  color: var(--green);
+  font-weight: 600;
+}
+.sidebar-tabs button.selected:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 25%;
+  right: 25%;
+  height: 2px;
+  background: var(--green);
+}
+.ethnic-list {
+  height: 569px;
+  overflow: auto;
+  padding: 0 10px 12px;
+  scrollbar-width: thin;
+  scrollbar-color: #dce3d6 transparent;
+}
+.ethnic-option {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  gap: 10px;
+  padding: 11px 8px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+  color: #c0c6b7;
+  transition: background 0.15s;
+}
+.ethnic-option:hover {
+  background: #f4f6ed;
+}
+.ethnic-option.selected {
+  background: #eaf1e7;
+  color: var(--green);
+}
+.ethnic-avatar {
+  width: 31px;
+  height: 31px;
+  border-radius: 7px;
+  background: #f3f4ec;
+  border: 1px solid #e9eddf;
+  display: grid;
+  place-items: center;
+  font-family: var(--serif);
+  font-size: 14px;
+  color: #8c9d79;
+}
+.ethnic-option.selected .ethnic-avatar {
+  background: #dce9d6;
+  border-color: #dce9d6;
+  color: #396b42;
+}
+.ethnic-option-copy {
+  flex: 1;
+  min-width: 0;
+}
+.ethnic-option-copy strong {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #5c6a54;
+  margin-bottom: 5px;
+}
+.ethnic-option.selected strong {
+  color: var(--green);
+  font-weight: 600;
+}
+.ethnic-option-copy small {
+  display: block;
+  color: #a1a98f;
+  font-size: 9px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sidebar-note {
+  padding: 18px 16px;
+  background: #f8f9f2;
+  border-top: 1px solid #edf0e5;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #98a588;
+  font-size: 10px;
+}
+.sidebar-note small {
+  display: block;
+  margin-top: 6px;
+  font-size: 9px;
+  color: #abb39a;
+}
+.empty-search {
+  padding: 25px 0;
+  text-align: center;
+  line-height: 2;
+  color: #94a086;
+  font-size: 12px;
+}
+.empty-search button {
+  color: var(--green);
+  text-decoration: underline;
+}

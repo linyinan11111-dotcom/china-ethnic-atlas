@@ -1,13 +1,31 @@
-import {mkdir,writeFile} from 'node:fs/promises';
-import {createHash} from 'node:crypto';
-import {parseTaiwanReport,taiwanSourceUrl} from './taiwan-source.mjs';
-const response=await fetch(taiwanSourceUrl,{signal:AbortSignal.timeout(30000)});
-if(!response.ok)throw Error(`${response.status} ${taiwanSourceUrl}`);
-const bytes=new Uint8Array(await response.arrayBuffer());
-const data=parseTaiwanReport(new TextDecoder().decode(bytes));
-const retrievedAt=new Date().toISOString();
-const path=`data/raw/taiwan/household-${data.period}.html`;
-await mkdir('data/raw/taiwan',{recursive:true});
-await writeFile(path,bytes);
-await writeFile('src/data/taiwan-indigenous.json',JSON.stringify({...data,retrievedAt,snapshot:path,sha256:createHash('sha256').update(bytes).digest('hex')},null,2)+'\n');
-console.log('Verified official report:',data.period,data.population,'indigenous registered residents,',data.share+'%');
+import { mkdir, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { parseTaiwanReport, taiwanSourceUrl } from './taiwan-source.mjs';
+const response = await fetch(taiwanSourceUrl, { signal: AbortSignal.timeout(30000) });
+if (!response.ok) throw Error(`${response.status} ${taiwanSourceUrl}`);
+const bytes = new Uint8Array(await response.arrayBuffer());
+const data = parseTaiwanReport(new TextDecoder().decode(bytes));
+const retrievedAt = new Date().toISOString();
+const path = `data/raw/taiwan/household-${data.period}.html`;
+await mkdir('data/raw/taiwan', { recursive: true });
+await writeFile(path, bytes);
+await writeFile(
+  'src/data/taiwan-indigenous.json',
+  JSON.stringify(
+    {
+      ...data,
+      retrievedAt,
+      snapshot: path,
+      sha256: createHash('sha256').update(bytes).digest('hex'),
+    },
+    null,
+    2,
+  ) + '\n',
+);
+console.log(
+  'Verified official report:',
+  data.period,
+  data.population,
+  'indigenous registered residents,',
+  data.share + '%',
+);
