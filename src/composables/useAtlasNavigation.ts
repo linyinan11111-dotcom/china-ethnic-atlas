@@ -31,6 +31,7 @@ export function useAtlasNavigation(options: NavigationOptions) {
   let navigationVersion = 0;
   let disposed = false;
   let navigating = false;
+  let arrivalTarget: HTMLElement | null = null;
   let settleTimer: ReturnType<typeof setTimeout> | undefined;
 
   function syncHash() {
@@ -61,9 +62,24 @@ export function useAtlasNavigation(options: NavigationOptions) {
     scrollFrame = requestAnimationFrame(updateActiveSection);
   }
 
-  function finishNavigation() {
+  function finishNavigation(interrupted = false) {
     clearTimeout(settleTimer);
+    if (!interrupted && navigating && arrivalTarget) {
+      const offset =
+        (document.querySelector('.ethnic-section-nav')?.getBoundingClientRect().height ?? 0) + 22;
+      const destination = Math.max(
+        0,
+        Math.min(
+          document.documentElement.scrollHeight - innerHeight,
+          scrollY + arrivalTarget.getBoundingClientRect().top - offset,
+        ),
+      );
+      // Slow GPU frames may be further apart than the scroll debounce interval.
+      // Only unlock at the actual destination, never just because time elapsed.
+      if (Math.abs(scrollY - destination) > 2) return;
+    }
     navigating = false;
+    arrivalTarget = null;
     updateActiveSection();
   }
 
@@ -86,7 +102,7 @@ export function useAtlasNavigation(options: NavigationOptions) {
       event.target.closest('.ethnic-section-nav')
     )
       return;
-    finishNavigation();
+    finishNavigation(true);
   }
 
   function observeSections() {
@@ -112,15 +128,17 @@ export function useAtlasNavigation(options: NavigationOptions) {
     await nextTick();
     if (disposed || version !== navigationVersion) return;
     if (id === 'sources') {
-      scrollToContent(document.querySelector('.page-heading'));
+      arrivalTarget = document.querySelector('.page-heading');
+      scrollToContent(arrivalTarget);
       scheduleSettle();
       options.notify('已打开数据说明');
       return;
     }
     observeSections();
-    scrollToContent(
-      selector ? document.querySelector(selector) : document.getElementById('section-' + id),
-    );
+    arrivalTarget = selector
+      ? document.querySelector(selector)
+      : document.getElementById('section-' + id);
+    scrollToContent(arrivalTarget);
     scheduleSettle();
     options.notify('已定位到' + (navigation.find((item) => item.id === id)?.label ?? '对应内容'));
   }

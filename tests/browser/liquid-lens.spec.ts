@@ -51,12 +51,13 @@ test('chapter lens drags, snaps, scrolls to its result and keeps click and keybo
     )
     .toBeLessThan(130);
   expect(
-    await page.evaluate(() =>
-      (window as unknown as { chapterStates: string[] }).chapterStates.every(
-        (key) => key === 'economy',
-      ),
-    ),
-  ).toBe(true);
+    await page.evaluate(() => (window as unknown as { chapterStates: string[] }).chapterStates),
+  ).not.toEqual([]);
+  expect(
+    await page.evaluate(() => [
+      ...new Set((window as unknown as { chapterStates: string[] }).chapterStates),
+    ]),
+  ).toEqual(['economy']);
   await economy.focus();
   await page.keyboard.press('ArrowRight');
   await expect(nav.getByRole('button', { name: '民族发展', exact: true })).toHaveAttribute(
