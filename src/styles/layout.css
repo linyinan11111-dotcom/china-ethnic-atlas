@@ -31,7 +31,7 @@
 }
 .brand small {
   display: block;
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 2px;
   color: #8a968b;
   margin-top: 3px;
@@ -49,7 +49,7 @@
   padding: 0 17px;
   position: relative;
   color: #818a80;
-  font-size: 13px;
+  font-size: var(--font-body);
   white-space: nowrap;
 }
 .main-nav button:hover {
@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #839083;
   white-space: nowrap;
 }
@@ -94,7 +94,7 @@
   gap: 20px;
 }
 .eyebrow {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #78927c;
   font-weight: 600;
   letter-spacing: 2px;
@@ -116,7 +116,7 @@ h1 {
 }
 .heading-description {
   color: #899188;
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 1.7;
 }
 .heading-tools {
@@ -128,7 +128,7 @@ h1 {
 .edition {
   font-family: var(--serif);
   color: #8b9588;
-  font-size: 13px;
+  font-size: var(--font-body);
   display: flex;
   align-items: center;
   gap: 10px;
@@ -149,7 +149,7 @@ h1 {
   border: 1px solid #dfe6d8;
   border-radius: 6px;
   background: #fffefb;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #596d5d;
   white-space: nowrap;
   transition: background 0.2s;
@@ -166,7 +166,7 @@ h1 {
   gap: 10px;
   padding: 11px 17px;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .primary-button:hover {
   background: #174f3c;
@@ -175,7 +175,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--green);
   white-space: nowrap;
 }

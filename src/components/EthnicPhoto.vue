@@ -2,6 +2,8 @@
 import { computed, ref, watch } from 'vue';
 import { getEthnicAvatar, avatarUrl } from '../data/avatars';
 import Icon from './Icon.vue';
+import GlassArtwork from './GlassArtwork.vue';
+import { getEthnicTheme } from '../utils/themes.mjs';
 const props = withDefaults(defineProps<{ name: string; large?: boolean }>(), { large: false });
 const record = computed(() => getEthnicAvatar(props.name));
 const source = computed(() => avatarUrl(props.name));
@@ -16,6 +18,10 @@ const description = computed(() => `${props.name}民族服饰插画头像`);
     :data-ethnic="name"
   >
     <div class="photo-frame">
+      <GlassArtwork
+        v-if="large"
+        :accent="getEthnicTheme(name).accent"
+      />
       <img
         v-if="source && !failed"
         :key="source"

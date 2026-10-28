@@ -74,7 +74,7 @@
   letter-spacing: 6px;
 }
 .atlas-app .brand small {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #6f716b;
   letter-spacing: 3px;
   margin-top: 7px;
@@ -83,11 +83,11 @@
   flex-direction: column;
   gap: 7px;
   color: #686d67;
-  font-size: 9px;
+  font-size: var(--font-caption);
   letter-spacing: 3px;
 }
 .header-topic small {
-  font-size: 11px;
+  font-size: var(--font-small);
   letter-spacing: 4px;
   color: #595e56;
 }
@@ -120,7 +120,7 @@
   grid-column: 1/-1;
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 2px;
   color: #717168;
   padding-bottom: 19px;
@@ -132,7 +132,7 @@
 }
 .cover-copy .eyebrow {
   color: var(--theme-accent);
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 3px;
 }
 .magazine-cover h1 {
@@ -153,7 +153,7 @@
 }
 .magazine-cover .heading-description {
   max-width: 630px;
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 2.1;
   color: #62665e;
   text-align: justify;
@@ -163,7 +163,7 @@
   gap: 9px;
   align-items: flex-start;
   color: #646c62;
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.8;
   margin-top: 25px;
 }
@@ -177,7 +177,7 @@
   margin-top: 19px;
 }
 .cover-keywords span {
-  font-size: 11px;
+  font-size: var(--font-small);
   letter-spacing: 1px;
   color: var(--theme-accent);
 }
@@ -206,14 +206,14 @@
   max-height: 315px;
 }
 .cover-photo .photo-label {
-  font-size: 9px;
+  font-size: var(--font-caption);
   letter-spacing: 2px;
   color: #71746c;
 }
 .cover-photo.ethnic-photo-large .photo-credit {
   border: 0;
   padding: 9px 0;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #75766f;
 }
 .magazine-cover .heading-tools {
@@ -227,7 +227,7 @@
 .cover-reading-note {
   font-family: var(--serif);
   color: #666c61;
-  font-size: 12px;
+  font-size: var(--font-small);
   letter-spacing: 2px;
 }
 .magazine-cover .heading-tools > .outline-button {
@@ -268,7 +268,7 @@
 }
 .sidebar-top > p {
   color: #777c70;
-  font-size: 10px;
+  font-size: var(--font-caption);
   margin-top: 9px;
 }
 .atlas-app .search-field {
@@ -299,12 +299,12 @@
 }
 .atlas-app .ethnic-option-copy strong {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: var(--font-body);
   color: #454c40;
 }
 .atlas-app .ethnic-option-copy small {
   color: #7e8276;
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .atlas-app .sidebar-note {
   background: transparent;
@@ -329,7 +329,7 @@
   position: relative;
   border-radius: 0;
   padding: 18px 8px;
-  font-size: 12px;
+  font-size: var(--font-small);
   letter-spacing: 1px;
   color: #6f7569;
 }
@@ -374,7 +374,7 @@
   letter-spacing: 1px;
 }
 .atlas-app .unified-section-title > small {
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 2px;
   color: #777a70;
 }
@@ -407,7 +407,7 @@
 }
 .atlas-app .overview-strip span {
   color: #6d7467;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .atlas-app .overview-strip strong {
   font-size: 27px;
@@ -454,7 +454,7 @@
   color: var(--ink);
 }
 .atlas-app .detail-subtitle {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #7b7e73;
 }
 .atlas-app .detail-metrics {
@@ -462,7 +462,7 @@
   padding: 8px 0 22px;
 }
 .atlas-app .detail-metrics dt {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #777b70;
 }
 .atlas-app .detail-metrics dd {
@@ -479,11 +479,11 @@
 }
 .atlas-app .reform-entry h3 {
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 1.7;
 }
 .atlas-app .reform-entry p {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
 }
 .atlas-app .reform-entry-icon {
@@ -505,7 +505,7 @@
   font-size: 17px;
 }
 .atlas-app .quick-analysis p {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #75786c;
 }
 .atlas-app #section-culture .culture-hero {
@@ -522,7 +522,7 @@
   gap: 22px;
 }
 .culture-margin > span {
-  font-size: 9px;
+  font-size: var(--font-caption);
   letter-spacing: 2px;
   color: var(--theme-accent);
 }
@@ -535,7 +535,7 @@
   color: var(--ink);
 }
 .culture-margin small {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #818273;
 }
@@ -548,7 +548,7 @@
   color: var(--ink);
 }
 .atlas-app .culture-hero-copy > p:not(.eyebrow) {
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 2.2;
   color: #676d60;
 }
@@ -556,7 +556,7 @@
   border-radius: 0;
   background: transparent;
   border-color: var(--rule);
-  font-size: 10px;
+  font-size: var(--font-caption);
   padding: 5px 10px;
 }
 .atlas-app .three-cards {
@@ -575,14 +575,14 @@
   border-right: 0;
 }
 .atlas-app .info-card > span {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #73796b;
 }
 .atlas-app .info-card > strong {
   font-size: 30px;
 }
 .atlas-app .info-card > small {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #7c8172;
 }
 .atlas-app .info-card > .small-text {
@@ -601,7 +601,7 @@
   padding: 26px 0;
 }
 .atlas-app .prose-card > p {
-  font-size: 13px;
+  font-size: var(--font-body);
   line-height: 2.2;
   color: #6a7162;
 }
@@ -640,7 +640,7 @@
   font-weight: 400;
 }
 .atlas-app .chart-caption {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #767d6d;
   line-height: 1.9;
 }
@@ -662,12 +662,12 @@
 .atlas-app table th {
   background: #eee9de;
   color: #6b715f;
-  font-size: 11px;
+  font-size: var(--font-small);
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .atlas-app table td {
-  font-size: 12px;
+  font-size: var(--font-small);
   padding-top: 16px;
   padding-bottom: 16px;
   color: #68725e;
@@ -683,7 +683,7 @@
   padding: 8px 18px;
 }
 .atlas-app .notice-inline p {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #777d6b;
   line-height: 2;
 }
@@ -701,7 +701,7 @@
   color: var(--ink);
 }
 .atlas-app .development-copy > p {
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 2.1;
   color: #69735f;
 }
@@ -730,7 +730,7 @@
   font-weight: 400;
 }
 .atlas-app .development-achievement > p {
-  font-size: 13px;
+  font-size: var(--font-body);
   line-height: 2;
 }
 .atlas-app .development-year-filters button {
@@ -795,7 +795,7 @@
   font-weight: 400;
 }
 .atlas-app .ethnic-timeline-detail p {
-  font-size: 13px;
+  font-size: var(--font-body);
 }
 .atlas-app .site-footer {
   border-top: 3px double var(--ink);
@@ -852,7 +852,7 @@
     letter-spacing: 3px;
   }
   .atlas-app .brand small {
-    font-size: 8px;
+    font-size: var(--font-caption);
     letter-spacing: 1px;
   }
   .atlas-app .brand-mark {
@@ -872,7 +872,7 @@
     margin-bottom: 25px;
   }
   .cover-folio {
-    font-size: 8px;
+    font-size: var(--font-caption);
     letter-spacing: 1px;
     padding-bottom: 15px;
   }
@@ -890,12 +890,12 @@
     margin-bottom: 15px;
   }
   .magazine-cover .heading-description {
-    font-size: 13px;
+    font-size: var(--font-body);
     line-height: 2;
   }
   .cover-regions {
     margin-top: 18px;
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .cover-keywords {
     margin-top: 15px;
@@ -913,7 +913,7 @@
     max-height: 265px;
   }
   .cover-photo.ethnic-photo-large .photo-credit {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .magazine-cover .heading-tools {
     gap: 12px;
@@ -921,14 +921,14 @@
     padding: 14px 0;
   }
   .cover-reading-note {
-    font-size: 10px;
+    font-size: var(--font-caption);
     letter-spacing: 1px;
     max-width: 170px;
     line-height: 1.8;
   }
   .magazine-cover .heading-tools > .outline-button {
     margin-left: 0;
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .atlas-app .workspace {
     display: block;
@@ -957,7 +957,7 @@
     scrollbar-width: none;
   }
   .atlas-app .ethnic-section-nav button {
-    font-size: 10px;
+    font-size: var(--font-caption);
     letter-spacing: 0;
     padding: 16px 5px;
     gap: 3px;
@@ -992,16 +992,16 @@
     font-size: 21px;
   }
   .atlas-app .overview-strip .region-stat {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .atlas-app .overview-strip span {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .atlas-app .map-card-header {
     padding: 17px 13px;
   }
   .atlas-app .map-card-header h2 {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .atlas-app .detail-column {
     display: block;
@@ -1013,7 +1013,7 @@
     margin-top: 7px;
   }
   .atlas-app .quick-analysis p {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .atlas-app #section-culture .culture-hero {
     display: block;
@@ -1040,7 +1040,7 @@
     font-size: 24px;
   }
   .atlas-app .culture-hero-copy > p:not(.eyebrow) {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .atlas-app .three-cards {
     grid-template-columns: 1fr;
@@ -1069,7 +1069,7 @@
     font-size: 24px;
   }
   .atlas-app .development-copy > p {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .atlas-app .development-heading h2 {
     font-size: 23px;
@@ -1109,11 +1109,11 @@
   border: 1px solid var(--rule);
   background: transparent;
   padding: 8px;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--ink);
 }
 .directory-filters .text-button {
-  font-size: 11px;
+  font-size: var(--font-small);
   justify-self: start;
 }
 .places-toggle {
@@ -1121,7 +1121,7 @@
   align-items: center;
   gap: 8px;
   color: #727a69;
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
 }
 .local-story {
@@ -1135,7 +1135,7 @@
   flex-wrap: wrap;
   padding: 10px 22px;
   border-top: 1px solid var(--rule);
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #727a69;
 }
 .population-edition label {
@@ -1155,6 +1155,6 @@
     padding: 10px 14px;
   }
   .population-edition > span {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
 }

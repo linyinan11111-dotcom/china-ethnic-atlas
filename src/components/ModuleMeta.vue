@@ -26,7 +26,7 @@ defineProps<{ period: string; scope: string; sources: { name: string; url: strin
   border-top: 1px solid var(--rule);
   padding: 18px 0;
   margin-top: 20px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
   color: #7b846f;
 }

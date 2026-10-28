@@ -1,4 +1,5 @@
 node_modules/
+src/vendor/
 dist/
 data/raw/
 public/

@@ -253,7 +253,7 @@ const columns = computed(() =>
 }
 .compare-controls label,
 .compare-category {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #727a69;
   display: flex;
   flex-direction: column;
@@ -272,7 +272,7 @@ const columns = computed(() =>
   max-width: 100%;
 }
 .compare-note {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
   color: #78816f;
   margin: 15px 0;
@@ -293,7 +293,7 @@ const columns = computed(() =>
 }
 .compare-columns header span {
   letter-spacing: 2px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--compare-accent);
 }
 .compare-columns h3 {
@@ -308,23 +308,23 @@ const columns = computed(() =>
   min-height: 85px;
 }
 .compare-columns dt {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #78816f;
   margin-bottom: 10px;
 }
 .compare-columns dd {
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 1.9;
   color: var(--ink);
 }
 .compare-columns a {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--compare-accent);
   overflow-wrap: anywhere;
 }
 .compare-columns small {
   display: block;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #7b846f;
 }
 .compare-columns h4 {
@@ -335,7 +335,7 @@ const columns = computed(() =>
   line-height: 1.9;
 }
 .compare-columns p {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2.1;
   color: #69735f;
 }
@@ -351,12 +351,12 @@ const columns = computed(() =>
   gap: 9px;
 }
 .compare-development span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
   color: #78816f;
 }
 .compare-development strong {
-  font-size: 13px;
+  font-size: var(--font-body);
   font-weight: 500;
   line-height: 1.9;
 }
@@ -375,10 +375,10 @@ const columns = computed(() =>
   }
   .compare-controls .outline-button {
     padding: 10px;
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .compare-columns dd {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .compare-columns h4 {
     font-size: 15px;

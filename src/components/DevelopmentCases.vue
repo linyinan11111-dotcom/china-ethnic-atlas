@@ -102,7 +102,7 @@ watch(
   padding: 28px 0;
 }
 .cases-intro {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #727a69;
   margin: 16px 0;
@@ -114,7 +114,7 @@ watch(
   margin: 22px 0;
 }
 .case-filters button {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #6c765f;
   padding: 8px 12px;
   background: transparent;
@@ -137,7 +137,7 @@ watch(
 }
 .cases-grid article > span,
 .development-cases aside > span {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
 }
 .cases-grid h3 {
@@ -148,12 +148,12 @@ watch(
   margin: 16px 0;
 }
 .cases-grid small {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #7b846f;
 }
 .cases-grid p,
 .development-cases aside p {
-  font-size: 13px;
+  font-size: var(--font-body);
   line-height: 2.1;
   color: #69735f;
   margin: 15px 0;
@@ -161,7 +161,7 @@ watch(
 .cases-grid a,
 .development-cases aside a {
   display: block;
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
   color: var(--theme-accent);
 }
@@ -179,7 +179,7 @@ watch(
   margin-top: 12px;
 }
 .cases-meta {
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
   color: #7b846f;
 }

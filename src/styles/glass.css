@@ -1,0 +1,1219 @@
+/* Liquid glass: readable content over a quiet, theme-tinted landscape. */
+.atlas-app {
+  --paper: #edf3fa;
+  --paper-white: #fafdff;
+  --ink: #233249;
+  --rule: #758da52e;
+  --glass-fill: linear-gradient(135deg, #ffffffb8, #f5faff86 62%, #edf3ff9c);
+  --glass-shadow:
+    inset 0 1px 1px #fff, inset 1px 0 1px #ffffffb0, inset 0 -1px 1px #6b84a52b,
+    0 12px 36px -20px #30486c54;
+  --surface-radius: 24px;
+  isolation: isolate;
+  color: var(--ink);
+  background: #edf3fa;
+  background-image:
+    radial-gradient(ellipse at 8% 0%, #cde9ee 0, transparent 35%),
+    radial-gradient(ellipse at 100% 12%, #dddaf5 0, transparent 32%),
+    linear-gradient(155deg, #edf5fa, #e9eef7 48%, #f4f7fc);
+  line-height: 1.65;
+}
+.atlas-app::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at 15% 10%,
+    color-mix(in srgb, var(--theme-accent) 14%, transparent),
+    transparent 48%
+  );
+}
+.atlas-app :is(h1, h2, h3, strong) {
+  text-wrap: pretty;
+}
+.atlas-app :is(button, input, select) {
+  line-height: 1.5;
+}
+.atlas-app :is(p, dd, .heading-description) {
+  overflow-wrap: anywhere;
+}
+.atlas-app :is(.site-header, .page-shell) {
+  max-width: 1600px;
+}
+.atlas-app .page-shell {
+  padding: 0 32px;
+}
+
+/* Separate reflected edges from the foreground. No blur is applied to text. */
+.atlas-app
+  :is(
+    .site-header,
+    .page-heading,
+    .ethnic-sidebar,
+    .ethnic-section-nav,
+    .card,
+    .map-actions,
+    .south-sea,
+    .map-tooltip,
+    .heading-tools,
+    .ethnic-search-dialog
+  ) {
+  background: var(--glass-fill);
+  border: 1px solid #ffffffdc;
+  border-radius: var(--surface-radius);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(18px) saturate(1.25);
+  backdrop-filter: blur(18px) saturate(1.25);
+}
+.atlas-app :is(.site-header, .ethnic-sidebar, .ethnic-section-nav, .heading-tools)::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  padding: 2px;
+  background:
+    radial-gradient(
+      ellipse at var(--glass-light-x, 18%) var(--glass-light-y, 0%),
+      #fff,
+      #ffffff10 65%
+    ),
+    linear-gradient(135deg, #ffffffed, #a7c4ec2a 45%, #fff);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.atlas-app .site-header {
+  position: relative;
+  height: 86px;
+  margin: 22px 32px 26px;
+  padding: 0 24px;
+  gap: 24px;
+  border-radius: 26px;
+}
+.atlas-app .brand {
+  min-width: 240px;
+  gap: 12px;
+}
+.atlas-app .brand-mark {
+  width: 44px;
+  height: 48px;
+  border: 1px solid #ffffffd0;
+  border-radius: 16px;
+  background: linear-gradient(145deg, var(--theme-soft), var(--theme-tint));
+  box-shadow:
+    inset 0 1px 1px #fff,
+    0 4px 10px #34527212;
+}
+.atlas-app .brand strong {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.atlas-app .brand small {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+  color: #52657b;
+}
+.atlas-app .header-topic {
+  color: #546a83;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.atlas-app .header-topic small {
+  color: #455b73;
+  font-size: 13px;
+}
+.atlas-app :is(.header-search, .source-link) {
+  min-height: 44px;
+  font-size: 14px;
+  color: #3e536c;
+}
+.atlas-app .header-search {
+  border-radius: 15px;
+  background: #ffffff72;
+  border: 1px solid #fff;
+}
+.atlas-app .source-link {
+  padding: 10px 14px;
+  border-radius: 15px;
+}
+.atlas-app .source-link:hover {
+  background: #ffffff80;
+}
+
+.atlas-app .page-heading {
+  padding: 28px 36px 0;
+  margin-bottom: 28px;
+  gap: 22px 48px;
+  overflow: hidden;
+  background: linear-gradient(125deg, #ffffffb0 0%, #ffffff65 52%, #ecf4ff80);
+}
+.atlas-app .magazine-cover {
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.58fr);
+}
+.atlas-app .cover-folio {
+  border-bottom-color: var(--rule);
+  font-size: 12px;
+  padding-bottom: 16px;
+  color: #52667c;
+  letter-spacing: 1px;
+}
+.atlas-app .cover-copy {
+  padding: 4px 0 12px;
+}
+.atlas-app .cover-copy .eyebrow {
+  font-size: 12px;
+  color: var(--theme-ink);
+  letter-spacing: 2px;
+}
+.atlas-app .magazine-cover h1 {
+  font-family: inherit;
+  font-weight: 650;
+  font-size: clamp(48px, 5vw, 72px);
+  letter-spacing: 4px;
+  margin: 16px 0;
+  color: #21334b;
+}
+.atlas-app .cover-feature {
+  font-family: inherit;
+  font-size: 21px;
+  color: var(--theme-ink);
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+.atlas-app .heading-description {
+  font-size: 16px;
+  line-height: 1.95;
+  color: #465b72;
+  text-align: left;
+  max-width: 680px;
+}
+.atlas-app .cover-regions {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #4b6179;
+}
+.atlas-app .cover-keywords {
+  margin-top: 14px;
+  gap: 8px;
+}
+.atlas-app .cover-keywords span {
+  font-size: 13px;
+  padding: 5px 12px;
+  border: 1px solid #ffffffc0;
+  border-radius: 999px;
+  background: #ffffff68;
+  color: var(--theme-ink);
+}
+.atlas-app .cover-keywords span + span::before {
+  content: none;
+}
+.atlas-app .cover-photo {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+.atlas-app .cover-photo .photo-frame {
+  height: 290px;
+  padding: 24px 24px 44px;
+  isolation: isolate;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.atlas-app .cover-photo .ethnic-photo-image {
+  position: relative;
+  width: 120px;
+  height: auto;
+  max-height: 178px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px -12px #18385455;
+}
+.atlas-app .cover-photo .photo-label {
+  color: #3e566f;
+  font-size: 12px;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+.atlas-app .cover-photo .photo-credit {
+  font-size: 12px;
+  color: #4e6379;
+  padding: 10px 0;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.glass-artwork {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #deeff8, #d9e6f6 50%, #e6ddf4);
+}
+.glass-artwork-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.portrait-lens {
+  position: absolute;
+  width: 64%;
+  height: 78%;
+  top: 10%;
+  left: 18%;
+  border-radius: 40px;
+  border: 1px solid #ffffffbd;
+  background: #ffffff22;
+  box-shadow:
+    inset 1px 1px 2px #fff,
+    0 14px 24px #45678b1c;
+}
+.portrait-orbit {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 1px solid #ffffffc0;
+  background: #ffffff28;
+  box-shadow: inset 1px 1px 3px #fff;
+}
+.orbit-one {
+  top: 17%;
+  right: 5%;
+}
+.orbit-two {
+  bottom: 13%;
+  left: 5%;
+  width: 38px;
+  height: 38px;
+}
+.glass-artwork.webgl-ready :is(.portrait-lens, .portrait-orbit) {
+  background: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+.atlas-app .heading-tools {
+  position: relative;
+  border-radius: 18px 18px 0 0;
+  padding: 14px 18px;
+  gap: 18px;
+  margin: 0 -12px;
+}
+.atlas-app .cover-reading-note {
+  font-family: inherit;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #4e6379;
+}
+.atlas-app .theme-indicator {
+  color: #405b73;
+}
+.atlas-app :is(.outline-button, .primary-button) {
+  min-height: 42px;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 14px;
+}
+.atlas-app .outline-button {
+  background: #ffffff80;
+  border: 1px solid #ffffffea;
+  color: var(--theme-ink);
+  box-shadow:
+    inset 0 1px 1px #fff,
+    0 3px 9px #365b7c0e;
+}
+.atlas-app .primary-button {
+  background: linear-gradient(145deg, var(--theme-accent), var(--theme-ink));
+  color: white;
+  border: 1px solid #ffffff80;
+}
+
+.atlas-app .workspace {
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.atlas-app .workspace.full-page {
+  grid-template-columns: minmax(0, 1fr);
+}
+.atlas-app .ethnic-sidebar {
+  padding: 16px 14px 0;
+  top: 20px;
+}
+.atlas-app .sidebar-top {
+  padding: 4px 4px 18px;
+}
+.atlas-app .sidebar-top .section-label h2 {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 650;
+}
+.atlas-app .sidebar-top > p {
+  color: #52677e;
+}
+.atlas-app .search-field {
+  border-radius: 13px;
+  padding: 12px 10px;
+  background: #ffffff94;
+  border-color: #ffffffdc;
+}
+.atlas-app .search-field input {
+  font-size: 14px;
+  color: #293e56;
+}
+.atlas-app input::placeholder {
+  color: #667b92;
+}
+.atlas-app :is(select, .directory-filters select) {
+  border-radius: 12px;
+  background: #ffffff82;
+  border-color: #ffffffdc;
+  color: #354c65;
+  font-size: 14px;
+  padding: 9px;
+}
+.atlas-app option {
+  background: #f2f7fc;
+  color: #263e5a;
+}
+.atlas-app .sidebar-tabs button {
+  font-size: 14px;
+  color: #4d6279;
+}
+.atlas-app .ethnic-list {
+  height: min(580px, 65vh);
+  padding: 0 0 12px;
+}
+.atlas-app .ethnic-option {
+  border: 1px solid transparent;
+  padding: 10px 7px;
+  gap: 10px;
+  margin-bottom: 3px;
+  border-radius: 14px;
+  color: #435b75;
+}
+.atlas-app .ethnic-option.selected {
+  border-color: #ffffffed;
+  background: linear-gradient(135deg, #ffffffc9, var(--theme-soft));
+  box-shadow:
+    inset 0 1px 1px #fff,
+    0 4px 10px #34587912;
+}
+.atlas-app .ethnic-option:hover {
+  background: #ffffff8c;
+}
+.atlas-app .ethnic-avatar {
+  width: 36px;
+  height: 46px;
+  border-radius: 9px;
+}
+.atlas-app .ethnic-option-copy strong {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #293f57;
+}
+.atlas-app .ethnic-option-copy small {
+  font-size: 12px;
+  color: #50677d;
+}
+.atlas-app .sidebar-note {
+  border-top: 1px solid var(--rule);
+  font-size: 12px;
+  color: #4b6178;
+  background: none;
+  padding: 16px 2px;
+}
+.atlas-app .ethnic-page {
+  gap: 38px;
+}
+.atlas-app .ethnic-section-nav {
+  top: 10px;
+  border-radius: 20px;
+  padding: 6px;
+  gap: 4px;
+  background: linear-gradient(135deg, #ffffffdb, #eaf2fbe0);
+  z-index: 35;
+}
+.atlas-app .ethnic-section-nav button {
+  border-radius: 14px;
+  font-size: 14px;
+  letter-spacing: 0;
+  min-height: 48px;
+  padding: 12px 9px;
+  color: #405871;
+}
+.atlas-app .ethnic-section-nav button.active {
+  background: linear-gradient(135deg, #ffffff, var(--theme-soft));
+  color: var(--theme-ink);
+  box-shadow:
+    inset 0 1px 1px #fff,
+    0 3px 10px #3c62822b;
+}
+.atlas-app .ethnic-section-nav button.active::after {
+  content: none;
+}
+.atlas-app .unified-section-title {
+  padding: 0 4px 16px;
+  margin-bottom: 20px;
+  border-color: #8299b42e;
+  gap: 12px;
+}
+.atlas-app .unified-section-title > span {
+  font-size: 16px;
+  font-style: normal;
+  font-family: inherit;
+  letter-spacing: 0;
+  width: 38px;
+  height: 38px;
+  background: #ffffffa0;
+  border: 1px solid #fff;
+  border-radius: 13px;
+  opacity: 1;
+  color: var(--theme-ink);
+}
+.atlas-app .unified-section-title h2 {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+.atlas-app .unified-section-title > small {
+  font-size: 12px;
+  color: #526780;
+  letter-spacing: 1px;
+}
+.atlas-app :is(.content-column, .reform-page) {
+  gap: 24px;
+}
+
+/* Map and numerical content keep a steady, high-contrast surface. */
+.atlas-app .map-workspace {
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 20px;
+}
+.atlas-app .overview-strip {
+  padding: 18px 0;
+  margin-bottom: 18px;
+  border-bottom: 0;
+}
+.atlas-app .overview-strip > div {
+  padding: 0 12px;
+}
+.atlas-app .overview-strip span {
+  font-size: 13px;
+  color: #455e76;
+}
+.atlas-app .overview-strip strong {
+  font-size: 27px;
+  font-variant-numeric: tabular-nums;
+}
+.atlas-app .overview-strip .region-stat {
+  font-family: inherit;
+  font-size: 17px;
+  white-space: normal;
+}
+.atlas-app .overview-strip :is(small, em) {
+  color: #4d647c;
+  font-size: 12px;
+}
+.atlas-app .map-card {
+  background: #f9fcffe8;
+}
+.atlas-app .map-card-header {
+  padding: 18px 20px;
+  flex-wrap: wrap;
+}
+.atlas-app .map-card-header h2 {
+  font-size: 17px;
+}
+.atlas-app .segmented {
+  border-radius: 13px;
+  background: #dbe7f040;
+  border: 1px solid #c9d8e64f;
+}
+.atlas-app .segmented button {
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 8px 10px;
+  color: #405a72;
+}
+.atlas-app .segmented button.selected {
+  background: #fff;
+  color: var(--theme-ink);
+  box-shadow: 0 2px 6px #4d6d9020;
+}
+.atlas-app .map-canvas {
+  height: 480px;
+  background: #edf4f9;
+  background-image: none;
+}
+.atlas-app .map-caption {
+  color: #3b536d;
+  font-size: 12px;
+  padding: 6px 10px;
+  top: 12px;
+  left: 12px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  background: #ffffffc4;
+}
+.atlas-app .map-actions {
+  border-radius: 16px;
+  padding: 4px;
+  background: #ffffffb5;
+}
+.atlas-app .map-actions button {
+  width: 34px;
+  height: 37px;
+}
+.atlas-app .south-sea {
+  border-radius: 13px;
+  background: #ffffffb0;
+}
+.atlas-app .map-coordinate {
+  font-size: 10px;
+  color: #4c6279;
+}
+.atlas-app :is(.map-source, .map-legend, .population-edition) {
+  font-size: 12px;
+  color: #415a73;
+  background: #f5f9fce8;
+  border-color: #c7d7e74d;
+}
+.atlas-app .map-legend {
+  padding: 14px 18px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.atlas-app .legend-item {
+  font-size: 12px;
+}
+.atlas-app .region-detail {
+  padding: 22px 18px;
+  background: var(--glass-fill);
+}
+.atlas-app .region-detail h2 {
+  font-family: inherit;
+  font-size: 22px;
+}
+.atlas-app :is(.detail-subtitle, .detail-metrics dt) {
+  font-size: 13px;
+  color: #4d647c;
+}
+.atlas-app .detail-metrics {
+  grid-template-columns: 1fr;
+  gap: 14px;
+  padding-bottom: 18px;
+}
+.atlas-app .detail-metrics dd {
+  font-size: 25px;
+}
+.atlas-app .economic-preview > strong {
+  font-size: 24px;
+}
+.atlas-app .reform-entry {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #ffffffa0, var(--theme-soft));
+  box-shadow: var(--glass-shadow);
+}
+.atlas-app .reform-entry h3 {
+  font-family: inherit;
+  font-size: 17px;
+}
+.atlas-app .reform-entry p {
+  font-size: 14px;
+  color: #4e647b;
+}
+.atlas-app .quick-analysis {
+  padding: 20px;
+  border-radius: 20px;
+  background: #ffffff79;
+  border: 1px solid #fff;
+}
+.atlas-app .quick-analysis p {
+  font-size: 15px;
+  color: #485f76;
+}
+.atlas-app .quick-analysis h3 {
+  font-family: inherit;
+}
+.atlas-app :is(.chart-card, .table-card) {
+  background: #ffffffdc;
+  backdrop-filter: none;
+}
+.atlas-app table {
+  font-size: 14px;
+}
+.atlas-app th {
+  font-size: 13px;
+  color: #405972;
+  font-weight: 600;
+  background: #eff5fb;
+}
+.atlas-app td {
+  color: #304c66;
+  font-variant-numeric: tabular-nums;
+}
+.atlas-app :is(th, td) {
+  padding: 15px 18px;
+  border-color: #d7e2ed;
+}
+.atlas-app .table-scroll {
+  max-height: 560px;
+}
+.atlas-app :is(.table-heading h2, .section-label h2) {
+  font-size: 17px;
+}
+.atlas-app
+  :is(
+    .chart-caption,
+    .notice-inline p,
+    .info-card small,
+    .info-card > span,
+    .table-heading > a,
+    .table-heading > span
+  ) {
+  font-size: 13px;
+  color: #4b627b;
+}
+.atlas-app .three-cards {
+  gap: 16px;
+  border: 0;
+}
+.atlas-app .three-cards .info-card {
+  padding: 24px;
+  border: 1px solid #fff;
+}
+.atlas-app #section-culture .culture-hero {
+  border: 1px solid #fff;
+  padding: 28px;
+  background: var(--glass-fill);
+  grid-template-columns: 210px minmax(0, 1fr);
+}
+.atlas-app .culture-margin {
+  padding: 10px 24px 10px 0;
+  border-color: var(--rule);
+}
+.atlas-app .culture-hero-copy {
+  padding: 8px 0 8px 24px;
+}
+.atlas-app .culture-hero-copy > p:not(.eyebrow) {
+  font-size: 16px;
+  line-height: 1.95;
+  color: #465e75;
+}
+.atlas-app
+  :is(
+    .ethnic-culture,
+    .ethnic-comparison,
+    .local-story,
+    .cultural-places,
+    .development-cases,
+    .ethnic-timeline,
+    .development-intro
+  ) {
+  padding: 26px;
+  border: 1px solid #ffffffdc;
+  border-radius: 24px;
+  background: #ffffffb8;
+  box-shadow: var(--glass-shadow);
+}
+.atlas-app
+  :is(
+    .culture-excerpt,
+    .local-story p,
+    .development-copy > p,
+    .ethnic-timeline-detail > p,
+    .case-card > p,
+    .compare-columns dd
+  ) {
+  font-size: 16px;
+  line-height: 1.95;
+  color: #405970;
+}
+.atlas-app
+  :is(
+    .culture-reader-note,
+    .culture-reader-updated,
+    .story-context,
+    .module-meta,
+    .compare-note,
+    .places-note
+  ) {
+  color: #4b627a;
+}
+.atlas-app
+  :is(
+    .culture-tabs button,
+    .cases-filters button,
+    .timeline-filters button,
+    .culture-tags span,
+    .comparison-chips button
+  ) {
+  border-radius: 12px;
+}
+.atlas-app .development-achievement {
+  border-radius: 18px;
+  background: #ffffffb0;
+}
+.atlas-app .national-reform-context {
+  padding: 24px;
+}
+.atlas-app .development-heading {
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.atlas-app .development-heading h2 {
+  font-size: 25px;
+}
+.atlas-app .methodology {
+  padding: 28px;
+}
+.atlas-app .source-card {
+  padding: 24px;
+}
+.atlas-app .source-card p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #425b74;
+}
+.atlas-app .site-footer {
+  padding: 28px 6px;
+  border-top: 1px solid var(--rule);
+  margin-top: 40px;
+  color: #4f647b;
+  font-size: 13px;
+}
+.atlas-app .search-overlay {
+  background: #263c6140;
+  backdrop-filter: blur(8px);
+}
+.atlas-app .ethnic-search-dialog {
+  background: linear-gradient(135deg, #f5fbfff5, #eaf2fced);
+  border-radius: 26px;
+}
+.atlas-app .search-result {
+  border-radius: 14px;
+  color: #304b67;
+}
+.atlas-app .global-search-input {
+  border-radius: 15px;
+  background: #ffffffac;
+}
+.atlas-app .toast-message {
+  border: 1px solid #ffffff80;
+  border-radius: 16px;
+  background: #27425ee8;
+  color: #fff;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 28px #29466729;
+}
+.atlas-app button {
+  transition:
+    background-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+.atlas-app button:active:not(:disabled) {
+  box-shadow: inset 0 2px 5px #29496d20;
+}
+.atlas-app :focus-visible {
+  outline: 3px solid var(--theme-accent);
+  outline-offset: 3px;
+}
+
+@media (min-width: 1664px) {
+  .atlas-app .site-header {
+    margin-inline: auto;
+    width: calc(100% - 64px);
+  }
+}
+@media (max-width: 1320px) {
+  .atlas-app .map-workspace {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .atlas-app .detail-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  .atlas-app .detail-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .atlas-app .header-topic {
+    display: none;
+  }
+  .atlas-app .header-utilities {
+    margin-left: auto;
+  }
+}
+@media (max-width: 1100px) {
+  .atlas-app .workspace {
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 18px;
+  }
+  .atlas-app .page-shell {
+    padding-inline: 22px;
+  }
+  .atlas-app .site-header {
+    margin-inline: 22px;
+  }
+  .atlas-app .page-heading {
+    padding-inline: 26px;
+    gap: 18px 24px;
+  }
+  .atlas-app .ethnic-section-nav button {
+    padding-inline: 9px;
+  }
+  .atlas-app .ethnic-section-nav svg {
+    display: none;
+  }
+  .atlas-app .analysis-grid,
+  .atlas-app .economy-grid {
+    grid-template-columns: 1fr;
+  }
+  .atlas-app #section-culture .culture-hero {
+    grid-template-columns: 1fr;
+  }
+  .atlas-app .culture-margin {
+    border-right: 0;
+    border-bottom: 1px solid var(--rule);
+    padding: 0 0 18px;
+  }
+  .atlas-app .culture-hero-copy {
+    padding: 22px 0 0;
+  }
+}
+@media (max-width: 760px) {
+  .atlas-app {
+    --surface-radius: 20px;
+  }
+  .atlas-app .page-shell {
+    padding-inline: 12px;
+  }
+  .atlas-app .site-header {
+    height: auto;
+    min-height: 76px;
+    margin: 12px 12px 18px;
+    padding: 12px;
+    gap: 8px;
+    border-radius: 21px;
+  }
+  .atlas-app .brand {
+    min-width: 0;
+    gap: 7px;
+  }
+  .atlas-app .brand-mark {
+    width: 34px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .atlas-app .brand strong {
+    font-size: 21px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  .atlas-app .brand small {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  .atlas-app .header-utilities {
+    gap: 4px;
+  }
+  .atlas-app .header-search {
+    min-height: 40px;
+    padding: 10px;
+  }
+  .atlas-app .source-link {
+    min-height: 40px;
+    padding: 8px;
+    font-size: 12px;
+    gap: 4px;
+  }
+  .atlas-app .source-link svg {
+    display: none;
+  }
+  .atlas-app .page-heading {
+    padding: 20px 20px 0;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .atlas-app .magazine-cover {
+    grid-template-columns: 1fr;
+  }
+  .atlas-app .cover-folio {
+    font-size: 11px;
+    letter-spacing: 0;
+    gap: 12px;
+  }
+  .atlas-app .magazine-cover h1 {
+    font-size: clamp(40px, 12vw, 56px);
+    letter-spacing: 2px;
+    margin: 14px 0;
+  }
+  .atlas-app .cover-feature {
+    font-size: 19px;
+    line-height: 1.75;
+  }
+  .atlas-app .heading-description {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  .atlas-app .cover-regions {
+    font-size: 13px;
+    margin-top: 14px;
+  }
+  .atlas-app .cover-keywords span {
+    font-size: 12px;
+  }
+  .atlas-app .cover-photo {
+    padding: 0;
+    border: 0;
+  }
+  .atlas-app .cover-photo .photo-frame {
+    height: 230px;
+    padding-bottom: 40px;
+  }
+  .atlas-app .cover-photo .ethnic-photo-image {
+    width: 100px;
+    max-height: 148px;
+    border-radius: 9px;
+  }
+  .atlas-app .cover-photo .photo-credit {
+    font-size: 12px;
+  }
+  .atlas-app .heading-tools {
+    margin-inline: -8px;
+    padding: 14px 12px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .atlas-app .cover-reading-note {
+    display: none;
+  }
+  .atlas-app .heading-tools > .outline-button {
+    font-size: 14px;
+    margin-left: auto;
+  }
+  .atlas-app .workspace {
+    display: block;
+  }
+  .atlas-app .ethnic-sidebar {
+    padding: 18px 14px 0;
+    margin-bottom: 20px;
+  }
+  .atlas-app .ethnic-list {
+    height: 320px;
+  }
+  .atlas-app .ethnic-section-nav {
+    top: 6px;
+    padding: 5px;
+    border-radius: 16px;
+    overflow-x: auto;
+  }
+  .atlas-app .ethnic-section-nav button {
+    font-size: 13px;
+    padding: 10px 11px;
+    min-height: 42px;
+    flex: 1 0 auto;
+  }
+  .atlas-app .ethnic-page {
+    gap: 32px;
+  }
+  .atlas-app .unified-section-title {
+    gap: 10px;
+    align-items: center;
+  }
+  .atlas-app .unified-section-title > span {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 11px;
+  }
+  .atlas-app .unified-section-title h2 {
+    font-size: 21px;
+    line-height: 1.5;
+  }
+  .atlas-app .overview-strip {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 0;
+    padding: 4px 0;
+  }
+  .atlas-app .overview-strip > div {
+    padding: 0 12px;
+  }
+  .atlas-app .overview-strip > div:first-child {
+    padding-left: 0;
+  }
+  .atlas-app .overview-strip > div:last-child {
+    grid-column: 1/-1;
+    padding-left: 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+  }
+  .atlas-app .overview-strip span {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .atlas-app .overview-strip strong {
+    font-size: 24px;
+  }
+  .atlas-app .overview-strip .region-stat {
+    font-size: 18px;
+  }
+  .atlas-app .map-card-header {
+    padding: 16px;
+  }
+  .atlas-app .map-card-header h2 {
+    font-size: 16px;
+  }
+  .atlas-app .map-canvas {
+    height: 430px;
+  }
+  .atlas-app .map-caption {
+    font-size: 11px;
+  }
+  .atlas-app .map-legend {
+    padding: 14px;
+  }
+  .atlas-app .map-legend > div {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .atlas-app .population-edition {
+    padding: 12px 14px;
+  }
+  .atlas-app .detail-column {
+    display: block;
+  }
+  .atlas-app .region-detail {
+    margin-top: 0;
+    padding: 20px;
+  }
+  .atlas-app .detail-metrics {
+    grid-template-columns: 1fr 1fr;
+  }
+  .atlas-app .reform-entry {
+    margin-top: 16px;
+  }
+  .atlas-app .quick-analysis {
+    padding: 18px;
+    flex-wrap: wrap;
+  }
+  .atlas-app
+    :is(
+      .ethnic-culture,
+      .ethnic-comparison,
+      .local-story,
+      .cultural-places,
+      .development-cases,
+      .ethnic-timeline,
+      .development-intro
+    ) {
+    padding: 20px 16px;
+    border-radius: 20px;
+  }
+  .atlas-app #section-culture .culture-hero {
+    padding: 22px 18px;
+  }
+  .atlas-app .culture-hero-copy > p:not(.eyebrow) {
+    font-size: 16px;
+  }
+  .atlas-app .three-cards .info-card {
+    padding: 22px;
+  }
+  .atlas-app :is(th, td) {
+    padding: 14px;
+  }
+  .atlas-app .table-heading {
+    flex-wrap: wrap;
+    padding: 18px;
+  }
+  .atlas-app .source-card,
+  .atlas-app .methodology {
+    padding: 22px 18px;
+  }
+  .atlas-app .national-reform-context {
+    padding: 20px 18px;
+  }
+  .atlas-app .site-footer {
+    gap: 16px;
+    flex-wrap: wrap;
+    line-height: 1.8;
+  }
+  .atlas-app .ethnic-search-dialog {
+    border-radius: 22px;
+  }
+}
+@supports not (backdrop-filter: blur(1px)) {
+  .atlas-app
+    :is(
+      .site-header,
+      .page-heading,
+      .ethnic-sidebar,
+      .ethnic-section-nav,
+      .card,
+      .map-actions,
+      .heading-tools,
+      .ethnic-search-dialog
+    ) {
+    background: #f2f7fdf7;
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .atlas-app
+    :is(
+      .site-header,
+      .page-heading,
+      .ethnic-sidebar,
+      .ethnic-section-nav,
+      .card,
+      .map-actions,
+      .south-sea,
+      .map-tooltip,
+      .heading-tools,
+      .ethnic-search-dialog
+    ) {
+    background: #f2f7fc;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  .atlas-app .search-overlay {
+    backdrop-filter: none;
+    background: #263c6170;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .atlas-app *,
+  .atlas-app *::before,
+  .atlas-app *::after {
+    transition: none !important;
+  }
+}
+@media (forced-colors: active) {
+  .atlas-app {
+    background: Canvas;
+    color: CanvasText;
+  }
+  .atlas-app :is(.card, .ethnic-section-nav, .page-heading, .site-header, .ethnic-sidebar) {
+    border: 1px solid CanvasText;
+    background: Canvas;
+    backdrop-filter: none;
+  }
+  .glass-artwork {
+    display: none;
+  }
+}

@@ -74,7 +74,7 @@ const places = computed(() => culturalPlaces.filter((p) => p.ethnic === props.na
   padding: 24px 0;
 }
 .places-note {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 1.9;
   color: #727a69;
   margin: 15px 0;
@@ -97,7 +97,7 @@ const places = computed(() => culturalPlaces.filter((p) => p.ethnic === props.na
 }
 .place-select span,
 .place-select small {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
 }
 .place-select strong {
@@ -107,7 +107,7 @@ const places = computed(() => culturalPlaces.filter((p) => p.ethnic === props.na
   line-height: 1.7;
 }
 .place-copy p {
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 1.9;
   color: #65705d;
 }
@@ -119,7 +119,7 @@ const places = computed(() => culturalPlaces.filter((p) => p.ethnic === props.na
   align-items: center;
 }
 .place-copy a {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
 }
 .chosen {
@@ -127,7 +127,7 @@ const places = computed(() => culturalPlaces.filter((p) => p.ethnic === props.na
   padding-left: 15px !important;
 }
 .places-meta {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #7b846f;
   margin-top: 15px;
 }

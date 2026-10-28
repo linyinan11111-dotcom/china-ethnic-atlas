@@ -3,6 +3,8 @@ import Icon from './components/Icon.vue';
 import EthnicSearch from './components/EthnicSearch.vue';
 import { provideAtlas } from './composables/atlasContext';
 import { useAtlasController } from './composables/useAtlasController';
+import { ref } from 'vue';
+import { useGlassLight } from './composables/useGlassLight';
 import AtlasHeader from './components/layout/AtlasHeader.vue';
 import AtlasCover from './components/layout/AtlasCover.vue';
 import EthnicDirectory from './components/layout/EthnicDirectory.vue';
@@ -15,6 +17,8 @@ import DevelopmentSection from './components/sections/DevelopmentSection.vue';
 import SourcesSection from './components/sections/SourcesSection.vue';
 import AtlasFooter from './components/layout/AtlasFooter.vue';
 const atlas = useAtlasController();
+const surface = ref<HTMLElement>();
+useGlassLight(surface);
 provideAtlas(atlas);
 const {
   themeStyles,
@@ -31,6 +35,7 @@ const {
 </script>
 <template>
   <div
+    ref="surface"
     class="atlas-app"
     :style="themeStyles"
     :data-theme="ethnicName"

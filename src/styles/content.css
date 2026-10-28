@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #a3ae98;
   padding: 24px 0 20px;
   margin-top: 2px;
@@ -14,7 +14,7 @@
   gap: 6px;
 }
 .site-footer p {
-  font-size: 8px;
+  font-size: var(--font-caption);
   letter-spacing: 0.5px;
 }
 .site-footer i {
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #8f9f7d;
 }
 .mobile-picker {
@@ -70,7 +70,7 @@
   bottom: 26px;
 }
 .culture-hero .landscape-label small {
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .culture-hero-copy {
   padding: 38px;
@@ -82,12 +82,12 @@
   color: #345a40;
 }
 .culture-hero-copy > p:not(.eyebrow) {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #87977b;
 }
 .culture-hero-copy .culture-tags span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   padding: 6px 9px;
 }
 .three-cards {
@@ -106,7 +106,7 @@
 }
 .info-card > span {
   color: #8b9b7e;
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .info-card > strong {
   font-family: Georgia, 'Microsoft YaHei', sans-serif;
@@ -117,24 +117,24 @@
 }
 .info-card > strong.small-text {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 1.9;
 }
 .info-card > strong > em {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 10px;
+  font-size: var(--font-caption);
   font-weight: 400;
   color: #9cab8c;
   margin-left: 6px;
   font-style: normal;
 }
 .info-card > small {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #a2ae94;
   line-height: 1.8;
 }
 .info-card a {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #829e6c;
   display: flex;
   align-items: center;
@@ -147,7 +147,7 @@
   margin-bottom: 17px;
 }
 .prose-card > p {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #8c9b7e;
   margin: 12px 0;
@@ -171,7 +171,7 @@
   letter-spacing: 1px;
 }
 .section-page-head p {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #8c9c7d;
   margin-top: 10px;
 }
@@ -188,7 +188,7 @@
   margin-bottom: 17px;
 }
 .chart-caption {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #a1ae92;
   line-height: 1.8;
   margin-top: 14px;
@@ -201,7 +201,7 @@
 }
 .insight-card > small {
   color: #a8b498;
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
   display: block;
   margin-top: 18px;
@@ -214,13 +214,13 @@
 }
 .insight-highlight strong {
   display: block;
-  font-size: 14px;
+  font-size: var(--font-body);
   color: #6b8b55;
   margin-bottom: 13px;
 }
 .insight-highlight span {
   display: block;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #8b9f77;
   margin-top: 8px;
 }
@@ -235,18 +235,18 @@
   gap: 14px;
 }
 .table-heading h2 {
-  font-size: 13px;
+  font-size: var(--font-body);
   color: #5e7850;
 }
 .table-heading > span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #9cab8c;
 }
 .table-heading > a {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #89a16f;
 }
 .table-scroll {
@@ -260,7 +260,7 @@ table {
   border-collapse: collapse;
   text-align: left;
   white-space: nowrap;
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 thead {
   background: #f5f7ef;
@@ -270,7 +270,7 @@ thead {
   z-index: 1;
 }
 th {
-  font-size: 10px;
+  font-size: var(--font-caption);
   font-weight: 400;
   padding: 13px 19px;
   border-top: 1px solid #e9eede;
@@ -301,7 +301,7 @@ tbody tr:hover {
   color: #8aa174;
 }
 .notice-inline p {
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
 }
 .economy-grid {
@@ -317,7 +317,7 @@ tbody tr:hover {
   margin-bottom: 18px;
 }
 .chart-head select {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #839b6c;
   border-color: #e5ebda;
 }
@@ -337,18 +337,18 @@ tbody tr:hover {
   border: 1px solid #e5edda;
   border-radius: 4px;
   color: #799c5d;
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .comparison-chips > span {
   color: #9dae8b;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .chart-empty {
   height: 285px;
   display: grid;
   place-items: center;
   color: #a8b596;
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .green-text {
   color: #799f58;
@@ -388,7 +388,7 @@ tbody tr:hover {
   border: 1px solid #d4e2c5;
   padding: 5px 10px;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .reform-hero h2 {
   font-family: var(--serif);
@@ -399,7 +399,7 @@ tbody tr:hover {
   color: #35623e;
 }
 .reform-hero p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #8eaa79;
   line-height: 2;
 }
@@ -407,7 +407,7 @@ tbody tr:hover {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 9px;
+  font-size: var(--font-caption);
   margin-top: 20px;
   color: #88a06c;
 }
@@ -502,7 +502,7 @@ tbody tr:hover {
   border: 2px solid #fffefb;
 }
 .timeline small {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #a6b597;
 }
 .timeline .selected strong {
@@ -532,7 +532,7 @@ tbody tr:hover {
   min-width: 150px;
 }
 .topic-tag {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #a5b88e;
 }
 .timeline-detail h3 {
@@ -543,7 +543,7 @@ tbody tr:hover {
   margin: 10px 0 12px;
 }
 .timeline-detail p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #92a77c;
   line-height: 2;
   max-width: 850px;
@@ -552,7 +552,7 @@ tbody tr:hover {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #91aa72;
   margin-top: 15px;
 }
@@ -576,7 +576,7 @@ tbody tr:hover {
   margin-bottom: 13px;
 }
 .theme-card p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #9aaf83;
   line-height: 2;
 }
@@ -595,7 +595,7 @@ tbody tr:hover {
   line-height: 1.6;
 }
 .reform-economy p:not(.eyebrow) {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #96a980;
   line-height: 2;
   margin: 14px 0 19px;
@@ -616,7 +616,7 @@ tbody tr:hover {
   justify-content: center;
 }
 .reform-region-cards span {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #8ba76f;
 }
 .reform-region-cards strong {
@@ -628,13 +628,13 @@ tbody tr:hover {
 }
 .reform-region-cards strong small {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 8px;
+  font-size: var(--font-caption);
   margin-left: 3px;
   font-weight: 400;
   color: #acbc97;
 }
 .reform-region-cards em {
-  font-size: 8px;
+  font-size: var(--font-caption);
   font-style: normal;
   color: #acbc97;
 }
@@ -660,7 +660,7 @@ tbody tr:hover {
   color: #5e8452;
 }
 .sources-intro p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #99ac84;
   line-height: 2;
   margin-top: 11px;
@@ -687,11 +687,11 @@ tbody tr:hover {
   margin-bottom: 10px;
 }
 .source-card > small {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #a0b58a;
 }
 .source-card p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #9fb58a;
   line-height: 2;
   margin: 16px 0;
@@ -701,7 +701,7 @@ tbody tr:hover {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #8ba96d;
 }
 .methodology {
@@ -714,12 +714,12 @@ tbody tr:hover {
   margin-top: 24px;
 }
 .method-grid h3 {
-  font-size: 13px;
+  font-size: var(--font-body);
   color: #799a62;
   margin-bottom: 11px;
 }
 .method-grid p {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #a0b58a;
   line-height: 2;
 }
@@ -731,7 +731,7 @@ tbody tr:hover {
   padding: 14px 20px;
   background: #234b35;
   color: #f7f9f2;
-  font-size: 12px;
+  font-size: var(--font-small);
   border-radius: 8px;
   box-shadow: 0 4px 20px #25482630;
   display: flex;

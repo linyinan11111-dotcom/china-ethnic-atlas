@@ -5,7 +5,7 @@
   gap: 9px;
   margin: auto;
   color: var(--theme-accent);
-  font-size: 12px;
+  font-size: var(--font-small);
   letter-spacing: 1px;
 }
 .ethnic-page {
@@ -34,7 +34,7 @@
   padding: 12px 9px;
   border-radius: 6px;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
 }
 .ethnic-section-nav button:hover {
@@ -59,7 +59,7 @@
   padding-top: 5px;
 }
 .unified-section-title > span {
-  font-size: 13px;
+  font-size: var(--font-body);
   font-family: Georgia, serif;
   color: var(--theme-accent);
   width: 34px;
@@ -75,7 +75,7 @@
   color: var(--theme-ink);
 }
 .unified-section-title > small {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
   margin-left: auto;
 }
@@ -100,12 +100,12 @@
 }
 @media (max-width: 1100px) {
   .ethnic-section-nav button {
-    font-size: 11px;
+    font-size: var(--font-small);
     padding: 11px 6px;
     gap: 6px;
   }
   .header-topic {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
 }
 @media (max-width: 760px) {
@@ -127,7 +127,7 @@
     scrollbar-width: thin;
   }
   .ethnic-section-nav button {
-    font-size: 10px;
+    font-size: var(--font-caption);
     padding: 10px 5px;
     gap: 4px;
     flex: 1 0 auto;
@@ -149,13 +149,13 @@
   .unified-section-title > span {
     width: 29px;
     height: 29px;
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .unified-section-title > small {
     display: none;
   }
   .economy-scope button {
-    font-size: 9px !important;
+    font-size: var(--font-caption) !important;
     padding: 9px 5px !important;
   }
   #section-culture .culture-hero {

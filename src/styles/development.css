@@ -26,7 +26,7 @@
   align-items: center;
   gap: 6px;
   color: var(--theme-accent);
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.8;
 }
 .development-intro {
@@ -50,7 +50,7 @@
 .development-regions > p,
 .development-achievement > p,
 .development-shared p {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #657365;
 }
@@ -70,7 +70,7 @@
   margin-top: 20px;
   padding-top: 16px;
   border-top: 1px solid var(--theme-border);
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
   line-height: 1.8;
 }
@@ -120,7 +120,7 @@
 }
 .development-regions > p {
   margin: 16px 0;
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .development-region-grid {
   display: grid;
@@ -142,7 +142,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: var(--font-body);
   color: var(--theme-ink);
 }
 .development-region > strong {
@@ -155,11 +155,11 @@
 }
 .development-region > strong small {
   font-family: inherit;
-  font-size: 10px;
+  font-size: var(--font-caption);
   margin-left: 5px;
 }
 .development-region > em {
-  font-size: 10px;
+  font-size: var(--font-caption);
   font-style: normal;
   color: #758278;
 }
@@ -168,12 +168,12 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #758278;
 }
 .development-region b {
   color: var(--theme-ink);
-  font-size: 12px;
+  font-size: var(--font-small);
   font-weight: 500;
 }
 .development-shared {
@@ -188,13 +188,13 @@
   margin: 13px 0 9px;
 }
 .development-method {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #758278;
   line-height: 1.9;
 }
 .development-method > a {
   margin-left: 8px;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .development-compact {
   padding: 25px;
@@ -223,7 +223,7 @@
   border-radius: 0 6px 6px 0;
 }
 .development-preview > span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #758278;
 }
 .development-preview h3 {
@@ -235,7 +235,7 @@
   align-self: flex-start;
 }
 .development-compact-note {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #758278;
   line-height: 1.8;
 }
@@ -268,16 +268,16 @@
 }
 .national-reform-context summary {
   cursor: pointer;
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 1.8;
 }
 .national-reform-context summary span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #758278;
   margin-left: 12px;
 }
 .national-reform-context p {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #657365;
   margin-top: 15px;
@@ -290,7 +290,7 @@
   margin: 25px 0;
 }
 .national-reform-context li {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 1.8;
 }
 .national-reform-context li p {
@@ -301,7 +301,7 @@
   align-items: center;
   gap: 6px;
   color: var(--theme-accent);
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 @media (max-width: 650px) {
   .national-reform-context {
@@ -324,7 +324,7 @@
   gap: 8px;
 }
 .development-year-filters button {
-  font-size: 11px;
+  font-size: var(--font-small);
   border: 1px solid var(--theme-border);
   border-radius: 6px;
   padding: 8px 12px;
@@ -337,7 +337,7 @@
   color: white;
 }
 .development-record-note {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.8;
   color: #758278;
 }
@@ -377,7 +377,7 @@
     font-size: 20px;
   }
   .development-copy > p {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .development-intro > .ethnic-photo {
     border-left: 0;

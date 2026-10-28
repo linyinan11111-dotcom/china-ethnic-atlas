@@ -26,12 +26,12 @@
 .overview-strip span {
   display: block;
   color: #859479;
-  font-size: 10px;
+  font-size: var(--font-caption);
   margin-bottom: 11px;
 }
 .overview-strip small {
   font-family: Arial;
-  font-size: 8px;
+  font-size: var(--font-caption);
   margin-left: 4px;
   color: #a1ac96;
 }
@@ -44,7 +44,7 @@
 }
 .overview-strip em {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 9px;
+  font-size: var(--font-caption);
   font-style: normal;
   margin-left: 7px;
   color: #8d9a7e;
@@ -74,7 +74,7 @@
   flex-shrink: 0;
 }
 .segmented button {
-  font-size: 10px;
+  font-size: var(--font-caption);
   padding: 6px 10px;
   border-radius: 4px;
   color: #8f9b81;
@@ -110,7 +110,7 @@
   align-items: center;
   gap: 6px;
   color: #89977e;
-  font-size: 9px;
+  font-size: var(--font-caption);
   pointer-events: none;
 }
 .live-dot {
@@ -127,7 +127,7 @@
   border-radius: 3px;
   color: #7b8d6e;
   margin-left: 4px;
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .map-compass {
   position: absolute;
@@ -140,7 +140,7 @@
   pointer-events: none;
 }
 .map-compass span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 1px;
   color: #688365;
 }
@@ -189,7 +189,7 @@
   display: block;
   position: relative;
   text-align: center;
-  font-size: 8px;
+  font-size: var(--font-caption);
   color: #7d8f72;
   letter-spacing: 1px;
   padding: 3px;
@@ -205,12 +205,12 @@
   justify-content: space-between;
   color: #acb69e;
   letter-spacing: 1.4px;
-  font-size: 7px;
+  font-size: var(--font-caption);
   pointer-events: none;
 }
 .map-coordinate span {
   letter-spacing: 0;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #9ba88b;
 }
 .map-tooltip {
@@ -222,7 +222,7 @@
   padding: 11px 14px;
   border-radius: 6px;
   pointer-events: none;
-  font-size: 11px;
+  font-size: var(--font-small);
   min-width: 165px;
 }
 .map-tooltip strong {
@@ -232,7 +232,7 @@
 }
 .map-tooltip span {
   color: #7d8e70;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .map-loading,
 .data-map-placeholder {
@@ -241,7 +241,7 @@
   justify-content: center;
   gap: 12px;
   color: #809374;
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .map-loading {
   position: absolute;
@@ -273,7 +273,7 @@
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #edf0e5;
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .map-legend > div {
   display: flex;
@@ -291,7 +291,7 @@
   gap: 4px;
   color: #93a085;
   white-space: nowrap;
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .legend-item i {
   width: 11px;
@@ -308,7 +308,7 @@
   gap: 4px;
   white-space: nowrap;
   color: #8c9b7e;
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .label-toggle input {
   width: 11px;
@@ -323,14 +323,14 @@
   border-top: 1px solid #eef1e7;
   padding: 10px 15px;
   color: #a0ab94;
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .map-source button {
   display: flex;
   align-items: center;
   gap: 4px;
   color: #8b9c7b;
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .quick-analysis {
   margin-top: 17px;
@@ -353,12 +353,12 @@
   flex: 1;
 }
 .quick-analysis h3 {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #59754e;
   margin-bottom: 7px;
 }
 .quick-analysis p {
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.8;
   color: #9aa78d;
 }
@@ -367,7 +367,7 @@
   font-weight: 500;
 }
 .quick-analysis > .text-button {
-  font-size: 10px;
+  font-size: var(--font-caption);
   gap: 7px;
 }
 .detail-column {
@@ -408,7 +408,7 @@
 .landscape-label small {
   display: block;
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 8px;
+  font-size: var(--font-caption);
   margin-top: 8px;
   letter-spacing: 1px;
   color: #f3f3d6b3;
@@ -429,14 +429,14 @@
   color: #3c5b38;
 }
 .profile-title > span {
-  font-size: 8px;
+  font-size: var(--font-caption);
   border: 1px solid #dce7d1;
   color: #8fa97b;
   padding: 3px 6px;
   border-radius: 3px;
 }
 .profile-content > p {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #8e9a80;
   line-height: 1.95;
   text-align: justify;
@@ -448,7 +448,7 @@
   margin-top: 14px;
 }
 .culture-tags span {
-  font-size: 8px;
+  font-size: var(--font-caption);
   color: #93a97a;
   border: 1px solid #e6edda;
   background: #f5f8ee;
@@ -464,13 +464,13 @@
   align-items: center;
   justify-content: space-between;
   color: #738f5e;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .region-detail {
   padding: 17px;
 }
 .tiny-badge {
-  font-size: 8px;
+  font-size: var(--font-caption);
   padding: 3px 6px;
   border-radius: 4px;
   color: #91a27b;
@@ -479,7 +479,7 @@
   margin-left: auto;
 }
 .detail-subtitle {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #a1ae90;
   margin: 12px 0 16px;
 }
@@ -490,7 +490,7 @@
   padding-bottom: 18px;
 }
 .detail-metrics dt {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #8fa279;
   margin-bottom: 10px;
 }
@@ -503,7 +503,7 @@
   white-space: nowrap;
 }
 .detail-metrics dd small {
-  font-size: 8px;
+  font-size: var(--font-caption);
   margin-left: 4px;
   font-weight: 400;
   color: #a1ae90;
@@ -516,11 +516,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #9baa8a;
 }
 .economic-preview > span small {
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .economic-preview > strong {
   display: block;
@@ -532,14 +532,14 @@
 }
 .economic-preview em {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 9px;
+  font-size: var(--font-caption);
   font-style: normal;
   color: #a2af92;
   margin-left: 6px;
 }
 .economic-preview > .text-button {
   margin-top: 13px;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #829f67;
 }
 .empty-detail {
@@ -547,7 +547,7 @@
   color: #97a985;
   text-align: center;
   line-height: 1.8;
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .empty-detail > svg {
   margin-bottom: 10px;
@@ -577,17 +577,17 @@
   flex-shrink: 0;
 }
 .reform-entry small {
-  font-size: 8px;
+  font-size: var(--font-caption);
   color: #b9aa83;
   letter-spacing: 1px;
 }
 .reform-entry h3 {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #9c8b5d;
   margin: 5px 0 7px;
 }
 .reform-entry p {
-  font-size: 8px;
+  font-size: var(--font-caption);
   color: #bbae88;
 }
 .reform-entry > button {

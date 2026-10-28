@@ -193,7 +193,7 @@
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
+  font-size: var(--font-small);
   background: var(--theme-pale);
   color: var(--theme-accent);
   white-space: nowrap;
@@ -203,7 +203,7 @@
 }
 kbd {
   font-family: Arial, sans-serif;
-  font-size: 9px;
+  font-size: var(--font-caption);
   border: 1px solid #dde1df;
   border-radius: 3px;
   background: #fff;
@@ -218,7 +218,7 @@ kbd {
   align-items: center;
   gap: 7px;
   color: var(--theme-muted);
-  font-size: 11px;
+  font-size: var(--font-small);
   white-space: nowrap;
 }
 .theme-indicator i {
@@ -228,7 +228,7 @@ kbd {
   box-shadow: 0 0 0 4px var(--theme-soft);
 }
 .sidebar-search-count {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
   padding: 0 15px 10px;
 }
@@ -257,7 +257,7 @@ kbd {
   gap: 8px;
 }
 .ethnic-option-copy small {
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 
 .search-overlay {
@@ -322,11 +322,11 @@ kbd {
   flex: 1;
   min-width: 0;
   color: var(--theme-ink);
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .global-search-input input::placeholder {
   color: #929b9a;
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .global-search-input button {
   display: flex;
@@ -338,11 +338,11 @@ kbd {
   align-items: center;
   justify-content: space-between;
   margin: 21px 25px 10px;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
 }
 .search-results-summary small {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #9ba2a0;
 }
 .global-search-results {
@@ -388,13 +388,13 @@ kbd {
 }
 .search-result strong {
   display: block;
-  font-size: 13px;
+  font-size: var(--font-body);
   color: var(--result-accent);
   margin-bottom: 6px;
   font-weight: 500;
 }
 .search-result small {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #89928d;
   display: block;
   white-space: nowrap;
@@ -425,7 +425,7 @@ kbd {
   color: var(--theme-ink);
 }
 .search-no-results p {
-  font-size: 11px;
+  font-size: var(--font-small);
   margin-bottom: 20px;
 }
 .search-dialog-footer {
@@ -436,7 +436,7 @@ kbd {
   background: var(--theme-pale);
   border-top: 1px solid var(--theme-border);
   color: var(--theme-muted);
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .search-dialog-footer > span {
   display: flex;
@@ -444,7 +444,7 @@ kbd {
   gap: 5px;
 }
 .search-dialog-footer > small {
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .search-modal-enter-active,
 .search-modal-leave-active {
@@ -494,7 +494,7 @@ kbd {
     display: none;
   }
   .ethnic-option-copy small {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .ethnic-theme-dot {
     width: 4px;
@@ -518,17 +518,17 @@ kbd {
     gap: 9px;
   }
   .global-search-input input {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .global-search-input input::placeholder {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .search-results-summary {
     margin: 19px 17px 9px;
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .search-results-summary small {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .global-search-results {
     grid-template-columns: 1fr;
@@ -541,10 +541,10 @@ kbd {
     gap: 11px;
   }
   .search-result strong {
-    font-size: 14px;
+    font-size: var(--font-body);
   }
   .search-result small {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .search-result > img {
     width: 46px;
@@ -588,7 +588,7 @@ kbd {
   left: 0;
   right: 0;
   text-align: center;
-  font-size: 10px;
+  font-size: var(--font-caption);
   letter-spacing: 1.5px;
   color: var(--theme-accent);
 }
@@ -599,7 +599,7 @@ kbd {
   gap: 8px;
   padding: 10px 12px;
   border-bottom: 1px solid var(--theme-border);
-  font-size: 8px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
   line-height: 1.6;
 }
@@ -621,17 +621,17 @@ kbd {
 }
 .ethnic-photo-large .photo-credit {
   padding: 12px 16px;
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .photo-unavailable {
   display: grid;
   gap: 15px;
   justify-items: center;
-  font-size: 12px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
 }
 .photo-art-note {
-  font-size: 10px !important;
+  font-size: var(--font-caption) !important;
   line-height: 1.9;
   color: var(--theme-muted) !important;
   margin-top: 18px;
@@ -646,7 +646,7 @@ kbd {
     height: 245px;
   }
   .photo-credit {
-    font-size: 9px;
+    font-size: var(--font-caption);
     padding: 11px 16px;
   }
   .ethnic-photo-large .photo-frame {
@@ -684,7 +684,7 @@ kbd {
 }
 .taiwan-totals span {
   display: block;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
 }
 .taiwan-totals strong {
@@ -697,12 +697,12 @@ kbd {
 }
 .taiwan-totals strong small {
   font-family: 'Microsoft YaHei', sans-serif;
-  font-size: 9px;
+  font-size: var(--font-caption);
   margin-left: 5px;
 }
 .taiwan-scope {
   color: var(--theme-muted);
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
   padding: 13px 14px;
   background: var(--theme-pale);
@@ -710,14 +710,14 @@ kbd {
   margin: 19px 0 17px;
 }
 .taiwan-counties h3 {
-  font-size: 12px;
+  font-size: var(--font-small);
   font-weight: 500;
   color: var(--theme-ink);
   margin-bottom: 16px;
 }
 .taiwan-counties h3 small {
   display: block;
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
   margin-top: 7px;
 }
@@ -726,7 +726,7 @@ kbd {
   align-items: center;
   gap: 12px;
   margin: 12px 0;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
 }
 .taiwan-county > span {
@@ -754,7 +754,7 @@ kbd {
 .taiwan-county > small {
   width: 45px;
   text-align: right;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .taiwan-source {
   display: flex;
@@ -762,7 +762,7 @@ kbd {
   flex-wrap: wrap;
   gap: 14px;
   margin-top: 18px;
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-muted);
 }
 .taiwan-source > a {
@@ -772,11 +772,11 @@ kbd {
   color: var(--theme-accent);
 }
 .taiwan-source > .text-button {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-accent);
 }
 .taiwan-source > small {
-  font-size: 9px;
+  font-size: var(--font-caption);
 }
 .taiwan-population.compact {
   padding: 0;
@@ -800,12 +800,12 @@ kbd {
   font-size: 21px;
 }
 .compact .taiwan-scope {
-  font-size: 10px;
+  font-size: var(--font-caption);
   padding: 11px;
   margin-bottom: 10px;
 }
 .taiwan-map-note {
-  font-size: 8px;
+  font-size: var(--font-caption);
 }
 .analysis-table td:nth-child(4),
 .analysis-table td:nth-child(5) {
@@ -822,7 +822,7 @@ kbd {
     font-size: 18px;
   }
   .taiwan-heading .tiny-badge {
-    font-size: 8px;
+    font-size: var(--font-caption);
     margin-top: 2px;
   }
   .taiwan-totals {
@@ -836,7 +836,7 @@ kbd {
     font-size: 24px;
   }
   .taiwan-scope {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .taiwan-county {
     gap: 8px;

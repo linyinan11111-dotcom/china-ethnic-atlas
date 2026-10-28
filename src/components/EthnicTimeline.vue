@@ -208,7 +208,7 @@ function step(offset: number) {
   line-height: 1.5;
 }
 .ethnic-timeline-intro {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #657365;
   margin-top: 14px;
@@ -220,7 +220,7 @@ function step(offset: number) {
   margin: 16px 0 20px;
 }
 .ethnic-timeline-topics span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-accent);
   border: 1px solid var(--theme-border);
   border-radius: 20px;
@@ -287,13 +287,13 @@ function step(offset: number) {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-ink);
   overflow-wrap: anywhere;
 }
 .ethnic-timeline-node-copy small {
   color: #758278;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .ethnic-timeline-node:hover {
   background: var(--theme-pale);
@@ -331,7 +331,7 @@ function step(offset: number) {
 .ethnic-timeline-category {
   display: block;
   color: var(--theme-accent);
-  font-size: 10px;
+  font-size: var(--font-caption);
   margin-top: 23px;
   letter-spacing: 1px;
 }
@@ -344,7 +344,7 @@ function step(offset: number) {
   overflow-wrap: anywhere;
 }
 .ethnic-timeline-detail p {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: #657365;
   line-height: 2;
 }
@@ -354,7 +354,7 @@ function step(offset: number) {
   gap: 5px;
   margin-bottom: 15px;
   color: var(--theme-accent);
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .ethnic-timeline-region svg {
   margin-top: 4px;
@@ -370,7 +370,7 @@ function step(offset: number) {
   align-items: center;
   gap: 5px;
   color: var(--theme-accent);
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.8;
 }
 .ethnic-timeline-sources a:hover {
@@ -385,17 +385,17 @@ function step(offset: number) {
   padding-top: 18px;
 }
 .ethnic-timeline-paging > span {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #758278;
 }
 .ethnic-timeline-note {
-  font-size: 10px;
+  font-size: var(--font-caption);
   line-height: 1.9;
   color: #758278;
   margin-top: 19px;
 }
 .ethnic-timeline-scope {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
   padding: 13px;
   border-left: 3px solid var(--theme-accent);
@@ -412,12 +412,12 @@ function step(offset: number) {
   color: var(--theme-accent);
 }
 .ethnic-timeline-records strong {
-  font-size: 12px;
+  font-size: var(--font-small);
   line-height: 1.8;
   color: var(--theme-ink);
 }
 .ethnic-timeline-records p {
-  font-size: 11px;
+  font-size: var(--font-small);
   margin-top: 5px;
 }
 @media (max-width: 1100px) {
@@ -444,7 +444,7 @@ function step(offset: number) {
     font-size: 21px;
   }
   .ethnic-timeline-intro {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .ethnic-timeline-layout {
     grid-template-columns: 1fr;
@@ -475,7 +475,7 @@ function step(offset: number) {
     font-size: 22px;
   }
   .ethnic-timeline-node-copy {
-    font-size: 11px;
+    font-size: var(--font-small);
     gap: 7px;
   }
   .ethnic-timeline-detail h3 {

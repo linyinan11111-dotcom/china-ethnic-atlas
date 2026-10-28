@@ -16,7 +16,7 @@
     padding: 20px;
   }
   .profile-content > p {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .region-detail {
     padding: 20px;
@@ -41,7 +41,7 @@
   }
   .main-nav button {
     padding: 0 11px;
-    font-size: 12px;
+    font-size: var(--font-small);
     gap: 6px;
   }
   .workspace {
@@ -75,7 +75,7 @@
     padding: 15px 13px;
   }
   .map-card-header h2 {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .segmented button {
     padding: 6px 8px;
@@ -87,7 +87,7 @@
     font-size: 16px;
   }
   .reform-entry h3 {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .reform-entry-icon {
     width: 27px;
@@ -123,7 +123,7 @@
     font-size: 20px;
   }
   .brand small {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .brand-mark {
     width: 38px;
@@ -131,13 +131,13 @@
   }
   .main-nav button {
     padding: 0 9px;
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .main-nav button > svg {
     display: none;
   }
   .source-link {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .workspace {
     grid-template-columns: 180px minmax(0, 1fr);
@@ -258,14 +258,14 @@
   }
   .main-nav button {
     padding: 13px 9px 14px;
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .main-nav button.active:after {
     left: 7px;
     right: 7px;
   }
   .source-link {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .page-shell {
     padding: 25px 17px 0;
@@ -276,7 +276,7 @@
     align-items: flex-start;
   }
   .eyebrow {
-    font-size: 8px;
+    font-size: var(--font-caption);
     letter-spacing: 1.6px;
   }
   h1 {
@@ -285,7 +285,7 @@
     margin-top: 12px;
   }
   .heading-description {
-    font-size: 10px;
+    font-size: var(--font-caption);
     max-width: 280px;
   }
   .heading-tools {
@@ -293,7 +293,7 @@
   }
   .heading-tools .outline-button {
     padding: 8px 9px;
-    font-size: 9px;
+    font-size: var(--font-caption);
     gap: 5px;
   }
   .workspace {
@@ -307,7 +307,7 @@
     width: 100%;
     justify-content: flex-start;
     padding: 11px 13px;
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .mobile-picker .outline-button > svg:last-child {
     margin-left: auto;
@@ -350,23 +350,23 @@
     padding: 0 12px;
   }
   .overview-strip span {
-    font-size: 8px;
+    font-size: var(--font-caption);
     margin-bottom: 10px;
     white-space: nowrap;
   }
   .overview-strip small {
-    font-size: 7px;
+    font-size: var(--font-caption);
     margin-left: 2px;
   }
   .overview-strip strong {
     font-size: 20px;
   }
   .overview-strip em {
-    font-size: 8px;
+    font-size: var(--font-caption);
     margin-left: 4px;
   }
   .overview-strip .region-stat {
-    font-size: 13px;
+    font-size: var(--font-body);
     letter-spacing: 0;
   }
   .map-canvas,
@@ -377,15 +377,15 @@
     padding: 13px;
   }
   .map-card-header h2 {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .map-caption {
     top: 12px;
     left: 12px;
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .map-year {
-    font-size: 7px;
+    font-size: var(--font-caption);
     padding: 3px;
   }
   .map-compass {
@@ -410,15 +410,15 @@
     height: 84px;
   }
   .south-sea > span {
-    font-size: 7px;
+    font-size: var(--font-caption);
   }
   .map-coordinate {
-    font-size: 6px;
+    font-size: var(--font-caption);
     left: 12px;
     right: 12px;
   }
   .map-coordinate span {
-    font-size: 7px;
+    font-size: var(--font-caption);
   }
   .map-legend {
     padding: 12px;
@@ -427,16 +427,16 @@
     gap: 8px;
   }
   .legend-title {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .legend-item {
-    font-size: 7px;
+    font-size: var(--font-caption);
   }
   .legend-item i {
     width: 9px;
   }
   .map-source {
-    font-size: 7px;
+    font-size: var(--font-caption);
     padding: 9px 12px;
   }
   .quick-analysis {
@@ -447,13 +447,13 @@
     display: none;
   }
   .quick-analysis h3 {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .quick-analysis p {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .quick-analysis > .text-button {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .detail-column {
     grid-template-columns: 1fr;
@@ -462,17 +462,17 @@
     height: 155px;
   }
   .profile-content > p {
-    font-size: 11px;
+    font-size: var(--font-small);
     line-height: 2;
   }
   .profile-title h2 {
     font-size: 21px;
   }
   .culture-tags span {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .profile-more {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .region-detail {
     padding: 20px;
@@ -485,7 +485,7 @@
   }
   .detail-subtitle,
   .detail-metrics dt {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .reform-entry {
     padding: 19px 16px;
@@ -495,10 +495,10 @@
     height: 36px;
   }
   .reform-entry h3 {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .reform-entry p {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .site-footer {
     flex-wrap: wrap;
@@ -509,7 +509,7 @@
     order: 3;
     width: 100%;
     text-align: center;
-    font-size: 7px;
+    font-size: var(--font-caption);
   }
   .three-cards {
     grid-template-columns: 1fr;
@@ -532,13 +532,13 @@
     font-size: 27px;
   }
   .culture-hero-copy > p:not(.eyebrow) {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .prose-card {
     padding: 22px;
   }
   .prose-card > p {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .culture-actions {
     flex-wrap: wrap;
@@ -552,7 +552,7 @@
     font-size: 20px;
   }
   .section-page-head p {
-    font-size: 9px;
+    font-size: var(--font-caption);
     line-height: 1.8;
   }
   .section-page-head .segmented {
@@ -580,7 +580,7 @@
     padding: 17px;
   }
   .table-heading h2 {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   th,
   td {
@@ -590,10 +590,10 @@
     padding: 12px;
   }
   .notice-inline p {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .chart-head select {
-    font-size: 9px;
+    font-size: var(--font-caption);
     padding: 7px;
   }
   .reform-hero {
@@ -606,7 +606,7 @@
     font-size: 29px;
   }
   .reform-hero p {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .reform-hero-art {
     height: 185px;
@@ -620,7 +620,7 @@
   .reform-hero-art .landscape-label {
     left: 25px;
     bottom: 20px;
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .timeline-section {
     padding: 20px 16px;
@@ -650,7 +650,7 @@
     font-size: 21px;
   }
   .timeline-detail p {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .theme-grid {
     gap: 15px;
@@ -659,7 +659,7 @@
     padding: 22px;
   }
   .theme-card p {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .reform-economy {
     padding: 23px;
@@ -691,7 +691,7 @@
     line-height: 1.6;
   }
   .sources-intro p {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .sources-intro > .tiny-badge {
     display: none;
@@ -701,7 +701,7 @@
   }
   .source-card p {
     min-height: 0;
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .methodology {
     padding: 23px;
@@ -711,7 +711,7 @@
     gap: 22px;
   }
   .toast-message {
-    font-size: 10px;
+    font-size: var(--font-caption);
     padding: 12px 15px;
     white-space: normal;
   }
@@ -746,30 +746,30 @@
   color: #73806c;
 }
 .ethnic-option-copy strong {
-  font-size: 13px;
+  font-size: var(--font-body);
 }
 .ethnic-option-copy small {
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .profile-content > p {
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .quick-analysis p {
-  font-size: 11px;
+  font-size: var(--font-small);
 }
 .map-source {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #7f8c72;
 }
 .legend-item {
-  font-size: 9px;
+  font-size: var(--font-caption);
   color: #77876b;
 }
 .legend-title {
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 .label-toggle {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #748669;
 }
 .source-card > small,
@@ -787,14 +787,14 @@
   color: #426643;
 }
 .reform-hero p {
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .timeline-detail p,
 .theme-card p,
 .reform-economy p:not(.eyebrow),
 .source-card p,
 .method-grid p {
-  font-size: 12px;
+  font-size: var(--font-small);
 }
 .culture-tags span {
   color: #6c8455;
@@ -803,43 +803,43 @@
   color: #647955;
 }
 .section-label h2 {
-  font-size: 14px;
+  font-size: var(--font-body);
 }
 @media (max-width: 760px) {
   .legend-item {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .legend-title {
-    font-size: 9px;
+    font-size: var(--font-caption);
   }
   .map-source {
-    font-size: 8px;
+    font-size: var(--font-caption);
   }
   .quick-analysis p {
-    font-size: 10px;
+    font-size: var(--font-caption);
   }
   .profile-content > p {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .timeline-detail p,
   .theme-card p,
   .reform-economy p:not(.eyebrow),
   .source-card p,
   .method-grid p {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .map-card-header .section-label h2 {
-    font-size: 12px;
+    font-size: var(--font-small);
   }
   .heading-description {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .timeline small {
-    font-size: 10px;
+    font-size: var(--font-caption);
     color: #7f9270;
   }
   .detail-metrics dt {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
 }
 @media (prefers-reduced-motion: reduce) {

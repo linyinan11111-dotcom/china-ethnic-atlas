@@ -140,12 +140,12 @@ watch(active, () => (expanded.value = false));
   margin-top: 13px;
 }
 .culture-reader-heading > span {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
 }
 .culture-reader-note,
 .culture-reader-updated {
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 2;
   color: #788171;
   margin-top: 17px;
@@ -176,11 +176,11 @@ watch(active, () => (expanded.value = false));
   font-style: italic;
 }
 .culture-reader-tabs strong {
-  font-size: 13px;
+  font-size: var(--font-body);
   font-weight: 400;
 }
 .culture-reader-tabs small {
-  font-size: 9px;
+  font-size: var(--font-caption);
   margin-left: auto;
   color: #909887;
   white-space: nowrap;
@@ -198,7 +198,7 @@ watch(active, () => (expanded.value = false));
   padding: 6px 0 15px 30px;
 }
 .culture-reader-category {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: var(--theme-accent);
   letter-spacing: 1px;
 }
@@ -211,7 +211,7 @@ watch(active, () => (expanded.value = false));
   margin: 18px 0;
 }
 .culture-reader-excerpt {
-  font-size: 14px;
+  font-size: var(--font-body);
   line-height: 2.2;
   color: #616b59;
   white-space: pre-line;
@@ -229,14 +229,14 @@ watch(active, () => (expanded.value = false));
   display: flex;
   gap: 6px;
   align-items: center;
-  font-size: 11px;
+  font-size: var(--font-small);
   line-height: 1.9;
   color: var(--theme-accent);
 }
 .culture-reader-updated {
   border-top: 1px solid var(--rule);
   padding-top: 15px;
-  font-size: 10px;
+  font-size: var(--font-caption);
 }
 @media (max-width: 760px) {
   .culture-reader-heading h2 {
@@ -256,14 +256,14 @@ watch(active, () => (expanded.value = false));
     justify-content: center;
   }
   .culture-reader-tabs strong {
-    font-size: 11px;
+    font-size: var(--font-small);
   }
   .culture-reader-tabs small,
   .culture-reader-tabs svg {
     display: none;
   }
   .culture-reader-tabs button > span {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
   .culture-reader-article {
     padding: 0;
@@ -273,7 +273,7 @@ watch(active, () => (expanded.value = false));
     font-size: 23px;
   }
   .culture-reader-excerpt {
-    font-size: 13px;
+    font-size: var(--font-body);
   }
 }
 </style>

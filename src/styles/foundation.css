@@ -1,14 +1,17 @@
 :root {
+  --font-body: 16px;
+  --font-small: 14px;
+  --font-caption: 12px;
   font-family: 'Inter', 'Microsoft YaHei', 'PingFang SC', sans-serif;
   color: #283c31;
   background: #f6f7f2;
   font-synthesis: none;
   font-weight: 400;
-  font-size: 13px;
+  font-size: var(--font-body);
   --green: #21634e;
   --muted: #879186;
   --border: #e5e9df;
-  --serif: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --serif: 'Noto Serif SC', 'Songti SC', 'Microsoft YaHei', serif;
 }
 * {
   box-sizing: border-box;
@@ -63,7 +66,7 @@ h2 {
   font-weight: 600;
 }
 h3 {
-  font-size: 14px;
+  font-size: var(--font-body);
   font-weight: 600;
 }
 svg {

@@ -10,6 +10,7 @@ src/
     sections/                   分布、介绍、分析、经济、发展、来源六个区域
     ChinaMap.vue                OpenLayers 实例、事件、边界加载与销毁
     Chart.vue                   ECharts 实例与响应式尺寸
+    GlassArtwork.vue            封面 WebGL2 装饰、主题更新与降级
     Ethnic*.vue                 文化、时间轴、对比等业务组件
   composables/
     useAtlasController.ts       当前民族、地区与共享业务动作
@@ -19,10 +20,13 @@ src/
     useAtlasCharts.ts           图表配置
     useEthnicDirectory.ts       目录搜索和筛选（组件本地状态）
     useToast.ts                 反馈提示与定时器清理
+    useGlassLight.ts            玻璃控件上的指针反光，不移动文字
   config/navigation.ts          导航项与页面类型
   data/                         数据快照、来源目录与领域模型组装
   utils/                        统计、搜索、主题、CSV 与滚动工具
   styles/index.css              样式唯一入口，明确级联顺序
+  styles/glass.css              当前液态玻璃主题、响应式与无障碍回退
+  vendor/lens/                  未修改的第三方 Lens 核心、来源与 MIT 许可
 public/                         随网站部署的地图、人口表与头像
 scripts/                        数据采集、构建、校验与发布验证
 tests/                          单元测试与浏览器回归
@@ -36,7 +40,8 @@ tests/                          单元测试与浏览器回归
 - 修改人口加载：改 `usePopulationData.ts`。2010、2020 年独立处理；不可用年份禁选，可用年份继续展示，失败可以重试。
 - 修改全国人口独立转录：改 `data/national-population2020.json`，并核对原表。它与省级人口矩阵独立保存，用于交叉校验；不能从省级矩阵反向生成。
 - 修改数据来源说明：改 `data/sources.ts`。
-- 修改样式：基础规则按基础、布局、目录、地图、内容和响应式拆分，民族主题和杂志样式分别保存。`styles/index.css` 的导入顺序决定覆盖关系，勿随意调整。
+- 修改样式：基础规则按基础、布局、目录、地图、内容和响应式拆分；`styles/glass.css` 是最后加载的当前视觉主题，覆盖之前的杂志布局样式。`styles/index.css` 的导入顺序决定覆盖关系，勿随意调整。
+- 修改玻璃效果：控件外观改 `styles/glass.css`，封面绘制和显卡生命周期改 `GlassArtwork.vue`，指针高光改 `useGlassLight.ts`。不直接改第三方 `vendor/lens/`；升级时核对来源、许可证和兼容性，详见 `GLASS_DESIGN.md`。
 
 `useAtlas()` 仅在本页面的后代组件使用，共享同一组 ref；每个组件只取自己使用的状态和动作。不存在额外的全局 store，也不需要为单个页面引入状态管理依赖。
 

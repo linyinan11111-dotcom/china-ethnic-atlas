@@ -106,7 +106,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
 }
 .story-margin > span,
 .story-margin > p:not(.eyebrow) {
-  font-size: 12px;
+  font-size: var(--font-small);
   color: var(--theme-muted);
   line-height: 1.9;
 }
@@ -119,7 +119,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
   margin-top: 3px;
 }
 .story-label {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
   letter-spacing: 1px;
 }
@@ -135,7 +135,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
   margin: 14px 0 20px;
 }
 .story-copy p {
-  font-size: 13px;
+  font-size: var(--font-body);
   line-height: 2.1;
   color: #69735f;
 }
@@ -151,7 +151,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
   color: var(--ink);
 }
 .story-copy .story-scope {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: #808773;
   border-left: 2px solid var(--theme-accent);
   padding-left: 15px;
@@ -164,7 +164,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
   margin-top: 24px;
 }
 .story-sources a {
-  font-size: 11px;
+  font-size: var(--font-small);
   color: var(--theme-accent);
   display: flex;
   gap: 6px;
@@ -180,7 +180,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
   margin-top: 22px;
 }
 .story-copy .story-updated {
-  font-size: 10px;
+  font-size: var(--font-caption);
   color: #7b846f;
   margin-top: 20px;
 }
@@ -202,7 +202,7 @@ const emit = defineEmits<{ development: []; map: [] }>();
     font-size: 25px;
   }
   .story-copy .story-lead {
-    font-size: 14px;
+    font-size: var(--font-body);
   }
 }
 </style>
