@@ -52,6 +52,8 @@
   opacity: 1;
 }
 .atlas-app .ethnic-section-nav.lens-draggable {
+  overflow-x: auto;
+  max-width: 100%;
   background:
     radial-gradient(ellipse at 20% 0%, #ffffffa0, transparent 70%),
     linear-gradient(115deg, #b9d9e482, #d6dcf682 55%, #c0d9e794);

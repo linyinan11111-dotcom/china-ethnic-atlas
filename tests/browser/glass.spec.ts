@@ -29,9 +29,9 @@ test('glass cover stays readable at high pixel density and narrow widths', async
     await expect(page.locator('.cover-copy h1')).toHaveText('柯尔克孜族');
     for (const width of [1920, 1024, 390, 360]) {
       await page.setViewportSize({ width, height: 900 });
-      expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(
-        width,
-      );
+      await expect
+        .poll(() => page.evaluate(() => document.documentElement.scrollWidth))
+        .toBeLessThanOrEqual(width);
     }
     await page.getByRole('button', { name: '民族发展', exact: true }).click();
     await expect(page.locator('#section-reform')).toBeFocused();

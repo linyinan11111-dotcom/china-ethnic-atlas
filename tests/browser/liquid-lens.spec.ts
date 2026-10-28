@@ -27,10 +27,36 @@ test('chapter lens drags, snaps, scrolls to its result and keeps click and keybo
   await page.mouse.move(finish.x + finish.width / 2, finish.y + finish.height / 2, { steps: 16 });
   await expect(nav).toHaveClass(/lens-dragging/);
   await expect(map).toHaveAttribute('aria-current', 'location');
+  await nav.evaluate((element) => {
+    const states: string[] = [];
+    (window as unknown as { chapterStates: string[] }).chapterStates = states;
+    const observer = new MutationObserver(() => {
+      const key = element.querySelector('[aria-current="location"]')?.getAttribute('data-lens-key');
+      if (key) states.push(key);
+    });
+    observer.observe(element, {
+      attributes: true,
+      subtree: true,
+      attributeFilter: ['aria-current'],
+    });
+    setTimeout(() => observer.disconnect(), 2500);
+  });
   await page.mouse.up();
   await expect(economy).toHaveAttribute('aria-current', 'location');
   await expect(page.locator('#section-economy')).toBeFocused();
   await expectLensOn(nav, economy);
+  await expect
+    .poll(() =>
+      page.locator('#section-economy').evaluate((element) => element.getBoundingClientRect().top),
+    )
+    .toBeLessThan(130);
+  expect(
+    await page.evaluate(() =>
+      (window as unknown as { chapterStates: string[] }).chapterStates.every(
+        (key) => key === 'economy',
+      ),
+    ),
+  ).toBe(true);
   await economy.focus();
   await page.keyboard.press('ArrowRight');
   await expect(nav.getByRole('button', { name: '民族发展', exact: true })).toHaveAttribute(
