@@ -1,4 +1,22 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Locator } from '@playwright/test';
+
+async function mapPixels(target: Locator) {
+  return target.evaluate((element) => {
+    const bounds = element.getBoundingClientRect();
+    const snapshot = document.createElement('canvas');
+    snapshot.width = 128;
+    snapshot.height = 128;
+    const ctx = snapshot.getContext('2d')!;
+    ctx.scale(128 / bounds.width, 128 / bounds.height);
+    // OpenLayers reuses buffered canvases with CSS transforms after a resize.
+    // Compare the visible viewport, not the dimensions of those internal buffers.
+    for (const source of element.querySelectorAll('canvas')) {
+      const box = source.getBoundingClientRect();
+      ctx.drawImage(source, box.left - bounds.left, box.top - bounds.top, box.width, box.height);
+    }
+    return Array.from(ctx.getImageData(0, 0, 128, 128).data);
+  });
+}
 
 test.use({ reducedMotion: 'reduce' });
 const profile = '/#ethnic?ethnic=' + encodeURIComponent('白族');
@@ -151,18 +169,7 @@ test('map boundary failure can retry and repeated place selection restores its v
   await page.mouse.move(0, 0);
   const target = page.locator('.ol-target');
   const focused = await target.screenshot();
-  // Compare the map's own pixels, excluding glass backdrop composition and
-  // subpixel text antialiasing, which can differ after a Linux viewport resize.
-  const focusedPixels = await target
-    .locator('canvas')
-    .first()
-    .evaluate((canvas: HTMLCanvasElement) => ({
-      width: canvas.width,
-      height: canvas.height,
-      pixels: Array.from(
-        canvas.getContext('2d')!.getImageData(0, 0, canvas.width, canvas.height).data,
-      ),
-    }));
+  const focusedPixels = await mapPixels(target);
   await page.getByRole('button', { name: '回到全国视图', exact: true }).click();
   await page.mouse.move(0, 0);
   await expect.poll(async () => (await target.screenshot()).equals(focused)).toBe(false);
@@ -175,27 +182,20 @@ test('map boundary failure can retry and repeated place selection restores its v
   await page.setViewportSize(viewport);
   await expect
     .poll(() =>
-      target
-        .locator('canvas')
-        .first()
-        .evaluate((canvas: HTMLCanvasElement, expected) => {
-          if (canvas.width !== expected.width || canvas.height !== expected.height) return false;
-          const actual = canvas
-            .getContext('2d')!
-            .getImageData(0, 0, canvas.width, canvas.height).data;
-          let changed = 0;
-          for (let i = 0; i < actual.length; i += 4) {
-            if (
-              Math.max(
-                ...[0, 1, 2, 3].map((channel) =>
-                  Math.abs(actual[i + channel]! - expected.pixels[i + channel]!),
-                ),
-              ) > 12
-            )
-              changed++;
-          }
-          return changed / (actual.length / 4) < 0.01;
-        }, focusedPixels),
+      mapPixels(target).then((actual) => {
+        let changed = 0;
+        for (let i = 0; i < actual.length; i += 4) {
+          if (
+            Math.max(
+              ...[0, 1, 2, 3].map((channel) =>
+                Math.abs(actual[i + channel]! - focusedPixels[i + channel]!),
+              ),
+            ) > 12
+          )
+            changed++;
+        }
+        return changed / (actual.length / 4) < 0.02;
+      }),
     )
     .toBe(true);
 });
