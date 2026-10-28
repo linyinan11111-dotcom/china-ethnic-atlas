@@ -5,6 +5,7 @@ import { searchDirectory, ethnicSearchIndex } from '../utils/ethnic-search.mjs';
 import { getEthnicTheme } from '../utils/themes.mjs';
 import { avatarUrl } from '../data/avatars';
 import Icon from './Icon.vue';
+import LiquidLensGroup from './LiquidLensGroup.vue';
 defineProps<{ selected: string }>();
 const emit = defineEmits<{ choose: [name: string]; close: [] }>();
 const input = ref<HTMLInputElement>();
@@ -130,13 +131,15 @@ onBeforeUnmount(() => {
         <span>{{ query ? `找到 ${results.length} 个民族` : '探索全部 56 个民族' }}</span>
         <small>名称 · 拼音 · 地区 · 文化关键词</small>
       </div>
-      <div
+      <LiquidLensGroup
         id="ethnic-search-results"
         class="global-search-results"
+        :active-key="results[activeIndex]?.name ?? ''"
       >
         <button
           v-for="(group, index) in results"
           :key="group.name"
+          :data-lens-key="group.name"
           class="search-result"
           :class="{ 'keyboard-active': index === activeIndex, selected: group.name === selected }"
           :style="{
@@ -159,7 +162,6 @@ onBeforeUnmount(() => {
               {{ group.majorRegions.slice(0, 2).join('、') }}
             </small>
           </span>
-          <i :style="{ background: getEthnicTheme(group.name).accent }" />
           <Icon
             :name="group.name === selected ? 'check' : 'chevron'"
             :size="16"
@@ -182,7 +184,7 @@ onBeforeUnmount(() => {
             查看全部民族
           </button>
         </div>
-      </div>
+      </LiquidLensGroup>
       <div class="search-dialog-footer">
         <span>
           <kbd>↑</kbd>

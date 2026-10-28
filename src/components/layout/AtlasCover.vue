@@ -4,7 +4,7 @@ import EthnicPhoto from '../EthnicPhoto.vue';
 import { useAtlas } from '../../composables/atlasContext';
 import { sourcesHeading } from '../../config/navigation';
 
-const { tab, ethnicName, ethnic, editionNumber, development, theme, data, exportCsv } = useAtlas();
+const { tab, ethnicName, ethnic, editionNumber, development, data, exportCsv } = useAtlas();
 </script>
 <template>
   <section
@@ -62,10 +62,6 @@ const { tab, ethnicName, ethnic, editionNumber, development, theme, data, export
       class="cover-photo"
     />
     <div class="heading-tools">
-      <span class="theme-indicator">
-        <i :style="{ background: theme.accent }" />
-        {{ theme.label }}
-      </span>
       <span
         v-if="tab !== 'sources'"
         class="cover-reading-note"

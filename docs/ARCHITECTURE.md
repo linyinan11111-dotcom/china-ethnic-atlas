@@ -11,6 +11,7 @@ src/
     ChinaMap.vue                OpenLayers 实例、事件、边界加载与销毁
     Chart.vue                   ECharts 实例与响应式尺寸
     GlassArtwork.vue            封面 WebGL2 装饰、主题更新与降级
+    LiquidLensGroup.vue         共享透镜、弹簧动画、鼠标/触摸拖拽及键盘操作
     Ethnic*.vue                 文化、时间轴、对比等业务组件
   composables/
     useAtlasController.ts       当前民族、地区与共享业务动作
@@ -26,6 +27,7 @@ src/
   utils/                        统计、搜索、主题、CSV 与滚动工具
   styles/index.css              样式唯一入口，明确级联顺序
   styles/glass.css              当前液态玻璃主题、响应式与无障碍回退
+  styles/liquid-lens.css        导航拖拽条、民族选项和滑动透镜材质
   vendor/lens/                  未修改的第三方 Lens 核心、来源与 MIT 许可
 public/                         随网站部署的地图、人口表与头像
 scripts/                        数据采集、构建、校验与发布验证

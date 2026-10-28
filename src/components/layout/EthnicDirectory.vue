@@ -5,6 +5,7 @@ import { avatarUrl } from '../../data/avatars';
 import { directoryRegions, directoryTopics } from '../../data/directory';
 import { getEthnicTheme } from '../../utils/themes.mjs';
 import { useEthnicDirectory } from '../../composables/useEthnicDirectory';
+import LiquidLensGroup from '../LiquidLensGroup.vue';
 
 const { ethnicName, mobileMenu, openEthnic } = useAtlas();
 
@@ -107,10 +108,14 @@ const { search, filter, directoryRegion, directoryTopic, visibleEthnics, resetDi
         常用选择
       </button>
     </div>
-    <div class="ethnic-list">
+    <LiquidLensGroup
+      class="ethnic-list"
+      :active-key="ethnicName"
+    >
       <button
         v-for="e in visibleEthnics"
         :key="e.name"
+        :data-lens-key="e.name"
         class="ethnic-option"
         :class="{ selected: e.name === ethnicName }"
         @click="openEthnic(e.name)"
@@ -129,10 +134,6 @@ const { search, filter, directoryRegion, directoryTopic, visibleEthnics, resetDi
           <strong>{{ e.name }}</strong>
           <small>{{ e.majorRegions.slice(0, 2).join(' · ') }}</small>
         </span>
-        <i
-          class="ethnic-theme-dot"
-          :style="{ background: getEthnicTheme(e.name).accent }"
-        />
         <Icon
           v-if="e.name === ethnicName"
           name="check"
@@ -152,7 +153,7 @@ const { search, filter, directoryRegion, directoryTopic, visibleEthnics, resetDi
         <br />
         <button @click="resetDirectory">查看全部民族</button>
       </div>
-    </div>
+    </LiquidLensGroup>
     <div class="sidebar-note">
       <Icon
         name="globe"
