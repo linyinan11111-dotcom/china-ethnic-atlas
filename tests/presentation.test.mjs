@@ -26,24 +26,22 @@ test('search accepts names, pinyin, initials, mixed case and accents', () => {
   assert.equal(searchEthnics(groups, 'huanghuanghuang').length, 0);
   assert.equal(searchEthnics(groups, '').length, 56);
 });
-test('all 56 ethnic groups have a distinct local JPEG and source record', async () => {
-  const catalogue = JSON.parse(await readFile('src/data/ethnic-photos.json', 'utf8'));
-  assert.equal(Object.keys(catalogue).length, 56);
-  const originals = new Set();
+test('all 56 ethnic groups have a distinct local avatar illustration', async () => {
+  const catalogue = JSON.parse(await readFile('src/data/ethnic-avatars.json', 'utf8'));
+  const records = catalogue.records;
+  assert.equal(Object.keys(records).length, 56);
+  const files = new Set();
   for (const name of ethnicNames) {
-    const record = catalogue[name];
+    const record = records[name];
     assert.equal(record.name, name);
     assert.match(record.source, /^https?:\/\//);
     assert(record.publisher);
-    assert(record.license);
-    assert.equal(record.photos.length, 1);
-    const photo = record.photos[0];
-    assert.equal(photo.file, 'photos/' + getEthnicTheme(name).id + '.jpg');
-    assert(!originals.has(photo.original));
-    originals.add(photo.original);
-    const bytes = await readFile('public/' + photo.file);
-    assert.equal(bytes[0], 0xff);
-    assert.equal(bytes[1], 0xd8);
-    assert(bytes.length > 1000);
+    assert.equal(record.file, 'avatars/' + getEthnicTheme(name).id + '.png');
+    assert(!files.has(record.file));
+    files.add(record.file);
+    const bytes = await readFile('public/' + record.file);
+    assert.equal(bytes[0], 0x89);
+    assert.equal(bytes.toString('ascii', 1, 4), 'PNG');
+    assert(bytes.length > 100);
   }
 });

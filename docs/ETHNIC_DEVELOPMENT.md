@@ -2,7 +2,7 @@
 
 56个民族各有一组特色、区域背景与发展线索，维护在 `src/data/development.ts`。每个民族现在只有一张连续专题页，依次展示民族分布、民族介绍、分布分析、地区经济、民族发展。五个入口是页内跳转，滚动时保持可用；地图和筛选状态在模块之间保留。
 
-统一链接为 `#ethnic?ethnic=白族`。旧的 `#map`、`#culture`、`#analysis`、`#economy`、`#reform` 链接仍能打开同一民族页面并定位到对应模块，地址随后统一。侧栏或全局搜索切换民族时，五个模块、服饰照片、主题色、时间轴和经济对比地区一起更新。地区经济默认展示本民族主要分布地区，可另外筛选五个自治区或全部省区市。数据说明保留为辅助页面。
+统一链接为 `#ethnic?ethnic=白族`。旧的 `#map`、`#culture`、`#analysis`、`#economy`、`#reform` 链接仍能打开同一民族页面并定位到对应模块，地址随后统一。侧栏或全局搜索切换民族时，五个模块、插画头像、主题色、时间轴和经济对比地区一起更新。地区经济默认展示本民族主要分布地区，可另外筛选五个自治区或全部省区市。数据说明保留为辅助页面。
 
 ## 民族独立发展时间轴
 
@@ -58,7 +58,7 @@
 - `src/styles/development.css`：专题桌面和手机布局，颜色跟随民族主题。
 - `data/raw/development/`：两批名录、7个UNESCO页面及55个文化背景页面的快照。
 - `data/raw/development/sources.json`：官方成果页面的采集时间、标题、URL与SHA-256。
-- `scripts/research-development.mjs`、`scripts/fetch-development-culture.mjs`：重复采集选定来源；运行前应确认仍需要更新快照。
+- `scripts/research-development.mjs`、`scripts/fetch-development-culture.mjs`：重复采集选定来源；运行前应确认仍需要更新快照。文化背景页按 `data/raw/development/culture/sources.json` 中已记录的 URL 重新下载，不再从已移除的人物照片页面发现链接。
 - `tests/development.test.mjs`：56个专题覆盖、项目与所引年份原文匹配、来源快照校验。
 - `tests/browser/development.spec.ts`：介绍到专题、专题内民族切换、对应地区经济联动、台湾口径及390像素布局。
 - `src/data/heritage-additions.json`：113条补充记录，保存民族关联、年份、新增/扩展类型、项目编号、原文URL及证据。2008—2014文本条目核查原文与所属名单；2021条目依据国务院19张图片附件逐项查看和转录，附件1—9为新增项目、10—19为扩展项目，每张均保存URL及SHA-256。
