@@ -1,6 +1,7 @@
 {
   "name": "china-ethnic-atlas",
   "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,8 +17,6 @@
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test",
     "verify": "npm run format:check && npm run data:check && npm test && npm run build && npm run test:e2e",
-    "photos:fetch": "node scripts/fetch-photos.mjs",
-    "capture:photos": "node scripts/capture-photos.mjs",
     "format": "prettier --write src scripts tests *.ts *.json .github .prettierrc.json",
     "format:check": "prettier --check src scripts tests *.ts *.json .github .prettierrc.json",
     "typecheck": "vue-tsc --noEmit"
