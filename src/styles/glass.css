@@ -655,6 +655,12 @@
   background: #ffffffdc;
   backdrop-filter: none;
 }
+.atlas-app :is(.chart-card, .prose-card) {
+  padding: 24px;
+}
+.atlas-app .table-heading {
+  padding: 20px 24px;
+}
 .atlas-app table {
   font-size: 14px;
 }
@@ -767,8 +773,12 @@
   border-radius: 12px;
 }
 .atlas-app .development-achievement {
+  padding: 24px;
   border-radius: 18px;
   background: #ffffffb0;
+}
+.atlas-app :is(.development-regions, .development-shared) {
+  padding: 24px;
 }
 .atlas-app .national-reform-context {
   padding: 24px;
@@ -1134,6 +1144,16 @@
   }
   .atlas-app .three-cards .info-card {
     padding: 22px;
+  }
+  .atlas-app
+    :is(
+      .chart-card,
+      .prose-card,
+      .development-achievement,
+      .development-regions,
+      .development-shared
+    ) {
+    padding: 20px;
   }
   .atlas-app :is(th, td) {
     padding: 14px;
