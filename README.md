@@ -48,27 +48,6 @@ Windows 浏览器测试使用系统 Edge。其他系统先执行 `npx playwright
 
 开发请修改 `src/` 中的可读源码。`dist/` 是自动生成的压缩产物，不应手动编辑或上传。
 
-## 部署到 GitHub Pages
-
-本站仓库为 `linyinan11111-dotcom/china-ethnic-atlas`，发布分支为 `main`，线上地址为：
-
-**https://linyinan11111-dotcom.github.io/china-ethnic-atlas/**
-
-维护现有项目时，完成修改和检查后提交到 `main`：
-
-```bash
-npm run verify
-git add .
-git commit -m "Describe the change"
-git push origin main
-```
-
-GitHub Actions 的 **Deploy GitHub Pages** 工作流会先进行格式、数据、单元测试、生产构建和浏览器测试，全部通过后再部署，并核对公开人口数据、56 个头像、应用资源、地图和移动端导航。进度见[部署记录](https://github.com/linyinan11111-dotcom/china-ethnic-atlas/actions/workflows/deploy.yml)，也可 **Run workflow** 手动运行。
-
-若复制到自己的仓库，在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**，并保留 `.github/workflows/`、锁文件、`public/` 和数据原表。不要上传 `node_modules/`、`dist/`、`.tools/` 或本地环境变量。
-
-`vite.config.ts` 使用 `base: './'`，资源地址支持仓库子目录和用户主页。每个民族使用哈希链接，如 `/#ethnic?ethnic=白族`。原有 `/#map`、`/#culture`、`/#analysis`、`/#economy`、`/#reform` 链接转到同一页面的对应模块。Actions 使用 Node.js 22，并依照锁文件安装依赖。
-
 ## 服饰头像
 
 当前页面只使用本地服饰插画头像，由 `EthnicPhoto.vue` 读取。历史人物照片已从仓库移除，不再随页面发布。
@@ -103,27 +82,6 @@ GitHub Actions 的 **Deploy GitHub Pages** 工作流会先进行格式、数据�
 2020 年全国人口按表 2-1 原表口径，总计为 1,409,778,724 人。56 民族人口之和加上未定族称人口 836,488 人、入籍 16,595 人，等于该原表总计。不能用其他人口公报总计直接替换。
 
 源表空白保存为 `null`，不默认解释为零。文化摘要与 319 个有原文支持的栏目保留地域和时代背景，另外 17 个栏目明确待核查。56 个民族均有地方故事和行政地区代表点，点位不提供县级人口估计或建筑精确位置。经济模块代表地区整体经济，不等于某个民族的收入。
-
-## 更新数据
-
-```bash
-npm run data:fetch
-npm run data:check
-npm test
-npm run build
-```
-
-`data:fetch` 只更新自动采集的 2010 人口表和省级边界；不会覆盖人工核验的 2020 人口、2023 经济数据及文化资料。维护其余数据时应修改对应数据文件并同步来源说明：
-
-- 全国人口独立转录：`src/data/national-population2020.json`，顺序遵循普查表，与省级矩阵独立校验。
-- 民族简介与主要地区：`src/data/catalogue.ts`。
-- 地区经济：`src/data/economy.ts`。
-- 民族时间轴与文化记录：参考 [民族发展维护说明](docs/ETHNIC_DEVELOPMENT.md)。
-- 页面来源目录：`src/data/sources.ts`。
-
-文化、地图、案例与资料日期的任务清单见 `docs/IMPROVEMENT_TASKS.md`。文化原文由 `scripts/build-culture-profiles.mjs` 生成；代表点与近期案例分别使用 `scripts/build-cultural-places.mjs`、`scripts/build-recent-cases.mjs`，发布构建无需连接源站。
-
-脚本顺序请求公开页面，设置 45 秒超时并校验表格结构；不会登录、绕过访问限制或高并发抓取。结构变化时终止并报错。
 
 ## 目录
 
