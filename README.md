@@ -2,11 +2,11 @@
 
 [访问网站](https://linyinan11111-dotcom.github.io/china-ethnic-atlas/) · [GitHub 仓库](https://github.com/linyinan11111-dotcom/china-ethnic-atlas) · [部署状态](https://github.com/linyinan11111-dotcom/china-ethnic-atlas/actions/workflows/deploy.yml) · [维护说明](docs/ARCHITECTURE.md) · [更新记录](docs/CHANGELOG.md)
 
-Vue 3 + TypeScript + OpenLayers + ECharts 的静态民族分布与地区发展网站，适合 GitHub Pages。无需数据库、API Key、登录或在线地图服务。人口表、行政边界与经济数据随项目部署。
+Vue 3 + TypeScript + OpenLayers + ECharts 的静态民族分布与地区发展网站，人口表、行政边界与经济数据随项目部署。
 
-线上页面只使用服饰插画头像，不展示历史人物照片。专题封面、侧栏和搜索结果都读取本地裁切图。
 
-![液态玻璃民族专题](docs/screenshots/液态玻璃桌面.png)
+
+
 
 ## 已实现
 
@@ -114,6 +114,4 @@ docs/DATA_DICTIONARY.md          数据字段、计算公式和扩展方法
 
 本项目采用 [MIT 许可证](LICENSE)。`src/vendor/lens/` 是第三方代码，保留其自带的 MIT 许可证。
 
-## 下一步扩展
 
-后续可补齐 17 个文化缺项，增加有原文支持的地方案例、精确文化地点与同口径历年经济序列。若扩展自治州县人口，应采集对应统计表和历史行政边界，不能把省级数字分摊到县级。
